@@ -31,6 +31,7 @@ s$sitename                  party_bwin6seats
 s$t0type                    0
 s$t1type                    0.25
 s$t2type                    0
+s$t3type                    0
 s$titletext                 Hold'em
 s$ttlimits                  kjhfdgew
 

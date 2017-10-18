@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-10- 2 09:46:59
+// 2017-10-16 15:52:39
 // 32 bits per pixel
 
 //
@@ -566,6 +566,7 @@ t3$3 12 21 25 1f
 t3$8 12 2d 25 1f
 t3$J 1 7 3ff
 t3$1 180 1ff 1ff
+t3$9 18 25 25 1e
 t3$c 18 3c 7e 1fc 3ff 3ff 3fc fe 3c 18
 t3$s 18 7c fc 1fc 3ff 3ff 1fc fc 7c 18
 t3$d 18 7e ff ff 7e 38
