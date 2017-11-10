@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-09-29 21:53:24
+// 2017-10-24 12:58:34
 // 32 bits per pixel
 
 //
@@ -64,7 +64,7 @@ r$i1button           745 625 863 670        0    0 N
 r$i1label            746 637 802 657   ffc574  153 T3
 r$i1state            749 646 749 646 ff3b3880   85 C
 r$i2button           874 625 992 670        0    0 N
-r$i2label            877 639 926 658   ffc574  153 T3
+r$i2label            877 639 927 658   ffc574  153 T3
 r$i2state            990 629 990 629 ff3b3880   50 C
 r$i3button           884 634 983 659 e9b7b8b7    0 N
 r$i3edit             923 678 993 693        0    0 N
@@ -167,8 +167,6 @@ r$p5cardface1suit    115 140 133 163 ffffffff -225 T2
 r$p5dealer           198 266 198 266 ffffffff    4 C
 r$p5name              43 194 168 213   ffffff  175 T0
 r$p5seated           113 189 113 189 ffc9c9c9    5 C
-r$tablepoint0        461 110 461 110   221e1d   -1 C
-r$tablepoint1        301  52 301  52   232120    0 C
 
 //
 // fonts
@@ -184,6 +182,7 @@ t0$3 101 101 111 111 1eb ce
 t0$1 101 101 3ff 1 1
 t0$7 101 103 10f 13c 1f0 1c0
 t0$7 101 107 11f 17c 1f0 1c0 100
+t0$1 101 141 3ff 1 1
 t0$e 10 7e 93 91 91 f1 32
 t0$2 1 103 107 10d 1f9 f1
 t0$- 1 1 1
@@ -401,6 +400,7 @@ t0$7 800 803 80f 83e 8f8 be0 f80 c00
 t0$7 800 803 80f 83e 9f8 fc0 f00 c00
 t0$7 800 803 80f 83f 9f8 fe0 f80 e00
 t0$7 800 803 81f 87f 9fc ff0 f80 e00 800
+t0$0 801 801 fff fff 801 801
 t0$$ 80 1e4 1e4 3ff 13c 13c 10
 t0$I 801 fff fff fff 801 801
 t0$t 80 3fe 83 81 81
@@ -427,6 +427,7 @@ t0$2 83 87 8d 9d 71
 t0$2 83 87 8f dd 79 1
 t0$a 8f 91 91 91 7f
 t0$0 8 fe 1ff 101 101 1ff 1ff 7c
+t0$9 c0 1e1 211 211 211 316 1fc
 t0$$ c0 1e4 1e4 3ff 13c 13c 10
 t0$2 c03 807 80f 83d cf9 7f1 3c1
 t0$v c0 38 3 7 38 e0
@@ -558,6 +559,7 @@ t3$- 1 1 1
 t3$s 19 3d 2d 2d 26
 t3$l 1ff 1ff
 t3$t 20 ff 21 21
+t3$A 3 1e f4 c4 f4 1e 3
 t3$C 3c 7e 81 81 81 81
 t3$n 3f 3f 20 20 3f 1f
 t3$a 6 2f 29 28 3f
