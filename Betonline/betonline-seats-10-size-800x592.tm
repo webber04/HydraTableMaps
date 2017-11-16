@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-09- 9 22:31:19
+// 2017-11-15 17:35:45
 // 32 bits per pixel
 
 //
@@ -373,6 +373,7 @@ t0$f c0 3ff 7ff 6c0 6c0
 t0$v c0 70 1e 7 1e 70 c0
 t0$f c0 7ff 7ff 6c0 6c0
 t0$z c3 c7 cb d3 e3 c3
+t0$4 c 3c ec 18c 7ff 7ff c
 t0$J c e 3 3 3 7fe 7fc
 t0$i dff dff
 t0$w e0 1c 7 18 e0 18 7 1c e0
