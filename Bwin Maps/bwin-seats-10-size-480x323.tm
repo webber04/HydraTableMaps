@@ -74,7 +74,7 @@ r$i5button           257 278 259 279        0    0 N
 r$i5label            256 278 277 283        0    0 H0
 r$i5state            255 275 279 283        0    0 H0
 r$i7button           132 278 137 282        0    0 N
-r$i7label            132 277 158 283        0    0 H0
+r$i7label            146 265 172 271        0    0 H0
 r$i7state            135 282 135 282        0  999 C
 r$i860button          13 243  26 249        0    0 N
 r$i860state           13 243  26 249        0    0 H0
@@ -210,8 +210,6 @@ r$p9cardface1suit    169  24 180  35   ffffff -100 T1
 r$p9dealer           206  58 206  58   dadfdc   10 C
 r$p9name             141  38 200  46   ffffff    5 T0
 r$p9seated           170   3 170   3   1c1c1c  -10 C
-r$tablepoint0        239 199 239 199   2d2d2d    2 C
-r$tablepoint1         58  61  58  61   161616   -2 C
 
 //
 // fonts
@@ -234,6 +232,7 @@ t0$f 10 7f 50
 t0$w 10 c 3 1c 3 c 10
 t0$v 10 e 1 e 10
 t0$Y 10 f 10 20
+t0$. 1 1
 t0$_ 1 1 1 1
 t0$_ 1 1 1 1 1
 t0$_ 1 1 1 1 1 1 1 1
@@ -253,6 +252,7 @@ t0$8 12 2d 25 1f
 t0$a 13 15 15 f
 t0$z 13 15 19 11
 t0$$ 14 3a 6b 2e 16
+t0$$ 14 3e 7f 55 55 41
 t0$e 15 15 d
 t0$a 15 15 f
 t0$8 16 29 29 16
@@ -413,6 +413,7 @@ t0$p 7f 44 44 38
 t0$p 7f 44 6c 10
 t0$F 7f 48 48 40
 t0$P 7f 48 48 78 10
+t0$R 7f 48 4c 7b 1
 t0$B 7f 49 49 37
 t0$E 7f 49 49 41
 t0$k 7f 4 e 11
@@ -509,14 +510,17 @@ t1$4 c 7c 1fc 7cc 7ff 7ff c
 t1$d e0 1f0 7fc 1ffe 1fff ffe 7f8 1f0 c0
 t1$6 e 19 29 6
 t1$J f 7 3 7ff 7fe
+t2$. 1
 t2$- 1 1
 t2$8 12 2d 25 1f
+t2$$ 14 3e 55 55 41
 t2$0 1c 63 41 63 1c
 t2$0 1e 21 21 1e
 t2$0 1e 21 21 1f
 t2$A 1 e 32 e 3
 t2$6 1f 29 7
 t2$t 1f 9
+t2$2 20 43 45 79 1
 t2$1 20 7f
 t2$3 22 41 49 77
 t2$7 23 2c 30

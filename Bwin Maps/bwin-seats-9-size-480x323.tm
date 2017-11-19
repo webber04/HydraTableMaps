@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-08-20 21:29:24
+// 2017-11-19 02:54:42
 // 32 bits per pixel
 
 //
@@ -75,14 +75,14 @@ r$i5button           257 278 259 279        0    0 N
 r$i5label            256 278 277 283        0    0 H0
 r$i5state            255 275 279 283        0    0 H0
 r$i7button           132 278 137 282        0    0 N
-r$i7label            132 277 158 283        0    0 H0
+r$i7label            146 265 172 271        0    0 H0
 r$i7state            135 282 135 282        0  999 C
 r$i860button          13 243  26 249        0    0 N
 r$i860state           13 243  26 249        0    0 H0
 r$i861button         168 175 200 186        0    0 N
 r$i861state          168 182 200 185        0    0 H0
 r$p0active           327  20 327  23   f8f8f8  999 C
-r$p0balance          277  48 336  54        0    5 T2
+r$p0balance          277  48 336  55        0    5 T2
 r$p0bet              264  64 345  81   ffffff    1 T0
 r$p0cardback         326   6 326   6   5c5c5c    5 C
 r$p0cardface0nocard  295   8 295   8   ffffff   -5 C
@@ -95,7 +95,7 @@ r$p0dealer           271  58 271  58   dce1de   10 C
 r$p0name             271  35 271  35   404040    0 T0
 r$p0seated           286  22 286  22   f9f9f9  999 C
 r$p1active           410  38 410  41   f1f1f1   -8 C
-r$p1balance          361  66 422  72   ffffff    5 T2
+r$p1balance          361  66 422  73   ffffff    5 T2
 r$p1bet              334  82 392  99   ffffff    1 T0
 r$p1cardback         409  24 409  24   5c5c5c    5 C
 r$p1cardface0nocard  379  26 379  26   ffffff   -5 C
@@ -121,7 +121,7 @@ r$p2dealer           397 100 397 100   dce1de   10 C
 r$p2name             409 126 468 134   ffffff    5 T0
 r$p2seated           456  91 456  91   202020  -10 C
 r$p3active           385 188 385 191   f1f1f1   -8 C
-r$p3balance          335 216 395 222   ffffff    5 T2
+r$p3balance          335 216 395 223   ffffff    5 T2
 r$p3bet              297 151 370 169   ffffff    1 T0
 r$p3cardback         384 174 384 174   5c5c5c    5 C
 r$p3cardface0nocard  354 176 354 176   ffffff   -5 C
@@ -134,7 +134,7 @@ r$p3dealer           323 174 323 174   dce1de   10 C
 r$p3name             335 206 394 214   ffffff    5 T0
 r$p3seated           378 171 378 171   444444  -10 C
 r$p4active           259 202 259 205   f3f3f3   -8 C
-r$p4balance          210 230 269 236   ffffff    5 T2
+r$p4balance          210 230 269 237   ffffff    5 T2
 r$p4bet              216 169 290 186   ffffff    1 T0
 r$p4cardback         258 188 258 188   5c5c5c    5 C
 r$p4cardface0nocard  228 190 228 190   ffffff   -5 C
@@ -147,7 +147,7 @@ r$p4dealer           210 174 210 174   dce1de   10 C
 r$p4name             209 220 268 228   ffffff    5 T0
 r$p4seated           261 234 261 234   585858  -10 C
 r$p5active           133 188 133 191   f1f1f1   -8 C
-r$p5balance           84 216 143 222   ffffff    5 T2
+r$p5balance           84 216 143 223   ffffff    5 T2
 r$p5bet               98 147 173 164   ffffff    1 T0
 r$p5cardback         132 174 132 174   5c5c5c    5 C
 r$p5cardface0nocard  102 176 102 176   ffffff   -5 C
@@ -160,7 +160,7 @@ r$p5dealer           157 174 157 174   dce1de   10 C
 r$p5name              83 206 142 214   ffffff    5 T0
 r$p5seated            90 219  90 219   232323   -3 C
 r$p6active            59 108  59 111   f0f0f0   -8 C
-r$p6balance           10 136  69 142   ffffff    5 T2
+r$p6balance           10 136  69 143   ffffff    5 T2
 r$p6bet               72 119 133 136   ffffff    1 T0
 r$p6cardback          58  94  58  94   5c5c5c    5 C
 r$p6cardface0nocard   28  96  28  96   ffffff   -5 C
@@ -173,7 +173,7 @@ r$p6dealer            79 100  79 100   dce1de   10 C
 r$p6name               9 126  68 134   ffffff    5 T0
 r$p6seated            36  91  36  91   151515  -10 C
 r$p7active           109  38 109  41   f5f5f5   -8 C
-r$p7balance           59  66 119  72   ffffff    5 T2
+r$p7balance           59  66 119  73   ffffff    5 T2
 r$p7bet               84  82 143  99   ffffff    1 T0
 r$p7cardback         108  24 108  24   5c5c5c    5 C
 r$p7cardface0nocard   78  26  78  26   ffffff   -5 C
@@ -186,7 +186,7 @@ r$p7dealer           127  66 127  66   dce1de   10 C
 r$p7name              59  56 118  64   ffffff    5 T0
 r$p7seated            84  21  84  21   1c1c1c  -10 C
 r$p8active           191  20 191  23   f1f1f1   -8 C
-r$p8balance          142  48 201  54   ffffff    5 T2
+r$p8balance          142  48 201  55   ffffff    5 T2
 r$p8bet              133  64 207  81   ffffff    1 T0
 r$p8cardback         190   6 190   6   5c5c5c    5 C
 r$p8cardface0nocard  160   8 160   8   ffffff   -5 C
@@ -198,8 +198,6 @@ r$p8cardface1suit    169  24 180  35   ffffff -100 T1
 r$p8dealer           206  58 206  58   dadfdc   10 C
 r$p8name             141  38 200  46   ffffff    5 T0
 r$p8seated           170   3 170   3   1c1c1c  -10 C
-r$tablepoint0        238 200 238 200   303030   -2 C
-r$tablepoint1        178 199 178 199   252525    3 C
 
 //
 // fonts
@@ -222,6 +220,7 @@ t0$f 10 7f 50
 t0$w 10 c 3 1c 3 c 10
 t0$v 10 e 1 e 10
 t0$Y 10 f 10 20
+t0$. 1 1
 t0$_ 1 1 1 1
 t0$_ 1 1 1 1 1
 t0$_ 1 1 1 1 1 1 1 1
@@ -241,6 +240,7 @@ t0$8 12 2d 25 1f
 t0$a 13 15 15 f
 t0$z 13 15 19 11
 t0$$ 14 3a 6b 2e 16
+t0$$ 14 3e 7f 55 55 41
 t0$e 15 15 d
 t0$a 15 15 f
 t0$8 16 29 29 16
@@ -401,6 +401,7 @@ t0$p 7f 44 44 38
 t0$p 7f 44 6c 10
 t0$F 7f 48 48 40
 t0$P 7f 48 48 78 10
+t0$R 7f 48 4c 7b 1
 t0$B 7f 49 49 37
 t0$E 7f 49 49 41
 t0$k 7f 4 e 11
@@ -497,14 +498,17 @@ t1$4 c 7c 1fc 7cc 7ff 7ff c
 t1$d e0 1f0 7fc 1ffe 1fff ffe 7f8 1f0 c0
 t1$6 e 19 29 6
 t1$J f 7 3 7ff 7fe
+t2$. 1
 t2$- 1 1
 t2$8 12 2d 25 1f
+t2$$ 14 3e 55 55 41
 t2$0 1c 63 41 63 1c
 t2$0 1e 21 21 1e
 t2$0 1e 21 21 1f
 t2$A 1 e 32 e 3
 t2$6 1f 29 7
 t2$t 1f 9
+t2$2 20 43 45 79 1
 t2$1 20 7f
 t2$3 22 41 49 77
 t2$7 23 2c 30
