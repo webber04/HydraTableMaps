@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-09-29 21:54:21
+// 2017-11-25 14:40:02
 // 32 bits per pixel
 
 //
@@ -28,13 +28,14 @@ s$buttonclickmethod         Single
 s$nchairs                   9
 s$network                   yatahay
 s$potmethod                 2
-s$sitename                  yatahay
+s$sitename                  acr_9seats
 s$t0type                    fuzzy
 s$t1type                    fuzzy
 s$t2type                    fuzzy
 s$t3type                    fuzzy
 s$titletext                 Hold'em
 s$ttlimits                  ^*Table^*- ^L^*- ^s / ^b*)^y
+s$ttlimits0                 ^* - ^* - ^L - ^s / ^b
 
 //
 // regions
@@ -192,8 +193,6 @@ r$p8cardface1nocard  371  88 371  88   1c1615   20 C
 r$p8dealer           358 180 358 180 ffffffff    0 C
 r$p8name             268 115 390 132   ffffff  175 T0
 r$p8seated           429 105 429 105   1e1a19   -1 C
-r$tablepoint0        325 111 325 111   1d1b1a   -1 C
-r$tablepoint1        113  74 113  74   232120    0 C
 
 //
 // fonts
@@ -367,6 +366,7 @@ t0$O 70 1fc 1fe 303 201 201 201 387 1fe fc
 t0$9 70 89 89 8a 7c
 t0$9 71 89 89 8a 7c
 t0$9 71 89 89 8b 7e
+t0$. 7 7
 t0$c 7c fe 183 101 101 101 183
 t0$e 7c fe 193 111 111 191 1f1 f3
 t0$0 7e 81 81 81 7e
@@ -437,6 +437,7 @@ t0$a 8f 91 91 91 7f
 t0$0 8 fe 1ff 101 101 1ff 1ff 7c
 t0$$ c0 1e4 1e4 3ff 13c 13c 10
 t0$2 c03 807 80f 83d cf9 7f1 3c1
+t0$v c0 38 7 7 38 e0
 t0$w c0 7c 7 c e0 e0 e 7 7c 80
 t0$w c0 fc 7 e f0 e0 1e 7 7c c0
 t0$2 c1 183 107 11d 1fd f1 1
