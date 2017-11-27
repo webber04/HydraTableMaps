@@ -26,7 +26,7 @@ s$betsizeselectionmethod    Click Drag
 s$nchairs                   9
 s$network                   global
 s$potmethod                 2
-s$sitename                  global_6man
+s$sitename                  global_9man
 s$t0type                    0
 s$t1type                    0
 s$t2type                    0
