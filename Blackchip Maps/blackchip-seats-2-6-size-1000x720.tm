@@ -164,8 +164,6 @@ r$p5cardface1suit    115 140 133 163 ffffffff -225 T2
 r$p5dealer           198 266 198 266 ffffffff    4 C
 r$p5name              43 194 168 213   ffffff  175 T0
 r$p5seated           113 189 113 189 ffc9c9c9    5 C
-r$tablepoint0        464 111 464 111   171514   -1 C
-r$tablepoint1        113  74 113  74   121010    0 C
 
 //
 // fonts

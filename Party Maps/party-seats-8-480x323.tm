@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-10-16 15:52:39
+// 2017-11-30 15:32:28
 // 32 bits per pixel
 
 //
@@ -548,6 +548,7 @@ t2$6 e 19 29 6
 t2$n f 8 2f
 t2$n f 8 8 f
 t2$n f 8 f
+t3$. 1
 t3$7 100 101 10f 138 1e0 180
 t3$1 100 180 3fe 3ff
 t3$7 100 303 30f 33c 3e0 380
@@ -623,6 +624,7 @@ t3$Q 3f0 7f8 e1c c0c c0e c0f 7f9 3f1
 t3$Q 3f0 7f8 e1c c0c c0f c0f 739 7f9 c1
 t3$( 3f 20
 t3$B 3f 25 3d 2
+t3$K 3f c 12 21
 t3$K 3ff 3ff 70 fc 3ce 307 201
 t3$4 4 e 36 c6 1ff 1ff
 t3$4 6 1e 36 c6 1ff e
