@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-10 18:11:46
+// 2017-12-13 06:35:57
 // 32 bits per pixel
 
 //
@@ -95,7 +95,7 @@ r$p0cardface1suit     10  57  10  57   ffffff    0 T3
 r$p0dealer           361 115 367 120   333333    0 I
 r$p0name             345  62 420  70 ffa5a5a5    0 T0
 r$p0seated           432  58 432  58 ff2a2a26   -1 C
-r$p1active           548 167 561 172        0    0 H0
+r$p1active           527 126 545 132        0    0 H0
 r$p1balance          471 105 546 116 ffffffff  260 T1
 r$p1bet              427 134 498 143 ffffffff    0 T0
 r$p1cardback         530  74 530  74 ffd7b25d   20 C
@@ -343,6 +343,7 @@ t3$7 100 103 11e 1f0 1c0 100
 t3$c 10 38 38 38 1d1 1ff 1d1 38 38 38 10
 t3$d 10 38 3c 7e ff ff 7e 3c 18
 t3$7 180 187 19f 1f8 1e0 180
+t3$3 182 103 131 1f3 1de 4
 t3$2 183 187 31f 1bb 1f3 c3
 t3$s 18 3c 7c 1fd 1ff 1fb fc 7c 3c 18
 t3$d 18 3c 7e ff ff 7e 3c 18
@@ -367,6 +368,7 @@ t3$K 1ff 3ff 30 70 f0 19c 10e 203 1
 t3$1 20 60 ff ff
 t3$3 2 1c7 183 1b1 1fb ef 4
 t3$5 32 1f3 1b1 1b1 19f c
+t3$5 36 1f6 1a3 1b3 1be 1c
 t3$c 38 3c 3c 1d9 1ff 1db 198 3c 3c 38
 t3$d 38 78 fc 1fe 1ff fe 7c 38
 t3$Q 38 fe 1c7 183 187 187 1c7 ff 39
@@ -375,6 +377,7 @@ t3$0 3c ff 81 81 c3 7e
 t3$6 3c ff db 191 df df
 t3$1 40 60 e0 ff
 t3$1 40 c0 1ff 1ff
+t3$3 42 c3 99 f9 ff 6
 t3$3 42 c7 193 1b3 ff 4e
 t3$2 43 c7 18f 19b f3 43
 t3$2 43 c7 8f d9 f1
@@ -392,15 +395,20 @@ t3$Q 7c fe 183 183 187 187 ef ff 11
 t3$0 7c fe 183 183 1fe
 t3$6 7c fe 1b3 1b3 1bf 9e
 t3$6 7e ff 191 131 19b 9e
+t3$0 7e ff 83 c3 ff 7c
 t3$6 7e ff 91 91 df 4e
+t3$c 8 1c 1c d8 1fb 1e9 18 1c 1c
+t3$s 8 1c 3c 7c ff fd 7c 3c 1c
 t3$d 8 1c 3e 7f 7f 3e 1c 8
 t3$3 82 183 101 131 1ff e
 t3$2 83 187 10f 11b 1f3
 t3$2 83 187 10f 31f 1fb 1e3
+t3$3 84 186 133 1f6 fe c
 t3$8 8c 1ff 331 331 1f3 ce
 t3$c c 1c 1c cc fb f9 4c 1c 1c 8
 t3$4 c 3c 6c 1cc 3ff 3ff c
 t3$3 c6 83 193 f3 fe 4
+t3$8 cc 1fe 133 133 1fe dc
 t3$9 e0 1fb 109 109 1ff fe
 t3$8 e 1ff 1b3 1b1 1ff ee
 t3$9 e4 1f6 313 312 1fe fc
