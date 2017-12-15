@@ -23,6 +23,7 @@ s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Click Drag
+s$c0limits0                 BLINDS:^s/^b
 s$nchairs                   6
 s$network                   global
 s$potmethod                 2
@@ -172,7 +173,6 @@ r$u5active            60 121  60 121 ff19201f   -1 C
 t0$1 10 20 7f
 t0$t 10 3f 11 11
 t0$f 10 3f 50 50
-t0$1 10 3f 7f
 t0$$ 104 70 1f8 1fc 3fc 3ff 3fc 1fc 1f8 70 104
 t0$$ 104 70 1f8 1fc 3fc 3ff 3fc 1fc 1fc 70 104
 t0$9 10 79 49 49 7e 18
@@ -186,7 +186,6 @@ t0$5 1 79 49 4f 4
 t0$5 1a 71 51 51 4e
 t0$$ 1c 3e 7e 7f 7e 3e 1c
 t0$0 1c 63 41 63 1c
-t0$0 1c 7f 41 43 3e
 t0$A 1 e 3c 44 3c e 1
 t0$r 1f 10 10
 t0$n 1f 10 10 1f
@@ -201,7 +200,6 @@ t0$a 2 17 15 15 1f
 t0$3 22 41 49 49 36
 t0$8 2 75 49 75 2
 t0$8 2 77 49 49 77 2
-t0$5 2 7b 51 51 4e
 t0$g 2 7d 55 55 75 42
 t0$1 30 60 ff ff
 t0$9 30 69 49 76 18
@@ -209,14 +207,11 @@ t0$9 32 49 49 49 3e
 t0$8 36 49 49 49 36
 t0$5 3a f3 d1 9f 8e
 t0$$ 3c 7c fe ff ff fe 7c 3c
-t0$0 3e 41 41 3e
 t0$0 3e 41 41 41 3e
 t0$C 3e 41 41 41 40
 t0$O 3e 41 41 41 41 3e
-t0$0 3e 41 41 7f
 t0$6 3e 49 49 49 26
 t0$G 3e 61 41 49 4f
-t0$$ 3e 7f ff ff ff 7f 3e 8
 t0$7 40 40 47 58 60
 t0$T 40 40 7f 40 40
 t0$T 40 40 7f 7f 40 40
@@ -224,7 +219,6 @@ t0$7 40 41 46 78 40
 t0$Y 40 70 1f 1f 70 40
 t0$y 41 39 6 38 40
 t0$X 41 63 1c 1c 63 1
-t0$$ 41 8 3e 7f ff ff ff 7f 7e 8 41
 t0$4 4 1c 24 7f 4
 t0$o 4 1f 11 11 1f 4
 t0$d 4 1f 11 11 7f
@@ -306,6 +300,7 @@ t3$7 100 103 11e 1f0 1c0 100
 t3$c 10 38 38 38 1d1 1ff 1d1 38 38 38 10
 t3$d 10 38 3c 7e ff ff 7e 3c 18
 t3$7 180 187 19f 1f8 1e0 180
+t3$7 180 18f 1be 1e0 1c0 100
 t3$3 182 103 131 1f3 1de 4
 t3$2 183 187 31f 1bb 1f3 c3
 t3$s 18 3c 7c 1fd 1ff 1fb fc 7c 3c 18
@@ -368,6 +363,7 @@ t3$2 83 187 10f 11b 1f3
 t3$2 83 187 10f 31f 1fb 1e3
 t3$3 84 186 133 1f6 fe c
 t3$8 8c 1ff 331 331 1f3 ce
+t3$7 c0 c3 df f8 e0 80
 t3$c c 1c 1c cc fb f9 4c 1c 1c 8
 t3$4 c 3c 6c 1cc 3ff 3ff c
 t3$3 c6 83 193 f3 fe 4
@@ -384,6 +380,7 @@ t3$Q f8 1fe 186 102 10e 186 1fe ff
 t3$0 fc 1fe 303 303 186 1fe
 t3$0 fc 1fe 303 303 1cf 1fe
 t3$0 fc 1fe 303 303 387 1fe
+t3$6 fe 1fe 1a3 1b3 be c
 t3$K ff 1ff 18 38 7c cf 187 101
 
 //

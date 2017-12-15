@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-13 06:35:57
+// 2017-12-15 06:39:06
 // 32 bits per pixel
 
 //
@@ -343,6 +343,7 @@ t3$7 100 103 11e 1f0 1c0 100
 t3$c 10 38 38 38 1d1 1ff 1d1 38 38 38 10
 t3$d 10 38 3c 7e ff ff 7e 3c 18
 t3$7 180 187 19f 1f8 1e0 180
+t3$7 180 18f 1be 1e0 1c0 100
 t3$3 182 103 131 1f3 1de 4
 t3$2 183 187 31f 1bb 1f3 c3
 t3$s 18 3c 7c 1fd 1ff 1fb fc 7c 3c 18
@@ -405,6 +406,7 @@ t3$2 83 187 10f 11b 1f3
 t3$2 83 187 10f 31f 1fb 1e3
 t3$3 84 186 133 1f6 fe c
 t3$8 8c 1ff 331 331 1f3 ce
+t3$7 c0 c3 df f8 e0 80
 t3$c c 1c 1c cc fb f9 4c 1c 1c 8
 t3$4 c 3c 6c 1cc 3ff 3ff c
 t3$3 c6 83 193 f3 fe 4
@@ -416,11 +418,13 @@ t3$9 f2 fb 189 1db ff 38
 t3$9 f3 19b 109 199 1ff 7c
 t3$5 f3 1f1 121 133 11e
 t3$9 f6 1bb 11b 1ff fe
+t3$5 f6 1f7 1a3 1b3 1be
 t3$Q f8 1fc 38e 306 30e 30e 3de 1ff 72
 t3$Q f8 1fe 186 102 10e 186 1fe ff
 t3$0 fc 1fe 303 303 186 1fe
 t3$0 fc 1fe 303 303 1cf 1fe
 t3$0 fc 1fe 303 303 387 1fe
+t3$6 fe 1fe 1a3 1b3 be c
 t3$K ff 1ff 18 38 7c cf 187 101
 
 //
