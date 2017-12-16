@@ -32,7 +32,7 @@ s$t0type                    0
 s$t1type                    0
 s$t2type                    0
 s$t3type                    fuzzy
-s$titletext                 NO_LIMIT
+s$titletext                 NO_LIMIT 9
 s$titletext0                table
 s$ttlimits                  ^* ^s/^b
 s$ttlimits0                 ^* ^* ^s/^b

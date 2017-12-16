@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-13 06:48:09
+// 2017-12-15 17:45:57
 // 32 bits per pixel
 
 //
@@ -32,7 +32,7 @@ s$t0type                    0
 s$t1type                    0
 s$t2type                    0
 s$t3type                    fuzzy
-s$titletext                 NO_LIMIT
+s$titletext                 NO_LIMIT 6
 s$ttlimits                  ^* ^s/^b
 s$ttlimits0                 ^* ^* ^s/^b
 
