@@ -17,6 +17,7 @@ z$targetsize       480  323
 // strings
 //
 
+s$!titletext                Purchase
 s$allinconfirmationmethod   1
 s$balancenumbersonly        true
 s$betsizeconfirmationmethod Click Bet
@@ -27,7 +28,7 @@ s$buttonclickmethod         Single
 s$nchairs                   9
 s$network                   party
 s$potmethod                 1
-s$sitename                  party_bwin9seats
+s$sitename                  bwin-9-seats
 s$t0type                    0
 s$t1type                    0.25
 s$t2type                    0

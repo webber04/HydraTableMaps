@@ -21,6 +21,7 @@ s$!titletext                Abaddon.ohf
 s$!titletext0               Poseidon.ohf
 s$!titletext1               Phoenix.ohf
 s$!titletext2               Kraken.ohf
+s$!titletext3               Purchase
 s$allinconfirmationmethod   3
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet

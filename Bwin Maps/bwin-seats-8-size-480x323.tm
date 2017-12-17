@@ -17,6 +17,7 @@ z$targetsize       480  323
 // strings
 //
 
+s$!titletext                Purchase
 s$allinconfirmationmethod   3
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
@@ -27,7 +28,7 @@ s$c0limits0                 ^*(^s/^b-^a^y
 s$nchairs                   8
 s$network                   party
 s$potmethod                 2
-s$sitename                  party_8man
+s$sitename                  bwin_8man
 s$t0type                    0
 s$t1type                    0
 s$t2type                    0

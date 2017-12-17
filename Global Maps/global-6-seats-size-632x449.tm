@@ -17,6 +17,7 @@ z$targetsize       632  449
 // strings
 //
 
+s$!titletext                Purchase
 s$allinconfirmationmethod   3
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet

@@ -17,6 +17,7 @@ z$targetsize       800  592
 // strings
 //
 
+s$!titletext                Purchase
 s$allinconfirmationmethod   1
 s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Delete

@@ -17,6 +17,7 @@ z$targetsize       480  323
 // strings
 //
 
+s$!titletext                Purchase
 s$allinconfirmationmethod   1
 s$balancenumbersonly        true
 s$betsizeconfirmationmethod Click Bet
@@ -27,10 +28,11 @@ s$buttonclickmethod         Single
 s$nchairs                   10
 s$network                   party
 s$potmethod                 1
-s$sitename                  party-bwin-6-10-seats
+s$sitename                  bwin-6-10-seats
 s$t0type                    0
 s$t1type                    0.25
 s$t2type                    0
+s$t3type                    0
 s$titletext                 Hold'em
 s$ttlimits                  kjhfdgew
 

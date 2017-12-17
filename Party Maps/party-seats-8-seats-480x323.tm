@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-13 20:25:25
+// 2017-12-13 18:43:09
 // 32 bits per pixel
 
 //
@@ -17,6 +17,7 @@ z$targetsize       480  323
 // strings
 //
 
+s$!titletext                Purchase
 s$allinconfirmationmethod   3
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
@@ -103,7 +104,7 @@ r$p0cardface0rank    292   8 302  20   ffffff -200 T3
 r$p0cardface0suit    292  24 302  35   fdfdfd -200 T3
 r$p0cardface1nocard  305   9 305   9   ffffff   -5 C
 r$p0cardface1rank    304   8 315  20   ffffff -200 T3
-r$p0cardface1suit    304  24 314  35   ffffff -200 T3
+r$p0cardface1suit    305  24 315  35   ffffff -200 T3
 r$p0dealer           268  56 274  61   333333    0 I
 r$p0name             266  37 347  45   404040    0 T0
 r$p0seated           303  48 307  54   ffffff  450 C
@@ -561,7 +562,6 @@ t3$3 103 323 333 3f6 19e
 t3$d 10 38 fc 1ff fc 38 10
 t3$d 10 38 fe 1ff fe 38 10
 t3$d 10 3c fe 1ff 7e 38 10
-t3$d 10 3c fe 1ff fe 38 10
 t3$d 10 3c fe ff 7c 38
 t3$1 10 3f
 t3$- 1 1
