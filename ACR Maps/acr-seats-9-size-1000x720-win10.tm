@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12- 8 07:14:42
+// 2017-12- 9 17:06:07
 // 32 bits per pixel
 
 //
@@ -19,6 +19,7 @@ z$targetsize       1000  720
 
 s$!titletext                #
 s$!titletext1               yatahay
+s$!titletext2               Purchase
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
@@ -193,8 +194,8 @@ r$p8cardface1nocard  371  88 371  88   1c1615   20 C
 r$p8dealer           358 180 358 180 ffffffff    0 C
 r$p8name             268 115 390 132   ffffff  175 T0
 r$p8seated           429 105 429 105   1e1a19   -1 C
-r$tablepoint1        267 110 267 110 ffc5c6c5   10 C
-r$tablepoint2        961 535 961 535   242482   20 C
+r$tablepoint0        267 110 267 110 ffc5c6c5   10 C
+r$tablepoint1        698 109 698 109 ffcbcbcb   10 C
 
 //
 // fonts
