@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-11-12 09:16:08
+// 2017-12-19 10:08:53
 // 32 bits per pixel
 
 //
@@ -17,6 +17,7 @@ z$targetsize       792  573
 // strings
 //
 
+s$!titletext                6-Max
 s$allinconfirmationmethod   1
 s$balancenumbersonly        True
 s$betpotmethod              raise
@@ -36,7 +37,6 @@ s$t1type                    fuzzy
 s$t2type                    fuzzy
 s$t3type                    fuzzy
 s$titletext                 table
-s$!titletext				6-Max
 s$ttlimits                  ^* ^s/^b
 s$ttlimits0                 ^* ^* ^s/^b
 
@@ -252,6 +252,7 @@ t0$2 203 607 40d 419 431 7e1 3c1
 t0$c 20 78 78 78 779 ff3 fff ff7 779 78 78 78 30
 t0$3 301 221 221 221 3d3 1de
 t0$2 303 207 20d 219 3f1 1e1
+t0$3 304 306 663 663 7fe 3be 8
 t0$3 304 70e 603 663 7e7 3fe 11c
 t0$d 30 70 f8 1fe 3ff 3ff 3ff 1fe fc 78 30
 t0$2 307 70f 61f 63f 7f7 3e7 182
