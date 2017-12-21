@@ -161,6 +161,7 @@ r$p5name              43 194 168 213   ffffff  175 T0
 r$p5seated           113 189 113 189 ffc9c9c9    5 C
 r$tablepoint0        464 111 464 111   171514   -1 C
 r$tablepoint1        113  74 113  74   121010    0 C
+r$tablepoint2        500 260 500 260   98250a   15 C
 
 //
 // fonts
