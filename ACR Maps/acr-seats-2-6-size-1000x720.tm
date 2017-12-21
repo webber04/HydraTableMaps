@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12- 9 17:04:48
+// 2017-12-21 15:21:11
 // 32 bits per pixel
 
 //
@@ -170,6 +170,7 @@ r$p5name              43 194 168 213   ffffff  175 T0
 r$p5seated           113 189 113 189 ffc9c9c9    5 C
 r$tablepoint0        464 110 464 110 ffc5c5c5   10 C
 r$tablepoint1        918 431 918 431 ff6b6b6a   10 C
+r$tablepoint2        470 262 470 262   50ad3a   15 C
 
 //
 // fonts

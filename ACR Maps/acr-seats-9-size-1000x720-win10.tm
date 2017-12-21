@@ -196,6 +196,7 @@ r$p8name             268 115 390 132   ffffff  175 T0
 r$p8seated           429 105 429 105   1e1a19   -1 C
 r$tablepoint0        267 110 267 110 ffc5c6c5   10 C
 r$tablepoint1        698 109 698 109 ffcbcbcb   10 C
+r$tablepoint2        470 262 470 262   50ad3a   15 C
 
 //
 // fonts
