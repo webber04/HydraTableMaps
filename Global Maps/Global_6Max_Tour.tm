@@ -59,6 +59,7 @@ r$c0cardface3suit    413 214 428 227 ffffffff  -50 T2
 r$c0cardface4nocard  495 202 495 202 ffffffff   -5 C
 r$c0cardface4rank    463 200 476 213 ffffffff -160 T2
 r$c0cardface4suit    463 214 478 227 ffffffff  -50 T2
+r$c0limits           220 179 369 187 ff2b8453   50 T3
 r$c0pot0             264 277 333 290 ffffffff  205 T1
 r$c0pot1             480 177 557 189 ffffffff  205 N
 r$i0button           468 511 545 542        0    0 N
@@ -229,6 +230,7 @@ t0$9 3e6 7f7 613 633 3fe 1fc
 t0$k 3ff 3ff 3ff 70 f0 1f8 39e 30f 203 1
 t0$7 400 401 407 43e 4f0 7c0 700
 t0$t 40 fe 1ff 41 41
+t0$4 4 1c 34 c4 184 3ff 4
 t0$4 4 1c 34 c4 184 3ff 4 4
 t0$a 47 49 49 49 7e 3f
 t0$7 600 600 60f 63f 6f8 7e0 780 600
@@ -329,6 +331,10 @@ t2$q e0 3f8 7fc e0e c06 c06 c1e c0e e1e 7fe 3fb
 t2$j e f 3 3 7ff 7fe 7fc
 t2$6 f8 3fe 7ff 663 663 77f 33e 1c
 t2$k fff fff 7ff f0 1e0 3f8 7be f1f e07 c03
+t3$3 1 81 91 91 ee
+t3$2 1 83 85 89 f1 1
+t3$0 18 fe 81 81 7f 18
+t3$/ 1 e 70 80
 t3$c 1f 31 20 20 20
 t3$e 1f 35 24 24 1c
 t3$f 1ff 1ff 110 110 110 100
@@ -336,6 +342,8 @@ t3$r 1ff 1ff 110 118 1be e3 1
 t3$b 1ff 1ff 111 111 111 1eb ee
 t3$h 1ff 1ff 20 20 30 1f
 t3$k 1ff 6 c 1b 21
+t3$9 20 f9 89 8b 7e
+t3$9 20 f9 89 8b 7e 10
 t3$i 37f 37f
 t3$d 3e 63 41 41 3b6 3ff
 t3$c 3e 63 41 41 40
@@ -346,11 +354,17 @@ t3$l 3ff 3ff
 t3$h 3ff 3ff 40 40 60 3f
 t3$k 3ff c 18 36 43 1
 t3$t 40 fe 1ff 41 41 8 8 8 8
+t3$4 4 1c 24 c4 ff 4
 t3$a 47 49 49 49 7e 3f
+t3$8 4 ef 91 91 ef 4
+t3$1 60 c0 ff
 t3$s 71 59 49 4f
 t3$c 7c c6 181 101 101 101 100
 t3$n 7f 3f 40 40 60 3f
+t3$7 80 80 87 9c f0 80
+t3$6 8 7e d1 91 9f 4
 t3$s e1 131 111 119 10e
+t3$5 f1 91 91 9e
 
 //
 // points
