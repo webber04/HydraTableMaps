@@ -28,7 +28,7 @@ s$potmethod                 1
 s$sitename                  ignition-6-max
 s$t0type                    0
 s$t1type                    fuzzy
-s$titletext                 Hold'em
+s$titletext                 Zone
 s$ttlimits                  ^s/^b ^L
 s$ttlimits0                 ^s/^b^*- ^y
 s$ttlimits1                 ^* ^s/^b ^a Ante ^L
@@ -162,6 +162,7 @@ r$p5cardface1suit    408  80 422  94 fff5f5f5  -20 T1
 r$p5dealer           546 176 546 176 ffe4e4e4    0 C
 r$p5name             402  51 406  55        0    0 H0
 r$p5seated           438 104 438 104 ff100e87   -1 C
+r$tablepoint0         89 294  89 294 ff4f4d8b    5 C
 r$u2balance          375 471 474 486 ff000000 -225 T0
 
 //
