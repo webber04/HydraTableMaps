@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-14 15:10:28
+// 2017-12-25 16:29:01
 // 32 bits per pixel
 
 //
@@ -192,8 +192,8 @@ r$p8cardface1nocard  353  57 353  57 ffffffff   -5 C
 r$p8dealer           363 181 363 181 ffffffff    4 C
 r$p8name             265 115 393 136   ffffff  175 T0
 r$p8seated           325 110 325 110 ffc9c9c9    5 C
-r$tablepoint0        325 111 325 111   171514   -5 C
-r$tablepoint1        113  74 113  74   121010    0 C
+r$tablepoint0        325 110 325 110   161413   -5 C
+r$tablepoint1        113  74 113  74   131111    5 C
 r$tablepoint2        500 260 500 260   98250a   15 C
 
 //

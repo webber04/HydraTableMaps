@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-19 12:54:33
+// 2017-12-25 16:25:56
 // 32 bits per pixel
 
 //
@@ -114,7 +114,7 @@ r$p1cardface1        274  50 274  50        0    0 N
 r$p1cardface1nocard  932 136 932 136 ffffffff   -5 C
 r$p1dealer           804 263 804 263 ffffffff    4 C
 r$p1name             833 194 958 213   ffffff  175 T0
-r$p1seated           883 189 883 189 ffcccccc    5 C
+r$p1seated           883 189 883 189 ffcccccc    4 C
 r$p2active           969 387 971 396   d8e3e2   -1 C
 r$p2balance          860 407 985 428   8be8ff   78 T0
 r$p2bet              685 352 800 421   ffffff   60 T0
@@ -159,8 +159,8 @@ r$p5cardface1nocard  142 136 142 136 ffffffff   -5 C
 r$p5dealer           198 266 198 266 ffffffff    4 C
 r$p5name              43 194 168 213   ffffff  175 T0
 r$p5seated           113 189 113 189 ffc9c9c9    5 C
-r$tablepoint0        464 111 464 111   171514   -1 C
-r$tablepoint1        113  74 113  74   121010    0 C
+r$tablepoint0        464 111 464 111  1141211   -5 C
+r$tablepoint1        113  74 113  74   131111    5 C
 r$tablepoint2        500 260 500 260   98250a   15 C
 
 //
