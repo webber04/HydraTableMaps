@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-21 21:38:13
+// 2017-12-24 19:49:14
 // 32 bits per pixel
 
 //
@@ -93,7 +93,7 @@ r$p0cardface0suit    671  66 681  89 ffffffff -225 T2
 r$p0cardface1nocard  717  45 717  45 ffffffff   -1 C
 r$p0cardface1rank    716  44 733  64 ffffffff -225 T2
 r$p0cardface1suit    716  66 726  89 ffffffff -225 T2
-r$p0dealer           595 155 595 155 ff362825    4 C
+r$p0dealer           595 155 595 155 ff685956   -1 C
 r$p0name             673 112 785 126   ffffff  175 T0
 r$p0seated           643 130 643 130 ff746761   -1 C
 r$p1active           707 548 736 558   d8e3e2   -1 H0
@@ -106,7 +106,7 @@ r$p1cardface0suit    671 482 681 505 ffffffff -225 T2
 r$p1cardface1nocard  717 462 717 462 ffffffff   -5 C
 r$p1cardface1rank    716 460 733 480 ffffffff -225 T2
 r$p1cardface1suit    716 482 726 505 ffffffff -225 T2
-r$p1dealer           595 489 595 489 ff362825    4 C
+r$p1dealer           595 489 595 489 ff685956   -1 C
 r$p1name             673 529 785 543   ffffff  175 T0
 r$p1seated           643 544 643 544 ff746761   -1 C
 r$p2active           302 548 331 558   d8e3e2   -1 H0
@@ -119,7 +119,7 @@ r$p2cardface0suit    266 482 276 505 ffffffff -225 T2
 r$p2cardface1nocard  313 462 313 462 ffffffff   -1 C
 r$p2cardface1rank    311 460 328 480 ffffffff -225 T2
 r$p2cardface1suit    311 482 321 505 ffffffff -225 T2
-r$p2dealer           412 489 412 489 ff362825    4 C
+r$p2dealer           412 489 412 489 ff685956   -1 C
 r$p2name             269 528 381 542   ffffff  175 T0
 r$p2seated           238 546 238 546 ff746761   -1 C
 r$p3active           302 132 331 142   d8e3e2   -1 H0
@@ -132,7 +132,7 @@ r$p3cardface0suit    266  66 276  89 ffffffff -225 T2
 r$p3cardface1nocard  313  46 313  46 ffffffff   -1 C
 r$p3cardface1rank    311  44 328  64 ffffffff -225 T2
 r$p3cardface1suit    311  66 321  89 ffffffff -225 T2
-r$p3dealer           433 154 433 154 ff362825    4 C
+r$p3dealer           433 154 433 154 ff685956   -1 C
 r$p3name             269 112 381 127   ffffff  175 T0
 r$p3seated           236 132 236 132 ff746761   -1 C
 r$tablepoint0         18  50  18  50 ff322c2d    0 C

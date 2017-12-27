@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-22 06:50:39
+// 2017-12-24 20:03:44
 // 32 bits per pixel
 
 //
@@ -93,7 +93,7 @@ r$p0cardface0suit    651  66 661  89 ffffffff -225 T2
 r$p0cardface1nocard  697  45 697  45 ffffffff   -1 C
 r$p0cardface1rank    696  44 713  64 ffffffff -225 T2
 r$p0cardface1suit    696  66 706  89 ffffffff -225 T2
-r$p0dealer           575 156 575 156 ff362825    4 C
+r$p0dealer           575 156 575 156 ff685956   -1 C
 r$p0name             653 112 765 126   ffffff  175 T0
 r$p0seated           624 130 624 130 ff746761   -1 C
 r$p1active           910 340 939 350   d8e3e2   -1 H0
@@ -106,7 +106,7 @@ r$p1cardface0suit    874 274 884 297 ffffffff -225 T2
 r$p1cardface1nocard  920 253 920 253 ffffffff   -5 C
 r$p1cardface1rank    919 252 936 272 ffffffff -225 T2
 r$p1cardface1suit    919 274 929 297 ffffffff -225 T2
-r$p1dealer           849 387 849 387 ff362825    4 C
+r$p1dealer           849 387 849 387 ff685956   -1 C
 r$p1name             876 321 988 335   ffffff  175 T0
 r$p1seated           847 334 847 334 ffcccccc   -1 C
 r$p2active           687 547 716 557   d8e3e2   -1 H0
@@ -119,7 +119,7 @@ r$p2cardface0suit    651 482 661 505 ffffffff -225 T2
 r$p2cardface1nocard  698 462 698 462 ffffffff   -1 C
 r$p2cardface1rank    696 460 713 480 ffffffff -225 T2
 r$p2cardface1suit    696 482 706 505 ffffffff -225 T2
-r$p2dealer           574 489 574 489 ff362825    4 C
+r$p2dealer           574 489 574 489 ff685956   -1 C
 r$p2name             654 528 766 542   ffffff  175 T0
 r$p2seated           624 546 624 546 ffc8c8c8   -1 C
 r$p3active           322 548 351 558   d8e3e2   -1 H0
@@ -132,7 +132,7 @@ r$p3cardface0suit    286 482 296 505 ffffffff -225 T2
 r$p3cardface1nocard  333 462 333 462 ffffffff   -1 C
 r$p3cardface1rank    331 460 348 480 ffffffff -225 T2
 r$p3cardface1suit    331 482 341 505 ffffffff -225 T2
-r$p3dealer           448 499 448 499 ff362825    4 C
+r$p3dealer           448 499 448 499 ff6b5c59   -1 C
 r$p3name             288 528 400 543   ffffff  175 T0
 r$p3seated           258 547 258 547 ff746761   -1 C
 r$p4active           100 340 129 350   d8e3e2   -1 H0
@@ -145,7 +145,7 @@ r$p4cardface0suit     63 274  73 297 ffffffff -225 T2
 r$p4cardface1nocard  109 254 109 254 ffffffff   -1 C
 r$p4cardface1rank    108 252 125 272 ffffffff -225 T2
 r$p4cardface1suit    108 274 118 297 ffffffff -225 T2
-r$p4dealer           200 232 200 232 ff362825    4 C
+r$p4dealer           200 232 200 232 ff685956   -1 C
 r$p4name              66 320 178 335   ffffff  175 T0
 r$p4seated            35 338  35 338 ff302a2b   -1 C
 r$p5active           322 132 351 142   d8e3e2   -1 H0
@@ -158,7 +158,7 @@ r$p5cardface0suit    286  66 296  89 ffffffff -225 T2
 r$p5cardface1nocard  333  46 333  46 ffffffff   -1 C
 r$p5cardface1rank    331  44 348  64 ffffffff -225 T2
 r$p5cardface1suit    331  66 341  89 ffffffff -225 T2
-r$p5dealer           434 154 434 154 ff362825    4 C
+r$p5dealer           434 154 434 154 ff685956   -1 C
 r$p5name             289 112 401 127   ffffff  175 T0
 r$p5seated           258 127 258 127 ff746761   -1 C
 r$tablepoint0         18  50  18  50 ff322c2d    0 C
