@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-26 21:25:34
+// 2017-12-26 21:32:21
 // 32 bits per pixel
 
 //
@@ -166,9 +166,13 @@ r$p6balance           11 383 135 399   ffffff  171 T0
 r$p6bet              203 350 313 391   ffffff   60 T0
 r$p6cardback         113 324 113 324 ff271fcf   20 C
 r$p6cardface0         46 281  54 286 ffffffff   20 C
-r$p6cardface0nocard  113 325 113 325   2f2c27   20 C
+r$p6cardface0nocard   68 280  68 280 ffffffff   -1 C
+r$p6cardface0rank     16 277  33 296 ffffffff -225 T2
+r$p6cardface0suit     15 299  33 322 ffffffff -225 T2
 r$p6cardface1        111 280 122 288 ffffffff    0 C
-r$p6cardface1nocard  113 326 113 326   302d29   20 C
+r$p6cardface1nocard  132 281 132 281 ffffffff   -1 C
+r$p6cardface1rank     81 277  98 296 ffffffff -225 T2
+r$p6cardface1suit     80 299  98 322 ffffffff -225 T2
 r$p6dealer           221 385 221 385 ffffffff    0 C
 r$p6name               9 353 133 370   ffffff  175 T0
 r$p6seated           172 343 172 343   499c36   -1 C
