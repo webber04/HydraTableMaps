@@ -199,7 +199,7 @@ r$p7cardface1suit    169  24 179  35   ffffff -200 T3
 r$p7dealer           203  56 209  61   333333    0 I
 r$p7name             129  38 214  46   ffffff    0 T0
 r$p7seated           145   4 145   4   322f2a   -1 C
-r$tablepoint0        281   8 281   8    e0d0c   20 C
+r$tablepoint0        281  20 281  20   322f2a   -1 C
 r$tablepoint1         14 117  14 117   322f2a    5 C
 r$tablepoint2        241 207 241 207   383838    5 C
 r$u0active           303  48 307  54   ffffff  450 C
@@ -248,7 +248,7 @@ t0$f 10 7f 50
 t0$w 10 c 3 1c 3 c 10
 t0$v 10 e 1 e 10
 t0$Y 10 f 10 20
-t0$- 1 1
+t0$. 1 1
 t0$_ 1 1 1 1
 t0$_ 1 1 1 1 1
 t0$_ 1 1 1 1 1 1 1 1
@@ -475,8 +475,8 @@ t0$0 e 1f 11 1f e
 t0$6 e 1f 39 2f 6
 t0$0 f 1f 11 11 1f 1e
 t0$0 f 1f 11 11 1f e
+t1$. 1
 t1$9 10 28 2b 1c
-t1$1 10 3f
 t1$i 10 5f
 t1$- 1 1
 t1$A 1 1e 64 74 e 1
@@ -512,6 +512,7 @@ t2$0 1e 21 21 1f
 t2$A 1 e 32 e 3
 t2$6 1f 29 7
 t2$t 1f 9
+t2$2 20 43 45 79 1
 t2$7 23 2c 30
 t2$7 23 2e 30
 t2$i 2f
@@ -536,11 +537,14 @@ t2$B 3f 25 3d 2
 t2$N 3f 29 29 36
 t2$N 3f 29 29 3e
 t2$L 3f 2f
+t2$7 40 41 4e 70 40
 t2$4 4 1c 3f
 t2$A 4 4 3 1e 22 1e 3
+t2$8 6 75 49 75 2
 t2$d 6 9 9 3f
 t2$4 6 a 12 3f
 t2$e 6 d d
+t2$5 73 51 51 4e
 t2$t 8 1f
 t2$s 9 b f
 t2$s 9 d b b
@@ -562,6 +566,7 @@ t3$3 103 323 333 3f6 19e
 t3$d 10 38 fc 1ff fc 38 10
 t3$d 10 38 fe 1ff fe 38 10
 t3$d 10 3c fe 1ff 7e 38 10
+t3$d 10 3c fe 1ff fe 38 10
 t3$d 10 3c fe ff 7c 38
 t3$1 10 3f
 t3$- 1 1
