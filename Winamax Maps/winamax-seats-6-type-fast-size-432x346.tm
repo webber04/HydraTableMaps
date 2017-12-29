@@ -61,7 +61,7 @@ r$c0cardface4suit    275 136 285 148 ffffffff  200 T3
 r$c0pot0             228 184 290 194 ffdddddd  105 T1
 r$c0pot1             222 182 290 196 ff40b2ee  130 T1
 r$i0button            79 291 161 309        0    0 N
-r$i0label             35 304  35 304        0    0 I
+r$i0label            106 295 135 305        0    0 H0
 r$i0state            154 294 154 294 ff19108a   30 C
 r$i1button           174 291 256 309        0    0 N
 r$i1label            200 301 233 307   155792    0 I
@@ -223,7 +223,7 @@ t0$0 1fe 201 201 1fe
 t0$6 1fe 201 221 13e
 t0$6 1fe 201 221 13f
 t0$6 1fe 201 221 1bf
-t0$6 1fe 201 221 3bf
+t0$6 1fe 203 221 3bf
 t0$6 1fe 223 441 441 661 33e
 t0$0 1fe 301 201 3ff
 t0$6 1fe 301 221 3bf
@@ -235,6 +235,7 @@ t0$0 1fe 303 201 3ff 80
 t0$0 1fe 303 201 3ff fc
 t0$6 1fe 303 221 3bf
 t0$6 1fe 313 221 3bf
+t0$6 1fe 313 221 3bf 8
 t0$6 1fe 333 221 3bf
 t0$0 1fe 3ff 201 3ff fe
 t0$0 1ffe 3fff 3003 3003 3fff 1ffc
@@ -246,7 +247,9 @@ t0$7 200 201 23c 380
 t0$7 200 203 23e 3c0
 t0$7 200 203 27c 3c0
 t0$7 200 203 27e 3c0
+t0$7 200 203 27e 3e0
 t0$7 200 207 27e 3c0
+t0$7 200 207 27e 3e0
 t0$1 20 80 3ff
 t0$3 22 41 49 49 36
 t0$5 26 323 241 27f
@@ -300,12 +303,15 @@ t0$1 80 100 300 7ff
 t0$4 8 18 68 88 308 7ff 8 8
 t0$3 82 101 111 111 ee
 t0$4 8 30 180 3ff
-t0$4 8 30 188 3ff 8
 t0$4 8 30 80 3ff
+t0$4 8 38 188 3ff
 t0$4 8 38 188 3ff 8
+t0$4 8 38 188 3ff c
+t0$4 8 38 18c 3ff c
 t0$4 8 38 80 3ff 8
 t0$4 8 38 88 3ff c
 t0$$ 8 6c 8a 9 9 80
+t0$4 8 78 1cc 3ff c
 t0$$ 8 7c 8a 9 9 80
 t0$$ 8 7c aa 29 29 80
 t0$$ 8 7c aa 29 29 81
@@ -319,7 +325,6 @@ t0$2 c07 3c0f 303f 30f3 3fe3 1f83
 t0$3 c0e 1c0f 3083 30c3 3fff 1f7e
 t0$3 c0e 3c0f 3083 30c3 3fff 1f7e
 t0$3 c0e 3c0f 30c3 30c3 3fff 1f7e
-t0$4 c 3c 18c 3ff 8
 t0$4 c 3c 18c 3ff c
 t0$4 c 7c 18c 3ff c
 t0$4 c 7c 1cc 3ff 1f
@@ -345,19 +350,15 @@ t0$6 ffe 3fff 3083 3083 3ce7 1cfe
 t1$. 1
 t1$7 100 100 11f 120 1c0
 t1$1 100 1ff
-t1$b 1 1ff 111 111 111 ee
+t1$, 1 2
 t1$4 14 24 7f 4
-t1$$ 14 3e 55 51 41 22
 t1$i 17f
 t1$4 18 28 48 ff 8
 t1$5 1e2 121 121 121 11e
 t1$l 1ff
 t1$p 1ff 110 110 110 e0
-t1$e 1ff 111 111 111 101
-t1$b 1ff 111 111 111 ee
-t1$k 1ff 18 24 42 1
-t1$h 1ff 40 40 40 3f
-t1$n 1ff 80 40 20 1ff
+t1$B 1ff 111 111 111 ee
+t1$k 1ff 18 24 42
 t1$3 22 41 49 49 36
 t1$2 27 49 49 49 31
 t1$€ 28 fe 129 129 121 82
@@ -376,6 +377,7 @@ t1$6 3e 49 49 49 26
 t1$e 3e 49 49 49 39
 t1$t 40 1ff 40
 t1$7 40 40 47 48 70
+t1$7 40 40 47 48 71
 t1$1 40 7f
 t1$3 42 81 91 91 6e
 t1$2 4e 92 92 92 62 1 2
@@ -385,8 +387,10 @@ t1$9 62 91 91 91 7e
 t1$8 6e 91 91 91 6e
 t1$l 7 7
 t1$5 7a 49 49 49 46
+t1$v 7c 2 1 2 7c
 t1$q 7c 82 82 82 ff
 t1$0 7c 8a 92 a2 7c 1 2
+t1$u 7e 1 1 1 7e
 t1$0 7e 89 91 a1 7e
 t1$6 7e 91 91 91 4e
 t1$n 7f 40 40 40 3f
@@ -396,35 +400,26 @@ t1$1 80 ff
 t1$4 8 18 68 88 308 7ff 8 8
 t1$3 82 101 111 111 ee
 t1$2 8f 111 111 111 e1
-t1$2 9e 122 122 122 c2 1 2
 t1$4 c 14 24 7f 4
 t1$s e2 111 111 111 8e
 t1$9 e2 111 111 111 fe
 t1$8 ee 111 111 111 ee
 t1$5 f2 91 91 91 8e
-t1$g f8 105 105 105 1fe
+t1$6 f9 125 125 125 98
 t1$0 fc 386 401 401 401 203 1fe
-t1$c fe 101 101 101 82
-t1$o fe 101 101 101 fe
 t1$0 fe 109 111 121 fe
 t1$6 fe 111 111 111 8e
-t1$l ff
-t1$k ff 18 24 42 1
-t1$b ff 41 41 41 3e
 t1$p ff 82 82 82 7c
 t2$. 1
 t2$7 100 100 11f 120 1c0
 t2$T 100 100 1ff 100 100
 t2$1 100 1ff
 t2$2 10 1f
-t2$Z 107 109 111 121 1c1
 t2$- 1 1 1 1
-t2$_ 1 1 1 1 1
 t2$_ 1 1 1 1 1 1
 t2$J 1 1 1fe
 t2$L 11 e
-t2$b 1 1ff 41 41 41 3e
-t2$B 1 3fe 222 222 222 1dc
+t2$j 1 2fe
 t2$N 15 11
 t2$i 17f
 t2$Y 1c0 20 1f 20 1c0
@@ -436,7 +431,6 @@ t2$1 1f 15 15 a
 t2$0 1f 8 4 1f
 t2$y 1f8 5 5 5 1fe
 t2$c 1f9f 1f8f 1f07 180f 100d 1009 180f 1f07 1f87 1f8f
-t2$Q 1fc 202 206 202 1fd
 t2$V 1fc 2 1 2 1fc
 t2$W 1fc 2 1 2 1fc 2 1 2 1fc
 t2$s 1fcf 1f07 1e07 1c07 1001 1001 1805 1c07 1e07 1f87
@@ -451,7 +445,6 @@ t2$R 1ff 110 110 110 ef
 t2$L 1ff 1 1 1 1
 t2$E 1ff 111 111 111 101
 t2$B 1ff 111 111 111 ee
-t2$k 1ff 18 24 42
 t2$k 1ff 18 24 42 1
 t2$K 1ff 30 48 84 102 1
 t2$h 1ff 40 40 40 3f
@@ -465,30 +458,28 @@ t2$c 3e 41 41 41 22
 t2$o 3e 41 41 41 3e
 t2$a 3e 41 41 42 7f
 t2$e 3e 49 49 49 39
+t2$i 40 17f
 t2$t 40 1ff 40
-t2$t 40 40 1ff 40
-t2$f 40 ff 140
 t2$f 40 ff 140 100
-t2$p 4 1ff 104 104 104 f8
 t2$z 43 45 49 51 61
 t2$x 63 14 8 14 63
 t2$v 7c 2 1 2 7c
 t2$w 7c 2 1 2 7c 2 1 2 7c
-t2$a 7c 82 82 84 fe 1
 t2$u 7e 1 1 1 7e
 t2$r 7f 20 40
 t2$r 7f 20 40 40
 t2$n 7f 40 40 40 3f
 t2$m 7f 40 40 40 3f 40 40 40 3f
-t2$j 81 2fe
 t2$3 82 101 111 111 ee
 t2$2 8f 111 111 111 e1
 t2$0 9 15 12
 t2$N e 11
 t2$S e2 111 111 111 8e
 t2$9 e2 111 111 111 fe
+t2$& ee 111 101 111 ae 20
 t2$8 ee 111 111 111 ee
 t2$0 f 14 14 f
+t2$q f8 104 104 104 1ff
 t2$g f8 105 105 105 1fe
 t2$y fc 2 2 2 ff
 t2$C fe 101 101 101 82
@@ -497,7 +488,6 @@ t2$G fe 101 111 111 9e
 t2$0 fe 109 111 121 fe
 t2$6 fe 111 111 111 8e
 t2$A ff 110 110 110 ff
-t2$f ff 140 100
 t2$p ff 82 82 82 7c
 t3$d 18 3c 7e 1ff 3ff ff 3c 18
 t3$h 187f 181f 180f 1803 1c01 1801 1807 180f 183f 1cff
@@ -651,6 +641,7 @@ h0$call               830581b4
 h0$prefold_fast       a86ce4ff
 h0$fold               b5829e14
 h0$check              cf94442b
+h0$fold22             d0d8cd5c
 h0$raise              d4c52b7d
 h0$allin              dbc96085
 h0$bet                f91a5fd1
@@ -681,6 +672,19 @@ a6a6a6ff343434ff343434ffa6a6a6ff
 343434ffa1a1a1ffa1a1a1ff343434ff
 343434ff343434ff343434ff343434ff
 343434ff969696ff969696ff343434ff
+i$fold22           30  11 
+180f87ff180f87ff180f87ff180f87ff180f87ff180f87ff2b2290ff322a94ff322a94ff322a94ff221a8cff180f87ff352d96ff433c9dff180f87ff180f87ff2b2290ff322a94ff180f87ff180f87ff180f87ff322a94ff322a94ff1a1188ff180f87ff180f87ff180f87ff180f87ff180f87ff180f87ff
+170e84ff170e84ff170e84ff170e84ff170e84ff170e84ff9995c9ffffffffffffffffffffffffff817cbcffaeaad4ffffffffffffffffffe6e5f2ff170e84ff9995c9ffffffffff413a9aff170e84ff3a3296ffffffffffffffffffffffffffc2bfdfff170e84ff170e84ff170e84ff170e84ff170e84ff
+150d81ff150d81ff150d81ff150d81ff150d81ff150d81ff9894c7ffffffffff9f9ccbff9f9ccbff7671b5ffffffffffcccae4ffa6a3cfffffffffff6964aeff9894c7ffffffffff403998ff150d81ff383294ffffffffff9f9ccbffd3d1e7ffffffffff6e69b1ff150d81ff150d81ff150d81ff150d81ff
+140c7eff140c7eff140c7eff140c7eff140c7eff140c7eff9794c6ffffffffff3f3895ff140c7eff352e90ffffffffff8b87c0ff312a8effffffffff8e8ac1ff9794c6ffffffffff3f3895ff140c7eff373191ffffffffff9b98c8ff3b3493ffffffffff9895c7ff140c7eff140c7eff140c7eff140c7eff
+120b7bff120b7bff120b7bff120b7bff120b7bff120b7bff9693c5ffffffffffffffffffffffffff352f8effffffffff8a87beff2f298bffffffffff908dc1ff9693c5ffffffffff3d3793ff120b7bff36308fffffffffff9a97c7ff2c268affffffffffa3a1ccff120b7bff120b7bff120b7bff120b7bff
+110a78ff110a78ff110a78ff110a78ff110a78ff110a78ff9693c3ffffffffffd5d3e7ffd5d3e7ff342e8cffffffffff8a86bdff2e2889ffffffffff8f8cc0ff9693c3ffffffffff3c3790ff110a78ff352f8cffffffffff9a97c6ff2c2587ffffffffffa3a0cbff110a78ff110a78ff110a78ff110a78ff
+0f0a75ff0f0a75ff0f0a75ff0f0a75ff0f0a75ff0f0a75ff9593c2ffffffffff3b378eff0f0a75ff312d89ffffffffff8986bbff2d2886ffffffffff8c89bdff9593c2ffffffffff3b378eff0f0a75ff332f8affffffffff9997c4ff38348cffffffffff9795c3ff0f0a75ff0f0a75ff0f0a75ff0f0a75ff
+0e0972ff0e0972ff0e0972ff0e0972ff0e0972ff0e0972ff9592c1ffffffffff3a368cff0e0972ff0e0972ffffffffffc8c7dfff9f9dc7ffffffffff6562a5ff9592c1ffffffffff9895c2ff9895c2ff8582b7ffffffffff9896c3ffd2d1e5ffffffffff6a67a8ff0e0972ff0e0972ff0e0972ff0e0972ff
+0c086fff0c086fff0c086fff0c086fff0c086fff0c086fff9492bfffffffffff383589ff0c086fff0c086fffacaaceffffffffffffffffffeae9f2ff0c086fff9492bfffffffffffffffffffffffffff8f8dbdffffffffffffffffffffffffffc3c2dcff0c086fff0c086fff0c086fff0c086fff0c086fff
+0b076cff0b076cff0b076cff0b076cff0b076cff0b076cff24217bff2c2980ff0b076cff0b076cff0b076cff0b076cff2f2b81ff3e3b8bff0b076cff0b076cff24217bff2c2980ff2c2980ff2c2980ff1b1775ff2b287fff2b287fff120e70ff0b076cff0b076cff0b076cff0b076cff0b076cff0b076cff
+090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff
+
 i$fold_22          1   1  
 6a7776ff
 i$fold_1           1   1  
