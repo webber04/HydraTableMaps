@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-28 06:21:16
+// 2017-12-29 05:35:07
 // 32 bits per pixel
 
 //
@@ -62,7 +62,7 @@ r$c0cardface4rank    301  95 312 107   ffffff -200 T3
 r$c0cardface4suit    301 111 311 122   fdfdfd -200 T3
 r$c0handnumber       414   1 478   9 ffb7b7b7  175 T0
 r$c0limits0            2   9 125  14   b7b7b7    0 T3
-r$c0pot0             206  51 269  61 ffffffff   25 T0
+r$c0pot0             210  51 264  62   ffffff    0 T0
 r$i0button           257 287 314 301        0    0 N
 r$i0label            279 281 293 281   151515    0 H0
 r$i0state            279 281 290 281   5a5a5a   40 C
@@ -442,6 +442,7 @@ t0$4 4 1c 3f 4
 t0$4 4 c 14 3f 4
 t0$4 4 c 1c 3f 3f 4
 t0$g 4d 4d 76
+t0$$ 4 e6 1f3 1d3 fe 2c
 t0$i 5f
 t0$y 60 19 1e 60
 t0$W 60 1e 7 38 78 7 3e 40

@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-26 17:05:04
+// 2017-12-29 05:40:50
 // 32 bits per pixel
 
 //
@@ -159,9 +159,9 @@ r$p5cardface1nocard  142 136 142 136 ffffffff   -5 C
 r$p5dealer           198 266 198 266 ffffffff    4 C
 r$p5name              43 194 168 213   ffffff  175 T0
 r$p5seated           113 189 113 189 ffc9c9c9    5 C
-r$tablepoint0        471 109 471 109 ffc9c9c9   20 C
-r$tablepoint1        586 124 586 124 ff9c6017    5 C
-r$tablepoint2        500 260 500 260   98250a   15 C
+r$tablepoint0        471 109 471 109 ffc5c5c5   10 C
+r$tablepoint1        470 262 470 262   8f2808   15 C
+r$tablepoint2        580 119 580 119 ff96590f   10 C
 
 //
 // fonts
