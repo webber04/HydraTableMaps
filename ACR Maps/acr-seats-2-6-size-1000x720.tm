@@ -41,19 +41,19 @@ s$ttlimits                  ^*Limit - ^s / ^b
 // regions
 //
 
-r$c0cardface0nocard  335 278 335 278   499837   20 C
+r$c0cardface0nocard  386 278 386 278 ffffffff   -1 C
 r$c0cardface0rank    333 276 350 295 ffffffff -225 T2
 r$c0cardface0suit    332 298 350 321 ffffffff -225 T2
-r$c0cardface1nocard  405 279 405 279   52ae3d   20 C
+r$c0cardface1nocard  453 279 453 279 ffffffff   -1 C
 r$c0cardface1rank    402 276 419 295 ffffffff -225 T2
 r$c0cardface1suit    401 298 419 321 ffffffff -225 T2
-r$c0cardface2nocard  473 279 473 279   4dab34   20 C
+r$c0cardface2nocard  523 279 523 279 ffffffff   -1 C
 r$c0cardface2rank    471 276 488 295 ffffffff -225 T2
 r$c0cardface2suit    470 298 488 321 ffffffff -225 T2
-r$c0cardface3nocard  542 279 542 279   479635   20 C
+r$c0cardface3nocard  594 279 594 279 ffffffff   -1 C
 r$c0cardface3rank    540 276 557 295 ffffffff -225 T2
 r$c0cardface3suit    539 298 557 321 ffffffff -225 T2
-r$c0cardface4nocard  611 279 611 279   53ae3b   20 C
+r$c0cardface4nocard  661 279 661 279 ffffffff   -1 C
 r$c0cardface4rank    609 276 626 295 ffffffff -225 T2
 r$c0cardface4suit    608 298 626 321 ffffffff -225 T2
 r$c0handnumber       168   7 242  14   ffffff  298 T0
