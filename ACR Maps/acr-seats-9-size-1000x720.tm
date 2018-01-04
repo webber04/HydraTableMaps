@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-31 13:57:54
+// 2018-01- 1 16:50:36
 // 32 bits per pixel
 
 //
@@ -112,8 +112,8 @@ r$p1cardface0nocard  924 166 924 166 ffffffff   -1 C
 r$p1cardface0rank    411  39 428  58 ffffffff -225 T2
 r$p1cardface0suit    410  61 428  84 ffffffff -225 T2
 r$p1cardface1nocard  924 167 924 167 ffffffff   -1 C
-r$p0cardface1rank    411  39 428  58 ffffffff -225 T2
-r$p0cardface1suit    410  61 428  84 ffffffff -225 T2
+r$p1cardface1rank    411  39 428  58 ffffffff -225 T2
+r$p1cardface1suit    410  61 428  84 ffffffff -225 T2
 r$p1dealer           788 261 800 272        0    0 H0
 r$p1name             832 196 956 213   ffffff  175 T0
 r$p1seated           796 184 796 184   272322   -1 C
@@ -272,6 +272,7 @@ t0$6 1fc 3fe 7ff c81 881 8c3 8fe 87e
 t0$0 1fe 102 201 201 2 1fe
 t0$0 1fe 302 201 201 102 1fe
 t0$0 1fe 303 201 201 303 1fe
+t0$P 1ff 1ff 108 108 198 f0
 t0$n 1ff 1ff 1ff 100 100 180 1ff ff
 t0$l 1fff 1fff 1fff
 t0$T 200 200 200 3ff 200 200 200
@@ -320,6 +321,7 @@ t0$9 3e0 7f1 e71 811 813 e1e 7fe 3f8
 t0$9 3e0 7f1 ff1 811 813 fbe 7fe 7f8
 t0$5 3e3 3e1 221 221 233 21e
 t0$6 3e 51 91 91 8e
+t0$o 3e 63 41 41 63 3e
 t0$6 3e 73 91 91 9e
 t0$6 3e d3 91 91 8e
 t0$q 3f0 408 408 408 418 7ff
@@ -357,6 +359,7 @@ t0$y 400 700 e1 1e 18 e0 300 400
 t0$y 400 700 e1 3e 18 e0 300 400
 t0$y 400 780 e1 3e 18 e0 700 400
 t0$j 401 401 17fe
+t0$t 40 1ff 41 41 41
 t0$1 40 41 ff ff 1
 t0$a 404 8f 91 91 91 7f
 t0$1 41 41 ff 1 1
@@ -377,6 +380,7 @@ t0$8 4 ee 1ff 111 111 1ff fe 4e
 t0$3 602 c03 801 841 841 fe7 fbe 73c
 t0$9 60 f1 1f9 109 10b 1fe fc
 t0$9 60 f9 1f9 109 10b 1fe fc 30
+t0$: 63
 t0$t 6 80 3fe 83 81 81
 t0$a 6 8f 91 91 93 7f
 t0$8 6e 99 91 99 6e
@@ -424,6 +428,7 @@ t0$h 7ff c0 80 80 c0 7f
 t0$7 800 803 80f 83e 8f8 be0 f80 c00
 t0$7 800 803 80f 83f 9f8 fe0 f80 e00
 t0$7 800 803 81f 87f 9fc ff0 f80 e00 800
+t0$I 801 801 fff fff 801 801
 t0$$ 80 1e4 1e4 3ff 13c 13c 10
 t0$I 801 fff fff fff 801 801
 t0$t 80 3fe 283 81 81
