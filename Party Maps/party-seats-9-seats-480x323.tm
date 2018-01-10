@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-27 16:55:05
+// 2018-01- 5 21:28:25
 // 32 bits per pixel
 
 //
@@ -17,12 +17,15 @@ z$targetsize       480  323
 // strings
 //
 
-s$!titletext                Abaddon.ohf
-s$!titletext0               Poseidon.ohf
-s$!titletext1               Phoenix.ohf
-s$!titletext2               Kraken.ohf
-s$!titletext3               Purchase
-s$!titletext4               NoName
+s$!titletext                Purchase
+s$!titletext0               Abaddon
+s$!titletext1               Hercules
+s$!titletext2               Athena
+s$!titletext3               Kraken
+s$!titletext4               Medusa
+s$!titletext5               Poseidon
+s$!titletext6               Orthrus
+s$!titletext7               Phoenix
 s$allinconfirmationmethod   3
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
@@ -102,10 +105,10 @@ r$p0bet              252  73 333  82   ffffff    0 T0
 r$p0cardback         333   8 333   8   f0f0f0    0 C
 r$p0cardface0nocard  293   9 293   9   ffffff   -5 C
 r$p0cardface0rank    293   8 303  20   ffffff -200 T3
-r$p0cardface0suit    292  24 302  35   fdfdfd -200 T3
+r$p0cardface0suit    293  24 303  35   fdfdfd -200 T3
 r$p0cardface1nocard  305   9 305   9   ffffff   -5 C
-r$p0cardface1rank    304   8 315  20   ffffff -200 T3
-r$p0cardface1suit    305  24 315  35   ffffff -200 T3
+r$p0cardface1rank    305   8 316  20   ffffff -200 T3
+r$p0cardface1suit    305  24 316  35   ffffff -200 T3
 r$p0dealer           268  56 274  61   333333    0 I
 r$p0name             266  37 347  45   404040    0 T0
 r$p0seated           303  48 307  54   ffffff  450 C
@@ -583,6 +586,7 @@ t3$3 103 323 333 3f6 19e
 t3$d 10 38 fc 1ff fc 38 10
 t3$d 10 38 fe 1ff fe 38 10
 t3$d 10 3c fe 1ff 7e 38 10
+t3$d 10 3c fe 1ff fe 38 10
 t3$d 10 3c fe ff 7c 38
 t3$1 10 3f
 t3$- 1 1
@@ -731,6 +735,7 @@ h0$out_7              b31feaf3
 h0$call_2             b466e896
 h0$call_allin_lit     b5ed8a86
 h0$true               c0538207
+h0$fold_2             c31e379e
 h0$out_4              c9657c14
 h0$out_2              d2ccd931
 h0$out_6              dc050f67
@@ -931,4 +936,6 @@ e6e6e600a6a6a6008383830085858500dcdcdc00aeaeae00dedede00c6c6c6008a8a8a00e8e8e800
 e4e4e400b2b2b2008282820084848400ececec009c9c9c00dedede00c6c6c6008a8a8a00e8e8e800acacac00f6f6f600acacac008a8a8a00
 b9b9b900f0f0f000bfbfbf00dbdbdb00eaeaea0088888800d7d7d700e4e4e400c3c3c300f8f8f800acacac00f2f2f200d8d8d800b3b3b300
 7c7c7c00b7b7b700dedede00cecece0090909000878787009e9e9e00dbdbdb00e0e0e000d8d8d800a3a3a300a5a5a500dedede00c8c8c800
+i$fold_2           15  1  
+474747004848470047474700474747004747470047474700474747004747460047474700474746004646460047474700474746004646460046464500
 
