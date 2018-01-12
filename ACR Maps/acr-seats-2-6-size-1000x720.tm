@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-01- 4 18:43:18
+// 2018-01-11 12:52:49
 // 32 bits per pixel
 
 //
@@ -65,12 +65,12 @@ r$i1button           745 625 863 670        0    0 N
 r$i1label            746 637 802 657   ffc574  153 T3
 r$i1state            749 646 749 646 ff3b3880   85 C
 r$i2button           874 625 992 670        0    0 N
-r$i2label            877 639 926 658   ffc574  153 T3
+r$i2label            877 639 935 658   ffc574  153 T3
 r$i2state            990 629 990 629 ff3b3880   50 C
 r$i3button           884 634 983 659 e9b7b8b7    0 N
 r$i3edit             923 678 993 693        0    0 N
 r$i3handle           615 678 626 693        0    0 H0
-r$i3label            877 638 928 657   ffc574  153 T3
+r$i3label            877 638 933 657   ffc574  153 T3
 r$i3slider           615 678 921 693        0    0 N
 r$i3state            992 679 992 679   ffffff   59 C
 r$i4button            16 560  19 563        0    0 N
