@@ -425,6 +425,7 @@ t0$4 4 1c 3f 4
 t0$4 4 c 14 3f 4
 t0$4 4 c 1c 3f 3f 4
 t0$g 4d 4d 76
+t0$$ 4 e6 1f3 1d3 fe 2c
 t0$i 5f
 t0$y 60 19 1e 60
 t0$W 60 1e 7 38 78 7 3e 40
@@ -589,6 +590,7 @@ t3$d 10 3c fe 1ff 7e 38 10
 t3$d 10 3c fe 1ff fe 38 10
 t3$d 10 3c fe ff 7c 38
 t3$1 10 3f
+t3$d 10 7c fe ff 7c 38
 t3$- 1 1
 t3$J 1 1 1ff
 t3$2 11 23 25 19

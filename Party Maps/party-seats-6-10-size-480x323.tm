@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-01-10 06:24:45
+// 2018-01-12 14:35:56
 // 32 bits per pixel
 
 //
@@ -234,7 +234,7 @@ r$tablepoint0        281  20 281  20   322f2a   -1 C
 r$tablepoint1        286 209 286 209   393938   -1 C
 r$tablepoint2         38 127  38 127   2a2723   -1 C
 r$u0active           303  48 307  54   ffffff  450 C
-r$u0name             266  37 347  45   d2d2d2    0 T0
+r$u0name             266  37 347  46   d2d2d2    0 T0
 r$u1active           391  22 391  22   322f2a   -1 C
 r$u1balance          358  65 419  73        0    0 T1
 r$u1name             356  56 429  64   d2d2d2    0 T0
@@ -607,6 +607,7 @@ t3$d 10 3c fe 1ff 7e 38 10
 t3$d 10 3c fe 1ff fe 38 10
 t3$d 10 3c fe ff 7c 38
 t3$1 10 3f
+t3$d 10 7c fe ff 7c 38
 t3$- 1 1
 t3$J 1 1 1ff
 t3$2 11 23 25 19
