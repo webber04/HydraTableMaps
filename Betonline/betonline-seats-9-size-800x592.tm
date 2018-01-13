@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-18 12:21:22
+// 2018-01-13 10:54:57
 // 32 bits per pixel
 
 //
@@ -20,7 +20,7 @@ z$targetsize       800  592
 s$!titletext                Purchase
 s$allinconfirmationmethod   1
 s$betsizeconfirmationmethod Click Bet
-s$betsizedeletionmethod     Delete
+s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Dbl Click
 s$nchairs                   9
@@ -283,6 +283,7 @@ t0$a 46 4f c3 d2 fe 7f
 t0$a 46 cf c3 d2 fe 7f
 t0$a 4c de 193 193 1b2 fe ff
 t0$a 4e cf db d3 fe 7f 1
+t0$a 4e df 193 193 1b2 1fe ff
 t0$7 6000 6007 601f 60ff 67f8 7fc0 7e00 7800
 t0$k 6003 6003 7fff 7fff 61e3 67f3 f78 7e3f 7c1f 7007 6003
 t0$k 6003 7fff 7fff 61e3 67f3 f78 7e3f 7c1f 7007 6003 6003
