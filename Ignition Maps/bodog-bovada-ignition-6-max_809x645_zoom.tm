@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-01-11 17:13:48
+// 2018-01-13 09:36:09
 // 32 bits per pixel
 
 //
@@ -57,7 +57,7 @@ r$c0cardface4suit    487 270 501 284 fff5f5f5  -20 T1
 r$c0handnumber        85  55 145  63 ff000000 -250 T0
 r$c0pot0             334 207 492 220 ff000000 -250 T0
 r$i0button           431 543 531 568        0    0 N
-r$i0label            451 551 492 561 ff000000 -250 T0
+r$i0label            458 551 499 561 ff000000 -250 T0
 r$i0state            432 545 436 549        0    0 H0
 r$i1button           556 544 655 568        0    0 N
 r$i1label            591 546 617 556 ff000000 -250 T0

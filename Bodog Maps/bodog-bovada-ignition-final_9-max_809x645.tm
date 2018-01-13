@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-01- 2 12:53:02
+// 2018-01-13 09:37:14
 // 32 bits per pixel
 
 //
@@ -57,7 +57,7 @@ r$c0cardface4suit    487 270 501 284 fff5f5f5  -20 T1
 r$c0handnumber        75  55 135  63 ff000000 -250 T0
 r$c0pot0             334 207 492 220 ff000000 -250 T0
 r$i0button           423 538 537 573        0    0 N
-r$i0label            468 551 498 561 ff000000 -250 T0
+r$i0label            457 551 502 561 ff000000 -250 T0
 r$i0state            432 545 436 549        0    0 H0
 r$i1button           547 538 662 573        0    0 N
 r$i1label            592 546 616 556 ff000000 -250 T0
@@ -139,7 +139,7 @@ r$p3seated           626 449 626 449 ff793c01   -1 C
 r$p4active           428 504 428 504 ffccaa7f   -1 C
 r$p4balance          335 470 434 485 ff000000  150 T0
 r$p4bet              354 376 453 388 ff000000 -250 T0
-r$p4cardback         22  503  22 503 ff3e9b5d    1 C
+r$p4cardback          22 503  22 503 ff3e9b5d    1 C
 r$p4cardface0nocard  384 427 384 427 ff8b4901    5 C
 r$p4cardface0rank    364 425 378 439 fff5f5f5  -20 T1
 r$p4cardface0suit    364 441 378 455 fff5f5f5  -20 T1
