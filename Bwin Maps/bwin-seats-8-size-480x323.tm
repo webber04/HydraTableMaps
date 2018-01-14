@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-12-15 21:05:04
+// 2018-01-14 06:14:12
 // 32 bits per pixel
 
 //
@@ -57,7 +57,7 @@ r$c0cardface4rank    301  95 312 107   ffffff -200 T3
 r$c0cardface4suit    301 111 311 122   fdfdfd -200 T3
 r$c0handnumber       414   1 478   9 ffffffff  175 T0
 r$c0limits0            2   9 125  14   ffffff    0 T3
-r$c0pot0             207  59 275  69 ffffffff    0 T0
+r$c0pot0             207  51 275  61   ffffff    0 T0
 r$i0button           257 287 314 301        0    0 N
 r$i0label            279 281 293 281   151515    0 H0
 r$i0state            279 281 290 281   66dffe  120 C
@@ -560,6 +560,7 @@ t3$2 103 307 60f 639 7e1 1c1
 t3$3 103 323 333 3f6 19e
 t3$d 10 38 fc 1ff fc 38 10
 t3$1 10 3f
+t3$3 104 306 441 461 3e3 11e
 t3$- 1 1
 t3$J 1 1 1ff
 t3$2 11 23 25 19
@@ -571,6 +572,7 @@ t3$1 180 1ff 1ff
 t3$c 18 3c 7e 1fc 3ff 3ff 3fc fe 3c 18
 t3$s 18 7c fc 1fc 3ff 3ff 1fc fc 7c 18
 t3$d 18 7e ff ff 7e 38
+t3$4 18 e8 388 7ff c
 t3$c 1c 1e fe 1fc 1ff 1fc fe 1e 1c
 t3$4 1c 3c c4 3ce 3ff c
 t3$c 1c 3c fe 3fc 3ff 3fc 1fe 3e 3c
@@ -635,6 +637,7 @@ t3$B 3f 25 3d 2
 t3$K 3ff 3ff 70 fc 3ce 307 201
 t3$7 400 400 407 47e 7e0 600
 t3$7 400 400 407 47e 7e0 700
+t3$7 400 400 40f 47e 7e0 700
 t3$1 400 600 7ff
 t3$5 4 7e7 4c3 481 4c3 47e
 t3$4 4 e 36 c6 1ff 1ff
