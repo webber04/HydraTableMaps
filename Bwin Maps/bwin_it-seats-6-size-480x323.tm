@@ -41,33 +41,33 @@ s$use_comma_instead_of_dot  true
 //
 
 r$c0cardface0nocard  150  95 150  95   363636   10 C
-r$c0cardface0rank    146  95 156 109   ffffff  -70 T1
+r$c0cardface0rank    146  96 156 109   ffffff  -70 T1
 r$c0cardface0suit    146 111 156 123   ffffff  -70 T1
 r$c0cardface1nocard  190  95 190  95   494949   10 C
-r$c0cardface1rank    184  95 194 109   ffffff  -70 T1
+r$c0cardface1rank    184  96 194 109   ffffff  -70 T1
 r$c0cardface1suit    184 111 194 123   ffffff  -70 T1
 r$c0cardface2nocard  228  95 228  95   575757   10 C
-r$c0cardface2rank    223  95 233 109   ffffff  -70 T1
+r$c0cardface2rank    223  96 233 109   ffffff  -70 T1
 r$c0cardface2suit    223 111 233 123   ffffff  -70 T1
 r$c0cardface3nocard  267  95 267  95   565656   10 C
-r$c0cardface3rank    262  95 272 109   ffffff  -70 T1
+r$c0cardface3rank    262  96 272 109   ffffff  -70 T1
 r$c0cardface3suit    262 111 272 123   ffffff  -70 T1
 r$c0cardface4nocard  305  95 305  95   3d3d3d   10 C
-r$c0cardface4rank    300  95 310 109   ffffff  -70 T1
+r$c0cardface4rank    300  96 310 109   ffffff  -70 T1
 r$c0cardface4suit    300 111 310 123   ffffff  -70 T1
-r$c0pot0             204 145 274 168   ffffff    1 T0
+r$c0pot0             204  62 274  69 ffffffff    1 T0
 r$i0button           258 292 314 299        0    0 N
-r$i0label            247 292 247 292        0    0 H0
+r$i0label            269 288 300 298   ffffff    0 T0
 r$i0state            286 288 286 288   333333   -3 C
 r$i1button           337 283 391 299        0    0 N
-r$i1label            344 282 380 294        0    0 H0
+r$i1label            344 282 380 294   ffffff    0 T0
 r$i1state            359 288 359 288   272727   -3 C
 r$i2button           416 285 470 299        0    0 N
-r$i2label            402 291 402 291        0    0 H0
+r$i2label            414 281 464 292        0    0 T0
 r$i2state            439 288 439 288   272727   -3 C
-r$i3button           396 248 408 253        0    0 N
-r$i3edit             432 256 467 264        0    0 N
-r$i3label            391 247 393 253        0    0 H0
+r$i3button           273 266 276 270        0    0 N
+r$i3edit             427 253 465 267        0    0 N
+r$i3label            416 282 465 291        0    0 T0
 r$i3state            422 252 422 252   f8f8f8   15 C
 r$i4button           258 286 315 298        0    0 N
 r$i4label            260 288 292 296        0    0 H0
@@ -75,15 +75,18 @@ r$i4state            286 288 286 288   f7f7f7   -3 C
 r$i5button           257 278 259 279        0    0 N
 r$i5label            256 278 277 283        0    0 H0
 r$i5state            255 275 279 283        0    0 H0
+r$i6button           339 285 385 303        0    0 N
+r$i6label            339 284 383 305   ffffff    0 T0
+r$i6state            359 288 359 288   272727   -3 C
 r$i7button           132 278 137 282        0    0 N
-r$i7label            132 277 158 283        0    0 H0
+r$i7label            146 265 172 271        0    0 H0
 r$i7state            135 282 135 282        0  999 C
 r$i860button          13 243  26 249        0    0 N
 r$i860state           13 243  26 249        0    0 H0
 r$i861button         168 175 200 186        0    0 N
 r$i861state          168 182 200 185        0    0 H0
 r$p0active           326  20 326  23   f1f1f1   -3 C
-r$p0balance          277  48 336  56        0   30 T2
+r$p0balance          277  48 336  56   ffffff   30 T2
 r$p0bet              264  65 353  81   ffffff    1 T0
 r$p0cardback         325   6 325   6   5c5c5c    5 C
 r$p0cardface0nocard  296   8 296   8   ffffff   -5 C
@@ -109,7 +112,7 @@ r$p1dealer           397 100 397 100   dce1de   10 C
 r$p1name             408 126 468 134   ffffff    5 T0
 r$p1seated           442  91 442  91   1c1c1c  -10 C
 r$p2active           310 199 310 202   f2f2f1  999 C
-r$p2balance          261 227 320 234        0    5 T2
+r$p2balance          261 227 320 234   ffffff    5 T2
 r$p2bet              266 166 334 182   ffffff    1 T0
 r$p2cardback         309 185 309 185   5c5c5c    5 C
 r$p2cardface0nocard  280 187 280 187   ffffff   -5 C
@@ -162,6 +165,7 @@ r$p5name             141  38 201  46   ffffff    5 T0
 r$p5seated           160   3 160   3   1a1a1a  -10 C
 r$tablepoint0        238 202 238 202   353535    2 C
 r$tablepoint1         58  61  58  61   161616    2 C
+r$tablepoint2        349  52 349  52   252525    1 C
 
 //
 // fonts
