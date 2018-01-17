@@ -35,7 +35,7 @@ s$t0type                    fuzzy
 s$t1type                    fuzzy
 s$t2type                    fuzzy
 s$t3type                    fuzzy
-s$titletext                 6-Max
+s$titletext                 table
 s$ttlimits                  ^* ^s/^b
 s$ttlimits0                 ^* ^* ^s/^b
 
