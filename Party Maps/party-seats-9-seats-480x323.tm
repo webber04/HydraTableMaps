@@ -219,6 +219,7 @@ r$p8seated           166   4 166   4   322f2a   -1 C
 r$tablepoint0        282  18 282  18   322f2a   -1 C
 r$tablepoint1         14 115  14 115   322f2a   -1 C
 r$tablepoint2        235 206 235 206   383838   -1 C
+r$tablepoint3        348  52 348  52   1b4900    1 C
 r$u0active           303  48 307  54   ffffff  450 C
 r$u0name             270  37 343  45   d2d2d2    0 T0
 r$u1active           391  21 391  21   322f2a   -1 C

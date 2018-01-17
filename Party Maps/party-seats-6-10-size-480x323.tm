@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-01-12 14:35:56
+// 2018-01-17 12:07:00
 // 32 bits per pixel
 
 //
@@ -233,6 +233,7 @@ r$p9seated           146  19 146  19   322f2a  -10 C
 r$tablepoint0        281  20 281  20   322f2a   -1 C
 r$tablepoint1        286 209 286 209   393938   -1 C
 r$tablepoint2         38 127  38 127   2a2723   -1 C
+r$tablepoint3        348  52 348  52   1b4900    1 C
 r$u0active           303  48 307  54   ffffff  450 C
 r$u0name             266  37 347  46   d2d2d2    0 T0
 r$u1active           391  22 391  22   322f2a   -1 C
