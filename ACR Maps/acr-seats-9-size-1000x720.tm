@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-01-10 15:47:23
+// 2018-01-23 10:44:00
 // 32 bits per pixel
 
 //
@@ -24,7 +24,7 @@ s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
-s$betsizeselectionmethod    Sgl Click
+s$betsizeselectionmethod    Dbl Click
 s$buttonclickmethod         Single
 s$nchairs                   9
 s$network                   yatahay
@@ -210,7 +210,6 @@ r$p8name             268 115 390 132   ffffff  175 T0
 r$p8seated           429 105 429 105   1e1a19   -1 C
 r$tablepoint0          9 347   9 347 ffc6c6c6   20 C
 r$tablepoint1        470 262 470 262   50ad3a   15 C
-r$tablepoint2        174 368 174 368 ff2324c6    5 C
 r$tablepoint3        382 510 382 510   e0e0e0    1 C
 
 //
@@ -273,7 +272,6 @@ t0$6 1fc 3fe 7ff c81 881 8c3 8fe 87e
 t0$0 1fe 102 201 201 2 1fe
 t0$0 1fe 302 201 201 102 1fe
 t0$0 1fe 303 201 201 303 1fe
-t0$P 1ff 1ff 108 108 198 f0
 t0$n 1ff 1ff 1ff 100 100 180 1ff ff
 t0$l 1fff 1fff 1fff
 t0$T 200 200 200 3ff 200 200 200
@@ -322,7 +320,6 @@ t0$9 3e0 7f1 e71 811 813 e1e 7fe 3f8
 t0$9 3e0 7f1 ff1 811 813 fbe 7fe 7f8
 t0$5 3e3 3e1 221 221 233 21e
 t0$6 3e 51 91 91 8e
-t0$o 3e 63 41 41 63 3e
 t0$6 3e 73 91 91 9e
 t0$6 3e d3 91 91 8e
 t0$q 3f0 408 408 408 418 7ff
@@ -360,7 +357,6 @@ t0$y 400 700 e1 1e 18 e0 300 400
 t0$y 400 700 e1 3e 18 e0 300 400
 t0$y 400 780 e1 3e 18 e0 700 400
 t0$j 401 401 17fe
-t0$t 40 1ff 41 41 41
 t0$1 40 41 ff ff 1
 t0$a 404 8f 91 91 91 7f
 t0$1 41 41 ff 1 1
@@ -381,7 +377,6 @@ t0$8 4 ee 1ff 111 111 1ff fe 4e
 t0$3 602 c03 801 841 841 fe7 fbe 73c
 t0$9 60 f1 1f9 109 10b 1fe fc
 t0$9 60 f9 1f9 109 10b 1fe fc 30
-t0$: 63
 t0$t 6 80 3fe 83 81 81
 t0$a 6 8f 91 91 93 7f
 t0$8 6e 99 91 99 6e
@@ -429,7 +424,6 @@ t0$h 7ff c0 80 80 c0 7f
 t0$7 800 803 80f 83e 8f8 be0 f80 c00
 t0$7 800 803 80f 83f 9f8 fe0 f80 e00
 t0$7 800 803 81f 87f 9fc ff0 f80 e00 800
-t0$I 801 801 fff fff 801 801
 t0$$ 80 1e4 1e4 3ff 13c 13c 10
 t0$I 801 fff fff fff 801 801
 t0$t 80 3fe 283 81 81
@@ -587,14 +581,17 @@ t2$K ffff ffff 1c0 180 3c0 ee0 1c70 383c 700e e007 c003 8001
 t3$- 1 1 1
 t3$s 19 3d 2d 2d 26
 t3$e 1e 3e 29 29 39 19
+t3$o 1e 3f 21 21 3f 1e
 t3$e 1e 3f 29 29 39 19
 t3$l 1ff 1ff
 t3$t 20 ff 21 21
 t3$a 26 2f 29 29 3f 1f
 t3$A 3 1e f4 c4 f4 1e 3
+t3$C 3c 7e 81 81 81 81
 t3$C 3c 7e c3 81 81 81
 t3$n 3f 3f 20 20 3f 1f
 t3$a 6 2f 29 28 3f
+t3$a 6 2f 29 29 3f
 t3$A 7 3f fc e4 fc 3f 7
 t3$I 81 ff ff 81
 t3$i bf bf
@@ -624,6 +621,7 @@ h0$sitout             8421bc6b
 h0$allin              a8fd86b9
 h0$sitin              bc4b59e2
 h0$handle             c7575571
+h0$handle2            f80b7296
 h0$check_2            fe764877
 
 //
@@ -700,6 +698,23 @@ ffffff000066b60000380000004f00ff004f00ff004f00ffb68e0000ffffff0066b6ff0000110000
 ffffff003a90db0000380000004f00ff004f00ff004f00ffb68e0000ffffff0066b6ff0000200000ffc86600ffffff000066b600dba23a00ffffff003a90db0000000000000000000000000000000000ffbc6600ffffff000066b60000380000004f00ff004f00ff906f0000ffffdb00dbffff00ffdcdb00ffffff003a94db00004e0000
 ffffb600dbffff0000559000004f00ff004f00ff004f00ffb68e0000ffffff0066b6ff0000200000ffc86600ffffff000066b600b6800000ffffff00b6ffff00002c6600004f00ff004f00ff004f00ffb68e0000ffffff0090dbff0000383a003a4e000090c89000906f3a00ffffdb0090dbff00903a3a00ffffdb00dbffff0000559000
 664e0000ffffb600ffffff00ffffff00ffffff0066c8ff00b68e0000ffffff0066b6ff0000200000ffc86600ffffff000066b60000380000905e0000ffffdb00ffffff00ffffff00ffffff003aacdb00004f00ffb6800000ffffff00ffffff00ffffff0090e4ff00904c3a00ffffdb0090dbff0000113a00dba83a00ffffff00b6ffff00
+i$handle2          12  16 
+9e9e9efaafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9e9e9efa
+989898efafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff989898ef
+999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+9e9e9effafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9e9e9eff
+9a9a9affafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9a9aff
+9a9a9affafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9a9aff
+9a9a9affafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9a9aff
+9a9a9affafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9a9aff
+9a9a9affafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9a9aff
+9e9e9effafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9e9e9eff
+999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+999998f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+999998f1afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999898f1
 i$handle           12  16 
 9f9f9efaafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9e9e9efa
 999898efafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999898ef

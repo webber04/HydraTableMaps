@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-01-11 12:52:49
+// 2018-01-23 10:44:28
 // 32 bits per pixel
 
 //
@@ -24,7 +24,7 @@ s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
-s$betsizeselectionmethod    Sgl Click
+s$betsizeselectionmethod    Dbl Click
 s$buttonclickmethod         Single
 s$nchairs                   6
 s$network                   yatahay
@@ -170,7 +170,6 @@ r$p5name              43 194 168 213   ffffff  175 T0
 r$p5seated           113 189 113 189 ffc9c9c9    5 C
 r$tablepoint0        471 109 471 109 ffc5c5c5   10 C
 r$tablepoint1        470 262 470 262   50ad3a   15 C
-r$tablepoint2        569 130 569 130 ff2324c6   10 C
 
 //
 // fonts
@@ -541,6 +540,7 @@ t2$K ffff ffff 1c0 180 3c0 ee0 1c70 383c 700e e007 c003 8001
 t3$- 1 1 1
 t3$s 19 3d 2d 2d 26
 t3$e 1e 3e 29 29 39 19
+t3$o 1e 3f 21 21 3f 1e
 t3$e 1e 3f 29 29 39 19
 t3$l 1ff 1ff
 t3$t 20 ff 21 21
@@ -550,6 +550,7 @@ t3$C 3c 7e 81 81 81 81
 t3$C 3c 7e c3 81 81 81
 t3$n 3f 3f 20 20 3f 1f
 t3$a 6 2f 29 28 3f
+t3$a 6 2f 29 29 3f
 t3$A 7 3f fc e4 fc 3f 7
 t3$I 81 ff ff 81
 t3$i bf bf
@@ -579,6 +580,7 @@ h0$sitout             8421bc6b
 h0$allin              a8fd86b9
 h0$sitin              bc4b59e2
 h0$handle             c7575571
+h0$handle2            f80b7296
 h0$check_2            fe764877
 
 //
@@ -655,6 +657,23 @@ ffffff000066b60000380000004f00ff004f00ff004f00ffb68e0000ffffff0066b6ff0000110000
 ffffff003a90db0000380000004f00ff004f00ff004f00ffb68e0000ffffff0066b6ff0000200000ffc86600ffffff000066b600dba23a00ffffff003a90db0000000000000000000000000000000000ffbc6600ffffff000066b60000380000004f00ff004f00ff906f0000ffffdb00dbffff00ffdcdb00ffffff003a94db00004e0000
 ffffb600dbffff0000559000004f00ff004f00ff004f00ffb68e0000ffffff0066b6ff0000200000ffc86600ffffff000066b600b6800000ffffff00b6ffff00002c6600004f00ff004f00ff004f00ffb68e0000ffffff0090dbff0000383a003a4e000090c89000906f3a00ffffdb0090dbff00903a3a00ffffdb00dbffff0000559000
 664e0000ffffb600ffffff00ffffff00ffffff0066c8ff00b68e0000ffffff0066b6ff0000200000ffc86600ffffff000066b60000380000905e0000ffffdb00ffffff00ffffff00ffffff003aacdb00004f00ffb6800000ffffff00ffffff00ffffff0090e4ff00904c3a00ffffdb0090dbff0000113a00dba83a00ffffff00b6ffff00
+i$handle2          12  16 
+9e9e9efaafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9e9e9efa
+989898efafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff989898ef
+999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+9e9e9effafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9e9e9eff
+9a9a9affafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9a9aff
+9a9a9affafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9a9aff
+9a9a9affafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9a9aff
+9a9a9affafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9a9aff
+9a9a9affafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9a9aff
+9e9e9effafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9e9e9eff
+999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+999998f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f0
+999998f1afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999898f1
 i$handle           12  16 
 9f9f9efaafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9e9e9efa
 999898efafafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999898ef
