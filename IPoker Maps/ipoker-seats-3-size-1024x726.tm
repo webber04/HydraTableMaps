@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-06- 5 20:13:01
+// 2018-01-25 16:49:43
 // 32 bits per pixel
 
 //
@@ -50,22 +50,22 @@ r$c0cardface3nocard  576 290 576 290 fff3fcfb  -10 C
 r$c0cardface4        616 289 641 314        0    0 I
 r$c0cardface4nocard  648 290 648 290 fff3fbfb  -10 C
 r$c0pot0             431 263 610 276 ffffffff    0 T3
-r$i0button           664 666 773 711        0    0 N
-r$i0label            698 685 698 685 ffffffff    0 H0
+r$i0button           655 666 764 711        0    0 N
+r$i0label            656 678 748 703 ffffffff    0 T0
 r$i0state            720 703 720 703 ff18110f   -5 C
 r$i1button           783 666 894 711        0    0 N
-r$i1label            786 671 889 691 ffffffff    1 T1
+r$i1label            777 666 885 697 ffffffff    1 T1
 r$i1state            840 705 840 705 ff110d0c   -5 C
 r$i2button           903 666 1011 710        0    0 N
-r$i2label            915 671 973 689 ffffffff    0 T1
+r$i2label            897 671 971 695 ffffffff    0 T1
 r$i2state            934 715 934 715 ff17110f   -5 C
-r$i3button           911 616 1000 629        0    0 N
-r$i3edit             662 641 747 653        0    0 N
-r$i3label            932 616 988 630 ffffffff    0 T1
-r$i3state            747 641 747 641 ffffffff    1 C
-r$i4button           840 652 938 666        0    0 N
-r$i4label            844 651 932 668        0    0 H3
-r$i4state            885 653 886 666 ffffffff    1 C
+r$i3button           911 678 1000 691        0    0 N
+r$i3edit             652 641 737 653        0    0 N
+r$i3label            896 672 971 695 ffffffff    0 T1
+r$i3state            761 640 761 640 ff517311    1 C
+r$i4button           788 666 886 708        0    0 N
+r$i4label            783 673 871 707 ffffffff    0 T0
+r$i4state            875 668 875 668 ff5e8214    1 C
 r$i6button            11 665  84 678        0    0 N
 r$i6label              9 665  27 677        0    0 I
 r$i6state             12 669  12 669 ffffffff    1 C
@@ -118,7 +118,16 @@ r$p2seated           225 203 225 219 ff1c1a14   -4 C
 // fonts
 //
 
+t0$l 1ffff 1ffff 1ffff
+t0$h 1ffff 1ffff 1ffff 180 300 700 780 7ff 3ff 1ff
+t0$k 1ffff 1ffff 1ffff 60 f8 1fc 3fe 79f 707 603 401
+t0$c 7e0 1ff8 3ffc 7c3e 700e f00f e007 e007 e007 e007 e007 f00e
 t0$1 e0000 e0000 e0000 e0000 1e0000 3fffff ffffff ffffff ffffff
+t0$c f8 1fc 3fe 78f 707 707 707 707 78e
+t0$e f8 1fe 3fe 76f 667 667 667 7e7 3ee 1e0
+t0$o f8 3fe 3fe 78f 707 707 707 78f 3fe 3fe f8
+t0$d f8 3fe 3ff 78f 707 707 706 38e 1ffff 1ffff 1ffff
+t0$f ffff ffff ffff e1c0 e1c0 e1c0 e1c0 e1c0
 t1$1 100 200 7ff
 t1$3 101 111 111 1ff ee
 t1$Z 103 10f 11d 171 1e1 181
