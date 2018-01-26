@@ -17,12 +17,15 @@ z$targetsize       480  323
 // strings
 //
 
-s$!titletext                Abaddon.ohf
-s$!titletext0               Poseidon.ohf
-s$!titletext1               Phoenix.ohf
-s$!titletext2               Kraken.ohf
-s$!titletext3               Purchase
-s$!titletext4               NoName
+s$!titletext                Purchase
+s$!titletext0               Abaddon
+s$!titletext1               Hercules
+s$!titletext2               Athena
+s$!titletext3               Kraken
+s$!titletext4               Medusa
+s$!titletext5               Poseidon
+s$!titletext6               Orthrus
+s$!titletext7               Phoenix
 s$allinconfirmationmethod   3
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet

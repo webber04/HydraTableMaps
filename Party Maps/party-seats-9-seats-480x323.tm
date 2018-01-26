@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-01- 5 21:28:25
+// 2018-01-15 19:41:45
 // 32 bits per pixel
 
 //
@@ -32,7 +32,7 @@ s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Click Drag
-s$c0limits0                 ^*(^s/^b-^a^y
+s$c0limits0                 ^L^*(^s/^b-^a^y
 s$nchairs                   9
 s$network                   party
 s$potmethod                 2
@@ -661,7 +661,7 @@ t3$Q 3f0 7f8 c0c c0c c0e c0f 739 3f1
 t3$Q 3f0 7f8 e1c c0c c0e c0f 7f9 3f1
 t3$Q 3f0 7f8 e1c c0c c0f c0f 739 7f9 c1
 t3$( 3f 20
-t3$B 3f 25 3d 2
+t3$N 3f 25 3d 2
 t3$K 3f c 12 21
 t3$K 3ff 3ff 70 fc 38e 303
 t3$K 3ff 3ff 70 fc 3ce 307 201
