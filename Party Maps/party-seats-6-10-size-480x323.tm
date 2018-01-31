@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-01-17 12:07:00
+// 2018-01-29 17:37:31
 // 32 bits per pixel
 
 //
@@ -157,7 +157,7 @@ r$p3name             359 200 418 208   ffffff  120 T0
 r$p3seated           413 210 413 210   1b1918  -10 C
 r$p4active           310 199 310 202   f2f2f1   -3 C
 r$p4balance          261 227 320 234   ffffff    0 T1
-r$p4bet              265 170 328 181   ffffff    1 T0
+r$p4bet              265 172 328 181   ffffff    1 T0
 r$p4cardback         309 193 309 193    c48e7    5 C
 r$p4cardface0nocard  280 187 280 187   ffffff   -5 C
 r$p4cardface0rank    275 187 285 201   ffffff -100 T1
@@ -170,7 +170,7 @@ r$p4name             261 217 321 225   ffffff  120 T0
 r$p4seated           304 231 304 231   1d1a1a  -10 C
 r$p5active           207 199 207 202   f2f2f2   -3 C
 r$p5balance          158 227 217 234   ffffff    0 T1
-r$p5bet              142 166 219 181   ffffff    1 T0
+r$p5bet              142 170 208 181   ffffff    1 T0
 r$p5cardback         206 193 206 193    c48e7    5 C
 r$p5cardface0nocard  177 187 177 187   ffffff   -5 C
 r$p5cardface0rank    172 187 182 201   ffffff -100 T1
@@ -183,7 +183,7 @@ r$p5name             158 217 217 225   ffffff  120 T0
 r$p5seated           199 231 199 231   1d1b1a  -10 C
 r$p6active           109 182 109 185   f1f1f1   -3 C
 r$p6balance           60 210 119 217   ffffff    0 T1
-r$p6bet               87 153 164 164   ffffff    1 T0
+r$p6bet               87 153 160 164   ffffff    1 T0
 r$p6cardback         108 176 108 176    c48e7    5 C
 r$p6cardface0nocard   79 170  79 170   ffffff   -5 C
 r$p6cardface0rank     75 170  85 184   ffffff -100 T1
@@ -222,7 +222,7 @@ r$p8name              59  56 118  64   d2d2d2  120 T0
 r$p8seated            65  39  65  39   322f2a  -10 C
 r$p9active           191  20 191  23   f8f8f8   -3 C
 r$p9balance          142  47 201  56   ffffff    0 T1
-r$p9bet              133  70 207  81   ffffff    1 T0
+r$p9bet              133  72 207  81   ffffff    1 T0
 r$p9cardback         190  14 190  14    c48e7    5 C
 r$p9cardface0nocard  160   8 160   8   ffffff   -5 C
 r$p9cardface0rank    156   8 166  22   ffffff -100 T1
