@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-02- 2 17:35:15
+// 2018-02- 2 20:09:32
 // 32 bits per pixel
 
 //
@@ -32,7 +32,7 @@ s$sitename                  yatahay_blackchip_9seats
 s$t0type                    fuzzy
 s$t1type                    fuzzy
 s$t2type                    fuzzy
-s$t3type                    fuzzy
+s$t3type                    0
 s$titletext                 Hold'em
 s$ttlimits                  ^*Table^*- ^L^*- ^s / ^b*)^y
 
