@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2017-06- 2 11:18:26
+// 2018-02- 3 22:26:10
 // 32 bits per pixel
 
 //
@@ -55,7 +55,7 @@ r$c0cardface4nocard  556 253 556 253   53ae3b   20 C
 r$c0cardface4rank    529 245 543 260 ffffffff -100 T2
 r$c0cardface4suit    529 262 543 276 ffffffff -225 T2
 r$c0pot0             412 325 532 339 ffffffff    1 T0
-r$i0button           405 581 479 597        0    0 N
+r$i0button           404 581 479 597        0    0 N
 r$i0label            426 584 460 593 ffffffff   50 T1
 r$i0state            405 569 405 569 ffaaaaaa   50 C
 r$i1button           562 581 646 596        0    0 N
