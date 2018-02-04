@@ -79,6 +79,9 @@ r$i5state            749 663 749 663 ff3b3880   85 C
 r$i6button           528 635 542 649        0    0 N
 r$i6label            554 637 582 646        0    0 H0
 r$i6state            534 644 534 644 ff322c2d    5 C
+r$i7button            24 661  37 672        0    0 N
+r$i7label             50 663  83 669        0    0 H0
+r$i7state             30 668  30 668        0   -1 C
 r$i860button         470 403 542 422        0    0 N
 r$i860state          425 389 433 389 ff8ec267    5 C
 r$i861button         354 432 406 449        0    0 N
@@ -688,6 +691,7 @@ h0$prefold            1c21299e
 h0$out_2              221bf16a
 h0$out_7              2d0440e7
 h0$sitin              2e1df145
+h0$sitout             33e69910
 h0$out_6              3e46513c
 h0$out_11             49857ed2
 h0$fold               56758a8e
@@ -809,6 +813,14 @@ b7b1b0ffffffffffffffffff9d9492ff685b58ff685b58ff685b58ff6a5e5bffd3cfcfffffffffff
 746865fff1f0effffffffffffdfdfdffc0bbbaff978e8cffa09896ffdddad9ffffffffffffffffffc4bfbeff685b58ff685b58ff685b58fff6f5f5ffffffffffe1dedeff908684ffdad6d6ffffffffffffffffffc7c2c1ff685b58ff685b58ff685b58fff1f0effffffffffff0eeeeff9e9694ff877d7bff
 655856ff847a78fff2f1f0ffffffffffffffffffffffffffffffffffffffffffffffffffd2cfceff6a5d5bff655856ff655856ff655856ffccc8c7ffffffffffffffffffffffffffffffffffffffffffffffffffc6c1c0ff655856ff655856ff655856ffb7b0afffffffffffffffffffffffffffc6c1c0ff
 4f4441ff4f4441ff5e5451ffb0aba9ffe5e3e3fffafafafff5f5f5ffd4d2d1ff918a88ff504542ff4f4441ff4f4441ff4f4441ff4f4441ff605653ffcdc9c9fff9f9f9fff1f0efffb4afaeffefeeeeffffffffffbdb9b8ff4f4441ff4f4441ff4f4441ff514643ffa09a98ffe5e3e3fffdfdfdffb8b3b2ff
+i$sitout           34  7  
+838282ffaaaaaaffaaaaaaffa7a7a7ff4f4b4bffaaaaaaff595656ff2c2626ff3f3a3aff9b9a9aff544f4fff2c2626ff2c2626ff2c2626ff2c2626ff2c2626ff2c2626ff3f3a3aff9b9a9affaaaaaaffaaaaaaffa4a3a3ff4e4a4aff2c2626ff2c2626ff2c2626ff2c2626ff2c2626ff2c2626ff2c2626ff2c2626ff3f3a3aff9b9a9aff544f4fff
+aaaaaaff6b6868ff393333ff666363ff342f2fff5f5c5cff3e3939ff2c2626ff5e5a5affaaaaaaff787575ff494444ff2c2626ff2c2626ff2c2626ff2c2626ff2c2626ff8d8c8cff9f9e9eff454040ff3c3737ff919090ffa09f9fff312b2bff342e2eff5b5858ff3d3838ff342e2eff5b5858ff3d3838ff2c2626ff5e5a5affaaaaaaff787575ff
+a6a5a5ff9e9e9eff5f5b5bff2f2a2aff423d3dffaaaaaaff595656ff2c2626ff8d8b8bffaaaaaaffaaaaaaff797777ff2c2626ff2c2626ff2c2626ff2c2626ff373131ffaaaaaaff686565ff2c2626ff2c2626ff504c4cffaaaaaaff4e4a4aff423d3dffaaaaaaff595656ff423d3dffaaaaaaff595656ff2c2626ff8d8b8bffaaaaaaffaaaaaaff
+514d4dff9d9c9cffaaaaaaff939292ff464141ffaaaaaaff595656ff2c2626ff443f3fffaaaaaaff5c5858ff2e2828ff2c2626ff2c2626ff2c2626ff2c2626ff3f3a3affaaaaaaff5c5959ff2c2626ff2c2626ff454040ffaaaaaaff565252ff423d3dffaaaaaaff595656ff423d3dffaaaaaaff595656ff2c2626ff443f3fffaaaaaaff5c5858ff
+342e2eff2f2929ff6e6b6bffaaaaaaff625f5fffaaaaaaff595656ff2c2626ff413c3cffaaaaaaff595656ff2c2626ff2c2626ff2c2626ff2c2626ff2c2626ff2f2a2affa5a5a5ff7b7979ff2c2626ff2c2626ff646060ffaaaaaaff423d3dff423d3dffaaaaaaff595656ff494545ffaaaaaaff595656ff2c2626ff413c3cffaaaaaaff595656ff
+a1a0a0ff726f6fff777575ffaaaaaaff5a5656ffaaaaaaff595656ff2c2626ff383232ffaaa9a9ff898888ff524d4dff2c2626ff2c2626ff2c2626ff2c2626ff2c2626ff706d6dffaaa9a9ff757272ff6b6868ffa5a5a5ff868585ff2c2626ff3b3636ffaaaaaaff807e7eff8b8989ffaaaaaaff595656ff2c2626ff383232ffaaa9a9ff898888ff
+7b7878ffa3a2a2ffa4a3a3ff6e6b6bff423d3dffaaaaaaff595656ff2c2626ff2c2626ff676464ffa2a2a2ff838181ff2c2626ff2c2626ff2c2626ff2c2626ff2c2626ff2d2828ff6f6c6cffa1a0a0ffa5a4a4ff7d7b7bff332e2eff2c2626ff2c2626ff7e7b7bffa7a7a7ff959494ffaaaaaaff595656ff2c2626ff2c2626ff676464ffa2a2a2ff
 i$out_4            30  11 
 685a57ff978d8bffb2aba9ffb2aba9ffb2aba9ffb2aba9ffb2aba9ffada5a4ff807572ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff958c8aff958c8aff7f7371ff655754ff655754ff655754ff
 9d9492ffb2aba9ffb2aba9ffaca4a2ff9a918fff9e9694ffb0a9a8ffb2aba9ffb2aba9ff807572ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ff655754ffb2aba9ffb2aba9ff8f8583ff655754ff655754ff655754ff
