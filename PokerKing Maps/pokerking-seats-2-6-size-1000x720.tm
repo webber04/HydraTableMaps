@@ -28,7 +28,7 @@ s$buttonclickmethod         Single
 s$nchairs                   6
 s$network                   yatahay
 s$potmethod                 2
-s$sitename                  yatahay_blackchip_2_6seats
+s$sitename                  yatahay_pokerking_2_6seats
 s$t0type                    fuzzy
 s$t1type                    fuzzy
 s$t2type                    fuzzy
