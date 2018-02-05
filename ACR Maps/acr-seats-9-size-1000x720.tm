@@ -1,8 +1,7 @@
 .osdb2
 
-// OpenScrape 9.3.1
+// OpenScrape 12.0.3
 
-// 2018-02- 3 22:26:24
 // 32 bits per pixel
 
 //
@@ -59,7 +58,7 @@ r$c0cardface4rank    609 276 626 295 ffffffff -225 T2
 r$c0cardface4suit    608 298 626 321 ffffffff -225 T2
 r$c0handnumber       168   7 242  14   ffffff  298 T0
 r$c0pot0             460 238 560 249   ffffff   80 T0
-r$i0button           615 625 734 670        0    0 N
+r$i0button           616 625 734 670        0    0 N
 r$i0label            625 639 726 657   ffc574  153 T1
 r$i0state            731 645 731 645 ff2d2bc2  116 C
 r$i1button           745 625 863 670        0    0 N
@@ -273,6 +272,7 @@ t0$0 1fe 102 201 201 2 1fe
 t0$0 1fe 302 201 201 102 1fe
 t0$0 1fe 303 201 201 303 1fe
 t0$n 1ff 1ff 1ff 100 100 180 1ff ff
+t0$l 1fff 1fff
 t0$l 1fff 1fff 1fff
 t0$T 200 200 200 3ff 200 200 200
 t0$T 200 200 200 3ff 3ff 200 200
@@ -386,6 +386,7 @@ t0$O 70 1fc 1fe 303 201 201 201 387 1fe fc
 t0$9 70 89 89 8a 7c
 t0$9 71 89 89 8a 7c
 t0$9 71 89 89 8b 7e
+t0$a 7 3f 1fc fd0 e10 e10 fd0 1f8 3f f 1
 t0$. 7 7
 t0$c 7c fe 183 101 101 101 183
 t0$e 7c fe 193 111 111 191 1f1 f3
@@ -424,6 +425,7 @@ t0$h 7ff c0 80 80 c0 7f
 t0$7 800 803 80f 83e 8f8 be0 f80 c00
 t0$7 800 803 80f 83f 9f8 fe0 f80 e00
 t0$7 800 803 81f 87f 9fc ff0 f80 e00 800
+t0$i 801 801 fff fff 801 801
 t0$$ 80 1e4 1e4 3ff 13c 13c 10
 t0$I 801 fff fff fff 801 801
 t0$t 80 3fe 283 81 81
@@ -587,6 +589,7 @@ t3$l 1ff 1ff
 t3$t 20 ff 21 21
 t3$a 26 2f 29 29 3f 1f
 t3$A 3 1e f4 c4 f4 1e 3
+t3$a 3 1e f4 c4 fc 1e 3
 t3$C 3c 7e 81 81 81 81
 t3$C 3c 7e c3 81 81 81
 t3$n 3f 3f 20 20 3f 1f
@@ -617,6 +620,7 @@ h0$dealer             3132a688
 h0$check              4a00ef45
 h0$check_1            5493b9cf
 h0$prefold            6208dba9
+h0$check_3            7b577a89
 h0$sitout             8421bc6b
 h0$allin              a8fd86b9
 h0$sitin              bc4b59e2
@@ -732,6 +736,16 @@ i$handle           12  16
 9a9999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9999f0
 999999f0afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff9a9999f0
 999999f1afafafffc8c8c8ffdcdcdcffe6e6e6fff4f4f4ff3d3d3dffe6e6e6ffdcdcdcffc8c8c8ffafafafff999999f1
+i$check_3          34  9  
+2224bdff2222bbff2226bbff2224bdff2424bdff2224bdff2224bdff2224bdff2224bdff2426bdff2226bdff2224bdff2224bdff2424bbff2224bdff2426bdff2426bdff2226bdff2224bdff2226bdff2426bdff2224bdff2224bdff2224bdff2224bdff2224bdff2226bdff2224bdff2022bbff2022bdff2022bbff2224bdff2224bbff2022bdff
+2628beff2626beff2828beff2628beff2628beff2628beff2828beff2828beffbe79be00ffffff0079beff002829beff2628beff2829c0ff2829beff2829beff2828beff2628beff2628beff2628beff2829beff2628beff2628beff2628beff2628beff2628beff2426beff2628beff9b51be00fffff4009bdfff002426c9002426beff2224beff
+292bc2ff2b2bc2ff7a2dc000ffffeb00ffffff00ffffff00ffffff007bc0ff00bf7bc200ffffff006fbaff00261f4a002b2fc2ff2b2dc2ff2b2dc2ff2d2dc2ff2d2fc2ff2d2dc2ff2b2dc2ff2b2bc2ff2b2bc2ff292dc0ff2b2dc2ff292bc2ff292bc2ff292bc2ff2929c2ff2829c2ff9d53c000fffff50095ddff0020196c002628ad002828c0ff
+2f30c4ff7d30c400ffffec00dfffff001546bd0015174a0015174a0015174a00be754a00ffffff006fbaff0028214a003234c6ff3234c4ff3234c6ff3032c6ff3234c6ff3232c4ff3032c4ff3032c4ff3030c4ff2f30c4ff3030c4ff2f30c4ff2d2fc4ff2f2fc4ff2d2fc4ff2d2dc4ff9e56c400fffff50095ddff00211b6c002b2bb100292bc4ff
+3638c7ffe1a2d000ffffff004596e9001c174a0038338c003839c7ff3839c7ffc281c700ffffff00ddddff00ffffe300ffffff00a2e1ff003839d0003839c7ffc281c700ffffff00ffffff00ffffff00a2e1ff003636d0003636c7ffc180c700ffffff00ffffff00ffffff00a0e0ff009f5ad000fffff60095ddff00241b6c00ffc0cd00ffffff00
+3b3dcbffffc4dc00ffffff00156fc700362c62003d41cbff3f41cbff3f41cbffc385cb00ffffff0095ddff001d1f6c00ffba9a00ffffff002c73c700a664b700fffff70050a0f70015174a00b96f4a00ffffff005598e300c384b700ffffff009ae0ff0015176c0045174a0095baaa009c4a6c00fffff30095ddff00be726c00ffffff006fbcff00
+4142cfffffc5e000ffffff00156fc70044387a004446cfff4446cfff4448d0ffc68acf00ffffff006fbaff0030204a00ffc7d200ffffff00156fc700e2a29100ffffff00ffffff00ffffff00ffffff00ffffff006fbaff00ffc09a00ffffff00156fc7002c1f4a003f3fb900363dcd009d508f00fffff300ddddff00ffffe3009ae0ff0015176c00
+484ad0ffe3aada00ffffff004596e3004a3b7b004b4dd2ff4a4dd2ff4b4bd2ffc88ed400ffffff006fbaff003b2b4a00ffc8e100ffffff00156fc700e3a49200ffffff004596e30015174a0015174a0015174a0015174a00ffbe8c00ffffff00156fc70044357a004444d0ff4242d0ffa765d000fffff700ddffff00ffdee300ffffff005599e300
+4d4fd4ff8e4ed600ffffeb00ddffff00465cb5004f53d6ff5153d6ff4f53d6ffc891d600ffffff006fbaff003e2c4a00ffc9e500ffffff00156fc700c8867d00ffffff00b9ffff0046359b004f51d6ff4f4fd6ff4d4fd4ffc88ed600ffffff0095ddff004a3a93006c4ad400a9c7ea00a96adb00fffff70095ddff0099466c00ffffe700ddffff00
 i$dealer           13  12 
 dcdcdcffbfbfbfff9f9f9fff7d7d7dff646464ff4d4d4dff474747ff555555ff797979ffb7b7b7fffbfbfbffffffffffffffffff
 1a1a1aff1f1f1fff757575ffa9a9a9ffc3c3c3ffc1c1c1ff9f9f9fff5f5f5fff141414ff0b0b0bff626262ffdadadaffffffffff
