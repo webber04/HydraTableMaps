@@ -1,8 +1,7 @@
 .osdb2
 
-// OpenScrape 9.3.1
+// OpenScrape 12.0.3
 
-// 2018-02- 5 07:19:44
 // 32 bits per pixel
 
 //
@@ -57,7 +56,7 @@ r$c0cardface4rank    609 276 626 295 ffffffff -225 T2
 r$c0cardface4suit    608 298 626 321 ffffffff -225 T2
 r$c0handnumber       168   7 242  14   ffffff  298 T0
 r$c0pot0             460 238 560 249   ffffff   80 T0
-r$i0button           617 625 734 670        0    0 N
+r$i0button           618 625 734 670        0    0 N
 r$i0label            643 639 709 657   ffc574  153 T1
 r$i0state            731 645 731 645 ff965009   93 C
 r$i1button           745 625 863 670        0    0 N
@@ -298,6 +297,8 @@ t0$A 3 1f ff 3f8 3e8 3e8 3fc ff 1f 3
 t0$. 3 3
 t0$2 3 87 8d 9d 71
 t0$2 3 87 8d 9d 79
+t0$2 3 87 8f 9d 71
+t0$2 3 87 8f 9d 79
 t0$2 3 87 8f 9d 79 1
 t0$o 38 7e 81 81 81 83 7e 18
 t0$o 38 7e c3 81 81 c3 7e 3c
@@ -354,6 +355,7 @@ t0$4 4 1c 34 e4 ff ff 4
 t0$4 4 1c 34 e4 ff ff 4 4
 t0$1 41 ff 1
 t0$1 41 ff 1 1
+t0$1 41 ff ff 1
 t0$0 4 7e ff 81 c3 7e 3c
 t0$8 4 7f fb 99 d9 ef 4
 t0$8 4 7f fb 99 d9 ff 46
