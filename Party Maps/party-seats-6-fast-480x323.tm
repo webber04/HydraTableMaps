@@ -36,7 +36,7 @@ s$c0limits0                 ^*(^s/^b-^a^y
 s$nchairs                   10
 s$network                   party
 s$potmethod                 2
-s$sitename                  party-10-6-man
+s$sitename                  party-6-fastforward
 s$t0type                    0
 s$t1type                    0
 s$t2type                    0
