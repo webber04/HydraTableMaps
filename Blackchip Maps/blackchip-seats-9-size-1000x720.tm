@@ -1,7 +1,8 @@
 .osdb2
 
-// OpenScrape 12.0.3
+// OpenScrape 9.3.1
 
+// 2018-02- 5 07:19:44
 // 32 bits per pixel
 
 //
@@ -97,12 +98,8 @@ r$p0bet              546 203 692 252   ffffff   60 T0
 r$p0cardback         650  85 650  85 ff9c6018    5 C
 r$p0cardface0          0   3   0   3        0    0 N
 r$p0cardface0nocard  620  57 620  57 ffffffff   -5 C
-r$p0cardface0rank    603  39 620  58 ffffffff -225 T2
-r$p0cardface0suit    602  61 620  84 ffffffff -225 T2
 r$p0cardface1          0   3   0   3        0    0 N
 r$p0cardface1nocard  689  57 689  57 ffffffff   -5 C
-r$p0cardface1rank    668  39 685  58 ffffffff -225 T2
-r$p0cardface1suit    668  61 686  84 ffffffff -225 T2
 r$p0dealer           640 180 640 180 ffffffff    4 C
 r$p0name             608 115 733 134   ffffff  175 T0
 r$p0seated           622 110 622 110 ffc6c6c6    5 C
@@ -165,10 +162,12 @@ r$p6active           115 359 117 368   d8e3e2   -1 C
 r$p6balance           16 380 136 403   8be8ff   78 T0
 r$p6bet              185 339 306 401   ffffff   60 T0
 r$p6cardback          33 324  33 324 ff9f631a    5 C
-r$p6cardface0        -247 239 -247 239        0    0 N
-r$p6cardface0nocard   39 295  39 295 ffffffff   -5 C
-r$p6cardface1        -247  49 -247  49        0    0 N
-r$p6cardface1nocard   95 295  95 295 ffffffff   -5 C
+r$p6cardface0nocard   68 280  68 280 ffffffff   -1 C
+r$p6cardface0rank     16 277  33 296 ffffffff -225 T2
+r$p6cardface0suit     15 299  33 322 ffffffff -225 T2
+r$p6cardface1nocard  132 281 132 281 ffffffff   -1 C
+r$p6cardface1rank     81 277  98 296 ffffffff -225 T2
+r$p6cardface1suit     80 299  98 322 ffffffff -225 T2
 r$p6dealer           212 397 212 397 ffffffff    4 C
 r$p6name               8 351 138 375   ffffff  175 T0
 r$p6seated            69 348  69 348 ffc9c9c9    5 C
@@ -196,6 +195,7 @@ r$p8name             265 115 393 136   ffffff  175 T0
 r$p8seated           325 110 325 110 ffc9c9c9    5 C
 r$tablepoint0          9 347   9 347 ffc6c6c6   20 C
 r$tablepoint1        470 262 470 262   8f2808   15 C
+r$tablepoint3        382 510 382 510   e0e0e0    1 C
 
 //
 // fonts
