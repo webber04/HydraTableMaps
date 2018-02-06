@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-02- 5 19:52:08
+// 2018-02- 5 21:37:32
 // 32 bits per pixel
 
 //
@@ -24,7 +24,7 @@ s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
-s$betsizeselectionmethod    Dbl Click
+s$betsizeselectionmethod    Sgl Click
 s$buttonclickmethod         Single
 s$nchairs                   6
 s$network                   yatahay
@@ -68,7 +68,7 @@ r$i2button           874 625 992 670        0    0 N
 r$i2label            877 639 935 658   ffc574  153 T3
 r$i2state            990 629 990 629 ff3b3880   50 C
 r$i3button           884 634 983 659 e9b7b8b7    0 N
-r$i3edit             923 678 993 693        0    0 N
+r$i3edit             924 679 992 692        0    0 N
 r$i3handle           615 678 626 693        0    0 H0
 r$i3label            877 638 933 657   ffc574  153 T3
 r$i3slider           615 678 921 693        0    0 N
@@ -231,6 +231,7 @@ t0$6 1fc 3fe 7ff c81 881 8c3 8fe 87e
 t0$0 1fe 102 201 201 2 1fe
 t0$0 1fe 302 201 201 102 1fe
 t0$0 1fe 303 201 201 303 1fe
+t0$P 1ff 1ff 108 108 198 f0
 t0$n 1ff 1ff 1ff 100 100 180 1ff ff
 t0$l 1fff 1fff
 t0$l 1fff 1fff 1fff
@@ -265,12 +266,14 @@ t0$4 30 d0 190 710 f10 fff fff 10
 t0$4 30 f0 1d0 710 f10 fff fff 10 10
 t0$G 30 fc 102 201 201 211 211 31f
 t0$O 30 fc 102 301 201 201 201 102 fc
+t0$$ 31 59 49 49 6
 t0$8 31e 7fe ce3 841 841 8e1 7be 73e
 t0$A 3 1e f8 388 308 78 1e 3
 t0$A 3 1e f8 388 388 f8 1e 3
 t0$A 3 1f 7f 3f8 3c8 3c8 3fc 7f 1f 3
 t0$A 3 1f ff 3f8 3e8 3e8 3fc ff 1f 3
 t0$. 3 3
+t0$2 3 87 8d 99 71
 t0$2 3 87 8d 9d 71
 t0$o 38 7e 81 81 81 83 7e 18
 t0$o 38 7e c3 81 81 c3 7e 3c
@@ -280,6 +283,7 @@ t0$9 3e0 7f1 e71 811 813 e1e 7fe 3f8
 t0$9 3e0 7f1 ff1 811 813 fbe 7fe 7f8
 t0$5 3e3 3e1 221 221 233 21e
 t0$6 3e 51 91 91 8e
+t0$o 3e 63 41 41 63 3e
 t0$6 3e 73 91 91 9e
 t0$6 3e d3 91 91 8e
 t0$q 3f0 408 408 408 418 7ff
@@ -317,6 +321,7 @@ t0$y 400 700 e1 1e 18 e0 300 400
 t0$y 400 700 e1 3e 18 e0 300 400
 t0$y 400 780 e1 3e 18 e0 700 400
 t0$j 401 401 17fe
+t0$t 40 1ff 41 41 41
 t0$1 40 41 ff ff 1
 t0$a 404 8f 91 91 91 7f
 t0$1 41 41 ff 1 1
@@ -337,6 +342,7 @@ t0$8 4 ee 1ff 111 111 1ff fe 4e
 t0$3 602 c03 801 841 841 fe7 fbe 73c
 t0$9 60 f1 1f9 109 10b 1fe fc
 t0$9 60 f9 1f9 109 10b 1fe fc 30
+t0$: 63
 t0$t 6 80 3fe 83 81 81
 t0$a 6 8f 91 91 93 7f
 t0$8 6e 99 91 99 6e
@@ -436,7 +442,9 @@ t0$i dff dff
 t0$i dff dff dff
 t0$v e0 3c 7 7 38 e0
 t0$g e0 3f3 609 409 409 41b 7fe
+t0$$ e1 1b1 131 119 119 11e
 t0$$ e4 1e4 3ff 13c 138
+t0$8 ee 1f3 111 111 1b9 ce
 t0$8 ee 1fb 111 111 1fb ee
 t0$9 f1 1f9 109 10b 1fe fc
 t0$5 f1 91 91 8e
