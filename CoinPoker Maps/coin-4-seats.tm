@@ -22,7 +22,7 @@ s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
-s$betsizeselectionmethod    Dbl Click
+s$betsizeselectionmethod    Click Drag
 s$buttonclickmethod         Single
 s$nchairs                   4
 s$network                   coinpoker
