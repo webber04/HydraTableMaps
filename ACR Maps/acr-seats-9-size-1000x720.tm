@@ -2,7 +2,7 @@
 
 // OpenScrape 9.3.1
 
-// 2018-02- 7 10:10:54
+// 2018-02- 9 11:26:01
 // 32 bits per pixel
 
 //
@@ -20,6 +20,7 @@ z$targetsize       1000  720
 s$!titletext                #
 s$!titletext1               yatahay
 s$!titletext2               Purchase
+s$!titletext3               8-max
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
