@@ -2,15 +2,15 @@
 
 // OpenScrape 9.3.1
 
-// 2018-02- 9 11:26:01
+// 2018-02- 9 12:49:59
 // 32 bits per pixel
 
 //
 // sizes
 //
 
-z$clientsizemax    2000  2000
-z$clientsizemin    100  100
+z$clientsizemax    1000  720
+z$clientsizemin    1000  720
 z$targetsize       1000  720
 
 //
