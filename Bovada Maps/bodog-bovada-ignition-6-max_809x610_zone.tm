@@ -24,7 +24,7 @@ s$betsizeselectionmethod    Sgl Click
 s$nchairs                   6
 s$network                   ignition
 s$potmethod                 1
-s$sitename                  ignition-6-max
+s$sitename                  ignition-6-max-zone
 s$t0type                    0
 s$t1type                    fuzzy
 s$titletext                 Zone
