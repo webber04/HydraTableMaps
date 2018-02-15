@@ -23,7 +23,7 @@ s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Sgl Click
 s$nchairs                   9
 s$network                   ignition
-s$potmethod                 2
+s$potmethod                 1
 s$sitename                  ignition-9-max
 s$t0type                    0
 s$t1type                    fuzzy
@@ -54,7 +54,7 @@ r$c0cardface4nocard  493 292 493 292 ffcfcfcf   -5 C
 r$c0cardface4rank    487 240 501 254 fff5f5f5  -20 T1
 r$c0cardface4suit    487 256 501 270 fff5f5f5  -20 T1
 r$c0handnumber        83  53 143  61 ff000000 -250 T0
-r$c0pot0             331 300 492 313 ff000000 -250 T0
+r$c0pot0             314 194 492 210 ff000000 -250 T0
 r$i0button           431 514 531 539        0    0 N
 r$i0label            451 521 500 531 ff000000 -250 T0
 r$i0state            551 539 551 539 ff202020   50 C
@@ -150,7 +150,7 @@ r$p4name             402 412 406 416        0    0 H0
 r$p4seated           443 459 443 459 ff100e88   -1 C
 r$p5active           241 463 241 463 ff8585b6   -1 C
 r$p5balance          188 430 287 445 ff000000 -225 T0
-r$p5bet              245 348 344 360 ff000000 -250 T0
+r$p5bet              245 348 339 360 ff000000 -250 T0
 r$p5cardback         211 413 211 413 ff0e0c76   -5 C
 r$p5cardface0nocard  211 413 211 413 ff0e0c75    5 C
 r$p5cardface0rank    177 410 191 424 fff5f5f5  -20 T1
