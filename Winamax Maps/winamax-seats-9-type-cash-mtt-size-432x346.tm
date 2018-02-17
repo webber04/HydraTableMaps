@@ -1,8 +1,7 @@
 .osdb2
 
-// OpenScrape 9.3.1
+// OpenScrape 12.0.3
 
-// 2017-12-28 14:05:36
 // 32 bits per pixel
 
 //
@@ -367,6 +366,7 @@ t0$4 8 38 188 3ff c
 t0$4 8 38 18c 3ff c
 t0$4 8 38 80 3ff 8
 t0$4 8 38 88 3ff c
+t0$4 8 3c 1cc 3ff 3d
 t0$$ 8 6c 8a 9 9 80
 t0$4 8 78 1cc 3ff c
 t0$$ 8 7c 8a 9 9 80
@@ -386,6 +386,7 @@ t0$4 c 3c 18c 3ff c
 t0$4 c 7c 18c 3ff c
 t0$4 c 7c 1cc 3ff 1f
 t0$4 c 7c 1cc 3ff c
+t0$, d
 t0$8 e3c 1ffe 31c3 30c3 3fe7 1f7e
 t0$8 e3c 1fff 31c3 30c3 3fe7 1f7e
 t0$8 e3c 3fff 31c3 30c3 3fe7 1f7e 10

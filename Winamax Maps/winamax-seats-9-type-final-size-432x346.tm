@@ -1,8 +1,7 @@
 .osdb2
 
-// OpenScrape 9.3.1
+// OpenScrape 12.0.3
 
-// 2017-06- 2 11:25:46
 // 32 bits per pixel
 
 //
@@ -369,6 +368,7 @@ t0$4 8 38 188 3ff c
 t0$4 8 38 18c 3ff c
 t0$4 8 38 80 3ff 8
 t0$4 8 38 88 3ff c
+t0$4 8 3c 1cc 3ff 3d
 t0$$ 8 6c 8a 9 9 80
 t0$4 8 78 1cc 3ff c
 t0$$ 8 7c 8a 9 9 80
@@ -388,6 +388,7 @@ t0$4 c 3c 18c 3ff c
 t0$4 c 7c 18c 3ff c
 t0$4 c 7c 1cc 3ff 1f
 t0$4 c 7c 1cc 3ff c
+t0$, d
 t0$8 e3c 1ffe 31c3 30c3 3fe7 1f7e
 t0$8 e3c 1fff 31c3 30c3 3fe7 1f7e
 t0$8 e3c 3fff 31c3 30c3 3fe7 1f7e 10
@@ -742,7 +743,6 @@ i$fold22           30  11
 0c086fff0c086fff0c086fff0c086fff0c086fff0c086fff9492bfffffffffff383589ff0c086fff0c086fffacaaceffffffffffffffffffeae9f2ff0c086fff9492bfffffffffffffffffffffffffff8f8dbdffffffffffffffffffffffffffc3c2dcff0c086fff0c086fff0c086fff0c086fff0c086fff
 0b076cff0b076cff0b076cff0b076cff0b076cff0b076cff24217bff2c2980ff0b076cff0b076cff0b076cff0b076cff2f2b81ff3e3b8bff0b076cff0b076cff24217bff2c2980ff2c2980ff2c2980ff1b1775ff2b287fff2b287fff120e70ff0b076cff0b076cff0b076cff0b076cff0b076cff0b076cff
 090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff
-
 i$fold_1           1   1  
 060606ff
 i$bet              11  5  
