@@ -55,7 +55,7 @@ r$c0cardface4rank    487 240 501 254 fff5f5f5  -20 T1
 r$c0cardface4suit    487 256 501 270 fff5f5f5  -20 T1
 r$c0handnumber        83  53 143  61 ff000000 -250 T0
 r$c0pot0             334 195 492 208 ff000000 -250 T0
-r$i0button           431 514 531 539        0    0 N
+r$i0button           432 514 531 539        0    0 N
 r$i0label            451 521 500 531 ff000000 -250 T0
 r$i0state            551 539 551 539 ff202020   50 C
 r$i1button           556 514 655 538        0    0 N
