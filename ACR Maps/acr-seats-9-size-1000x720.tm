@@ -1,8 +1,7 @@
 .osdb2
 
-// OpenScrape 9.3.1
+// OpenScrape 12.0.3
 
-// 2018-02- 7 10:09:33
 // 32 bits per pixel
 
 //
@@ -17,7 +16,6 @@ z$targetsize       1000  720
 // strings
 //
 
-s$!titletext                #
 s$!titletext1               yatahay
 s$!titletext2               Purchase
 s$balancenumbersonly        True

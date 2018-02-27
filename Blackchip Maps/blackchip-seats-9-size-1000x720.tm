@@ -16,7 +16,6 @@ z$targetsize       1000  720
 // strings
 //
 
-s$!titletext                #
 s$!titletext1               yatahay
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
