@@ -203,7 +203,7 @@ r$p8dealer           389 133 389 133 ffececec    0 C
 r$p8name             286  52 290  56        0    0 H0
 r$p8seated           221 105 221 105 ffb56b01   -5 C
 r$tablepoint0        109 250 109 250 ff634528   20 C
-r$tablepoint1        420 133 420 133 ff894601    5 C
+r$tablepoint1        170  56 170  56 ffa86201    5 C
 r$u4balance          335 470 434 485 ff000000 -225 T0
 
 //
