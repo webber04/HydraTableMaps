@@ -79,7 +79,7 @@ r$i6label            666 459 699 469        0    0 H0
 r$i6state            655 465 655 465 ff181818   -5 C
 r$i7button           652 429 659 437        0    0 N
 r$i7label            664 428 691 440        0    0 H0
-r$i7state            654 435 655 435 ff181818   -5 C
+r$i7state            655 435 655 435 ff181818   -5 C
 r$i860button         528 380 617 392        0    0 N
 r$i860state          523 395 523 395 ff050505    5 C
 r$i8button           423 496 431 502        0    0 N
@@ -203,7 +203,7 @@ r$p8dealer           389 133 389 133 ffececec    0 C
 r$p8name             286  52 290  56        0    0 H0
 r$p8seated           221 105 221 105 ff0d0c72   -5 C
 r$tablepoint0        109 250 109 250 ff35357e   20 C
-r$tablepoint1        174  54 174  54 ff0c095f    5 C
+r$tablepoint1         25  77  25  77 ff090851   10 C
 r$u4balance          335 470 434 485 ff000000 -225 T0
 
 //
