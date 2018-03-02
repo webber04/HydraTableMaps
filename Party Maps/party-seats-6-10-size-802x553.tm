@@ -49,19 +49,19 @@ s$ttlimits                  ^* - ^L
 
 r$c0cardface0nocard  281 159 281 159   ffffff   -1 C
 r$c0cardface0rank    243 158 264 179   ffffff -200 T3
-r$c0cardface0suit    245 180 263 197   fdfdfd -200 T3
+r$c0cardface0suit    244 180 264 200   fdfdfd -200 T3
 r$c0cardface1nocard  341 157 341 157   ffffff   -1 C
-r$c0cardface1rank    307 158 327 179   ffffff -200 T3
-r$c0cardface1suit    309 180 327 196   fdfdfd -200 T3
+r$c0cardface1rank    307 158 328 179   ffffff -200 T3
+r$c0cardface1suit    308 180 328 200   fdfdfd -200 T3
 r$c0cardface2nocard  399 157 399 157   ffffff   -1 C
-r$c0cardface2rank    371 158 391 179   ffffff -200 T3
-r$c0cardface2suit    372 178 392 198   fdfdfd -200 T3
+r$c0cardface2rank    371 158 392 179   ffffff -200 T3
+r$c0cardface2suit    372 180 392 200   fdfdfd -200 T3
 r$c0cardface3nocard  472 159 472 159   ffffff   -1 C
-r$c0cardface3rank    435 158 455 177   ffffff -200 T3
-r$c0cardface3suit    435 180 454 197   fdfdfd -200 T3
+r$c0cardface3rank    435 158 456 179   ffffff -200 T3
+r$c0cardface3suit    436 180 456 200   fdfdfd -200 T3
 r$c0cardface4nocard  538 159 538 159   ffffff   -1 C
-r$c0cardface4rank    499 158 519 179   ffffff -200 T3
-r$c0cardface4suit    499 179 521 199   fdfdfd -200 T3
+r$c0cardface4rank    499 158 520 179   ffffff -200 T3
+r$c0cardface4suit    500 180 520 200   fdfdfd -200 T3
 r$c0handnumber       690   4 794  18 ff525252  175 T0
 r$c0limits0            2   5 125  14   b7b7b7    0 T3
 r$c0pot0             348  81 455  94 ffebebeb    5 T0
@@ -97,11 +97,11 @@ r$p0balance          458  82 564  97   23b4e8    5 T1
 r$p0bet              429 133 526 147   d5d5d5    5 T0
 r$p0cardback         487   8 487   8   f0f0f0    0 C
 r$p0cardface0nocard  492  20 492  20   ffffff   -5 C
-r$p0cardface0rank    459  20 479  41   ffffff -200 T3
-r$p0cardface0suit    462  41 477  58   fdfdfd -200 T3
+r$p0cardface0rank    459  20 480  41   ffffff -200 T3
+r$p0cardface0suit    460  42 479  58   fdfdfd -200 T3
 r$p0cardface1nocard  547  21 547  21   ffffff   -5 C
-r$p0cardface1rank    514  20 535  39   ffffff -200 T3
-r$p0cardface1suit    515  41 536  58   ffffff -200 T3
+r$p0cardface1rank    514  20 535  41   ffffff -200 T3
+r$p0cardface1suit    515  42 534  58   ffffff -200 T3
 r$p0dealer           439 101 439 101   f2f2f2   10 C
 r$p0name             452  63 572  79   ffffff    5 T1
 r$p0seated           470  65 550  72   231f1a  -10 C
@@ -360,12 +360,13 @@ t2$e f8 3fe 366 663 663 663 663 3e6 1e2
 t3$. 1
 t3$8 10 387c 7efe ffce c786 c387 c386 efc6 fffe 78fc 78
 t3$a 1 3 3f ff 67fb 7fb0 7c30 7030 7c30 3ff1 7fb ff 3f 3 3
-t3$t 1803 3803 3003 7fff 7fff 7fff 3 3
+t3$1 1803 3803 3003 7fff 7fff 7fff 3 3
 t3$7 1e0000 1e0000 1800c0 1807c1 181fc1 187f01 1bf800 1fe000 1f0000 1c0000
 t3$9 1e00 7f80 ff86 e1c7 c0c6 c0ce c19e f9fc 7ff8 3fe0 700
 t3$j 1e 1f 7 7 c007 c007 fffe fffe e000 c000
 t3$h 1f00 3fc0 3fe0 3ff0 3ff8 1ffc fff 1ffe 3ffc 3ff8 3ff0 3fc0 1f80 e00
 t3$l 1ff
+t3$t 2000 3006 7006 e006 fffe fffe fffe 6 6 380 3ff8 7ffc fc7e e00e 1c007 1c007 c00e f01e 7ffc 3ff8 fe0
 t3$2 20 c3 85 89 f1 1
 t3$: 21
 t3$5 2 387 7f83 7f83 6183 61c3 61e7 60ff 607e 6038
@@ -403,6 +404,7 @@ t3$K ff 18 38 44 83 81
 t3$M ff 60 1c 3 6 38 c0 ff
 t3$6 ff8 3ffc 7ffe f306 e207 c606 1c70e 1c3fe 3fc 1f8
 t3$N ff 91 91 91 6e
+t3$0 ffc 3ffe 7c1f 7007 6003 6003 6003 780f 3ffe 1ffc 3e0
 
 //
 // points
