@@ -1,8 +1,7 @@
 .osdb2
 
-// OpenScrape 9.3.1
+// OpenScrape 12.0.3
 
-// 2017-09-17 09:56:47
 // 32 bits per pixel
 
 //
@@ -55,7 +54,7 @@ r$i1button           775 668 885 713        0    0 N
 r$i1label            778 672 880 692 ffffffff    1 T1
 r$i1state            875 705 878 708 ff181210   -5 C
 r$i2button           899 669 1006 713        0    0 N
-r$i2label            911 674 968 692 ffffffff    0 T1
+r$i2label            906 674 969 692 ffffffff    0 T1
 r$i2state            995 703 998 706 ff130e0c   -5 C
 r$i3button           912 616 1000 629        0    0 N
 r$i3edit             653 641 737 653        0    0 N
