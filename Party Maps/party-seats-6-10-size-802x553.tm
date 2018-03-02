@@ -31,7 +31,7 @@ s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Click Drag
-s$c0limits0                 ^*(^s/^b-^a^y
+s$c0limits0                 ^Linds : ^s/^b
 s$nchairs                   10
 s$network                   party
 s$potmethod                 3
@@ -62,8 +62,8 @@ r$c0cardface3suit    435 180 454 197   fdfdfd -200 T3
 r$c0cardface4nocard  538 159 538 159   ffffff   -1 C
 r$c0cardface4rank    499 158 519 179   ffffff -200 T3
 r$c0cardface4suit    499 179 521 199   fdfdfd -200 T3
-r$c0handnumber       690   4 794  18   b7b7b7  175 T0
-r$c0limits0            2   9 125  14   b7b7b7    0 T3
+r$c0handnumber       690   4 794  18 ff525252  175 T0
+r$c0limits0            2   5 125  14   b7b7b7    0 T3
 r$c0pot0             348  81 455  94 ffebebeb    5 T0
 r$i0button           423 508 534 548        0    0 N
 r$i0label            427 510 515 543 ffffffff    5 T2
@@ -357,6 +357,7 @@ t2$l 7fff
 t2$k 7fff 7fff 20 e0 1f0 39c 60e 403 401
 t2$h 7fff 7fff 300 600 600 600 700 3ff 1ff
 t2$e f8 3fe 366 663 663 663 663 3e6 1e2
+t3$. 1
 t3$8 10 387c 7efe ffce c786 c387 c386 efc6 fffe 78fc 78
 t3$a 1 3 3f ff 67fb 7fb0 7c30 7030 7c30 3ff1 7fb ff 3f 3 3
 t3$t 1803 3803 3003 7fff 7fff 7fff 3 3
@@ -364,23 +365,44 @@ t3$7 1e0000 1e0000 1800c0 1807c1 181fc1 187f01 1bf800 1fe000 1f0000 1c0000
 t3$9 1e00 7f80 ff86 e1c7 c0c6 c0ce c19e f9fc 7ff8 3fe0 700
 t3$j 1e 1f 7 7 c007 c007 fffe fffe e000 c000
 t3$h 1f00 3fc0 3fe0 3ff0 3ff8 1ffc fff 1ffe 3ffc 3ff8 3ff0 3fc0 1f80 e00
+t3$l 1ff
+t3$2 20 c3 85 89 f1 1
+t3$: 21
 t3$5 2 387 7f83 7f83 6183 61c3 61e7 60ff 607e 6038
+t3$3 2 c3 91 91 ef
 t3$3 3803 7807 7803 6183 6183 61c3 77c7 7fff 3e7e 1838
 t3$2 3803 780f 781f 603f 607b 61e3 7fc3 7f83 3f03 3
+t3$s 3b 29 29 37
 t3$q 3c00 1ff80 3ffc0 7c3e0 e0060 c0070 c0038 c0038 c007c e007c f00ec 7ffce 3ff86 fe06 7 3
+t3$/ 3 c 70 180
+t3$n 3f 20 20 3f
+t3$1 40 80 ff
+t3$4 4 1c 24 c4 ff 4
 t3$k 6001 7fff 7fff 7fff 60f3 41e1 3c0 7e0 6ef9 7c3f 781f 7007 6003 1
 t3$c 60 1f8 1fc 1fc 39fc 7ff8 fff3 ffff ffff 7ff8 7ffc 1fc 1fc 1f8 f0
 t3$5 6 f0e ff06 ff06 c307 c386 c3ce c1fe c1fc c078
 t3$3 700e f80e f006 c387 1c387 1c386 ef8e fffe 7cfc 3078
 t3$4 70 1f0 7f0 1ff0 7e33 7833 607f 7ff 7ff 73 33
 t3$7 7800 7800 6003 600f 607f 61fc 67e0 7f80 7c00 7000
+t3$0 7e 81 81 c7 38
+t3$6 7e d1 91 9b c
 t3$a 7 f 7f 1ff dff7 ff60 f860 e060 fc60 7fe3 1ff7 1ff 7f f 7
 t3$6 7fc 1ffe 3fdf 7983 7103 6303 e387 41ff 1fe 7c
 t3$d 80 1c0 7e0 ff8 1ffc 7fff 3ffe 1ffc ff0 3e0 1c0
+t3$7 80 81 83 9c e0 80
+t3$i bf
 t3$k c007 ffff ffff ffff c1e7 c3c2 780 fe0 ffff f8ff f03f e00f c007 7
+t3$d c 33 21 21 ff
 t3$s e0 1f0 3f8 7f8 ff9 1ff3 7fff 3fff ff9 7f8 7f8 3f8 1f0
+t3$8 ef 91 91 eb 4
 t3$9 f00 3fc0 7fc3 70e3 6063 6067 60ce 78fe 3ffc 1ff0
+t3$Q f00 7fe0 fff0 1f0f8 38018 3001c 3000e 3000e 3001f 3801f 3c03b 1fff3 ffe1 3f81 1
+t3$5 f2 91 91 9b 8e
+t3$9 f8 89 89 7e
+t3$K ff 18 38 44 83 81
+t3$M ff 60 1c 3 6 38 c0 ff
 t3$6 ff8 3ffc 7ffe f306 e207 c606 1c70e 1c3fe 3fc 1f8
+t3$N ff 91 91 91 6e
 
 //
 // points
