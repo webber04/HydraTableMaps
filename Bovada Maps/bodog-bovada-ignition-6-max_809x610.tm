@@ -165,7 +165,7 @@ r$p5dealer           230 178 230 178 fff9f9f9    0 C
 r$p5name             215 398 219 402        0    0 H0
 r$p5seated            67 203  67 203 ff0c0961   -5 C
 r$tablepoint0        109 279 109 279 ff46458a    5 C
-r$tablepoint1         34  74  34  74 ff090851   10 C
+r$tablepoint1         17  93  17  93 ff090851   10 C
 r$u3balance          375 445 474 460 ff000000 -225 T0
 
 //
