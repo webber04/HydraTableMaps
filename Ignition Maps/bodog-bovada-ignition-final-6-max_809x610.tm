@@ -164,8 +164,8 @@ r$p5cardface1suit    221 426 235 440 fff5f5f5  -20 T1
 r$p5dealer           230 178 230 178 fff9f9f9    0 C
 r$p5name             215 398 219 402        0    0 H0
 r$p5seated            67 203  67 203 ff3f1c00   -5 C
-r$tablepoint0        109 279 109 279 ff6f563d    5 C
-r$tablepoint1         20 109  20 109 ff512200   10 C
+r$tablepoint0        109 279 109 279 ff6f563d   20 C
+r$tablepoint1         22 478  22 478 ff692f00   20 C
 r$u3balance          375 445 474 460 ff000000 -225 T0
 
 //
