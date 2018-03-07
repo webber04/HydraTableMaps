@@ -8,8 +8,8 @@
 // sizes
 //
 
-z$clientsizemax    2000  2000
-z$clientsizemin    400  400
+z$clientsizemax    1000  720
+z$clientsizemin    1000  720
 z$targetsize       1000  720
 
 //
@@ -18,7 +18,7 @@ z$targetsize       1000  720
 
 s$!titletext                yatahay
 s$!titletext1               Purchase
-s$!titletext2               8-max
+s$!titletext2               8-Max
 s$allinconfirmationmethod   1
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
@@ -170,6 +170,7 @@ r$p5name              43 194 168 213   ffffff  175 T0
 r$p5seated           113 189 113 189 ffc9c9c9    5 C
 r$tablepoint0        471 109 471 109 ffc5c5c5   10 C
 r$tablepoint1        470 262 470 262   50ad3a   15 C
+r$tablepoint2        148 517 148 517 ffc5c5c5  -15 C
 
 //
 // fonts

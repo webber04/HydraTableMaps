@@ -1,8 +1,7 @@
 .osdb2
 
-// OpenScrape 9.3.1
+// OpenScrape 12.0.3
 
-// 2018-02- 9 12:53:06
 // 32 bits per pixel
 
 //
@@ -34,7 +33,7 @@ s$t0type                    fuzzy
 s$t1type                    fuzzy
 s$t2type                    fuzzy
 s$t3type                    0
-s$titletext                 8-max
+s$titletext                 8-Max
 s$ttlimits                  ^*Limit - ^s / ^b
 
 //
