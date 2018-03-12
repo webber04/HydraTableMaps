@@ -17,6 +17,7 @@ z$targetsize       1000  720
 //
 
 s$!titletext                yatahay
+s$!titletext0               8 Max
 s$!titletext1               Purchase
 s$!titletext2               8-Max
 s$allinconfirmationmethod   1
@@ -171,6 +172,7 @@ r$p5seated           113 189 113 189 ffc9c9c9    5 C
 r$tablepoint0        471 109 471 109 ffc5c5c5   10 C
 r$tablepoint1        470 262 470 262   50ad3a   15 C
 r$tablepoint2        148 517 148 517 ffc5c5c5  -15 C
+r$tablepoint3        212 573 212 573 ff595959   -5 C
 
 //
 // fonts

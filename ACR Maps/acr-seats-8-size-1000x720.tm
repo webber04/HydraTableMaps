@@ -33,7 +33,7 @@ s$t0type                    fuzzy
 s$t1type                    fuzzy
 s$t2type                    fuzzy
 s$t3type                    0
-s$titletext                 8-Max
+s$titletext                 Limit -
 s$ttlimits                  ^*Limit - ^s / ^b
 
 //
@@ -194,7 +194,7 @@ r$p7dealer           198 266 198 266 ffffffff    4 C
 r$p7name              43 194 168 213   ffffff  175 T0
 r$p7seated           113 189 113 189 ffc9c9c9    5 C
 r$tablepoint1        470 262 470 262   50ad3a   15 C
-r$tablepoint2        421 110 421 110 ffc5c5c5    5 C
+r$tablepoint2        223 574 223 574 ff585858    5 C
 
 //
 // fonts

@@ -16,7 +16,7 @@ z$targetsize       1000  720
 // strings
 //
 
-s$!titletext                #
+s$!titletext0               8 Max
 s$!titletext1               yatahay
 s$!titletext2               Purchase
 s$!titletext3               8-Max
@@ -210,6 +210,7 @@ r$p8name             268 115 390 132   ffffff  175 T0
 r$p8seated           429 105 429 105   1e1a19   -1 C
 r$tablepoint0          9 347   9 347 ffc6c6c6   20 C
 r$tablepoint1        470 262 470 262   50ad3a   15 C
+r$tablepoint2        238 574 238 574 ff585858   -5 C
 r$tablepoint3        382 510 382 510   e0e0e0   20 C
 
 //

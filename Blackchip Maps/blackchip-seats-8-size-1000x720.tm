@@ -16,7 +16,6 @@ z$targetsize       1000  720
 // strings
 //
 
-s$!titletext                #
 s$!titletext1               yatahay
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
@@ -187,6 +186,7 @@ r$p7name              39 193 168 217   ffffff  175 T0
 r$p7seated           102 189 102 189 ffc9c9c9    5 C
 r$tablepoint0        449 110 449 110 ffc6c6c6   20 C
 r$tablepoint1        470 262 470 262   8f2808   15 C
+r$tablepoint2        190 573 190 573 ff595959    5 C
 r$tablepoint3        382 510 382 510   e0e0e0    5 C
 
 //
