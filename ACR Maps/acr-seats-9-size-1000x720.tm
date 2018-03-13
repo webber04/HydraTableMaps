@@ -35,7 +35,7 @@ s$t1type                    fuzzy
 s$t2type                    fuzzy
 s$t3type                    fuzzy
 s$titletext                 Hold'em
-s$ttlimits                  ^*Table^*- ^L^*- ^s / ^b*)^y
+s$ttlimits                  ^*Table^*- ^L^*- ^s / ^b Ante ^a*)^y
 s$ttlimits0                 ^* - ^* - ^L - ^s / ^b
 
 //
