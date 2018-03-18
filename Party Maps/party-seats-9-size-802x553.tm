@@ -31,7 +31,6 @@ s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Click Drag
-s$c0limits0                 ^Linds : ^s/^b
 s$nchairs                   9
 s$network                   party
 s$potmethod                 3
@@ -63,7 +62,6 @@ r$c0cardface4nocard  538 159 538 159   ffffff   -1 C
 r$c0cardface4rank    499 158 519 179   ffffff -200 T3
 r$c0cardface4suit    499 179 521 199   fdfdfd -200 T3
 r$c0handnumber       690   4 794  18 ff525252  175 T0
-r$c0limits0            2   5 125  14   b7b7b7    0 T3
 r$c0pot0             348  81 455  94 ffebebeb  270 T0
 r$i0button           423 508 534 548        0    0 N
 r$i0label            427 510 515 543 ffffffff  260 T2
