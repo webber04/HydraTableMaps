@@ -16,6 +16,15 @@ z$targetsize       404  278
 // strings
 //
 
+s$!titletext                Purchase
+s$!titletext0               Abaddon
+s$!titletext1               Hercules
+s$!titletext2               Athena
+s$!titletext3               Kraken
+s$!titletext4               Medusa
+s$!titletext5               Poseidon
+s$!titletext6               Orthrus
+s$!titletext7               Phoenix
 s$allinconfirmationmethod   1
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
@@ -77,11 +86,9 @@ r$i3state            305 230 311 230 ffe9e9e9   50 C
 r$i4button           334 236 339 241        0    0 N
 r$i4label            140 228 302 228        0    0 H0
 r$i4state            164 228 302 228        0    0 H0
-r$i860button         330 210 373 220        0    0 N
-r$i860state          173  93 228 105        0    0 H0
 r$i8button             2 243   6 248        0    0 N
 r$i8label              3 245  20 248   999999    0 H0
-r$i8state              4 247   4 247 ffc2c2c2  999 C
+r$i8state              4 247   4 247 ffc2c2c2  100 C
 r$p0active           278  23 278  23 ff434343   -1 C
 r$p0balance          210  39 294  49 ff08120b -150 T0
 r$p0bet              230  60 278  68 ffffffff   20 T3
@@ -160,13 +167,6 @@ r$p5cardface1suit    151  12 159  20 ffffffff -100 T1
 r$p5dealer           183  63 183  63 ff4d4d4d   10 C
 r$p5name             107  27 192  37 ff0b0b0b -150 T0
 r$p5seated           138  24 138  24 ff484848   -1 C
-r$tablepoint0         99 192  99 192 ff222222    2 C
-r$tablepoint1        199 207 199 207 ff414141    2 C
-r$tablepoint2         57 162  57 162 ff414141    2 C
-r$tablepoint3         72  51  72  51 ff1f1f1f    2 C
-r$tablepoint4        331  50 331  50 ff494949    2 C
-r$tablepoint5        346 158 346 158 ff3d3d3d    2 C
-r$tablepoint6         40 110  40 110 ff080808   -2 C
 
 //
 // fonts
