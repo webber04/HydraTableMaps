@@ -31,6 +31,7 @@ s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Click Drag
+s$c0limits0                 ^Linds : ^s/^b
 s$nchairs                   9
 s$network                   party
 s$potmethod                 3
@@ -62,6 +63,7 @@ r$c0cardface4nocard  538 159 538 159   ffffff   -1 C
 r$c0cardface4rank    499 158 519 179   ffffff -200 T3
 r$c0cardface4suit    499 179 521 199   fdfdfd -200 T3
 r$c0handnumber       690   4 794  18 ff525252  175 T0
+r$c0limits0            2   5 125  14   b7b7b7    0 T3
 r$c0pot0             348  81 455  94 ffebebeb  270 T0
 r$i0button           423 508 534 548        0    0 N
 r$i0label            427 510 515 543 ffffffff  260 T2
@@ -95,11 +97,11 @@ r$p0balance          458  82 564  97   1e140e  -50 T1
 r$p0bet              429 133 526 147   d5d5d5    5 T0
 r$p0cardback         487   8 487   8   f0f0f0    0 C
 r$p0cardface0nocard  492  20 492  20   ffffff   -5 C
-r$p0cardface0rank    459  20 479  41   ffffff -200 T3
-r$p0cardface0suit    462  41 477  58   fdfdfd -200 T3
+r$p0cardface0rank    462  20 482  41   ffffff -200 T3
+r$p0cardface0suit    462  42 480  58   fdfdfd -200 T3
 r$p0cardface1nocard  547  21 547  21   ffffff   -5 C
-r$p0cardface1rank    514  20 535  39   ffffff -200 T3
-r$p0cardface1suit    515  41 536  58   ffffff -200 T3
+r$p0cardface1rank    517  20 537  41   ffffff -200 T3
+r$p0cardface1suit    517  42 535  58   ffffff -200 T3
 r$p0dealer           439 101 439 101   f2f2f2   10 C
 r$p0name             452  63 572  79   ffffff    5 T1
 r$p0seated           470  65 550  72   231f1a  -10 C
@@ -353,6 +355,7 @@ t3$2 20 c3 85 89 f1 1
 t3$: 21
 t3$5 2 387 7f83 7f83 6183 61c3 61e7 60ff 607e 6038
 t3$3 2 c3 91 91 ef
+t3$T 3006 7006 e006 fffe fffe fffe 6 6 380 3ff8 7ffc fc7e e00e 1c007 1c007 c00e f01e 7ffc 3ff8 fe0
 t3$3 3803 7807 7803 6183 6183 61c3 77c7 7fff 3e7e 1838
 t3$2 3803 780f 781f 603f 607b 61e3 7fc3 7f83 3f03 3
 t3$s 3b 29 29 37
@@ -386,6 +389,7 @@ t3$K ff 18 38 44 83 81
 t3$M ff 60 1c 3 6 38 c0 ff
 t3$6 ff8 3ffc 7ffe f306 e207 c606 1c70e 1c3fe 3fc 1f8
 t3$N ff 91 91 91 6e
+t3$0 ffc 3ffe 7c1f 7007 6003 6003 6003 780f 3ffe 1ffc 3e0
 
 //
 // points

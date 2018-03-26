@@ -312,6 +312,7 @@ t1$t 40 1ff 1ff 41
 t1$w 40 7c f 3e 70 1e f 7c 40
 t1$x 41 67 3e 3e 77 41
 t1$4 4 1c 74 c4 1ff 1ff 4
+t1$S 44 e6 1b1 111 119 1cf 46
 t1$3 4 606 e07 cc3 cc3 cc3 ffe 73e
 t1$3 4 87 111 111 1b3 ee
 t1$v 60 7c f f 7c 40
