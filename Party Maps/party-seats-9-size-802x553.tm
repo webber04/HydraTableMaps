@@ -31,7 +31,6 @@ s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Click Drag
-s$c0limits0                 ^Linds : ^s/^b
 s$nchairs                   9
 s$network                   party
 s$potmethod                 3
@@ -41,7 +40,7 @@ s$t1type                    0
 s$t2type                    0
 s$t3type                    fuzzy
 s$titletext                 Hold'em
-s$ttlimits                  ^* - ^L ^* - ^s/^b
+s$ttlimits                  ^* - ^L
 
 //
 // regions
@@ -63,7 +62,6 @@ r$c0cardface4nocard  538 159 538 159   ffffff   -1 C
 r$c0cardface4rank    499 158 519 179   ffffff -200 T3
 r$c0cardface4suit    499 179 521 199   fdfdfd -200 T3
 r$c0handnumber       690   4 794  18 ff525252  175 T0
-r$c0limits0            2   5 125  14   b7b7b7    0 T3
 r$c0pot0             348  81 455  94 ffebebeb  270 T0
 r$i0button           423 508 534 548        0    0 N
 r$i0label            427 510 515 543 ffffffff  260 T2
@@ -336,6 +334,7 @@ t2$- 3 3 3 3 3
 t2$c 3f0 ffc 1c0e 3807 3003 3003 3003 3003 1806 1e1e 618
 t2$r 3fff 3fff 3060 3060 3060 3060 3070 38fc 1fcf f83 1
 t2$f 3fff 3fff 30c0 30c0 30c0 30c0 30c0 30c0
+t2$B 3fff 3fff 30c3 30c3 30c3 30c3 39c3 1ffe f3e
 t2$t 600 600 3ffe 3fff 603 603
 t2$n 7ff 7ff 300 600 600 600 700 3ff 1ff
 t2$l 7fff
@@ -345,7 +344,7 @@ t2$e f8 3fe 366 663 663 663 663 3e6 1e2
 t3$. 1
 t3$8 10 387c 7efe ffce c786 c387 c386 efc6 fffe 78fc 78
 t3$a 1 3 3f ff 67fb 7fb0 7c30 7030 7c30 3ff1 7fb ff 3f 3 3
-t3$t 1803 3803 3003 7fff 7fff 7fff 3 3
+t3$1 1803 3803 3003 7fff 7fff 7fff 3 3
 t3$7 1e0000 1e0000 1800c0 1807c1 181fc1 187f01 1bf800 1fe000 1f0000 1c0000
 t3$9 1e00 7f80 ff86 e1c7 c0c6 c0ce c19e f9fc 7ff8 3fe0 700
 t3$j 1e 1f 7 7 c007 c007 fffe fffe e000 c000
@@ -355,6 +354,7 @@ t3$2 20 c3 85 89 f1 1
 t3$: 21
 t3$5 2 387 7f83 7f83 6183 61c3 61e7 60ff 607e 6038
 t3$3 2 c3 91 91 ef
+t3$T 3006 7006 6006 fffe fffe fffe 6 6 2 1ff8 7ffc fefe e00e c007 1c007 c006 f01e 7ffc 3ff8 fe0
 t3$T 3006 7006 e006 fffe fffe fffe 6 6 380 3ff8 7ffc fc7e e00e 1c007 1c007 c00e f01e 7ffc 3ff8 fe0
 t3$3 3803 7807 7803 6183 6183 61c3 77c7 7fff 3e7e 1838
 t3$2 3803 780f 781f 603f 607b 61e3 7fc3 7f83 3f03 3
