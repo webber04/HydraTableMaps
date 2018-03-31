@@ -26,7 +26,7 @@ s$nchairs                   9
 s$network                   bol
 s$potmethod                 1
 s$sitename                  betonline9
-s$t0type                    0
+s$t0type                    fuzzy
 s$t1type                    0.35
 s$t2type                    0.35
 s$titletext                 Hand
@@ -53,7 +53,7 @@ r$c0cardface4nocard  523 205 523 205 ffffffff   -5 C
 r$c0cardface4rank    490 197 504 216 ffffffff  -15 T0
 r$c0cardface4suit    490 218 504 232 ffffffff  -15 T0
 r$c0pot0             363 293 448 305 ffffffff  180 T1
-r$i0button           424 523 512 551        0    0 N
+r$i0button           423 523 512 551        0    0 N
 r$i0label            421 522 512 552 ff202094 -300 T0
 r$i0state            470 560 470 560 ff242424   -5 C
 r$i1button           553 521 646 550        0    0 N
@@ -132,19 +132,19 @@ r$p3cardface1suit    569 344 583 358 ffffffff  -15 T0
 r$p3dealer           495 371 495 371 ff2cc6ff    5 C
 r$p3name             508 376 651 391 f3292929 -300 T0
 r$p3seated           549 369 549 369 ff484848   -5 C
-r$p4active           361 393 361 393 c24c4c4c   -3 C
-r$p4balance          324 417 469 431 ffb8fc82   50 T2
-r$p4bet              382 323 459 336 ffffffff  180 T1
-r$p4cardback         382 367 382 367 fff2f2f2    1 C
+r$p4active           372 412 372 412 f8828282   -5 C
+r$p4balance          349 417 468 431 ffb8fc82   50 T2
+r$p4bet              373 324 450 335 ffffffff  180 T1
+r$p4cardback         382 367 382 367 ffffffff    1 C
 r$p4cardface0nocard  371 387 371 387 ffffffff   -5 C
 r$p4cardface0rank    364 346 378 365 ffffffff  -15 T0
 r$p4cardface0suit    364 367 378 381 ffffffff  -15 T0
 r$p4cardface1nocard  392 387 392 387 ffffffff   -5 C
 r$p4cardface1rank    384 346 398 365 ffffffff  -15 T0
 r$p4cardface1suit    384 367 398 381 ffffffff  -15 T0
-r$p4dealer           331 376 331 376 ff2cc6ff    5 C
+r$p4dealer           330 366 330 366 ff2cc6ff    5 C
 r$p4name             329 397 472 412 f3292929 -300 T0
-r$p4seated           364 392 364 392 ff484848   -5 C
+r$p4seated           372 412 372 412 f8828282   -5 C
 r$p5active           176 370 176 370 c24c4c4c   -3 C
 r$p5balance          139 394 281 408 ffb8fc82   50 T2
 r$p5bet              176 300 237 313 ffffffff  180 T1
@@ -232,12 +232,14 @@ t0$9 1c4 3e6 633 633 622 3fe f8
 t0$j 1e 1f 6007 6003 6003 6003 6007 7fff 7ffe
 t0$C 1f0 3fc 606 c03 c03 c03 c03 606 70e 204
 t0$A 1 f 7c 1f8 f18 c18 f18 1f8 7c f 1
+t0$a 1 f 7c 3f8 f18 c18 f18 3f8 7c f 1
 t0$g 1fb 3fb 39d 30d 199 3ff 3ff
 t0$O 1fc 3fe 78f 707 603 603 707 78f 3fe 1fc
 t0$9 1fe3 7ff3 7073 6033 6037 707f 7ffe 3ff8
 t0$l 1ff
 t0$n 1ff 1ff 80 180 180 180 ff 7f
 t0$n 1ff 1ff 80 80 180 180 ff 7f
+t0$n 1ff 1ff c0 180 180 180 1ff ff
 t0$q 1ffc 3ffe 7c1f 7007 6003 6003 7007 7c1f 3fff 1fff 1
 t0$y 200 3e0 7d 1f 7c 3e0 200
 t0$O 20 1fc 202 202 603 603 202 202 1fc 20
