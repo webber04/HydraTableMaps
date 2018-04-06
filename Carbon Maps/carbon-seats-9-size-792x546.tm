@@ -201,7 +201,7 @@ r$p7name               8 160 156 179 ffc4bfbf   15 T2
 r$p7seated           131 168 131 168 ff3a250d   -1 C
 r$p8active           344  65 344  65 ff4f4f4f   -1 C
 r$p8balance          221  71 367  94 ffffffff  100 T0
-r$p8bet              264 112 354 125 ffffffff    0 T3
+r$p8bet              250 112 354 125 ffffffff    0 T3
 r$p8cardback         277  21 277  21 ff000000    5 C
 r$p8cardface0nocard  273  13 273  13 ff000000   -5 C
 r$p8cardface0rank    270  19 270  19 ffffffff -100 T1
@@ -361,6 +361,7 @@ t3$s 1f0 3f8 3f8 7f8 1ffb 1fff ffb 7f8 3f8 1f8 f0
 t3$s 1f0 3f8 7f8 ffc 1ff8 3ffb 7fff 3ffb 1ff8 ff8 7f8 3f8 1f0
 t3$s 1f0 3f8 7fc ffc 1ff8 3fff 7fff 3ff9 ff8 7f8 7f8 3f8 e0
 t3$6 1f0 ffc 3ffe 7fff f603 c601 18601 107ff 107fe 203fc f8
+t3$K 1ff 1ff 30 70 fc 19f 103
 t3$k 20001 30003 3ffff 3ffff 3ffff 3ffff 20301 780 fe0 1ff0 31f9 20ff 2407f 3801f 3800f 30007 20003 1
 t3$k 20001 3ffff 3ffff 3ffff 3ffff 30303 20301 7c0 fe0 1bf0 31fd 260ff 3c03f 3801f 3000f 30003 20001
 t3$2 2001 c003 1800f 1801f 18067 3c0c7 1ff87 1ff07 fc07 300e
@@ -374,6 +375,7 @@ t3$k 30003 3ffff 3ffff 3ffff 30303 300 780 fe0 13f0 31f9 607f 3c03f 3801f 30007 
 t3$7 3000 3e000 3c000 3c000 3c007 3c03f 3c3fc 3dfe0 3ff00 3f800 3c000
 t3$T 3001 3fff 3fff 7fff 1 1c0 1ffc 3ffe 7c0f 4001 4001 7fff 3ffe 1ffc 1c0
 t3$3 3 1003 3003 6081 7081 7bc1 7ff3 3cfe 18fc
+t3$. 3 3
 t3$A 3 7 39 f0 310 e10 7f90 3ff0 7f8 1ff 7f f 3 1
 t3$7 3800 7800 7000 7007 703f 71fc 7fe0 7f00 7800 4000
 t3$q 3e0 ff8 1ffc 3ffe 3007 6003 4003 4003 4007 4003 6003 380e 3ffe 1fff ff9 1c1
