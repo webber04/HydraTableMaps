@@ -254,6 +254,7 @@ t0$s 1 f1 91 99 8b 6
 t0$, 1 f 1f 18
 t0$, 1 f 3c 20
 t0$A 1 f 3f 1fc ff0 f10 f10 ff0 3fc 7f 1f 1
+t0$a 1 f 7f 1fe 7f8 7c8 7f8 1fe 3f 7
 t0$O 1f8 30c 606 602 403 403 602 606 3fc 1f8
 t0$0 1f8 7fe 7ff e07 e03 707 7fe 3fc 70
 t0$6 1fc 3fe 687 c81 881 8c3 8fe 7c
@@ -467,6 +468,7 @@ t0$, 7 f 8
 t0$5 7 f83 f81 881 881 8ff 8fe 87e
 t0$, 7 f c
 t0$l 7fe 7ff 3ff 1
+t0$l 7fe 7ff 7ff 1
 t0$l 7ff
 t0$k 7ff 10 38 44 83 81
 t0$k 7ff 10 38 46 83 81
