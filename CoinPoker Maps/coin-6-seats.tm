@@ -725,6 +725,7 @@ t2$1 fff
 t2$0 fff8 1fffe 38007 30003 30007 3fffe 1fffc
 t2$K ffff ffff 1c0 180 3c0 ee0 1c70 383c 700e e007 c003 8001
 t3$- 1 1 1
+t3$- 1 1 1 1 1 1
 t3$s 19 3d 2d 2d 26
 t3$A 1 f 3f 1f8 7f8 718 7d8 1f8 3f f 1
 t3$l 1ff 1ff
@@ -737,8 +738,10 @@ t3$c 3c 7e c3 81 81 81 c3 2
 t3$e 3c 7e d3 91 91 d1 f3 72
 t3$n 3f 3f 20 20 3f 1f
 t3$i 4ff 4ff
+t3$i 4ff 4ff 4ff
 t3$a 6 2f 29 28 3f
 t3$A 7 1e f4 c4 f4 1e 7
+t3$a 7 3f f8 7d8 788 7c8 1f8 3f f 1
 t3$e 7c fe ff 93 d3 f3 76
 t3$l 7fc 7ff 3 1
 t3$l 7fe 7ff 7
@@ -756,6 +759,7 @@ t3$C f8 3fc 30e 603 403 401 401 401 603 602 2
 t3$R ff 88 88 8e 77 1
 t3$B ff ff 91 91 fb 4e
 t3$n ff ff f0 c0 80 c0 ff ff
+t3$n ff ff ff c0 80 80 ff ff
 
 //
 // points
