@@ -173,6 +173,7 @@ r$p5cardface1suit    216 362 216 362 ffffffff -100 T1
 r$p5dealer           360 111 360 111 ffa9a9a9   10 C
 r$p5name             220  51 367  68 ffc4bfbf   15 T2
 r$p5seated           260  87 260  87 ff331f0a   -1 C
+r$tablepoint0        488 406 488 406 ff161616    5 C
 
 //
 // fonts
@@ -266,6 +267,7 @@ t1$2 801 1803 3007 701f 703f 78e7 7fc7 7f87 3f0f e
 t1$1 c0 180 300 7ff 7ff
 t1$, d e
 t1$6 e0 7f8 1ffe 3ffe 7e0f 7203 c783 c3fe 83fe 81f8
+t1$3 e 300e 6007 e103 e383 ff82 ffe6 7ffc 31f8 40
 t1$5 ec 7ee 7c7 6c3 6c3 67e 63c
 t1$c f0 1f0 1f0 1ff0 3fff 3fff 3ff7 1ff0 1f8 1f0 f0
 t1$Q fe0 1ff8 7ffc 7ffe f01e c006 800e 800f 800f c00e e00e 7ffe 7ffe 3ffe fe2 2
