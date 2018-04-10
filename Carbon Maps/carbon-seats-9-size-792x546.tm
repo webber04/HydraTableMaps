@@ -408,6 +408,7 @@ t3$d 40 e0 1e0 3f8 7fc 1fff 3fff ffe 3f8 1f0 e0 40
 t3$c 40 f0 1f0 1f8 1ff1 3fff 3fff 1ff3 df0 1f0 1f0 e0
 t3$5 4 e0e 7e0f 3de07 3de07 3df03 3cf03 3cf83 3c7c6 3c7fc 381f8
 t3$2 6001 c007 1800f 1803f 3c067 3e1c7 1ff87 1fe07 fc0f 18
+t3$d 60 60 f0 1fc 7fe fff 7fe 1f8 f0 60
 t3$d 60 70 f8 3fc 7fe fff 3fc 1f8 f0 60
 t3$1 60 c0 1ff 1ff
 t3$4 70 1f0 370 670 1870 3070 ffff 1ffff 3ffff 70 70
