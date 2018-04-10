@@ -30,7 +30,7 @@ s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Delete
 s$betsizeinterpretationmethod 3
-s$betsizeselectionmethod    Dbl Click
+s$betsizeselectionmethod    Triple Click
 s$buttonclickmethod         Single
 s$nchairs                   9
 s$network                   merge
