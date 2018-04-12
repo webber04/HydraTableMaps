@@ -70,7 +70,7 @@ r$c0cardface4rank    474 179 500 198 ffffffff -200 T3
 r$c0cardface4suit    474 200 492 218 ffffffff -200 T3
 r$c0handnumber        30   7 116  21 ff999999   20 T0
 r$c0pot0             356 155 511 176 ffd2c8be   20 T1
-r$i0button           252 469 335 493        0    0 N
+r$i0button           252 469 334 493        0    0 N
 r$i0label            271 474 314 491        0    0 H0
 r$i0state            259 488 259 488 ffbbbbbb   50 C
 r$i1button           351 466 432 494        0    0 N
@@ -110,7 +110,7 @@ r$p0name             420  49 569  71 ffc4bfbf   15 T2
 r$p0seated           530  55 530  55 ff696969   -1 C
 r$p1active           765 226 765 226 ff222222   -1 C
 r$p1balance          636 241 780 261 ffffffff  100 T0
-r$p1bet              541 179 630 192 ffffffff    0 T3
+r$p1bet              541 245 630 258 ffffffff    0 T3
 r$p1cardback         733 184 733 184 ff000000    5 C
 r$p1cardface0nocard  693 126 693 126 ff000000   -5 C
 r$p1cardface0rank    686 129 686 129 ffffffff -100 T1
