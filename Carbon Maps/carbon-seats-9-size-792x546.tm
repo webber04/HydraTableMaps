@@ -79,10 +79,10 @@ r$i1state            423 470 423 470 ffeeeeee   50 C
 r$i2button           453 469 523 494        0    0 N
 r$i2label            458 467 514 477        0    0 H0
 r$i2state            524 471 524 471 ffececec   50 C
-r$i3button           456 467 523 493        0    0 N
+r$i3button           551 467 618 493        0    0 N
 r$i3edit             521 508 622 523        0    0 N
-r$i3label            458 467 514 477        0    0 H0
-r$i3state            521 471 521 471 ffebebeb   50 C
+r$i3label            561 472 602 491        0    0 H0
+r$i3state            548 468 561 468 ffebebeb   50 C
 r$i4button           353 469 429 491        0    0 N
 r$i4label            365 471 414 489        0    0 H0
 r$i4state            423 471 423 471 ffeaeaea   50 C
@@ -149,7 +149,7 @@ r$p3name             500 384 648 406 ffc4bfbf   15 T2
 r$p3seated           632 393 632 393 ff303030   -1 C
 r$p4active           447 392 447 392 ff303030  999 C
 r$p4balance          322 409 467 427 ff0a0a0a -150 T0
-r$p4bet              334 322 437 337 ffffffff   15 T0
+r$p4bet              365 322 437 337 ffffffff   15 T0
 r$p4cardback         377 353 377 353 ff000000    5 C
 r$p4cardface0nocard  386 350 386 350 ffffffff   -5 C
 r$p4cardface0rank    354 345 377 362 ffffffff -200 T3
