@@ -70,7 +70,7 @@ r$c0cardface4rank    474 179 500 198 ffffffff -200 T3
 r$c0cardface4suit    474 200 492 218 ffffffff -200 T3
 r$c0handnumber        30   7 116  21 ff999999   20 T0
 r$c0pot0             356 155 511 176 ffd2c8be   20 T1
-r$i0button           252 469 335 493        0    0 N
+r$i0button           251 469 335 493        0    0 N
 r$i0label            271 474 314 491        0    0 H0
 r$i0state            259 488 259 488 ffbbbbbb   50 C
 r$i1button           351 466 432 494        0    0 N

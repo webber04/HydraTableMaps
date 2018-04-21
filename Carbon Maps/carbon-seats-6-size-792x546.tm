@@ -28,9 +28,9 @@ s$!titletext7               Phoenix
 s$allinconfirmationmethod   1
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
-s$betsizedeletionmethod     Delete
+s$betsizedeletionmethod     Nothing
 s$betsizeinterpretationmethod 3
-s$betsizeselectionmethod    Click Drag
+s$betsizeselectionmethod    Sgl Click
 s$buttonclickmethod         Single
 s$nchairs                   6
 s$network                   merge
