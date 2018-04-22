@@ -1,8 +1,7 @@
 .osdb2
 
-// OpenScrape 9.3.1
+// OpenScrape 12.0.3
 
-// 2017-06- 2 11:21:18
 // 32 bits per pixel
 
 //
@@ -55,7 +54,7 @@ r$c0cardface3suit    237 136 247 148 ffffffff  239 T3
 r$c0cardface4nocard  277 145 277 145 ff2f2e77    5 C
 r$c0cardface4rank    275 122 286 135 ffffffff  205 T3
 r$c0cardface4suit    275 136 285 148 ffffffff  200 T3
-r$c0pot0             202 183 274 193 ff41b4ef   91 T1
+r$c0pot0             199 183 274 193 ffdddddd   91 T1
 r$c0pot1             218 173 286 183 ff40b2ee  130 T1
 r$i0button            79 291 161 309        0    0 N
 r$i0label            106 295 135 305        0    0 H0
@@ -300,6 +299,7 @@ t0$1 80 100 300 7ff
 t0$4 8 18 68 88 308 7ff 8 8
 t0$3 82 101 111 111 ee
 t0$4 8 30 180 3ff
+t0$4 8 30 188 3ff 8
 t0$4 8 30 80 3ff
 t0$4 8 38 188 3ff
 t0$4 8 38 188 3ff 8
@@ -347,6 +347,8 @@ t0$6 ffe 3fff 3083 3083 3ce7 1cfe
 t1$. 1
 t1$7 100 100 11f 120 1c0
 t1$1 100 1ff
+t1$t 10 7f 10
+t1$: 11
 t1$, 1 2
 t1$4 14 24 7f 4
 t1$i 17f
@@ -372,6 +374,7 @@ t1$a 3e 41 41 42 7f
 t1$0 3e 45 49 51 3e
 t1$6 3e 49 49 49 26
 t1$e 3e 49 49 49 39
+t1$p 3f 22 22 22 1c
 t1$t 40 1ff 40
 t1$7 40 40 47 48 70
 t1$7 40 40 47 48 71
@@ -390,6 +393,7 @@ t1$0 7c 8a 92 a2 7c 1 2
 t1$u 7e 1 1 1 7e
 t1$0 7e 89 91 a1 7e
 t1$6 7e 91 91 91 4e
+t1$l 7f
 t1$n 7f 40 40 40 3f
 t1$1 80 100 300 7ff
 t1$7 80 80 8f 90 e0
@@ -398,6 +402,8 @@ t1$4 8 18 68 88 308 7ff 8 8
 t1$3 82 101 111 111 ee
 t1$2 8f 111 111 111 e1
 t1$4 c 14 24 7f 4
+t1$o e 11 11 11 e
+t1$a e 11 11 12 1f
 t1$s e2 111 111 111 8e
 t1$9 e2 111 111 111 fe
 t1$8 ee 111 111 111 ee
@@ -680,7 +686,6 @@ i$fold22           30  11
 0c086fff0c086fff0c086fff0c086fff0c086fff0c086fff9492bfffffffffff383589ff0c086fff0c086fffacaaceffffffffffffffffffeae9f2ff0c086fff9492bfffffffffffffffffffffffffff8f8dbdffffffffffffffffffffffffffc3c2dcff0c086fff0c086fff0c086fff0c086fff0c086fff
 0b076cff0b076cff0b076cff0b076cff0b076cff0b076cff24217bff2c2980ff0b076cff0b076cff0b076cff0b076cff2f2b81ff3e3b8bff0b076cff0b076cff24217bff2c2980ff2c2980ff2c2980ff1b1775ff2b287fff2b287fff120e70ff0b076cff0b076cff0b076cff0b076cff0b076cff0b076cff
 090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff090669ff
-
 i$fold_1           1   1  
 060606ff
 i$bet              11  5  
