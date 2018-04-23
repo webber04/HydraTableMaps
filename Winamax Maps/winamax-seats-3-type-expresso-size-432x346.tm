@@ -54,7 +54,7 @@ r$c0cardface3suit    237 136 247 148 ffffffff  239 T3
 r$c0cardface4nocard  277 145 277 145 ff2f2e77    5 C
 r$c0cardface4rank    275 122 286 135 ffffffff  205 T3
 r$c0cardface4suit    275 136 285 148 ffffffff  200 T3
-r$c0pot0             199 183 274 193 ffdddddd   91 T1
+r$c0pot0             199 183 274 193 ff41b6f1   91 T1
 r$c0pot1             218 173 286 183 ff40b2ee  130 T1
 r$i0button            79 291 161 309        0    0 N
 r$i0label            106 295 135 305        0    0 H0
@@ -77,7 +77,7 @@ r$i860state           79 332  79 332 fff8f8f8    0 C
 r$i861button         187 233 245 245        0    0 N
 r$i861state           70 130 111 143        0    0 H0
 r$p0active           370  77 376  77 ffffffff   50 C
-r$p0balance          337  91 401 102 ff62ccff   89 T0
+r$p0balance          337  91 401 102 ff62ccff   98 T0
 r$p0bet              289 112 354 121 ff00b8e9   90 T1
 r$p0cardback         360  55 360  55 fffefeff   10 C
 r$p0cardface0nocard    4   6   4   6        0  999 C
@@ -171,7 +171,6 @@ r$u5seated           206  53 206  53 ff666666    1 C
 // fonts
 //
 
-t0$. 1
 t0$1 100 300 7ff
 t0$1 100 3ff
 t0$3 106 201 231 1de
@@ -254,7 +253,6 @@ t0$5 26 3e3 241 27f
 t0$2 27 49 49 49 31
 t0$$ 28 7c aa 29 29 81
 t0$$ 28 7e aa a9 29 81
-t0$. 3
 t0$7 3000 3000 301f 31fe 3fc0 3c00
 t0$7 3000 3000 301f 31fe 3fe0 3c00
 t0$7 3000 3001 301f 31fe 3fc0 3c00
@@ -272,7 +270,6 @@ t0$4 30 f0 790 1c10 3fff 3fff 18
 t0$4 30 f0 798 1c18 3fff 3fff 18
 t0$4 30 f8 798 1c18 3fff 3fff 18
 t0$9 32 49 49 49 3e
-t0$. 3 3
 t0$4 38 80 3ff 8
 t0$4 38 f8 798 1c18 3fff 3fff 10
 t0$4 38 f8 798 1c18 3fff 3fff 18
@@ -299,6 +296,7 @@ t0$1 80 100 300 7ff
 t0$4 8 18 68 88 308 7ff 8 8
 t0$3 82 101 111 111 ee
 t0$4 8 30 180 3ff
+t0$4 8 30 180 3ff 8
 t0$4 8 30 188 3ff 8
 t0$4 8 30 80 3ff
 t0$4 8 38 188 3ff
