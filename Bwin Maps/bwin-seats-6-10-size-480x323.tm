@@ -223,7 +223,7 @@ r$p9seated           170   3 170   3   251d1e  -10 C
 r$tablepoint0        280   8 280   8   261e1f   -1 C
 r$tablepoint1        286 209 286 209   3d3d3d   -1 C
 r$tablepoint2         38 127  38 127    70707   -1 C
-r$tablepoint3        349  52 349  52   1b4900    1 C
+r$tablepoint3        349  52 349  52   252525    5 C
 
 //
 // fonts
