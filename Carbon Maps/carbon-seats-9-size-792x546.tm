@@ -212,7 +212,7 @@ r$p8cardface1suit    292  29 292  29 ffffffff -100 T1
 r$p8dealer           357 105 357 105 ffdfdfdf   10 C
 r$p8name             221  48 370  71 ffc4bfbf   15 T2
 r$p8seated           357  61 357  61 ff828282   -1 C
-r$tablepoint0        487 406 487 406 ff161616   -5 C
+r$tablepoint0        487 406 487 406 ff161616  -10 C
 
 //
 // fonts
