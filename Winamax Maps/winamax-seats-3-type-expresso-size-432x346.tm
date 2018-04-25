@@ -25,7 +25,7 @@ s$buttonclickmethod         Single
 s$c0limits                  ^L
 s$nchairs                   6
 s$network                   winamax
-s$potmethod                 1
+s$potmethod                 3
 s$sitename                  oh9_winamax3seats_expresso
 s$t0type                    0.45
 s$t1type                    0
@@ -39,23 +39,23 @@ s$ttlimits0                 ^* / ˆ^s-ˆ^b ^L ^*
 // regions
 //
 
-r$c0cardface0nocard  133 146 133 146 ff1f1f50    5 C
+r$c0cardface0nocard  146 123 146 123 ffffffff  -15 C
 r$c0cardface0rank    123 122 134 135 ffffffff  200 T3
 r$c0cardface0suit    123 136 133 148 ffffffff  200 T3
-r$c0cardface1nocard  170 146 170 146 ff323280    5 C
+r$c0cardface1nocard  185 123 185 123 ffffffff  -15 C
 r$c0cardface1rank    161 122 172 135 ffffffff  200 T3
 r$c0cardface1suit    161 136 171 148 ffffffff  200 T3
-r$c0cardface2nocard  209 145 209 145 ff343383    5 C
+r$c0cardface2nocard  222 122 222 122 ffffffff  -15 C
 r$c0cardface2rank    199 122 210 135 ffffffff  200 T3
 r$c0cardface2suit    199 136 209 148 ffffffff  200 T3
-r$c0cardface3nocard  247 142 247 142 ff3a3892    5 C
+r$c0cardface3nocard  261 123 261 123 ffffffff  -15 C
 r$c0cardface3rank    237 122 248 135 ffffffff  200 T3
 r$c0cardface3suit    237 136 247 148 ffffffff  239 T3
-r$c0cardface4nocard  277 145 277 145 ff2f2e77    5 C
+r$c0cardface4nocard  299 123 299 123 ffffffff  -15 C
 r$c0cardface4rank    275 122 286 135 ffffffff  205 T3
 r$c0cardface4suit    275 136 285 148 ffffffff  200 T3
-r$c0pot0             199 183 274 193 ff41b6f1   91 T1
-r$c0pot1             218 173 286 183 ff40b2ee  130 T1
+r$c0pot0             199 183 274 193 ffdddddd   91 T1
+r$c0pot1             218 173 286 200 ff40b2ee  130 T1
 r$i0button            79 291 161 309        0    0 N
 r$i0label            106 295 135 305        0    0 H0
 r$i0state            154 294 154 294 ff19108a   30 C
@@ -347,6 +347,7 @@ t1$7 100 100 11f 120 1c0
 t1$1 100 1ff
 t1$t 10 7f 10
 t1$: 11
+t1$: 1 1040000
 t1$, 1 2
 t1$4 14 24 7f 4
 t1$i 17f
