@@ -212,6 +212,7 @@ t0$3 304 306 663 663 7fe 3be 8
 t0$3 304 70e 603 663 7e7 3fe 11c
 t0$d 30 70 f8 1fe 3ff 3ff 3ff 1fe fc 78 30
 t0$2 307 70f 61f 63f 7f7 3e7 182
+t0$c 30 78 78 78 7fb 7ff 7ff 7fb 378 78 78 78
 t0$d 30 78 fc 1fe 3ff 3fe 1fc f8 70 20
 t0$s 30 f8 1fc 1fe 7fb 7ff 7ff 3fb 1fc f8 38
 t0$. 3 3
