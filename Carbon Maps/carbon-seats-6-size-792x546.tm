@@ -147,7 +147,7 @@ r$p3cardface1suit      0   0   0   0 ffffffff -100 T1
 r$p3dealer           233 333 233 333 ffa3a3a3   10 C
 r$p3name             220 384 368 406 ffc4bfbf   15 T2
 r$p3seated           361 400 361 400 ff696969   -1 C
-r$p4active           155 259 155 259 ff1c1106    5 C
+r$p4active           155 259 155 259 ff160e05    5 C
 r$p4balance           10 243 155 261 ff0a0a0a -150 T0
 r$p4bet              164 243 267 258 ffffffff   15 T0
 r$p4cardback         107 185 107 185 ff000000    5 C
@@ -184,6 +184,7 @@ t0$7 100 107 11f 178 1e0 180
 t0$7 100 107 138 1c0 100
 t0$1 100 200 400 fff
 t0$- 1 1 1
+t0$, 1 3 2 6 6 c 1c 18 30 f0 1e0 7c0 1f80 7c00 1ff000
 t0$a 1 7 1f 71 1a0 e20 3820 fc20 1ffa0 7fe0 ff9 3ff ff 1f 7 1
 t0$a 1 7 1f e1 3a0 e20 7820 1fe20 1ffe0 3ff1 fff 1ff 7f 1f 3 1
 t0$4 18 28 48 188 208 408 fff 8
