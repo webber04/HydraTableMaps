@@ -47,7 +47,7 @@ s$ttlimits1                 ^* - ^s/^b - ^L
 s$ttlimits2                 ^* Room - Table ^* - ^s/^b - ^L
 s$ttlimits3                 ^* -  Play Money ^s/^b - ^L
 s$ttlimits4                 ^* - ^* - ^* - ^* - ^s/^b - ^L
-s$ttlimits5                 ^* Table ^* - ^s/^b - ^L
+s$ttlimits5                 ^* Table ^* - ^a/^s/^b - ^L
 
 //
 // regions
