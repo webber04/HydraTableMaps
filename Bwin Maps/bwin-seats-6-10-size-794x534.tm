@@ -102,7 +102,7 @@ r$p0cardface0nocard  483  15 483  15   ffffff   -5 C
 r$p0cardface0rank    480  16 500  37   ffffff -200 T3
 r$p0cardface0suit    482  40 499  60   fdfdfd -200 T3
 r$p0cardface1nocard  547  21 547  21   ffffff   -5 C
-r$p0cardface1rank    503  16 524  37   ffffff -200 T3
+r$p0cardface1rank    503  16 523  37   ffffff -200 T3
 r$p0cardface1suit    503  40 522  60   ffffff -200 T3
 r$p0dealer           443  98 443  98   ffffff   10 C
 r$p0name             456  63 559  77   ffffff  140 T1
@@ -371,9 +371,12 @@ t1$0 fe 183 101 183 fe
 t1$C fe 1c7 101 101 101 c6 c6
 t1$, f f
 t1$l fff fff
+t2$e 10 fe fe 1b7 1b3 1b3 1f3 f6 30
 t2$a 11c 33e 673 663 663 663 766 3ff 3
 t2$a 1 7 3e f8 7d8 3e18 3018 3e18 7d8 f8 3e 7 1
+t2$t 180 180 7ff 7ff 183 183
 t2$s 186 3c6 663 663 663 633 33e 11e
+t2$i 1dff 1dff 1dff
 t2$c 1fc 3de 707 603 603 603 706 38e 88
 t2$d 1fc 3fe 707 603 603 603 306 7fff 7fff
 t2$o 1fc 3fe 707 603 603 603 707 3fe 1fc
@@ -384,11 +387,15 @@ t2$r 3fff 3fff 3060 3060 3060 3060 3070 38fc 1fcf f83 1
 t2$f 3fff 3fff 30c0 30c0 30c0 30c0 30c0 30c0
 t2$B 3fff 3fff 30c3 30c3 30c3 30c3 39c3 1ffe f3e
 t2$t 600 600 3ffe 3fff 603 603
+t2$o 7c fe 1c7 183 183 1c7 fe 7c
 t2$n 7ff 7ff 300 600 600 600 700 3ff 1ff
 t2$l 7fff
 t2$k 7fff 7fff 20 e0 1f0 39c 60e 403 401
 t2$h 7fff 7fff 300 600 600 600 700 3ff 1ff
+t2$a 9e 1bf 1b3 1b3 1b2 1ff ff 1
+t2$s e6 1f7 1b3 193 19b 1df ce
 t2$e f8 3fe 366 663 663 663 663 3e6 1e2
+t2$R fff fff fff c30 c30 c3c e7e 7ef 3c3 1
 t3$. 1
 t3$8 10 387c 7efe ffce c786 c387 c386 efc6 fffe 78fc 78
 t3$a 1 3 3f ff 67fb 7fb0 7c30 7030 7c30 3ff1 7fb ff 3f 3 3
