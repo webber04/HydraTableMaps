@@ -76,11 +76,11 @@ r$i1state            651 469 651 469   dadada  160 C
 r$i2button           678 472 774 505        0    0 N
 r$i2label            683 467 777 486 ff000000  260 T2
 r$i2state            784 470 784 470   dcdcdc  180 C
-r$i3button           675 506 786 542        0    0 N
+r$i3button           672 468 783 507        0    0 N
 r$i3edit             700 420 779 445        0    0 N
 r$i3handle           450 443 465 450    b6817   20 H0
-r$i3label            678 505 775 525 ffffffff  260 T2
-r$i3slider           452 478 666 490        0    0 N
+r$i3label            678 466 774 486        0  260 T2
+r$i3slider           454 445 653 447        0    0 N
 r$i3state            780 516 780 516   303030  185 C
 r$i4button           544 469 655 504        0    0 N
 r$i4label            552 469 643 503 ffffffff  260 H0
