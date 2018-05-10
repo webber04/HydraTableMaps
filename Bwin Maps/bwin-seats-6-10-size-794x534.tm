@@ -32,7 +32,6 @@ s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Click Drag
 s$c0limits0                 ^s/^b
-s$c0limits1                 ^s/^b
 s$nchairs                   10
 s$network                   party
 s$potmethod                 3
@@ -64,8 +63,7 @@ r$c0cardface4nocard  538 159 538 159   ffffff   -1 C
 r$c0cardface4rank    498 159 517 180   ffffff -200 T3
 r$c0cardface4suit    498 182 516 206   fdfdfd -200 T3
 r$c0handnumber       690   4 794  18 ff525252  175 T0
-r$c0limits0           44   6 140  14   c7c7c7    0 H0
-r$c0limits1           44   6 140  14   c7c7c7    0 T3
+r$c0limits0           73  16 151  25   ffffff    0 T3
 r$c0pot0             351  80 442  93 ffebebeb  270 T0
 r$i0button           419 468 530 508        0    0 N
 r$i0label            430 473 518 506 ff000000  260 T2
@@ -398,6 +396,7 @@ t2$e f8 3fe 366 663 663 663 663 3e6 1e2
 t2$R fff fff fff c30 c30 c3c e7e 7ef 3c3 1
 t3$. 1
 t3$8 10 387c 7efe ffce c786 c387 c386 efc6 fffe 78fc 78
+t3$- 1 1 1
 t3$a 1 3 3f ff 67fb 7fb0 7c30 7030 7c30 3ff1 7fb ff 3f 3 3
 t3$1 1803 3803 3003 7fff 7fff 7fff 3 3
 t3$5 18 3ff1e 3ff1f 30c07 31c03 31803 31c03 30e07 30ffe 7fc
