@@ -94,6 +94,8 @@ r$i6state            474 514 512 534        0    5 H0
 r$i7button           425 442 434 450        0    0 N
 r$i7label            439 436 464 453   151515    0 H0
 r$i7state            425 442 434 450   ffffff   10 C
+r$i860button          25 445  47 455        0    0 N
+r$i860state           50 455  50 455   d4d3d4   -1 C
 r$p0active           539  87 539  87   969696   -3 C
 r$p0balance          458  82 564  97   1e140e  -50 T1
 r$p0bet              429 133 537 147   d5d5d5    5 T0
