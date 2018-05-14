@@ -223,6 +223,7 @@ r$p9dealer           347  98 347  98   f2f2f2   10 C
 r$p9name             225  63 347  77   ebebeb  140 T1
 r$p9seated           246  69 333  72   131313  -20 C
 r$tablepoint0         11 382  11 382   4b4949    5 C
+r$tablepoint1        399 319 399 319   2f2f2f    5 C
 
 //
 // fonts
