@@ -75,11 +75,11 @@ r$i1label            261 398 277 398        0    0 H0
 r$i1state            261 398 261 398 ff46456b   -1 C
 r$i2button           421 382 493 388        0    0 N
 r$i2label            393 398 404 398        0    0 H0
-r$i2state            514 371 514 371 ff676767   60 C
+r$i2state            515 368 515 368 ff8f8f8f   60 C
 r$i3button           415 411 443 417        0    0 N
 r$i3edit             390 427 418 435        0    0 N
 r$i3label            393 398 404 398        0    0 H0
-r$i3state            514 371 514 371 ff676767   60 C
+r$i3state            515 368 515 368 ff8f8f8f   60 C
 r$i4button           308 382 342 388        0    0 N
 r$i4label            296 381 357 388 ff2ebd66   20 T0
 r$i4state            261 398 261 398 ff00da59    5 C
