@@ -76,7 +76,7 @@ r$i4button            16 560  19 563        0    0 N
 r$i4label             28 556  45 569        0    0 H0
 r$i4state             17 561  17 561 fff98700   -5 C
 r$i5button           752 633 855 663        0    0 N
-r$i5label            767 642 808 652   ffc574  153 T3
+r$i5label            767 642 836 652   ffc574  153 T3
 r$i5state            749 663 749 663 ff3b3880   85 C
 r$i6button           751 631 858 662        0    0 N
 r$i6label            787 643 820 651        0    0 H0
@@ -577,9 +577,12 @@ t2$K ffff ffff 1c0 180 3c0 ee0 1c70 383c 700e e007 c003 8001
 t3$- 1 1 1
 t3$s 19 3d 2d 2d 26
 t3$e 1e 3e 29 29 39 19
+t3$c 1e 3f 21 21 21 12
 t3$o 1e 3f 21 21 3f 1e
 t3$e 1e 3f 29 29 39 19
 t3$l 1ff 1ff
+t3$h 1ff 1ff 20 20 3f 1f
+t3$k 1ff 8 1c 37 21
 t3$t 20 ff 21 21
 t3$a 26 2f 29 29 3f 1f
 t3$A 3 1e f4 c4 f4 1e 3
