@@ -138,7 +138,7 @@ r$p2name             867 381 990 400   ffffff  175 T0
 r$p2seated           907 376 907 376 ffc8c8c8    5 C
 r$p3active           574 563 576 572   d8e3e2   -1 C
 r$p3balance          471 583 589 605   8be8ff   78 T0
-r$p3bet              434 429 570 479   ffffff   60 T0
+r$p3bet              400 429 570 479   ffffff   60 T0
 r$p3cardback         568 506 568 506 ff000000    5 C
 r$p3cardface0nocard  506 496 506 496 ffffffff   -5 C
 r$p3cardface0rank    468 481 485 500 ffffffff -225 T2
@@ -281,6 +281,7 @@ t0$A 3 1e f8 388 388 f8 1e 3
 t0$A 3 1f 7f 3f8 3c8 3c8 3fc 7f 1f 3
 t0$A 3 1f ff 3f8 3e8 3e8 3fc ff 1f 3
 t0$. 3 3
+t0$2 3 87 8d 99 71
 t0$2 3 87 8d 9d 71
 t0$o 38 7e 81 81 81 83 7e 18
 t0$o 38 7e c3 81 81 c3 7e 3c
