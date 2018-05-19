@@ -54,8 +54,8 @@ r$c0cardface4nocard  493 292 493 292 ffcfcfcf   -5 C
 r$c0cardface4rank    487 240 501 254 fff5f5f5  -20 T1
 r$c0cardface4suit    487 256 501 270 fff5f5f5  -20 T1
 r$c0handnumber        83  53 143  61 ff000000 -250 T0
-r$c0pot0             331 300 492 313 ff000000 -250 T0
-r$i0button           432 514 531 539        0    0 N
+r$c0pot0             313 194 494 210 ff000000 -250 T0
+r$i0button           431 514 531 539        0    0 N
 r$i0label            451 521 500 531 ff000000 -250 T0
 r$i0state            551 539 551 539 ff202020   50 C
 r$i1button           556 514 655 538        0    0 N
@@ -139,7 +139,7 @@ r$p3name             591 398 595 402        0    0 H0
 r$p3seated           629 446 629 446 ffb06601   -5 C
 r$p4active           428 477 428 477 ff8685bc   -1 C
 r$p4balance          335 443 434 458 ff000000  150 T0
-r$p4bet              318 195 491 208 ff000000 -250 T0
+r$p4bet              354 356 453 368 ff000000 -250 T0
 r$p4cardback          22 503  22 503 ff3e9b5d    1 C
 r$p4cardface0nocard  391 403 391 403 ff945001    5 C
 r$p4cardface0rank    364 401 378 415 fff5f5f5  -20 T1
