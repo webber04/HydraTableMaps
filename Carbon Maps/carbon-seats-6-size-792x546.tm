@@ -41,13 +41,12 @@ s$t1type                    .25
 s$t2type                    0
 s$t3type                    fuzzy
 s$titletext                 LHE
-s$ttlimits                  ^* Table ^* - ^a/^s/^b - ^L
-s$ttlimits0                 ^* - ^* - ^s/^b - ^L
+s$ttlimits                  ^* Table ^* - ^s/^b - ^L
+s$ttlimits0                 ^* Table ^* - ^a/^s/^b - ^L
 s$ttlimits1                 ^* - ^s/^b - ^L
 s$ttlimits2                 ^* Room - Table ^* - ^s/^b - ^L
 s$ttlimits3                 ^* -  Play Money ^s/^b - ^L
-s$ttlimits4                 ^* - ^* - ^* - ^* - ^s/^b - ^L
-s$ttlimits5                 ^* Table ^* - ^a/^s/^b - ^L
+s$ttlimits4                 ^* - ^* - ^s/^b - ^L                
 
 //
 // regions
@@ -226,6 +225,7 @@ t0$2 81 103 105 119 e1
 t0$3 82 101 111 111 ee
 t0$3 82 183 121 121 1ff de
 t0$2 83 187 10d 119 1f1 e1
+t0$4 c 34 c4 1ff 1ff 4
 t0$4 c 34 c4 1ff 4
 t0$, d e
 t0$8 ee 111 111 111 ee
