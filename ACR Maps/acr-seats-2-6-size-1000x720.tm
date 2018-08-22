@@ -20,7 +20,7 @@ s$!titletext0               8 Max
 s$!titletext1               yatahay
 s$!titletext2               8-Max
 s$!titletext3               Abaddon
-s$!titletext4               Hercules
+s$!titletext4               Odin
 s$!titletext5               Athena
 s$!titletext6               Kraken
 s$!titletext7               Medusa

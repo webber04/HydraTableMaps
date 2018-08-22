@@ -18,8 +18,14 @@ z$targetsize       1000  720
 
 s$!titletext0               8 Max
 s$!titletext1               yatahay
-s$!titletext2               Purchase
-s$!titletext3               8-Max
+s$!titletext2               8-Max
+s$!titletext3               Abaddon
+s$!titletext4               Odin
+s$!titletext5               Athena
+s$!titletext6               Kraken
+s$!titletext7               Medusa
+s$!titletext8               Poseidon
+s$!titletext9               Orthrus
 s$balancenumbersonly        True
 s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
