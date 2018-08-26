@@ -79,7 +79,7 @@ r$i2state            782 516 782 516   353535   40 C
 r$i3button           748 445 778 458        0    0 N
 r$i3edit             678 477 777 496        0    0 N
 r$i3handle           446 482 452 490    b6817   20 H0
-r$i3label            750 447 775 458 ffffffff  260 T2
+r$i3label            749 447 775 458 ffffffff  260 T2
 r$i3slider           452 482 666 490        0    0 N
 r$i3state            780 516 780 516   303030  185 C
 r$i4button           549 510 654 543        0    0 N
@@ -493,12 +493,14 @@ t2$C 1f8 7fe 402 801 801 801 801 606 30c
 t2$c 1fc 3de 707 603 603 603 706 38e 88
 t2$d 1fc 3fe 707 603 603 603 306 7fff 7fff
 t2$o 1fc 3fe 707 603 603 603 707 3fe 1fc
+t2$M 1ff 1ff f0 3e 7 1f 78 1c0 1ff 1ff
 t2$l 1fff 1fff
 t2$h 1fff 1fff 100 100 100 1ff ff
 t2$k 1fff 1fff 30 78 cc 187 101 1
 t2$n 1ff ff 100 100 100 1ff ff
 t2$i 2000 67ff 2000
 t2$t 200 200 ffe fff 201
+t2$a 2 2f 69 49 7e 3f 1
 t2$- 3 3 3 3 3
 t2$C 3f0 ffc 1806 3003 2001 2001 2001 3003 1806 e0c 108
 t2$c 3f0 ffc 1c0e 3807 3003 3003 3003 3003 1806 1e1e 618
@@ -510,6 +512,7 @@ t2$r 3fff 3fff 3060 3060 3060 3060 3070 38fc 1fcf f83 1
 t2$k 3fff 3fff 30 70 d8 18c 307 201 1
 t2$f 3fff 3fff 30c0 30c0 30c0 30c0 30c0 30c0
 t2$B 3fff 3fff 30c3 30c3 30c3 30c3 39c3 1ffe f3e
+t2$x 41 63 3e 1c 7f 63 1
 t2$t 600 600 3ffe 3fff 603 603
 t2$c 7c c6 101 101 101 183 c6
 t2$e 7c d6 111 111 111 191 f2

@@ -407,12 +407,9 @@ t1$m 7f 7f 40 40 7f 3f 40 40 7f 1f
 t1$0 7fe ffe c03 c03 c03 7ff 7fe
 t1$l 7ff 7ff
 t1$L 7ff 7ff 3 3 3 3 3
-t1$H 7ff 7ff 60 60 60 60 7ff 7ff 7ff
 t1$p 7ff 7ff 608 60c 60c 7fc 3f8
-t1$P 7ff 7ff 630 630 630 630 7f0 3e0
 t1$F 7ff 7ff 660 660 660 660 600
 t1$E 7ff 7ff 663 663 663 663 603
-t1$M 7ff 7ff 780 1f0 3e 7 3e 1f8 7c0 7ff 7ff
 t1$h 7ff 7ff c0 c0 ff 7f
 t1$b 7ff 7ff c3 c3 e7 7e 3c
 t1$y 800 e03 fc3 3ff 7e 3f8 fc0 e00 800
