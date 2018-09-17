@@ -106,7 +106,7 @@ r$p1name             849 453 971 478 ff000000  -95 T1
 r$p1seated           815 478 815 495 ff0b0b0b   -3 C
 r$p2active           465 582 466 591 ff8a8987   -2 C
 r$p2balance          493 585 614 604 ff000000  -95 T2
-r$p2bet              442 455 616 468 ffffffff  150 T3
+r$p2bet              442 455 524 468 ffffffff  150 T3
 r$p2cardback         636 572 636 572 ffffffff    1 C
 r$p2cardface0        493 476 518 501        0    0 I
 r$p2cardface0nocard  532 479 532 479 fff2fafa  -10 C
@@ -222,7 +222,9 @@ t1$2 207 40d 409 411 621 3c1
 t1$i 27f
 t1$T 300 300 300 3ff 3ff 300 300 300
 t1$s 31 49 49 46
+t1$A 3 1f ff 3f8 1ff8 7e18 7818 7c18 7f98 ff8 1fe 3f f 1
 t1$2 3 207 40d 419 421 3c1
+t1$- 3 3 3 3 3
 t1$J 3 3 3 7fe 7fc
 t1$s 33 7b 6b 6f 66
 t1$e 3 7 f 1d 19 19 19 1f f 7
@@ -269,6 +271,7 @@ t1$K 3ff 3ff 30 fc 3cf 307 201
 t1$B 3ff 3ff 333 333 333 3ff 1ce
 t1$M 3ff 3ff 3c0 1fc 1f f fc 3c0 3ff 3ff
 t1$N 3ff 3ff 3c0 e0 78 1c e 3ff 3ff
+t1$n 3ff 3ff 3ff 100 300 300 700 3ff 3ff ff
 t1$k 3ff 3ff 8 3e 77 63 41
 t1$k 3ff 8 14 22 41
 t1$k 3ff 8 36 63 41
@@ -299,6 +302,7 @@ t1$f 60 1ff 3ff 360 360
 t1$Z 603 607 61f 63f 673 7e3 7c3 703 603
 t1$3 603 663 663 663 7fe 39e
 t1$a 6 27 29 29 3f f
+t1$i 63ff 73ff 63ff
 t1$i 63ff f3ff 63ff
 t1$a 6 49 49 49 3f
 t1$a 6 6f 6b 6a 7f 3f
@@ -415,6 +419,7 @@ t1$m ff 40 80 80 c0 7f 40 80 80 c0 7f
 t1$n ff ff 40 c0 c0 ff 7f
 t1$m ff ff 40 c0 c0 ff 7f 40 c0 c0 ff 7f
 t1$r ff ff 60 c0 c0
+t1$l ffff ffff 7fff
 t1$l ffff ffff ffff
 t1$k ffff ffff ffff 20 70 1f8 3fe 78f 607 403
 t1$h ffff ffff ffff 300 200 600 600 780 7ff 3ff
