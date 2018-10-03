@@ -69,13 +69,13 @@ r$c0limits1           45   5 125  15   c7c7c7    0 T3
 r$c0pot0             351 164 495 179   ffffff  270 T0
 r$i0button           422 511 523 540        0    0 N
 r$i0label            427 509 515 542 ffffffff  260 T2
-r$i0state            424 516 424 516   3a3a3a   40 C
+r$i0state            424 516 424 516   3a3a3a   60 C
 r$i1button           551 512 645 541        0    0 N
 r$i1label            573 507 630 523 ffffffff  260 T2
-r$i1state            552 516 552 516   3a3a3a   40 C
+r$i1state            552 516 552 516   3a3a3a   60 C
 r$i2button           683 510 779 543        0    0 N
 r$i2label            685 508 779 523 ffffffff  260 T2
-r$i2state            782 516 782 516   353535   40 C
+r$i2state            782 516 782 516   353535   60 C
 r$i3button           748 445 778 458        0    0 N
 r$i3edit             678 477 777 496        0    0 N
 r$i3handle           446 482 452 490    b6817   20 H0
@@ -84,7 +84,7 @@ r$i3slider           452 482 666 490        0    0 N
 r$i3state            780 516 780 516   303030  185 C
 r$i4button           549 510 654 543        0    0 N
 r$i4label            549 510 648 540 ffffffff  260 T2
-r$i4state            550 516 550 516   3a3a3a   40 C
+r$i4state            550 516 550 516   3a3a3a   60 C
 r$i5button           218 481 226 487        0    0 N
 r$i5label            230 477 295 489   151515    0 H0
 r$i5state            221 485 221 485        0   -5 C
