@@ -36,7 +36,7 @@ s$c0limits1                 ^s/^b
 s$nchairs                   6
 s$network                   party
 s$potmethod                 3
-s$sitename                  party-6-man
+s$sitename                  party-6-man-finaltable
 s$t0type                    0
 s$t1type                    0
 s$t2type                    0
