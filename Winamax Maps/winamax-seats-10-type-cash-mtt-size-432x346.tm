@@ -28,10 +28,10 @@ s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Dbl Click
 s$buttonclickmethod         Single
 s$c0limits                  ^L
-s$nchairs                   9
+s$nchairs                   10
 s$network                   winamax
 s$potmethod                 1
-s$sitename                  oh9_winamax9seats_cash_mtt
+s$sitename                  winamax10seats_cash_mtt
 s$t0type                    0.45
 s$t1type                    0
 s$t2type                    0.3
