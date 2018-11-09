@@ -30,7 +30,7 @@ s$nchairs                   6
 s$network                   global
 s$potmethod                 1
 s$sitename                  global_6_max_cash
-s$t0type                    .50
+s$t0type                    .35
 s$t1type                    fuzzy
 s$t2type                    fuzzy
 s$t3type                    fuzzy
@@ -58,7 +58,7 @@ r$c0cardface3suit    411 229 426 242 ffffffff  -50 T2
 r$c0cardface4nocard  497 220 497 220 ffffffff   -5 C
 r$c0cardface4rank    461 215 474 228 ffffffff -160 T2
 r$c0cardface4suit    460 229 475 242 ffffffff  -50 T2
-r$c0limits           225 194 367 203 ff2b8453    0 T0
+r$c0limits           225 194 367 203 ff2b8453    0 T1
 r$c0pot0             264 290 333 303 ffffffff  205 T1
 r$c0pot1             480 192 557 204 ffffffff  205 N
 r$i0button           468 525 541 552        0    0 N
@@ -124,9 +124,9 @@ r$p3balance          372 415 457 429 ffffffff    5 T0
 r$p3bet              362 336 454 348 ffffffff   50 T1
 r$p3cardback         412 343 412 343 ff000000    5 C
 r$p3cardface0         15 374  29 374        0    0 N
-r$p3cardface0nocard  384 358 384 358 ffffffff  -15 C
+r$p3cardface0nocard  415 358 415 358 ffffffff  -15 C
 r$p3cardface0rank    370 356 384 367 ffffffff -160 T0
-r$p3cardface0suit    370 368 384 380 ffffffff  -50 T0
+r$p3cardface0suit    369 368 383 380 ffffffff  -50 T0
 r$p3cardface1         43 318  43 318        0    0 N
 r$p3cardface1nocard  415 358 415 358 ffffffff  -15 C
 r$p3cardface1rank    389 356 401 367 ffffffff -160 T0
@@ -180,29 +180,47 @@ r$u5name               0   0   0   0 ff4d4d4c    0 T0
 //
 
 t0$1 100 100 300 7ff 7ff
+t0$7 100 101 10f 130 1c0 180
+t0$c 10 38 38 38 391 7ff 7d3 338 38 38 38
 t0$d 10 38 7c fe 1ff ff 7c 3c 18
 t0$c 10 3c 7c 7c 3bd 7fb fff 7fb 3bd 7c 7c 3c 18
 t0$8 11c 7fe 7f7 663 6e3 7fe 3be
 t0$S 1 79 49 4f 6 11 11
+t0$h 180 3e0 3f0 3f8 3fe 3ff 3ff 3fe 3f8 3f0 7e0 180
 t0$h 180 3e0 7f0 7f8 7fc 3ff 3ff 3fe 7fc 7f0 3e0 1c0
+t0$c 18 1c 1c 1c 1c8 3ff 1c8 1c 1c 1c 1c
+t0$c 18 1c 1c 1c 1c8 3ff 3c8 1c 1c 1c 1c
+t0$c 18 1c 3c 1c 3d8 3ff 3c9 198 3c 3c 18
+t0$3 183 101 121 171 ce
+t0$c 18 38 38 38 3d1 3ff 3d1 38 38 38 38
 t0$2 1 83 85 89 f1 1
+t0$c 18 3c 3c 18 3c9 3ff 3c8 1c 3c 3c 18
+t0$c 18 3c 3c 198 3c9 3fb 398 1c 3c 3c 8
+t0$c 18 3c 3c 3c 398 3fb 3f9 398 3c 3c 3c
 t0$c 18 3c 3c 3c 3d8 3ff 3f9 198 3c 3c 3c
 t0$c 18 3c 3c 9c 3d9 3ff 3d9 19c 3c 3c 3c
+t0$c 18 3c 7c 7c 3fd 7fb 7ff 7ff 7bd 7c 7c 3c 38
 t0$s 18 3c 7c fc 1f9 3ff 1fd fc 7c 3c 8
+t0$s 18 3c 7c fc 1fb 1f9 fc 7c 3c 8
 t0$s 18 3c 7c fc 1fd 3ff 3fb 1fd fc 7c 3c
 t0$s 18 3c 7c fc 3f9 3ff 1fd fc 7c 3c
+t0$s 18 7c fc 1fc 3fd 7ff 7ff 1fd fc fc 3c
 t0$s 18 7c fe 1fd 3fd 7ff 3ff 1fd fe 7c 3c
 t0$0 18 fe 81 81 7f 18
 t0$9 1c0 3f6 613 213 336 1fc
+t0$4 1c 2c c4 18c 3ff c
 t0$4 1c 7c ec 1cc 3ff 3ff c
 t0$8 1de 373 231 231 373 1de
 t0$9 1e1 331 211 213 326 1fc
 t0$9 1e6 3f7 633 613 7f7 3fe 1fc
 t0$/ 1 e 70 80
+t0$q 1f8 304 602 402 40a 606 206 3fe f1
 t0$q 1f8 3fc 706 606 60a 60e 606 3fe 1ff 61
 t0$q 1f8 3fc 70e 606 603 60f 606 78e 3ff fb
 t0$0 1fc 38e 401 401 401 38e 1fc
 t0$6 1fc 3b6 641 441 441 463 43e
+t0$6 1fc 3fe 327 663 363 33e 11c
+t0$6 1fc 3fe 363 663 377 33e 1c
 t0$0 1fe 303 201 201 303 1fe
 t0$6 1fe 3fe 363 663 377 33e 1c
 t0$7 200 200 203 20f 23c 3e0 380
@@ -210,25 +228,33 @@ t0$7 200 202 21f 260 380 300
 t0$2 203 607 40d 419 431 7e1 3c1
 t0$c 20 78 78 78 779 ff3 fff ff7 779 78 78 78 30
 t0$5 24 3e6 7e3 663 667 67e 1c
-t0$. 3
 t0$3 301 221 221 221 3d3 1de
+t0$0 30 1fe 3ff 303 303 387 1fe fc
 t0$2 303 207 20d 219 3f1 1e1
+t0$d 30 38 fc 1fe 1ff fc 78 30 10
 t0$3 304 306 663 663 7fe 3be 8
 t0$3 304 70e 603 663 7e7 3fe 11c
 t0$d 30 70 f8 1fe 3ff 3ff 3ff 1fe fc 78 30
 t0$2 307 70f 61f 63f 7f7 3e7 182
 t0$c 30 78 78 278 7b3 7ff 7f7 779 78 78 78 10
+t0$c 30 78 78 78 7f9 7f7 fff 7f3 779 78 78 78
 t0$c 30 78 78 78 7fb 7ff 7ff 7fb 378 78 78 78
+t0$c 30 78 78 78 7fb fff fff 7f3 78 78 78 30
 t0$c 30 78 78 78 7fb fff fff 7fb 378 78 78 78
 t0$c 30 78 78 78 7fb fff fff ff3 779 78 78 78
+t0$c 30 78 7c 7c 7f9 7ff 7ff 7ff 7f9 7c 7c 78 38
 t0$s 30 78 fc 1fc 3fb 7ff 7ff 3ff 1fc fc 78
 t0$d 30 78 fc 1fe 3ff 3fe 1fc f8 70 20
 t0$d 30 78 fc 1fe 3ff 3ff 1fe fc 78 30
+t0$d 30 78 fc 1fe 3ff 3ff 1fe fe 78 38
 t0$d 30 78 fc 1ff 3ff fe 7c 38 10
 t0$s 30 f8 1fc 1fe 7fb 7ff 7ff 3fb 1fc f8 38
+t0$s 30 f8 1fc 3fc 3fb 7ff 7ff 3ff 1fc fc 78
 t0$s 30 f8 1fc 3fc 7fb fff 7ff 3ff 1fc fc 78
+t0$A 3 1f fc 3fc 38c 3ec 1fc 3f f 1
 t0$A 3 1f fc 3fc 38c 3ec fc 3f 7 1
 t0$. 3 3
+t0$c 38 38 38 138 7d3 7ff 391 38 38 38 30
 t0$c 38 7c 7c 379 7fb 7ff 7ff 7b9 7c 7c 878 30
 t0$s 38 7c fc 1f9 3ff 3fb 1fd fc 7c 38
 t0$8 39c 7fe 663 463 6e7 7fe 1c
@@ -242,32 +268,44 @@ t0$5 3e1 3e1 221 221 233 21e
 t0$9 3e1 731 411 411 413 36e 1fc
 t0$9 3e6 7f7 613 633 3fe 1fc
 t0$a 3 f 7c 1ec 38c 3cc fc 1e 7 1
+t0$k 3ff 33f 30 70 f8 19e 307 203
 t0$k 3ff 3ff 3ff 70 f0 1f8 39e 30f 203 1
 t0$7 400 401 407 43e 4f0 7c0 700
 t0$t 40 fe 1ff 41 41
 t0$4 4 1c 24 c4 ff 4
 t0$4 4 1c 34 c4 184 3ff 4 4
+t0$5 4 3e6 362 243 262 23e
+t0$5 4 3e6 362 243 262 23e 18
 t0$a 47 49 49 49 7e 3f
 t0$7 600 600 60f 63f 6f8 7e0 780 600
+t0$7 600 603 61f 678 7c0 700 200
 t0$7 600 603 63f 678 7c0 700 200
 t0$7 600 607 63f 67c 7e0 780 600
+t0$7 600 607 63f 67e 7e0 780 600
 t0$7 600 607 63f 6f8 7c0 700 600
+t0$7 600 60f 63f 6f0 7c0 700
 t0$3 601 421 421 421 461 7df 39e
 t0$q 60 1fc 38e 606 602 60e 606 706 3ff 1fb
 t0$1 60 c0 ff
 t0$d 60 f0 1f8 3fc 7fe 7ff 3fc 1f8 f0 60
 t0$8 6 1df 331 231 371 1df 4
+t0$J 6 7 1 1 3ff 3fe
 t0$j 6 7 3 1 3 3fe
 t0$j 6 7 3 1 7 3fe
+t0$J 6 7 3 3 3 3ff 3fe
 t0$j 6 7 3 3 3ff 3fe
 t0$j 6 7 3 3 3ff 3ff 3f8
+t0$J 6 7 3 3 3ff 3ff 3fc
 t0$0 70 1fe 3ff 303 303 38f 1fe fc
+t0$c 70 78 f8 37a 7f3 fff fff 77b 78 f8 78 30
+t0$d 70 f0 1f8 3fc 7fe 7ff 3fe 1fc f8 f0 60
 t0$s 71 59 49 4f
 t0$a 7 1f fe 3fc 38c 3ec 1fc 7f f 3
 t0$a 7 3f fc 3ec 38c 3ec fc 3f 7
 t0$, 7 4
 t0$, 7 6
 t0$c 78 78 f8 77b ff7 fff ff7 77b 78 f8 78
+t0$c 78 f8 f8 77b fff fff ff7 77b f8 f8 78 30
 t0$I 7f
 t0$L 7f 1 1 1
 t0$N 7f 30 1c 6 7f
@@ -275,13 +313,20 @@ t0$D 7f 41 41 41 3e
 t0$N 7f 49 49 77
 t0$k 7ff 3ff 38 f0 1f8 3fe 38f 607 401
 t0$1 80 180 300 3ff
+t0$1 80 80 1ff
+t0$1 80 80 1ff 3ff
 t0$1 80 c0 1c0 3ff 3ff
 t0$2 81 387 30f 31d 3b9 1f1 81
 t0$3 82 183 301 331 1fb 1cf 4
 t0$2 83 187 30f 31b 3f3 1e3
 t0$4 8 38 68 c8 308 7ff 7ff 8 8
+t0$8 8 3be 6e6 463 663 7fe 11c
 t0$s 8 3c 7c fc 1fd 3ff 1fd fc 7c 3c 18
 t0$h c0 1f0 1f8 1fc 1fe ff ff 1fe 1fc 1f8 1f0 40
+t0$h c0 1f0 1f8 1fc fe ff 1fc 1f8 1f0 e0
+t0$h c0 1f0 1f8 3fc 1fe 1ff 1ff 1fe 3fc 1f8 1f0 c0
+t0$h c0 1f0 3f8 3fc 1fe 1ff 1ff 1fe 3fc 1f8 1f0 40
+t0$h c0 1f0 3f8 3fc 3fe 1ff 1ff 1fe 3fc 3f8 1f0 e0
 t0$h c0 1f0 3f8 3fc 3fe 1ff 1ff 3fe 3fc 3f8 1f0 40
 t0$h c0 1f0 3f8 3fc 3fe 1ff 1ff 3fe 3fc 3f8 1f0 e0
 t0$9 c0 3e6 633 613 233 3fe 78
@@ -292,22 +337,32 @@ t0$j c e 6 7 7fe 7fe 7f8
 t0$j c e 6 7 e 7fe 7fc
 t0$j c e 7 3 7fe 7fe
 t0$j c e 7 6 7fe 7fc
+t0$$ e1 1b1 1ff 111 11b 10e
 t0$5 e6 7e7 763 643 677 63e 8
 t0$h f0 1f8 1fc fe ff ff 1fe 1fc 1f8 e0
 t0$5 f1 91 91 9e
 t0$0 f8 1fe 38f 303 303 3ff 1fe
 t0$, f c
+t0$0 fc 102 201 201 102 1fe
+t0$0 fc 102 201 201 186 fc
+t0$0 fc 186 201 201 303 1fe
 t0$6 fc 3fe 3ff 663 663 37f 33e
+t0$K fc 3ff 3ff 38 70 1f8 3fe 38f 307 201
 t0$6 fe 193 321 221 233 21e
 t0$0 ff 7f 80 80 80 ff 7f
+t1$7 100 100 103 11e 178 1c0 100
 t1$3 102 303 221 221 3ff 1de
 t1$2 103 307 21d 239 3f1 1c1
+t1$S 1 79 49 4f 6 11 11
+t1$3 181 111 111 1bb ee
 t1$3 1 81 91 91 ee
+t1$2 183 107 10d 1b9 f1
 t1$2 183 307 20d 219 3f1 1c1
 t1$2 1 83 85 89 f1 1
 t1$0 18 fe 81 81 7f 18
 t1$8 1de 3ff 221 221 3ff 1de
 t1$9 1e0 3b1 213 21e 338 1f0
+t1$5 1e1 121 121 133 11e
 t1$9 1e2 3f3 211 211 3fe 1fc
 t1$5 1 f3 3e1 221 223 23e 1c
 t1$0 1fe 3ff 201 201 3ff 1fe
@@ -321,6 +376,11 @@ t1$4 4 1c 24 c4 ff
 t1$8 4 ef 91 91 ef
 t1$1 60 c0 ff
 t1$0 78 1fe 303 201 201 1ce fc
+t1$I 7f
+t1$L 7f 1 1 1
+t1$N 7f 30 1c 6 7f
+t1$D 7f 41 41 41 3e
+t1$N 7f 49 49 77
 t1$7 80 80 87 9c f0 80
 t1$4 8 38 68 c8 308 3ff 8
 t1$6 8 7e d1 91 9f 4
@@ -329,8 +389,12 @@ t1$1 c0 181 301 3ff 1 1
 t1$4 c 34 c4 3ff 3ff 4
 t1$, d e
 t1$5 e2 3e3 341 241 27f 23e
+t1$8 ef 139 111 139 ef
 t1$5 f1 91 91 9e
+t1$9 f9 109 109 18b fe
+t1$0 fe 183 101 183 fe
 t1$6 fe 1ff 221 221 33f 11e
+t1$6 fe 93 121 121 13e 8
 t2$3 104 307 707 663 663 7ff 3ff 1c
 t2$c 10 78 7c 7c 37d 7fb fff fff 7b9 7c 7c 7c 78
 t2$s 10 7c fc 1fc 3fd 7fb fff 7fb 3fd 1fc fc 3c
@@ -340,6 +404,7 @@ t2$t 180 180 3fe 7ff 7fe
 t2$9 180 7e6 ff7 c33 c33 ffe 7fe 1f0
 t2$8 1c 7be 7ff c63 c63 7ff 7be 18
 t2$4 1c 7c ec 38c 7fe 7ff 7fe 8
+t2$Q 1f0 7f8 7bc e0e c06 c1e c0e e0e 7fe 3ff e3
 t2$c 1f 31 20 20 20
 t2$a 1 f 7f 1fc 7cc 78c 7ec fc 3f f 1
 t2$6 1f8 7fe 7fe c43 cc3 666 67e 1c

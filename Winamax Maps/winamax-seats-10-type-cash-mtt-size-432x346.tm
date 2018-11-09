@@ -1,8 +1,7 @@
 .osdb2
 
-// OpenScrape 9.3.1
+// OpenScrape 12.0.3
 
-// 2018-01- 9 17:53:34
 // 32 bits per pixel
 
 //
@@ -234,6 +233,8 @@ r$u7balance           60  91  65 102 ff1f1489  100 T3
 r$u7seated            64  77  64  77 ff666666    1 C
 r$u8balance          159  67 164  78 ff1f1489  100 T3
 r$u8seated           178  53 178  53 ff666666   10 C
+r$u9balance          185  67 244  79 ff1f1489  100 T3
+r$u9seated           224  81 224  81 ff666666   10 C
 
 //
 // fonts
@@ -558,6 +559,7 @@ t3$d 18 3c 7e 1ff 3ff ff 3c 18
 t3$h 187f 181f 180f 1803 1c01 1801 1807 180f 183f 1cff
 t3$k 1bf9 1801 1801 1801 1b99 1f0d 1801 18e1 19f1 1bf9 1ffb
 t3$c 1c 3c bc 1fd 3ff 1fd bc 3c 1c
+t3$c 1c 3c be 1fc 1ff 1fc fe 3e 1c
 t3$s 1c 7e fe 1ff 3ff 1fd fe 7e 1c
 t3$s 1c 7e fe 1ff 3ff 1fd fe 7e 3c
 t3$9 1e00 7f9c ff9e ffde e3cf e1c7 f1cf fffe fffe 7ffc 1ff0
