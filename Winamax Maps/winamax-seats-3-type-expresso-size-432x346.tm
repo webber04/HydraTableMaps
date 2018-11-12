@@ -2,8 +2,6 @@
 
 // OpenScrape 12.0.3
 
-// 32 bits per pixel
-
 //
 // sizes
 //
