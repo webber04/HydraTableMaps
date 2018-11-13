@@ -32,6 +32,7 @@ s$t1type                    fuzzy
 s$t2type                    fuzzy
 s$t3type                    0
 s$titletext                 8-Max
+s$titletext0                8-max
 s$ttlimits                  ^*Table^*- ^L^*- ^s / ^b*)^y
 
 //
