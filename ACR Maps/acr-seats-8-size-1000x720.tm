@@ -42,8 +42,8 @@ s$t1type                    fuzzy
 s$t2type                    fuzzy
 s$t3type                    0
 s$titletext                 Limit -
-s$titletext1                8-Max
-s$titletext2                8-max
+s$titletext0                8-Max
+s$titletext1                8-max
 s$ttlimits                  ^*Limit - ^s / ^b
 
 //
