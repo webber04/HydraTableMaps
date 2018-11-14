@@ -110,7 +110,7 @@ r$p1dealer           340 213 340 213 ff7ae3fd   10 C
 r$p1name             344 198 417 209 ffefefef   26 T2
 r$p1seated           376 196 376 196 ff2a2929   -2 C
 r$p2active           219 248 224 248 ffffffff    0 C
-r$p2balance          183 263 249 275 ff5cbdd6   65 T0
+r$p2balance          195 263 249 275 ff5cbdd6   65 T0
 r$p2bet              178 215 252 225 ff00bbec   90 T1
 r$p2cardback         208 224 208 224 ffffffff   10 C
 r$p2cardface0nocard    7   8   7   8        0    1 C
