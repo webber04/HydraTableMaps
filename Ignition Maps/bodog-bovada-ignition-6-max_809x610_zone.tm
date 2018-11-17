@@ -8,8 +8,8 @@
 // sizes
 //
 
-z$clientsizemax    809  610
-z$clientsizemin    809  610
+z$clientsizemax    820  620
+z$clientsizemin    790  590
 z$targetsize       809  610
 
 //

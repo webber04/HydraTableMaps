@@ -8,8 +8,8 @@
 // sizes
 //
 
-z$clientsizemax    809  610
-z$clientsizemin    809  610
+z$clientsizemax    820  620
+z$clientsizemin    790  590
 z$targetsize       809  610
 
 //
@@ -55,22 +55,22 @@ r$c0cardface4nocard  493 292 493 292 ffcfcfcf   -5 C
 r$c0cardface4rank    487 240 501 254 fff5f5f5  -20 T1
 r$c0cardface4suit    487 256 501 270 fff5f5f5  -20 T1
 r$c0handnumber        83  53 143  61 ff000000 -250 T0
-r$c0pot0             334 195 492 208 ff000000 -250 T0
-r$i0button           431 514 531 539        0    0 N
-r$i0label            451 521 500 531 ff000000 -250 T0
-r$i0state            551 539 551 539 ff202020   50 C
-r$i1button           556 514 655 538        0    0 N
-r$i1label            591 514 617 524 ff000000 -250 T0
-r$i1state            552 538 552 538 ff1d1d1d   50 C
-r$i2button           680 513 778 538        0    0 N
-r$i2label            699 514 755 525 ff000000 -250 T0
+r$c0pot0             314 194 492 210 ff000000 -250 T0
+r$i0button           432 512 531 537        0    0 N
+r$i0label            451 519 500 530 ff000000 -250 T0
+r$i0state            551 538 551 538 ff202020   50 C
+r$i1button           556 512 655 536        0    0 N
+r$i1label            591 513 617 523 ff000000 -250 T0
+r$i1state            552 537 552 537 ff1d1d1d   50 C
+r$i2button           680 512 778 537        0    0 N
+r$i2label            699 513 755 524 ff000000 -250 T0
 r$i2state            676 535 676 535 ff242424   50 C
 r$i3button           759 520 771 532        0    0 N
-r$i3edit             674 553 782 565        0    0 N
+r$i3edit             675 553 782 563        0    0 N
 r$i3label            647 558 656 567        0    0 H0
-r$i3state            779 562 783 566 ff000000    0 C
-r$i4button           554 516 655 538        0    0 N
-r$i4label            585 521 622 531 ff000000 -250 T0
+r$i3state            778 559 782 563 ff000000    0 C
+r$i4button           554 514 655 536        0    0 N
+r$i4label            585 519 622 529 ff000000 -250 T0
 r$i4state            553 536 553 536 ff181818   50 C
 r$i5button           653 461 659 466        0    0 N
 r$i5label            732 459 764 470        0    0 H0
