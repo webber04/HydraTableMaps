@@ -80,8 +80,8 @@ r$i6state            655 465 655 465 ff181818   -5 C
 r$i7button           652 429 659 437        0    0 N
 r$i7label            664 428 691 440        0    0 H0
 r$i7state            655 435 655 435 ff181818   -5 C
-r$i860button         528 380 617 392        0    0 N
-r$i860state          523 395 523 395 ff050505    5 C
+r$i860button         528 396 617 408        0    0 N
+r$i860state          528 397 528 397 ff747474   20 C
 r$i8button           423 496 431 502        0    0 N
 r$i8label            436 494 460 501        0    0 H0
 r$i8state            425 497 429 501 ffe4e4e4    5 C
