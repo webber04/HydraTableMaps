@@ -47,21 +47,20 @@ r$c0cardface3        546 278 571 303        0    0 I
 r$c0cardface3nocard  576 290 576 290 fff3fcfb  -10 C
 r$c0cardface4        617 278 642 303        0    0 I
 r$c0cardface4nocard  648 290 648 290 fff3fbfb  -10 C
-r$c0limits           227   9 244  22 ffffffff  150 T3
 r$c0pot0             431 250 610 263 ffffffff  150 T3
 r$i0button           676 679 761 708        0    0 N
 r$i0label            698 685 698 685 ffffffff    0 H0
-r$i0state            720 703 720 703 ff5e8214    5 C
+r$i0state            720 703 720 703 ff1ea684   50 C
 r$i1button           795 677 886 711 ff5e8214    0 N
 r$i1label            786 672 889 693 ffffffff  100 T1
-r$i1state            846 718 846 718 ff5e8214    5 C
-r$i2button           914 676 1002 708        0    0 N
-r$i2label            913 673 991 691 ffffffff  100 T1
-r$i2state            934 715 934 715 ff17110f   -5 C
+r$i1state            846 718 846 718 ff009d75   50 C
+r$i2button           914 676 1005 708        0    0 N
+r$i2label            902 673 991 691 ffffffff  100 T1
+r$i2state            934 718 934 718 ff17110f   -5 C
 r$i3button           923 616 1000 624        0    0 N
-r$i3edit             657 641 734 653        0    0 N
+r$i3edit             664 641 719 653        0    0 N
 r$i3label            932 613 988 627 ffffffff  100 T1
-r$i3state            749 641 749 641 ff5d7f14    1 C
+r$i3state            1003 612 1003 612 ff4db59c   50 C
 r$i4button           840 652 938 666        0    0 N
 r$i4label            844 650 932 667        0    0 H3
 r$i4state            885 653 886 666 ffffffff    1 C
@@ -78,7 +77,7 @@ r$i8label            852 675 984 688        0    0 H2
 r$i8state            934 715 934 715 ff5e8214   -5 C
 r$i9button           796 684 870 706        0    0 N
 r$i9label            795 685 871 704 ffffffff  100 T1
-r$i9state            846 718 846 718 ff5e8214    5 C
+r$i9state            846 718 846 718 ff5e8214   50 C
 r$iAbutton           604 664 614 674        0    0 N
 r$iAlabel            605 666 658 673        0    0 H0
 r$iAstate            608 668 608 668 ff111111   10 C
@@ -187,20 +186,18 @@ r$p8seated           348 141 348 141 ff201b1a   -1 C
 //
 
 t0$1 e0000 e0000 e0000 e0000 1e0000 3fffff ffffff ffffff ffffff
-t1$T 100 100 180 1ff 1ff 100 100
-t1$V 100 1e0 fc 1f 7 1f 1f8 1c0
 t1$1 100 200 7ff
 t1$3 101 111 111 1ff ee
 t1$Z 103 10f 11d 171 1e1 181
-t1$2 107 30f 30d 319 3f1 1e1
 t1$j 1 1 1bff 1bff
 t1$j 1 1 3 27fe
 t1$J 1 1 3 7fc
 t1$j 1 13ff
 t1$j 1 3 27fe
 t1$x 1 33 1e c 3f 21
+t1$e 1 3 7 6 6 6 7 3 1
+t1$c 1 3 7 7 7 6 6 7
 t1$Z 1 403 40d 419 471 4c1 581 601 401
-t1$z 1 63 67 7d 79 71 41
 t1$1 180 180 3ff 3ff
 t1$Y 180 1f0 3f 3f 1f0 180
 t1$W 180 1f8 3f f f8 1c0 f8 f 3f 1f8 180
@@ -208,18 +205,16 @@ t1$1 180 300 7ff 7ff
 t1$2 183 107 10d 119 1f1 e1
 t1$4 18 38 68 188 308 7ff 8
 t1$4 18 38 c8 188 608 7ff 8
-t1$S 186 3c2 7e3 663 672 63e 61e
 t1$4 1c 3c 7c cc 38c 7ff 7ff c
 t1$4 1c 3c 7c ec 1cc 3ff 3ff c
 t1$c 1c 3e 63 63 63 63
+t1$a 1c 63e 67f e67 e67 e46 ece 7fe 7fe 1fe
 t1$s 1c7 3e3 7e3 673 673 63f 73e 1c
 t1$i 1c7ff 1c7ff 1c7ff
 t1$8 1ce 3ff 333 333 3ff 1ce
 t1$q 1e0 210 408 408 408 210 7ff
 t1$g 1e0 219 409 409 409 212 7fc
-t1$g 1e0 3f3 633 613 613 636 7fe 7f8
 t1$9 1e0 3f3 633 633 627 3fe 1f8
-t1$g 1e0 3f3 733 61b 613 736 7fe 7f8
 t1$9 1e0 631 411 411 626 1f8
 t1$5 1e1 1e1 121 13f 11e
 t1$c 1e 23 41 41 41
@@ -227,40 +222,32 @@ t1$a 1e 33f 67f 667 667 666 66c 7ff 3ff 1ff
 t1$o 1e 3f 63 63 63 7e 3c
 t1$e 1e 3f 6b 6b 6b 7b 38
 t1$d 1e 7f 63 63 22 3ff 3ff
+t1$M 1f0 1ff 1e0 f8 1e 7 1e f0 1e0 1ff 1ff
 t1$g 1f0 319 209 209 113 3fe
 t1$Q 1f0 71c 406 802 802 802 c06 60f 3f9 1
 t1$g 1f1 319 209 209 113 3fc
+t1$c 1 f 1f 3f 78 70 70 e0 e0 e0 70 70
 t1$A 1 f 38 1c8 708 708 1e8 38 f 1
 t1$A 1 f 7f 1fc 7cc 60c 7cc 3fc 7f f 1
 t1$c 1 f 7f 3ff 1ffc fff8 fe38
 t1$c 1f 7f ff 1f0 1c0 3c0 380 380 380 380 380 3c0
 t1$e 1f8 3fe 77e 666 c67 c67 667 7e6 3e6 60
+t1$e 1f8 3fe 7fe 667 e67 e67 e67 7e6 7e6 1e0
 t1$C 1f8 7fe fff 1f0f 1c03 3c03 3801 3801 3801 3801 3801 3c03
 t1$U 1fc 1fe 3 1 1 3 1fe 1fc
-t1$U 1fc 1ff 3 3 3 f 1fe
 t1$0 1fc 203 401 401 602 1fc
 t1$0 1fc 3fe 707 603 707 3fe 1fc
+t1$e 1fc 3fe 7ff 627 623 623 763 3e3 1e2
 t1$e 1fc 3fe 7ff 627 623 623 763 3e3 1e2 60
-t1$0 1fc 7fe 602 603 606 3fe 1f8
 t1$R 1ff 110 110 118 12c e3 1
 t1$L 1ff 1 1 1
 t1$B 1ff 111 111 111 ee
 t1$M 1ff 1c0 70 1c 7 7 1c 70 1c0 1ff
 t1$M 1ff 1e0 e0 3c 7 f 38 1e0 1ff 1ff
-t1$B 1ff 1ff 111 111 1fb 1fe c
-t1$R 1ff 1ff 118 118 1bc 1e7 3
-t1$D 1ff 1ff 183 183 183 1c6 fe 7c
-t1$D 1ff 1ff 183 183 183 1c7 fe fc
-t1$E 1ff 1ff 193 113 113
-t1$B 1ff 1ff 1b3 1b3 1ff 1ff ce
-t1$E 1ff 1ff 1bb 1b3 1b3 103
-t1$N 1ff 1ff 1c0 70 18 e 1ff 1ff
-t1$L 1ff 1ff 3 3 3
 t1$l 1ffff 1ffff 1ffff
 t1$h 1ffff 1ffff 1ffff 180 300 700 780 7ff 3ff 1ff
 t1$k 1ffff 1ffff 1ffff 60 f8 1fc 3fe 79f 707 603 401
 t1$y 200 1c0 39 6 38 1c0 200
-t1$i 200 37f 27f
 t1$y 201 1c1 72 c 70 1c0 200
 t1$1 201 201 401 7ff 1 1 1
 t1$y 201 3c1 3f3 7f 3e 1f8 3c0 200
@@ -268,35 +255,32 @@ t1$y 203 383 3e7 7e 3c 1f0 3c0 200
 t1$y 203 3c3 1f7 3e f8 3c0 200
 t1$3 203 421 421 421 652 39e
 t1$2 207 40d 409 411 621 3c1
-t1$J 2 3 6 7fe 7fc
+t1$x 21 3f 1e 1e 37 21
+t1$a 27 2f 29 29 3f
 t1$i 27f
-t1$i 27f 37f
 t1$T 300 300 300 3ff 3ff 300 300 300
-t1$1 300 300 700 7ff 7ff
 t1$s 31 49 49 46
+t1$A 3 1f ff 3f8 1ff8 7e18 7818 7c18 7f98 ff8 1fe 3f f 1
 t1$2 3 207 40d 419 421 3c1
+t1$- 3 3 3 3 3
 t1$J 3 3 3 7fe 7fc
 t1$s 33 7b 6b 6f 66
 t1$e 3 7 f 1d 19 19 19 1f f 7
 t1$c 3 7 f 1e 1c 1c 1c 1c 1e
-t1$i 37f 27f
 t1$i 37f 37f
 t1$S 383 641 421 421 413 60e
-t1$O 38 fe 1ff 183 183 183 1c7 1ff fe 38
+t1$s 386 7c7 7e7 ee7 e77 e7e e7e 63c
 t1$8 39e 673 421 421 673 3de
 t1$8 39e 673 421 461 473 39e
-t1$8 39e 7fe 662 463 662 3be 11c
 t1$8 39e 7ff 663 663 663 7ff 39e
+t1$C 3c0 1ff8 3ffc 7ffe 781e f00e e00f e007 e007 e007 e006 e00e
 t1$o 3c 42 81 81 81 42 3c
 t1$c 3c 43 81 81 81
 t1$d 3c 43 81 81 81 42 7ff
 t1$s 3c6 7e7 6e3 e67 c76 67e 63c
 t1$S 3c7 7e3 663 673 63f 71e
 t1$o 3c 7e c3 c3 c3 7e 3c
-t1$e 3c 7e d6 93 d3 f2 70
 t1$e 3c 7e d7 d3 d3 f7 70
-t1$d 3c 7e e6 c3 c2 c6 7fe 7fe
-t1$o 3c 7e e6 c3 c3 c6 7e 3c
 t1$c 3c 7e e7 c3 c3 c7
 t1$e 3e 53 91 91 93 70
 t1$d 3e 63 41 41 22 3ff
@@ -307,7 +291,6 @@ t1$d 3e 7f c3 c3 42 7ff 7ff
 t1$e 3e 7f ff 1db 199 199 199 1f9 fb 78
 t1$c 3e 7f ff 1e3 1c1 1c1 1c1 1c1 1e3
 t1$5 3f3 3f3 333 333 33e 31e
-t1$g 3f3 7f3 61b 613 613 7fe 7fc
 t1$l 3ff
 t1$p 3ff 108 204 204 204 308 f0
 t1$p 3ff 110 208 208 318 1f0
@@ -316,10 +299,8 @@ t1$h 3ff 20 40 40 40 3f
 t1$P 3ff 210 210 210 320 1e0
 t1$l 3ff 3ff
 t1$p 3ff 3ff 108 30c 30c 3fc 1f0
-t1$p 3ff 3ff 108 30c 318 3f8 1f0
 t1$p 3ff 3ff 110 318 318 3f8 1e0
 t1$k 3ff 3ff 1c 7f 67 41
-t1$h 3ff 3ff 20 60 60 7f 3f
 t1$h 3ff 3ff 20 60 7f 3f
 t1$b 3ff 3ff 22 63 63 7f 3e
 t1$H 3ff 3ff 30 30 30 30 30 3ff 3ff
@@ -327,18 +308,11 @@ t1$H 3ff 3ff 30 30 30 30 3ff 3ff
 t1$D 3ff 3ff 303 303 303 386 1fe f8
 t1$K 3ff 3ff 30 f8 1de 387 303 201
 t1$K 3ff 3ff 30 fc 3cf 307 201
-t1$L 3ff 3ff 3 1 1 1
-t1$P 3ff 3ff 318 318 318 3f0 1e0
-t1$B 3ff 3ff 331 331 331 3fb 1df 8e
-t1$B 3ff 3ff 331 331 331 3fb 1df e
-t1$E 3ff 3ff 333 331 331 331
 t1$B 3ff 3ff 333 333 333 3ff 1ce
-t1$M 3ff 3ff 3c0 1f8 3f 7 f 78 3e0 3ff 3ff 3ff
 t1$M 3ff 3ff 3c0 1fc 1f f fc 3c0 3ff 3ff
 t1$N 3ff 3ff 3c0 e0 78 1c e 3ff 3ff
-t1$M 3ff 3ff 3c0 f8 3f 7 f 78 3c0 3c0 3ff
+t1$n 3ff 3ff 3ff 100 300 300 700 3ff 3ff ff
 t1$k 3ff 3ff 8 3e 77 63 41
-t1$k 3ff 3ff c 3e 77 61
 t1$k 3ff 8 14 22 41
 t1$k 3ff 8 36 63 41
 t1$T 400 400 400 7ff 400 400 400
@@ -352,14 +326,12 @@ t1$X 401 603 38e d8 20 d8 38e 603 401
 t1$X 401 603 78f 3fe f8 f8 3fe 78f 607 401
 t1$f 40 1ff 240 240
 t1$t 40 1ff 41 41
-t1$f 40 60 3ff 3ff 660 200
-t1$w 40 78 3f 3 f 78 78 3f 3 1f 78 40
-t1$v 40 78 3f 7 7 3f 78 40
 t1$1 40 c0 1ff 1ff
 t1$z 41 43 4d 59 61 41
 t1$x 41 63 1c 1c 33 41
 t1$x 41 77 3e 1c 3e 67 41
 t1$i 4ff
+t1$t 600 600 3ffc 3ffe 7fff e0f 607 606
 t1$T 600 600 600 7ff 7ff 600 600 600
 t1$7 600 603 61f 67c 7e0 780 600
 t1$W 600 7c0 7c 7 f 78 780 780 f0 f 7 7c 3c0 600
@@ -368,15 +340,10 @@ t1$W 600 7e0 7fe 7f f 7f 7f0 700 7f0 1ff 1f 3f 7fe 7e0
 t1$t 600 e00 3ffe 3ffe e0f 607 606
 t1$t 60 1fe 1ff 63 63
 t1$f 60 1ff 3ff 360 360
-t1$3 602 662 663 662 7fe 39e
 t1$Z 603 607 61f 63f 673 7e3 7c3 703 603
 t1$3 603 663 663 663 7fe 39e
-t1$z 61 67 6f 7d 71 61
-t1$8 6 1df 371 231 331 3fb 1cf
 t1$a 6 27 29 29 3f f
-t1$s 62 f2 9b 9a 8e 4
-t1$s 62 f2 db 9a 8e 4
-t1$s 62 f2 db 9a 9e 4
+t1$i 63ff 73ff 63ff
 t1$i 63ff f3ff 63ff
 t1$a 6 49 49 49 3f
 t1$a 6 6f 6b 6a 7f 3f
@@ -384,26 +351,17 @@ t1$a 6 6f 6b 6b 6a 7f 3f
 t1$i 6ff 6ff
 t1$t 700 700 1ffe 3fff 3fff 707 707
 t1$s 71 91 89 8e
-t1$s 72 f3 9a 9e 8e
 t1$2 7 30f 61b 633 633 7e3 3c3
-t1$A 7 3f 1fc 3cc 38c 3fc 7e 1f 3
 t1$s 73 f3 db db cf e
-t1$a 7 6f 49 49 6b 7f f
-t1$u 78 fe ff 2 2 fe fe
 t1$O 7c 1fe 387 303 303 303 387 1fe f8
 t1$6 7c 1fe 393 333 333 33e 1e
 t1$0 7c 1ff 101 101 1ff 7c
 t1$5 7c3 441 441 441 422 1c
 t1$5 7c3 441 441 463 43e
-t1$O 7c fe 183 183 183 183 fe 7c
-t1$o 7c fe c2 c3 c2 fe 7c
-t1$c 7c fe c6 c3 c2 82
-t1$e 7c fe d2 93 d2 72 10
 t1$6 7c ff 1a1 121 13f 1e
 t1$c 7e0 1ff8 3ffc 7c3e 700e f00f e007 e007 e007 e007 e007 f00e
 t1$u 7e 3 1 1 2 7f
 t1$5 7e3 7e3 663 663 67e 63c
-t1$5 7e6 7e3 7e3 667 67e 67e 1c
 t1$u 7e 7f 3 2 7f 7f
 t1$C 7f0 1ffc 3ffe 381e 700f 7007 6007 6007 6007 6007 7007
 t1$r 7f 20 40 40
@@ -412,11 +370,8 @@ t1$m 7f 20 40 40 3f 20 40 40 3f
 t1$n 7f 20 40 40 40 3f
 t1$r 7f 7f 20 60
 t1$r 7f 7f 20 60 60
-t1$n 7f 7f 20 60 60 7f 3f
-t1$n 7f 7f 20 60 70 7f 1f
 t1$n 7f 7f 20 60 7f 3f
 t1$m 7f 7f 20 60 7f 3f 20 60 7f 3f
-t1$r 7f 7f 30 60 60
 t1$U 7fc 2 1 1 1 1 2 7fc
 t1$U 7fc 7fe 7 3 3 7 7fe 7fc
 t1$l 7ff
@@ -437,7 +392,6 @@ t1$N 7ff 700 180 60 30 c 7 7ff
 t1$M 7ff 700 e0 38 6 7 38 e0 700 7ff
 t1$l 7ff 7ff
 t1$k 7ff 7ff 18 7e ef c3 81
-t1$p 7ff 7ff 230 610 618 770 3f0 1c0
 t1$L 7ff 7ff 3 3 3 3
 t1$h 7ff 7ff 40 c0 c0 ff 7f
 t1$b 7ff 7ff 42 c3 c3 ff 7c
@@ -451,11 +405,11 @@ t1$E 7ff 7ff 663 663 663 663 663
 t1$B 7ff 7ff 663 663 663 667 7be 39c
 t1$M 7ff 7ff 780 7f0 fe 1f f 7e 3f0 780 7ff 7ff
 t1$k 7ff 7ff 7ff 1 3 7 f 1e 1c 18 10
-t1$E 7ff 7ff 7ff 667 667 667 2
 t1$h 7ff 7ff 7ff 6 c 1c 1e 1f f 7
 t1$R 7fff 7fff 70e0 70c0 70e0 70e0 71f8 3fbe 3f9f 1e07 3
 t1$k 7fff 7fff 7fff 18 3e 7f ff 1e7 1c1 180 100
 t1$h 7fff 7fff 7fff 60 c0 1c0 1e0 1ff ff 7f
+t1$R 7fff 7fff 7fff 70e0 70e0 70e0 70f0 79fc 3fbe 3f9f 1e07 3
 t1$B 7fff 7fff 7fff 71c3 71c3 71c3 71c3 7fe7 3f7f 3e7e 3c
 t1$t 80 3fe 81 81
 t1$f 80 3ff 480 480
@@ -464,26 +418,20 @@ t1$z 81 83 8d 99 b1 c1 81
 t1$x 81 c3 3c 18 3c c3 81
 t1$x 81 e7 ff 7e 3e ff c7 81
 t1$3 83 111 111 111 ee
-t1$t c0 3fe 3fe c3 c2
 t1$t c0 3fe 3ff c3 c3
 t1$f c0 3ff 7ff 6c0 6c0
 t1$w c0 78 f 7 38 c0 78 7 7 78 c0
 t1$v c0 f8 7f f f 7e f0 80
 t1$w c0 fc ff 7 3f f8 f8 7f 7 3f f8 c0
-t1$4 c 1c 34 64 1c4 3ff 3ff 4
 t1$4 c 1c 34 c4 1ff 1ff 4
-t1$8 c 3be 7e6 463 662 7fe 39e
-t1$8 c 3be 7fe 6e3 663 7f7 7fe 39e
 t1$z c3 c7 cf df fb e3 c3
-t1$a ce 9f 92 d2 fe 7e
-t1$5 e2 7e2 663 662 67e 63e
 t1$a e c9 91 91 92 7f
-t1$a e de 93 92 d6 fe 3e
 t1$a e df db d3 d2 ff 7f
 t1$8 ee 1ff 131 131 1ff ce
 t1$q f0 108 204 204 204 108 3ff
 t1$g f0 10c 204 204 204 109 3fe
 t1$e f0 3fc 7fe 66e e67 c67 667 766 7e6 1e0
+t1$e f0 3fc 7fe 76e e67 e67 e67 767 7e6 3e6 40
 t1$9 f1 1f9 109 10b 1fe 7c
 t1$9 f4 3fb 31b 317 3fe fc
 t1$G f8 106 202 401 401 421 421 63e
@@ -498,11 +446,10 @@ t1$C f8 3fe 307 603 603 603 707
 t1$O f8 3fe 307 603 603 603 707 3fe f8
 t1$o f8 3fe 3fe 78f 707 707 707 78f 3fe 3fe f8
 t1$d f8 3fe 3ff 78f 707 707 706 38e 1ffff 1ffff 1ffff
-t1$0 f8 3fe 706 603 602 7fe 3fc
-t1$0 f8 3fe 7fe 707 603 7df 7fe 3fc
 t1$0 fc 1fe 387 303 387 1fe fc
 t1$6 fc 322 441 441 463 3c
 t1$6 fc 322 441 441 463 3e
+t1$c fc 3fe 3df 707 603 603 603 603
 t1$c fc 3fe 3df 707 703 603 603 603
 t1$6 fc 3fe 723 663 663 67e 3c
 t1$u fe 3 1 1 2 ff
@@ -515,8 +462,12 @@ t1$m ff 40 80 80 c0 7f 40 80 80 c0 7f
 t1$n ff ff 40 c0 c0 ff 7f
 t1$m ff ff 40 c0 c0 ff 7f 40 c0 c0 ff 7f
 t1$r ff ff 60 c0 c0
-t1$n ff ff fe c0 c0 ff ff
+t1$k ff ff ff
+t1$h ff ff ff 3 6 6 7 7 7 3
+t1$l ffff ffff 7fff
 t1$l ffff ffff ffff
+t1$k ffff ffff ffff 20 70 1f8 3fe 78f 607 403
+t1$h ffff ffff ffff 300 200 600 600 780 7ff 3ff
 t1$h ffff ffff ffff 300 200 600 600 7c0 7ff 3ff
 t1$k ffff ffff ffff 60 70 1f8 3fe 78f 707 403
 t1$f ffff ffff ffff e1c0 e1c0 e1c0 e1c0 e1c0
@@ -524,8 +475,6 @@ t1$r ffff ffff ffff e1c0 e1c0 e1e0 e1f0 f3fc ff3e 7f1f 3e0f 3 1
 t1$b ffff ffff ffff e387 e387 e387 e787 ffcf 7dfe 38fe 78
 t2$7 1000 1000 1001 100f 1078 13c0 1e00 1800
 t2$7 1000 1000 1003 103f 10f8 13c0 1e00 1800
-t2$7 1000 1800 1801 180f 187f 19ff 1ff0 1f80 1e00 1800
-t2$4 10 18 38 f8 1f8 398 f18 1fff 1fff 1fff 18 18
 t2$4 10 70 d0 310 610 1810 1fff 1fff 10 10
 t2$0 1 1 1 1 1
 t2$$ 120 3f8 ffe d2e 1923 1121 1121 1803
@@ -557,7 +506,6 @@ t2$6 1f8 7fe e43 1881 1081 1081 10c3 187e 3c
 t2$6 1f8 7fe ffe e67 1cc3 18c3 18c7 18fe 187e 3c
 t2$5 1fc7 1fc3 1fc3 18c3 18e7 18ff 187e 3c
 t2$5 1fc7 3fc3 3fc3 38c3 38e7 38ff 38ff 187e 38
-t2$, 2 1f 3f 3c
 t2$. 2 3
 t2$. 2 7 7 3
 t2$. 2 7 7 7
@@ -628,7 +576,6 @@ t2$0 7e 7f c1 c3 7e
 t2$0 7e 7f c3 c3 7e
 t2$0 7e 7f c3 c3 7e 3c
 t2$0 7fc 1ffe 1fff 3c07 3803 3c07 1fff 1ffe ffc 3f0
-t2$, 7 f f 8
 t2$7 80 80 8f be f0 80
 t2$$ 8 7e 6e ab ab c2
 t2$$ 8 7e 6e cb cb c2
@@ -643,23 +590,26 @@ t2$6 f0 7fc fff 1fff 1cc7 39c3 39c7 39ff 18fe 7c
 t2$6 f0 7fe fff 1fff 1cc7 39c3 39c7 39ff 38fe 7c
 t2$5 f2 d3 9b 9e c
 t2$5 f9 d9 df ce
-t2$, f f c
 t3$7 100 103 11c 160 180
+t3$7 100 103 11f 1b8 1c0 180
 t3$7 100 107 13f 1f8 180
 t3$7 100 107 178 180
 t3$1 100 200 7ff
 t3$3 101 111 111 1ff ee
 t3$3 101 111 111 ee
 t3$2 103 105 119 e1
+t3$3 103 111 131 1fb ee
 t3$$ 11 ff 111 111 101
 t3$$ 11 ff 1fd 111 111 1
 t3$$ 1 23 3fd 421 421 401 1
+t3$$ 13 7f 1ff 111 101 1
 t3$. 1 6
 t3$1 180 300 7ff 7ff
 t3$2 183 107 10d 119 1f1 e1
 t3$4 18 38 68 188 308 7ff 8
 t3$4 18 38 c8 188 608 7ff 8
 t3$2 187 10f 11b 1b3 1f3
+t3$$ 19 3c 3b8 3d0 3d0 360 120 120 60 2e0 60 60 320 300 3d0 3d0 3b8 3c 19
 t3$8 19e 3df 273 621 273 3de c
 t3$4 1c 3c 7c cc 38c 7ff 7ff c
 t3$4 1c 3c cc 18c 3ff 3ff c
@@ -667,16 +617,16 @@ t3$9 1e0 3f3 633 633 627 3fe 1f8
 t3$9 1e0 631 411 411 626 1f8
 t3$5 1e1 121 121 11e
 t3$5 1e1 1e1 121 13f 11e
+t3$9 1e3 3f3 233 613 337 3fe f0
 t3$0 1fc 203 401 401 602 1fc
 t3$0 1fc 3fe 707 603 707 3fe 1fc
-t3$N 1ff 1ff 1e0 f0 3c 1e 1ff 1ff 180
-t3$L 1ff 1ff 3 3 3 3
 t3$7 200 200 20f 23e 2f0 380 200
 t3$1 201 201 401 7ff 1 1 1
 t3$3 203 421 421 421 652 39e
 t3$2 207 40d 409 411 621 3c1
 t3$$ 28 7c aa 129 129 101
 t3$$ 28 7c fe 1ab 129 101
+t3$$ 28 fe 1ab 129 129 101
 t3$2 307 20f 61b 633 3f3 3e3
 t3$. 3 1
 t3$2 3 207 40d 419 421 3c1
@@ -709,6 +659,7 @@ t3$0 7e 183 101 183 fc
 t3$5 7e3 7e3 663 663 67e 63c
 t3$6 7e a1 121 11e
 t3$6 7e b3 121 121 11e
+t3$6 7e ff 1b1 133 13f 1c
 t3$P 7ff 7ff 630 630 630 7e0 3c0
 t3$1 80 80 1ff
 t3$1 81 81 1ff 1 1
@@ -729,6 +680,7 @@ t3$6 fc 322 441 441 463 3c
 t3$6 fc 322 441 441 463 3e
 t3$6 fc 3fe 723 663 663 67e 3c
 t3$0 fe 101 101 fe
+t3$0 fe 183 101 183 1fe 7c
 t3$0 fe 1c7 101 183 1fe 7c
 
 //
@@ -799,6 +751,7 @@ p3$  84   13
 // hash
 //
 
+h0$fold_ladbrokes     000e39d5
 h0$sitin_lit          2762e659
 h0$sitin              574db938
 h0$prefoldspd         6f87910c
@@ -1149,6 +1102,8 @@ i$dealer           16  13
 14c5e5ff000000ff000000ff000000ff030708ff09333bff093139ff071e23ff010506ff000000ff000000ff000000ff000000ff0e2024ff2cc1ddff00d8ffff
 1e91a6ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff163339ff318393ff22d6f8ff00d8ffff00d8ffff
 2db2ccff318c9eff318c9eff318c9eff318c9eff318c9eff318c9eff3192a4ff329bb0ff31b1c9ff2cd4f3ff15dbffff01d8ffff00d8ffff00d8ffff00d8ffff
+i$fold_ladbrokes   1   1  
+4db59cff
 i$3c               26  26 
 f3fcfbfff3fbfbfff3fcfbfff3fcfbfff3fbfbfff3fcfbfff3fcfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbff
 f3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbffd2ecdbffbce3c5ffb2ddbbffbfe3c8ffe7f7f0fff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbff
@@ -1795,33 +1750,6 @@ b5c233ffb5c233ffb5c233ffb5c233ffb5c233ffb5c233ffb5c233ffb5c233ffb5c233ffb5c233ff
 b5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ffb5c133ff
 b4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ffb4c033ff
 b2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffffffffffffffffffffffffffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffffffffffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ffb2bf33ff
-i$Ad_alt           25  26 
-f6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff2f2efffd8a287ffd8a287ffd8a287ffe2bdaafff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfeff
-f5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdffdbad96ffb94710ffb94710ffb94710ffbc4f1afff4f3f0fff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdff
-f5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fafbffc36436ffb94710ffb94710ffb94710ffb94710ffdfb099fff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcff
-f4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbffe5cec0ffb94710ffb94710ffc76b3fffb94710ffb94710ffc56638fff5fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbff
-f3fafbfff3fafbfff3fafbfff3fafbfff3fafbfff3fafbfff3fafbfff3fafbffcd835fffb94710ffb94710ffeedbd1ffc05a28ffb94710ffb94710ffe9d1c4fff3fafbfff3fafbfff3fafbfff3fafbfff3fafbfff3fafbfff3fafbfff3fafbfff3fafbff
-f3f9fafff3f9fafff3f9fafff3f9fafff3f9fafff3f9fafff3f9faffeee8e4ffba4b15ffb94710ffc76c40fff5fafbffd59a7cffb94710ffb94710ffd18763fff3f9fafff3f9fafff3f9fafff3f9fafff3f9fafff3f9fafff3f9fafff3f9fafff3f9faff
-f2f9fafff2f9fafff2f9fafff2f9fafff2f9fafff2f9fafff2f9faffd7a489ffb94710ffb94710ffe0b099fff2f9faffe8dbd3ffb94710ffb94710ffba4b15fff0ebe7fff2f9fafff2f9fafff2f9fafff2f9fafff2f9fafff2f9fafff2f9fafff2f9faff
-f2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9fff1f6f6ffc05c2cffb94710ffbb4b16fff4efecfff2f8f9fff2f8f9ffc66a3effb94710ffb94710ffdba78dfff2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9ff
-f1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8ffe0c2b2ffb94710ffb94710ffd08460fff2f8f9fff1f7f8fff1f7f8ffdaac94ffb94710ffb94710ffc25f2ffff2f7f7fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8ff
-f1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8ffca7a53ffb94710ffb94710ffe8c9b9fff1f7f8fff1f7f8fff1f7f8ffece9e5ffba4a14ffb94710ffb94710ffe6c7b7fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8ff
-f0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7ffe9dfd9ffb94811ffb94710ffc05a28fff4f7f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7ffcc7d57ffb94710ffb94710ffce7e58fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7ff
-eff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffd3997dffb94710ffb94710ffd99c7fffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffdfbdacffb94710ffb94710ffba4812ffede2ddffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ff
-eff5f6ffeff5f6ffeff5f6ffeff5f6ffeef1f1ffbe5623ffb94710ffb94710ffeedfd7ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeef0f0ffbd5320ffb94710ffb94710ffd89e82ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ff
-eef4f5ffeef4f5ffeef4f5ffeef4f5ffdbb7a4ffb94710ffb94710ffc97045fff1f6f7ffeef4f5ffeef4f5ffeef4f5ffeef4f5ffeef4f5ffeef4f5ffd29070ffb94710ffb94710ffbf5826ffeff2f1ffeef4f5ffeef4f5ffeef4f5ffeef4f5ffeef4f5ff
-eef3f4ffeef3f4ffeef3f4ffeef3f4ffc77147ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffe2bdabffeef3f4ffeef3f4ffeef3f4ffeef3f4ffeef3f4ff
-edf3f3ffedf3f3ffedf3f3ffe4d6cdffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffb94710ffca744bffedf3f3ffedf3f3ffedf3f3ffedf3f3ffedf3f3ff
-ecf2f3ffecf2f3ffecf2f3ffd09071ffb94710ffb94710ffc66a3dffd38b69ffd38b69ffd38b69ffd38b69ffd38b69ffd38b69ffd38b69ffd38b69ffd38b69ffcb764dffb94710ffb94710ffb94710ffe9dad2ffecf2f3ffecf2f3ffecf2f3ffecf2f3ff
-ecf1f2ffecf1f2ffeaeae8ffbc501cffb94710ffb94710ffe9d1c4ffecf1f2ffecf1f2ffecf1f2ffecf1f2ffecf1f2ffecf1f2ffecf1f2ffecf1f2ffecf1f2ffe8e4e1ffbb4b16ffb94710ffb94710ffd59577ffecf1f2ffecf1f2ffecf1f2ffecf1f2ff
-ebf1f1ffebf1f1ffd8ae98ffb94710ffb94710ffc46435fff0f5f5ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffcd825effb94710ffb94710ffbd521effececeaffebf1f1ffebf1f1ffebf1f1ff
-ebf0f1ffebf0f1ffc4683bffb94710ffb94710ffdeaa91ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffdec2b3ffb94710ffb94710ffb94710ffdfb49fffebf0f1ffebf0f1ffebf0f1ff
-eaeff0ffdfcbc0ffb94710ffb94710ffba4a14ffefe7e2ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeeeeffc05c2bffb94710ffb94710ffc76c40ffebf0f1ffeaeff0ffeaeff0ff
-eaefefffcd8764ffb94710ffb94710ffcf815bffecf1f1ffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffd49c80ffb94710ffb94710ffb94710ffe6d2c6ffeaefefffeaefefff
-e6e2dfffbb4c16ffb94710ffb94710ffe6c4b3ffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe3d9d3ffb94811ffb94710ffb94710ffd28d6bffe9eeefffe9eeefff
-dfcdc2ffd69677ffd69677ffd7997bffeef0efffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffd8a48bffd69677ffd69677ffd99d80ffecf0f1ffe8edeeff
-e8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe4ded9ffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededff
-e7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe1d7d0ffbc5320ffdabfb0ffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedff
 i$td               26  26 
 f3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbff
 f3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbffdcb6a0ffd5a285ffe2cab9fff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fbfaffe8dcd2ffdfc2afffddb8a2ffdebda9ffe4d1c3fff0f3effff3fcfbfff3fcfbfff3fcfbfff3fcfbff
@@ -2294,33 +2222,6 @@ i$prefold_spdwnr   60  16
 04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff04912dff
 04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff04902cff
 048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cffffffffffffffffffffffffff048f2cff048f2cff048f2cff048f2cff048f2cffffffffff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff048f2cff
-i$Kd_Alt           25  26 
-f6fdfefff6fdfefff2f0edffebdbd1ffebdbd1ffecdfd7fff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff6fdfefff5f9f8ffebdbd1ffebdbd1ffebdbd1ffebdbd1fff4f7f6fff6fdfefff6fdfeff
-f5fcfdfff5fcfdffdfb8a4ffb94710ffb94710ffc15d2dfff7fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff5fcfdfff3f6f5ffcc7e58ffb94710ffb94710ffb94710ffd7997bfff6fbfcfff5fcfdfff5fcfdff
-f5fbfcfff5fbfcffdfb7a3ffb94710ffb94710ffc25d2dfff7fcfdfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff5fbfcfff2f1efffc9754cffb94710ffb94710ffb94710ffdeaa90fff7fcfdfff5fbfcfff5fbfcfff5fbfcff
-f4fbfbfff4fbfbffdeb7a3ffb94710ffb94710ffc25d2dfff6fcfcfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbfff4fbfbffefede9ffc66d42ffb94710ffb94710ffba4812ffe3b7a2fff5fcfcfff4fbfbfff4fbfbfff4fbfbfff4fbfbff
-f3fafbfff3fafbffdeb7a3ffb94710ffb94710ffc25d2dfff5fbfcfff3fafbfff3fafbfff3fafbfff3fafbfff3fafbfff3fafbffede7e2ffc46639ffb94710ffb94710ffbb4c17ffe7c4b2fff4fafbfff3fafbfff3fafbfff3fafbfff3fafbfff3fafbff
-f3f9fafff3f9faffdeb6a2ffb94710ffb94710ffc25d2dfff5fafbfff3f9fafff3f9fafff3f9fafff3f9fafff3f9faffebe1dbffc26030ffb94710ffb94710ffbd511dffebcfc1fff4f9fafff3f9fafff3f9fafff3f9fafff3f9fafff3f9fafff3f9faff
-f2f9fafff2f9faffddb6a2ffb94710ffb94710ffc25d2dfff4fafbfff2f9fafff2f9fafff2f9fafff2f9faffe8dbd3ffc05a29ffb94710ffb94710ffbe5523ffeed9cffff3f9fafff2f9fafff2f9fafff2f9fafff2f9fafff2f9fafff2f9fafff2f9faff
-f2f8f9fff2f8f9ffddb5a1ffb94710ffb94710ffc25d2dfff4f9fafff2f8f9fff2f8f9fff2f8f9ffe6d3c9ffbe5523ffb94710ffb94710ffc25d2dfff1e2dcfff2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9fff2f8f9ff
-f1f7f8fff1f7f8ffddb5a1ffb94710ffb94710ffc25d2dfff4f9f9fff1f7f8fff1f7f8ffe3ccbfffbd511dffb94710ffb94710ffc56739fff2e7e2fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8ff
-f1f7f8fff1f7f8ffddb5a1ffb94710ffb94710ffc25d2dfff4f9f9fff1f7f8ffe1c3b4ffbb4d18ffb94710ffb94710ffc86f44fff3eeeafff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8fff1f7f8ff
-f0f6f7fff0f6f7ffdcb5a1ffb94710ffb94710ffc25d2dfff3f8f9ffddbaa7ffba4b15ffb94710ffb94710ffb94710ffddad94fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7fff0f6f7ff
-eff5f6ffeff5f6ffdbb4a0ffb94710ffb94710ffc25d2dffdcb19bffba4812ffb94710ffb94710ffb94710ffb94710ffba4b15ffe7d3c7ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ff
-eff5f6ffeff5f6ffdbb4a0ffb94710ffb94710ffba4a14ffb94710ffb94710ffb94710ffd69575ffbf5624ffb94710ffb94710ffc15c2bffede9e6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ffeff5f6ff
-eef4f5ffeef4f5ffdbb39fffb94710ffb94710ffb94710ffb94710ffb94710ffdfad95fff1f6f7ffe2c6b8ffb94811ffb94710ffb94710ffcc7a53ffeef3f3ffeef4f5ffeef4f5ffeef4f5ffeef4f5ffeef4f5ffeef4f5ffeef4f5ffeef4f5ffeef4f5ff
-eef3f4ffeef3f4ffdbb39fffb94710ffb94710ffb94710ffba4b15ffe4bba7fff0f4f5ffeef3f4ffeef3f4ffd69c80ffb94710ffb94710ffb94710ffd9a286ffeef3f4ffeef3f4ffeef3f4ffeef3f4ffeef3f4ffeef3f4ffeef3f4ffeef3f4ffeef3f4ff
-edf3f3ffedf3f3ffdab39effb94710ffb94710ffbb4b16ffe8c8b8ffeef4f4ffedf3f3ffedf3f3ffedf3f3ffecf1f0ffc97349ffb94710ffb94710ffba4812ffe3c7b8ffedf3f3ffedf3f3ffedf3f3ffedf3f3ffedf3f3ffedf3f3ffedf3f3ffedf3f3ff
-ecf2f3ffecf2f3ffd9b29effb94710ffb94710ffc25d2dfff0f5f5ffecf2f3ffecf2f3ffecf2f3ffecf2f3ffecf2f3ffe8e1ddffbf5624ffb94710ffb94710ffbf5624ffe9e1dcffecf2f3ffecf2f3ffecf2f3ffecf2f3ffecf2f3ffecf2f3ffecf2f3ff
-ecf1f2ffecf1f2ffd9b29effb94710ffb94710ffc25d2dfff0f4f4ffecf1f2ffecf1f2ffecf1f2ffecf1f2ffecf1f2ffecf1f2ffe1c5b6ffb94811ffb94710ffb94710ffc87045ffecefefffecf1f2ffecf1f2ffecf1f2ffecf1f2ffecf1f2ffecf1f2ff
-ebf1f1ffebf1f1ffd9b29dffb94710ffb94710ffc25d2dffeff4f4ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffd59c7fffb94710ffb94710ffb94710ffd49576ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ffebf1f1ff
-ebf0f1ffebf0f1ffd9b19dffb94710ffb94710ffc25d2dffeff3f4ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ffeaeeeeffc97349ffb94710ffb94710ffb94710ffe0bcabffebf0f1ffebf0f1ffebf0f1ffebf0f1ffebf0f1ff
-eaeff0ffeaeff0ffd8b09cffb94710ffb94710ffc25d2dffeef2f3ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffeaeff0ffe6dfdaffbf5624ffb94710ffb94710ffbc501bffe6d9d2ffeaeff0ffeaeff0ffeaeff0ffeaeff0ff
-eaefefffeaefefffd8b09cffb94710ffb94710ffc25d2dffeef2f2ffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffeaefefffe0c2b3ffb94710ffb94710ffb94710ffc56639ffe9e9e7ffeaefefffeaefefffeaefefff
-e9eeefffe9eeefffd8b09cffb94710ffb94710ffc25d2dffedf1f2ffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffe9eeefffd4997bffb94710ffb94710ffb94710ffd08966ffe9eeefffe9eeefffe9eeefff
-e8edeeffe8edeeffd9b7a6ffc25d2dffc25d2dffc97247ffecf0f1ffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe8edeeffe7eaebffcb7b54ffc25d2dffc25d2dffc25d2dffe1c0b1ffe8edeeffe8edeeff
-e8ededffe8ededffe8ededffeef2f2ffeef2f2ffeef2f2ffe9eeeeffe8ededffe8ededffe8ededffe8ededffe4ded9ffe8ededffe8ededffe8ededffe8ededffe8ededffe8ededffe9eeeeffecf0f0ffecf0f0ffecf0f0ffecf0f0ffe8ededffe8ededff
-e7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe1d7d0ffbc5320ffdabfb0ffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedffe7ecedff
 i$sitin            89  18 
 bb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffffffffffffffffffffffffffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ffbb7f00ff
 ba7e00ffffffffffffffffffffffffffffffffffffffffffba7e00ffba7e00ffba7e00ffffffffffffffffffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffffffffffffffffffffffffffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ffba7e00ff

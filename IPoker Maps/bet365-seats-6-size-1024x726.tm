@@ -1,6 +1,6 @@
 .osdb2
 
-// OpenScrape 12.0.3
+// OpenScrape 13.0.2
 
 // 32 bits per pixel
 
@@ -51,17 +51,17 @@ r$c0cardface4nocard  648 290 648 290 fff3fbfb  -10 C
 r$c0pot0             431 250 610 263 ffffffff  150 T3
 r$i0button           676 679 761 708        0    0 N
 r$i0label            698 685 698 685 ffffffff    0 H0
-r$i0state            720 703 720 703 ff5e8214   50 C
+r$i0state            720 703 720 703 ff1ea684   50 C
 r$i1button           795 677 886 711 ff5e8214    0 N
 r$i1label            786 672 889 693 ffffffff  100 T1
-r$i1state            846 718 846 718 ff5e8214   50 C
+r$i1state            846 718 846 718 ff009d75   50 C
 r$i2button           914 676 1005 708        0    0 N
 r$i2label            902 673 991 691 ffffffff  100 T1
 r$i2state            934 718 934 718 ff17110f   -5 C
 r$i3button           923 616 1000 624        0    0 N
 r$i3edit             664 641 719 653        0    0 N
 r$i3label            932 613 988 627 ffffffff  100 T1
-r$i3state            1003 612 1003 612 ff5e8214   50 C
+r$i3state            1003 612 1003 612 ff4db59c   50 C
 r$i4button           840 652 938 666        0    0 N
 r$i4label            844 650 932 667        0    0 H3
 r$i4state            885 653 886 666 ffffffff    1 C
@@ -165,6 +165,8 @@ t1$J 1 1 3 7fc
 t1$j 1 13ff
 t1$j 1 3 27fe
 t1$x 1 33 1e c 3f 21
+t1$e 1 3 7 6 6 6 7 3 1
+t1$c 1 3 7 7 7 6 6 7
 t1$Z 1 403 40d 419 471 4c1 581 601 401
 t1$1 180 180 3ff 3ff
 t1$Y 180 1f0 3f 3f 1f0 180
@@ -176,6 +178,7 @@ t1$4 18 38 c8 188 608 7ff 8
 t1$4 1c 3c 7c cc 38c 7ff 7ff c
 t1$4 1c 3c 7c ec 1cc 3ff 3ff c
 t1$c 1c 3e 63 63 63 63
+t1$a 1c 63e 67f e67 e67 e46 ece 7fe 7fe 1fe
 t1$s 1c7 3e3 7e3 673 673 63f 73e 1c
 t1$i 1c7ff 1c7ff 1c7ff
 t1$8 1ce 3ff 333 333 3ff 1ce
@@ -189,14 +192,17 @@ t1$a 1e 33f 67f 667 667 666 66c 7ff 3ff 1ff
 t1$o 1e 3f 63 63 63 7e 3c
 t1$e 1e 3f 6b 6b 6b 7b 38
 t1$d 1e 7f 63 63 22 3ff 3ff
+t1$M 1f0 1ff 1e0 f8 1e 7 1e f0 1e0 1ff 1ff
 t1$g 1f0 319 209 209 113 3fe
 t1$Q 1f0 71c 406 802 802 802 c06 60f 3f9 1
 t1$g 1f1 319 209 209 113 3fc
+t1$c 1 f 1f 3f 78 70 70 e0 e0 e0 70 70
 t1$A 1 f 38 1c8 708 708 1e8 38 f 1
 t1$A 1 f 7f 1fc 7cc 60c 7cc 3fc 7f f 1
 t1$c 1 f 7f 3ff 1ffc fff8 fe38
 t1$c 1f 7f ff 1f0 1c0 3c0 380 380 380 380 380 3c0
 t1$e 1f8 3fe 77e 666 c67 c67 667 7e6 3e6 60
+t1$e 1f8 3fe 7fe 667 e67 e67 e67 7e6 7e6 1e0
 t1$C 1f8 7fe fff 1f0f 1c03 3c03 3801 3801 3801 3801 3801 3c03
 t1$U 1fc 1fe 3 1 1 3 1fe 1fc
 t1$0 1fc 203 401 401 602 1fc
@@ -219,6 +225,8 @@ t1$y 203 383 3e7 7e 3c 1f0 3c0 200
 t1$y 203 3c3 1f7 3e f8 3c0 200
 t1$3 203 421 421 421 652 39e
 t1$2 207 40d 409 411 621 3c1
+t1$x 21 3f 1e 1e 37 21
+t1$a 27 2f 29 29 3f
 t1$i 27f
 t1$T 300 300 300 3ff 3ff 300 300 300
 t1$s 31 49 49 46
@@ -231,9 +239,11 @@ t1$e 3 7 f 1d 19 19 19 1f f 7
 t1$c 3 7 f 1e 1c 1c 1c 1c 1e
 t1$i 37f 37f
 t1$S 383 641 421 421 413 60e
+t1$s 386 7c7 7e7 ee7 e77 e7e e7e 63c
 t1$8 39e 673 421 421 673 3de
 t1$8 39e 673 421 461 473 39e
 t1$8 39e 7ff 663 663 663 7ff 39e
+t1$C 3c0 1ff8 3ffc 7ffe 781e f00e e00f e007 e007 e007 e006 e00e
 t1$o 3c 42 81 81 81 42 3c
 t1$c 3c 43 81 81 81
 t1$d 3c 43 81 81 81 42 7ff
@@ -291,6 +301,7 @@ t1$z 41 43 4d 59 61 41
 t1$x 41 63 1c 1c 33 41
 t1$x 41 77 3e 1c 3e 67 41
 t1$i 4ff
+t1$t 600 600 3ffc 3ffe 7fff e0f 607 606
 t1$T 600 600 600 7ff 7ff 600 600 600
 t1$7 600 603 61f 67c 7e0 780 600
 t1$W 600 7c0 7c 7 f 78 780 780 f0 f 7 7c 3c0 600
@@ -368,6 +379,7 @@ t1$h 7ff 7ff 7ff 6 c 1c 1e 1f f 7
 t1$R 7fff 7fff 70e0 70c0 70e0 70e0 71f8 3fbe 3f9f 1e07 3
 t1$k 7fff 7fff 7fff 18 3e 7f ff 1e7 1c1 180 100
 t1$h 7fff 7fff 7fff 60 c0 1c0 1e0 1ff ff 7f
+t1$R 7fff 7fff 7fff 70e0 70e0 70e0 70f0 79fc 3fbe 3f9f 1e07 3
 t1$B 7fff 7fff 7fff 71c3 71c3 71c3 71c3 7fe7 3f7f 3e7e 3c
 t1$t 80 3fe 81 81
 t1$f 80 3ff 480 480
@@ -389,6 +401,7 @@ t1$8 ee 1ff 131 131 1ff ce
 t1$q f0 108 204 204 204 108 3ff
 t1$g f0 10c 204 204 204 109 3fe
 t1$e f0 3fc 7fe 66e e67 c67 667 766 7e6 1e0
+t1$e f0 3fc 7fe 76e e67 e67 e67 767 7e6 3e6 40
 t1$9 f1 1f9 109 10b 1fe 7c
 t1$9 f4 3fb 31b 317 3fe fc
 t1$G f8 106 202 401 401 421 421 63e
@@ -419,6 +432,8 @@ t1$m ff 40 80 80 c0 7f 40 80 80 c0 7f
 t1$n ff ff 40 c0 c0 ff 7f
 t1$m ff ff 40 c0 c0 ff 7f 40 c0 c0 ff 7f
 t1$r ff ff 60 c0 c0
+t1$k ff ff ff
+t1$h ff ff ff 3 6 6 7 7 7 3
 t1$l ffff ffff 7fff
 t1$l ffff ffff ffff
 t1$k ffff ffff ffff 20 70 1f8 3fe 78f 607 403
@@ -572,6 +587,7 @@ t3$9 1e0 3f3 633 633 627 3fe 1f8
 t3$9 1e0 631 411 411 626 1f8
 t3$5 1e1 121 121 11e
 t3$5 1e1 1e1 121 13f 11e
+t3$9 1e3 3f3 233 613 337 3fe f0
 t3$0 1fc 203 401 401 602 1fc
 t3$0 1fc 3fe 707 603 707 3fe 1fc
 t3$7 200 200 20f 23e 2f0 380 200
@@ -705,6 +721,7 @@ p3$  84   13
 // hash
 //
 
+h0$fold_ladbrokes     000e39d5
 h0$sitin_lit          2762e659
 h0$sitin              574db938
 h0$prefoldspd         6f87910c
@@ -1055,6 +1072,8 @@ i$dealer           16  13
 14c5e5ff000000ff000000ff000000ff030708ff09333bff093139ff071e23ff010506ff000000ff000000ff000000ff000000ff0e2024ff2cc1ddff00d8ffff
 1e91a6ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff163339ff318393ff22d6f8ff00d8ffff00d8ffff
 2db2ccff318c9eff318c9eff318c9eff318c9eff318c9eff318c9eff3192a4ff329bb0ff31b1c9ff2cd4f3ff15dbffff01d8ffff00d8ffff00d8ffff00d8ffff
+i$fold_ladbrokes   1   1  
+4db59cff
 i$3c               26  26 
 f3fcfbfff3fbfbfff3fcfbfff3fcfbfff3fbfbfff3fcfbfff3fcfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbff
 f3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbffd2ecdbffbce3c5ffb2ddbbffbfe3c8ffe7f7f0fff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbff
