@@ -1,6 +1,6 @@
 .osdb2
 
-// OpenScrape 13.0.2
+// OpenScrape 12.0.3
 
 // 32 bits per pixel
 
@@ -106,7 +106,7 @@ r$p1name             849 453 971 478 ff000000  -95 T1
 r$p1seated           815 478 815 495 ff0b0b0b   -3 C
 r$p2active           465 582 466 591 ff8a8987   -2 C
 r$p2balance          493 585 614 604 ff000000  -95 T2
-r$p2bet              442 455 524 468 ffffffff  150 T3
+r$p2bet              442 455 546 468 ffffffff  150 T3
 r$p2cardback         636 572 636 572 ffffffff    1 C
 r$p2cardface0        493 476 518 501        0    0 I
 r$p2cardface0nocard  532 479 532 479 fff2fafa  -10 C
