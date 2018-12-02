@@ -209,7 +209,7 @@ r$tablepoint2         94  42  94  42 ff3f0f0d  140 C
 r$tablepoint3        338  39 338  39 ff220906   90 C
 r$tablepoint4        403 224 403 224 ff8b3f24  199 C
 r$tablepoint5         27 224  27 224 ff642b1a  195 C
-r$tablepoint6        209  29 209  29 ff75374f   12 C
+r$tablepoint6        209  29 209  29 ff151515   12 C
 r$u0balance          269  67 274  78 ff1f1489  100 T3
 r$u0seated           284  53 284  53 ff666666    1 C
 r$u1balance          366  91 371 102 ff1f1489  100 T3
