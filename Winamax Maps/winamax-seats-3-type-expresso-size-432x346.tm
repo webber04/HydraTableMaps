@@ -2,6 +2,8 @@
 
 // OpenScrape 12.0.3
 
+// 32 bits per pixel
+
 //
 // sizes
 //
@@ -493,6 +495,7 @@ t3$d 18 3c 7e 1ff 3ff ff 3c 18
 t3$h 187f 181f 180f 1803 1c01 1801 1807 180f 183f 1cff
 t3$k 1bf9 1801 1801 1801 1b99 1f0d 1801 18e1 19f1 1bf9 1ffb
 t3$c 1c 3c bc 1fd 3ff 1fd bc 3c 1c
+t3$c 1c 3c be 1fc 1ff 1fc fe 3e 1c
 t3$s 1c 7e fe 1ff 3ff 1fd fe 7e 1c
 t3$s 1c 7e fe 1ff 3ff 1fd fe 7e 3c
 t3$9 1e00 7f9c ff9e ffde e3cf e1c7 f1cf fffe fffe 7ffc 1ff0
@@ -510,6 +513,7 @@ t3$s 1ffbf 1fe0f 1f807 1f007 1e007 18007 10005 1 1 10005 1c007 1e007 1f007 1f807
 t3$t 1fff 13f3 3003 3003 3803 3c03 3807 3003 33f3 3003 3803 3e00
 t3$d 1fff 1f9f 1f0f 1e07 1801 1000 1c03 1e07 1f8f 1fdf
 t3$8 1fff 3fff 3fcf 3887 3003 3333 3233 3003 3887 3fff 3fff 3f80
+t3$6 1fff 3fff 3fff 3807 3803 3373 3333 3903 3d87 3fff 3fff 3f80
 t3$d 1ffff 1ffff 1ff3f 1fe1f 1fc0f 1f007 1e003 18000
 t3$a 20007 7 3f 71ff 7fff 7fff 7fe7 7ce0 7ce0 7fe3 7fff 7fff 73ff 60ff f 7
 t3$s 200 301 381 3c3

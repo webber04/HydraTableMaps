@@ -65,7 +65,7 @@ r$i2button           680 512 778 537        0    0 N
 r$i2label            699 513 755 524 ff000000 -250 T0
 r$i2state            676 535 676 535 ff242424   50 C
 r$i3button           759 520 771 532        0    0 N
-r$i3edit             675 553 782 563        0    0 N
+r$i3edit             675 553 778 563        0    0 N
 r$i3label            647 556 656 565        0    0 H0
 r$i3state            778 559 782 563 ff000000    0 C
 r$i4button           554 514 655 536        0    0 N

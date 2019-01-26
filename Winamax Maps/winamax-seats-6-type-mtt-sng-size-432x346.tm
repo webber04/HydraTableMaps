@@ -59,7 +59,7 @@ r$c0cardface4nocard  277 145 277 145 ff2f2e77    5 C
 r$c0cardface4rank    275 122 286 135 ffffffff  205 T3
 r$c0cardface4suit    275 136 285 148 ffffffff  200 T3
 r$c0pot0             228 184 290 194 ffdddddd  105 T1
-r$c0pot1             222 182 290 196 ff40b2ee  130 T1
+r$c0pot1             222 184 290 196 ff40b2ee  130 T1
 r$i0button            79 291 161 309        0    0 N
 r$i0label            106 295 135 305        0    0 H0
 r$i0state            154 294 154 294 ff19108a   30 C
@@ -111,7 +111,7 @@ r$p1name             330 226 414 237 ffefefef   26 T2
 r$p1seated           349 224 349 224 ff3b3b3b   -2 C
 r$p2active           208 248 213 248 ffffffff    0 C
 r$p2balance          189 264 243 275 ff62ccff   96 T0
-r$p2bet              185 215 259 223 ff00bbec   90 T1
+r$p2bet              185 215 259 224 ff00bbec   90 T1
 r$p2cardback         207 225 207 225 ff51516c   10 C
 r$p2cardface0nocard    9  11   9  11        0    0 C
 r$p2cardface0rank    195 224 206 237 ffffffff  150 T3
@@ -365,6 +365,8 @@ t0$6 ffe 3fff 3083 3083 3ce7 1cfe
 t1$. 1
 t1$7 100 100 11f 120 1c0
 t1$1 100 1ff
+t1$t 10 7f 10
+t1$: 11
 t1$, 1 2
 t1$4 14 24 7f 4
 t1$i 17f
@@ -409,6 +411,7 @@ t1$u 7e 1 1 1 7e
 t1$0 7e 89 91 a1 7e
 t1$6 7e 91 91 91 4e
 t1$n 7f 40 40 40 3f
+t1$p 7f 44 44 44 38
 t1$1 80 100 300 7ff
 t1$7 80 80 8f 90 e0
 t1$1 80 ff
@@ -416,6 +419,7 @@ t1$4 8 18 68 88 308 7ff 8 8
 t1$3 82 101 111 111 ee
 t1$2 8f 111 111 111 e1
 t1$4 c 14 24 7f 4
+t1$o e 11 11 11 e
 t1$s e2 111 111 111 8e
 t1$9 e2 111 111 111 fe
 t1$8 ee 111 111 111 ee
@@ -508,6 +512,7 @@ t3$d 18 3c 7e 1ff 3ff ff 3c 18
 t3$h 187f 181f 180f 1803 1c01 1801 1807 180f 183f 1cff
 t3$k 1bf9 1801 1801 1801 1b99 1f0d 1801 18e1 19f1 1bf9 1ffb
 t3$c 1c 3c bc 1fd 3ff 1fd bc 3c 1c
+t3$c 1c 3c be 1fc 1ff 1fc fe 3e 1c
 t3$s 1c 7e fe 1ff 3ff 1fd fe 7e 1c
 t3$s 1c 7e fe 1ff 3ff 1fd fe 7e 3c
 t3$9 1e00 7f9c ff9e ffde e3cf e1c7 f1cf fffe fffe 7ffc 1ff0
@@ -525,6 +530,7 @@ t3$s 1ffbf 1fe0f 1f807 1f007 1e007 18007 10005 1 1 10005 1c007 1e007 1f007 1f807
 t3$t 1fff 13f3 3003 3003 3803 3c03 3807 3003 33f3 3003 3803 3e00
 t3$d 1fff 1f9f 1f0f 1e07 1801 1000 1c03 1e07 1f8f 1fdf
 t3$8 1fff 3fff 3fcf 3887 3003 3333 3233 3003 3887 3fff 3fff 3f80
+t3$6 1fff 3fff 3fff 3807 3803 3373 3333 3903 3d87 3fff 3fff 3f80
 t3$d 1ffff 1ffff 1ff3f 1fe1f 1fc0f 1f007 1e003 18000
 t3$a 20007 7 3f 71ff 7fff 7fff 7fe7 7ce0 7ce0 7fe3 7fff 7fff 73ff 60ff f 7
 t3$s 200 301 381 3c3
