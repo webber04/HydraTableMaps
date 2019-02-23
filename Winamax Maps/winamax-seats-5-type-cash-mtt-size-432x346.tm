@@ -34,7 +34,7 @@ s$sitename                  oh9_winamax5seats_cash_mtt
 s$t0type                    0.45
 s$t1type                    0
 s$t2type                    0.3
-s$t3type                    0.3
+s$t3type                    0.5
 s$titletext                 H
 s$ttlimits                  ^* / €^s-€^b ^L
 s$ttlimits0                 ^* / ^s-^b ^L ^*
@@ -64,13 +64,13 @@ r$c0pot0             202 183 274 193 ff41b4ef   91 T1
 r$c0pot1             218 173 286 183 ff40b2ee  130 T1
 r$i0button            79 291 161 309        0    0 N
 r$i0label            106 295 135 305        0    0 H0
-r$i0state            154 294 154 294 ff19108a   30 C
+r$i0state            154 294 154 294 ff191062   50 C
 r$i1button           174 291 256 309        0    0 N
 r$i1label            200 301 233 307   155792    0 I
-r$i1state            247 294 247 294 ff19108a   30 C
+r$i1state            247 294 247 294 ff19108a   50 C
 r$i2button           270 292 340 309        0    0 N
 r$i2label            272 300 272 300        0    0 I
-r$i2state            343 294 343 294 ff19108a   30 C
+r$i2state            343 294 343 294 ff19108a   50 C
 r$i3button           248 334 264 338        0    0 N
 r$i3edit             271 317 292 323        0    0 N
 r$i3label            243 334 255 336        0    0 H0
@@ -486,6 +486,7 @@ t2$p ff 82 82 82 7c
 t3$d 18 3c 7e 1ff 3ff ff 3c 18
 t3$h 187f 181f 180f 1803 1c01 1801 1807 180f 183f 1cff
 t3$k 1bf9 1801 1801 1801 1b99 1f0d 1801 18e1 19f1 1bf9 1ffb
+t3$c 1c 3c 3e 1fc 1ff 1fc fe 3e 1c
 t3$c 1c 3c bc 1fd 3ff 1fd bc 3c 1c
 t3$s 1c 7e fe 1ff 3ff 1fd fe 7e 1c
 t3$s 1c 7e fe 1ff 3ff 1fd fe 7e 3c
@@ -504,6 +505,7 @@ t3$s 1ffbf 1fe0f 1f807 1f007 1e007 18007 10005 1 1 10005 1c007 1e007 1f007 1f807
 t3$t 1fff 13f3 3003 3003 3803 3c03 3807 3003 33f3 3003 3803 3e00
 t3$d 1fff 1f9f 1f0f 1e07 1801 1000 1c03 1e07 1f8f 1fdf
 t3$8 1fff 3fff 3fcf 3887 3003 3333 3233 3003 3887 3fff 3fff 3f80
+t3$6 1fff 3fff 3fff 3807 3803 3373 3333 3903 3d87 3fff 3fff 3f80
 t3$d 1ffff 1ffff 1ff3f 1fe1f 1fc0f 1f007 1e003 18000
 t3$a 20007 7 3f 71ff 7fff 7fff 7fe7 7ce0 7ce0 7fe3 7fff 7fff 73ff 60ff f 7
 t3$s 200 301 381 3c3
