@@ -91,7 +91,7 @@ r$i8state             73 471  73 471 ff122d27    5 C
 r$p0active           427 135 427 135 ff1f616c   -5 C
 r$p0balance          339 107 420 120 ffffffff    5 T0
 r$p0bet              377 154 469 166 ffffffff   50 T1
-r$p0cardback         382  62 382  62 ffd9c8ab   15 C
+r$p0cardback         382  62 382  62 ffd9c8ab   25 C
 r$p0cardface0          0   3   0   3        0    0 N
 r$p0cardface0nocard  383  45 383  45 ffffffff  -15 C
 r$p0cardface1          0   3   0   3        0    0 N
@@ -325,6 +325,7 @@ t0$, 7 4
 t0$, 7 6
 t0$c 78 78 f8 77b ff7 fff ff7 77b 78 f8 78
 t0$c 78 f8 f8 77b fff fff ff7 77b f8 f8 78 30
+t0$6 7c 1ff 3bf 321 321 3bf 19e
 t0$I 7f
 t0$L 7f 1 1 1
 t0$N 7f 30 1c 6 7f
@@ -423,6 +424,7 @@ t1$9 f9 109 109 18b fe
 t1$0 fe 183 101 183 fe
 t1$6 fe 1ff 221 221 33f 11e
 t1$6 fe 93 121 121 13e 8
+t2$1 100 180 380 7fe 7ff
 t2$3 104 307 707 663 663 7ff 3ff 1c
 t2$c 10 78 7c 7c 37d 7fb fff fff 7b9 7c 7c 7c 78
 t2$s 10 7c fc 1fc 3fd 7fb fff 7fb 3fd 1fc fc 3c
@@ -435,7 +437,9 @@ t2$4 1c 7c ec 38c 7fe 7ff 7fe 8
 t2$Q 1f0 7f8 7bc e0e c06 c1e c0e e0e 7fe 3ff e3
 t2$c 1f 31 20 20 20
 t2$a 1 f 7f 1fc 7cc 78c 7ec fc 3f f 1
+t2$0 1f8 7fe 606 603 606 7fe 3fc
 t2$6 1f8 7fe 7fe c43 cc3 666 67e 1c
+t2$0 1fc 7fe 606 603 607 7fe 3fc
 t2$6 1fe 3ff 663 663 663 37f 13e
 t2$h 1ff 1ff 20 20 30 1f
 t2$k 1ff 6 c 1b 21
@@ -479,6 +483,7 @@ t2$k 7ff 7ff 70 e0 1f0 3f8 73e 60f 407 1
 t2$1 80 c0 1c0 3ff 3ff
 t2$j 8 e e 3 7 ffe ffc
 t2$7 c00 c00 c1f c7f df0 fc0 f00 e00
+t2$1 c0 1c0 3ff 3ff
 t2$8 c 3ff 7f7 661 661 7ff 3ff c
 t2$j c f 7 3 3 7ff 7fe
 t2$7 e00 e02 e3f e7e ff0 f80 f00 c00
