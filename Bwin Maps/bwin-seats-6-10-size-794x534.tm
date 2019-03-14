@@ -75,7 +75,7 @@ r$i2button           678 472 774 505        0    0 N
 r$i2label            683 467 777 486 ff000000  260 T2
 r$i2state            784 470 784 470   dcdcdc  180 C
 r$i3button           672 468 783 507        0    0 N
-r$i3edit             700 420 779 445        0    0 N
+r$i3edit             712 422 779 443        0    0 N
 r$i3handle           727 404 727 404   171716   20 C
 r$i3label            678 466 774 486        0  260 T2
 r$i3slider           454 445 669 447        0    0 N
