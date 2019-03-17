@@ -51,13 +51,13 @@ r$c0pot0             431 250 610 263 ffffffff  150 T3
 r$i0button           676 679 761 708        0    0 N
 r$i0label            698 685 698 685 ffffffff    0 H0
 r$i0state            720 703 720 703 ffb06300   50 C
-r$i1button           795 677 886 711 ff5e8214    0 N
+r$i1button           795 677 877 711 ff5e8214    0 N
 r$i1label            786 672 889 693 ffffffff  100 T1
 r$i1state            846 718 846 718 ffa95000   50 C
-r$i2button           914 676 1005 708        0    0 N
+r$i2button           914 676 992 708        0    0 N
 r$i2label            902 673 991 691 ffffffff  100 T1
 r$i2state            934 718 934 718 ff17110f   -5 C
-r$i3button           923 616 1000 624        0    0 N
+r$i3button           923 616 981 624        0    0 N
 r$i3edit             664 641 719 653        0    0 N
 r$i3label            932 613 988 627 ffffffff  100 T1
 r$i3state            1003 612 1003 612 ffc19000   50 C
