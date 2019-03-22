@@ -31,9 +31,6 @@ s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Click Drag
-s$c0limits0                 ^L
-s$c0limits1                 ^L-^s/^b
-s$c0limits2                 ^y:^s/^b
 s$nchairs                   6
 s$network                   party
 s$potmethod                 3
@@ -43,7 +40,7 @@ s$t1type                    0
 s$t2type                    0
 s$t3type                    fuzzy
 s$titletext                 Hold'em
-s$ttlimits                  ^s/^b
+s$ttlimits                  ^*- ^L ^* - ^s/^b
 
 //
 // regions
@@ -64,10 +61,6 @@ r$c0cardface3suit    434 210 454 230   fdfdfd -200 T3
 r$c0cardface4nocard  540 189 540 189   ffffff   -1 C
 r$c0cardface4rank    494 188 515 209   ffffff -200 T3
 r$c0cardface4suit    493 210 513 230   fdfdfd -200 T3
-r$c0handnumber       768   6 872  20 ffc7c7c7  175 T0
-r$c0limits0            7   6  14  14   c7c7c7    0 T3
-r$c0limits1           44   5 131  15   c7c7c7    0 H0
-r$c0limits2           39   5 136  15   c7c7c7    0 T3
 r$c0pot0             351 164 495 179   ffffff  245 T0
 r$i0button           422 511 523 540        0    0 N
 r$i0label            427 509 515 542 ffffffff  260 T2
@@ -564,6 +557,7 @@ t3$8 3c 7c7e feff 1ffe7 1c783 1c383 1c383 1cfc7 1ffff fcff 387e 38
 t3$s 3e0 7f0 ff0 1ff0 1ff3 7ff7 ffff ffff 3ff7 1ff0 ff0 ff0 7f0 1e0
 t3$J 3e 3f f 7 38007 3800f 3fffe 3fffe 3fffc 38000 10000
 t3$9 3f00 7f80 ff83 1e1c3 1c0c3 1c0c7 1c18e 1e1fe fffc 7ff0 1fc0
+t3$q 3f00 ffc0 1ffe0 3e1f0 70078 70038 6003c 6001c 6003e 7003e 78076 3ffe7 1ffc3 7f83 3 1
 t3$n 3f 20 20 3f
 t3$0 3ff8 7ffe ffff 1e00f 1c007 1c003 1c007 1e007 1f01f fffe 7ffc fe0
 t3$1 40 80 ff
