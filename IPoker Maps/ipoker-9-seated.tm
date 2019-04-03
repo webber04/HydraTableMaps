@@ -1,640 +1,745 @@
 .osdb2
 
-// OpenScrape 9.3.1
+// OpenScrape 13.0.2
 
-// 2017-11-19 17:46:42
 // 32 bits per pixel
 
 //
 // sizes
 //
 
-z$clientsizemax    1024  726
-z$clientsizemin    1024  726
-z$targetsize       1024  726
+,$GTMIY07M,IWES    tsuw  zuy
+,$GTMIY07M,IWMY    tsuw  zuy
+,$0E6KI07M,I       tsuw  zuy
 
 //
 // strings
 //
 
-s$!titletext                Twister
-s$allinconfirmationmethod   1
-s$betsizeconfirmationmethod Click Bet
-s$betsizedeletionmethod     Delete
-s$betsizeinterpretationmethod 3
-s$betsizeselectionmethod    Dbl Click
-s$nchairs                   6
-s$network                   ipoker
-s$potmethod                 2
-s$sitename                  ipoker2_6maxalt
-s$t0type                    0
-s$t1type                    0.10
-s$t2type                    0
-s$t3type                    0.20
-s$titletext                 Hold
-s$ttlimits                  ^*Hold'em | ^s/^b(^a)
-s$ttlimits0                 ^*Level ^*| ^s/^b^*Ante ^a
-s$use_comma_instead_of_dot  true
+7$ETTMYGZYJM6WE0MZYWI0LZH   t
+7$FI07M,IGZYJM6WE0MZYWI0LZH aTMGO ~I0
+7$FI07M,IHITI0MZYWI0LZH     4ITI0I
+7$FI07M,IMY0I616I0E0MZYWI0LZH v
+7$FI07M,I7ITIG0MZYWI0LZH    4FT aTMGO
+7$GsTMWM07                  ^X
+7$YGLEM67                   B
+7$YI0QZ6O                   M1ZOI6
+7$1Z0WI0LZH                 u
+7$7M0IYEWI                  M1ZOI6DB7IE07
+7$0s0p1I                    s
+7$0t0p1I                    J3,,p
+7$0u0p1I                    J3,,p
+7$0v0p1I                    J3,,p
+7$0M0TI0IS0                 dZTH
+7$00TMWM07                  ^*XIPIT ^*| ^7/^F^*_Y0I ^E
 
 //
 // regions
 //
 
-r$c0cardface0        332 289 357 314        0    0 I
-r$c0cardface0nocard  362 290 362 290 fff3fbfb  -10 C
-r$c0cardface1        403 289 428 314        0    0 I
-r$c0cardface1nocard  434 290 434 290 fff3fcfb  -10 C
-r$c0cardface2        474 289 499 314        0    0 I
-r$c0cardface2nocard  509 290 509 290 fff3fcfb  -10 C
-r$c0cardface3        545 289 570 314        0    0 I
-r$c0cardface3nocard  576 290 576 290 fff3fcfb  -10 C
-r$c0cardface4        616 289 641 314        0    0 I
-r$c0cardface4nocard  648 290 648 290 fff3fbfb  -10 C
-r$c0pot0             473 262 652 277 ffffffff    0 T3
-r$i0button           652 670 761 715        0    0 N
-r$i0label            694 685 694 685 ffffffff    0 H0
-r$i0state            720 703 720 703 ff18110f   -5 C
-r$i1button           776 672 887 717        0    0 N
-r$i1label            785 672 888 692 ffffffff    1 T1
-r$i1state            840 705 840 705 ff110d0c   -5 C
-r$i2button           897 670 1005 714        0    0 N
-r$i2label            913 673 971 691 ffffffff    0 T1
-r$i2state            934 715 934 715 ff17110f   -5 C
-r$i3button           911 616 1000 629        0    0 N
-r$i3edit             652 641 737 653        0    0 N
-r$i3label            932 616 988 630 ffffffff    0 T1
-r$i3state            736 644 736 644 ffffffff    1 C
-r$i4button           782 686 880 700        0    0 N
-r$i4label            789 684 877 701 ffffffff    0 T1
-r$i4state            875 668 876 681 ff1101b8    1 C
-r$i6button            11 665  84 678        0    0 N
-r$i6label              9 665  27 677        0    0 I
-r$i6state             12 669  12 669 ffffffff    1 C
-r$i7button           664 664 674 672        0    0 N
-r$i7label            660 661 719 676        0    0 H1
-r$i7state            676 675 677 675 ffffffff    2 C
-r$i860button          67 540  85 551        0    0 N
-r$i860state           47 571  48 571 ffffffff  220 C
-r$i8button           911 670 995 698        0    0 N
-r$i8label            852 675 984 688        0    0 H2
-r$i8state            934 715 934 715 ff17110f   -5 C
-r$i9button           664 664 674 672        0    0 N
-r$i9label            688 711 689 711        0    0 H0
-r$i9state            676 675 677 675 ffffffff    2 C
-r$iAbutton           604 664 614 674        0    0 N
-r$iAlabel            605 666 658 673        0    0 H0
-r$iAstate            608 668 608 668 ff111111   10 C
-r$p0active           814 196 815 207 ff969190   -2 C
-r$p0balance          849 216 972 248 ff000000  -95 T2
-r$p0bet              621 235 763 247 ffffffff    0 T3
-r$p0cardback         959 170 959 170 ffffffff   20 C
-r$p0cardface0         28   2  30   2        0    0 H0
-r$p0cardface0nocard   29   1  29   1 ffffffff   -1 C
-r$p0cardface1         28   2  30   2        0    0 H0
-r$p0cardface1nocard   29   1  29   1 ffffffff   -1 C
-r$p0dealer           767 265 767 265 ff00d8ff   10 C
-r$p0name             849 179 971 204 ff000000  -95 T1
-r$p0seated           815 203 815 222 ff171211   -5 C
-r$p1active           814 473 815 480 ff8c8c8c   -2 C
-r$p1balance          849 491 970 521 ff000000  -95 T2
-r$p1bet              677 423 816 436 ffffffff    0 T3
-r$p1cardback         959 446 959 446 ffffffff   20 C
-r$p1cardface0         28   2  30   2        0    0 H0
-r$p1cardface0nocard   29   1  29   1 ffffffff   -1 C
-r$p1cardface1         28   2  30   2        0    0 H0
-r$p1cardface1nocard   29   1  29   1 ffffffff   -1 C
-r$p1dealer           748 451 748 451 ff00d8ff   10 C
-r$p1name             849 453 971 478 ff000000  -95 T1
-r$p1seated           815 478 815 495 ff0b0b0b   -3 C
-r$p2active           464 583 465 592 ff928f8c   -2 C
-r$p2balance          493 585 614 604 ff000000  -95 T2
-r$p2bet              442 455 616 468 ffffffff    0 T3
-r$p2cardback         636 572 636 572 ffffffff    1 C
-r$p2cardface0        493 477 518 502        0    0 I
-r$p2cardface0nocard  532 479 532 479 fff2fafa  -10 C
-r$p2cardface1        557 477 582 502        0    0 I
-r$p2cardface1nocard  602 479 602 479 fff2fafa  -10 C
-r$p2dealer           472 507 472 507 ff00d8ff   10 C
-r$p2name             493 562 615 579 ff000000  -95 T1
-r$p2seated           536 582 536 582 ffffffff  999 C
-r$p3active           224 470 225 481 ff979796   -2 C
-r$p3balance           52 492 171 522 ff000000  -95 T2
-r$p3bet              221 423 400 435 ffffffff    0 T3
-r$p3cardback         162 445 162 445 ffffffff   20 C
-r$p3cardface0         28   2  30   2        0    0 H0
-r$p3cardface0nocard   29   1  29   1 ffffffff   -1 C
-r$p3cardface1         28   2  30   2        0    0 H0
-r$p3cardface1nocard   29   1  29   1 ffffffff   -1 C
-r$p3dealer           275 451 275 451 ff00d8ff   10 C
-r$p3name              52 453 173 478 ff000000  -95 T1
-r$p3seated           225 478 225 495 ff0d0d0c   -3 C
-r$p4active           219 199 220 208 ff9b9594   -2 C
-r$p4balance           52 217 172 248 ff000000  -95 T2
-r$p4bet              262 235 420 247 ffffffff    0 T3
-r$p4cardback         162 171 162 171 ffffffff   20 C
-r$p4cardface0         28   2  30   2        0    0 H0
-r$p4cardface0nocard   29   1  29   1 ffffffff   -1 C
-r$p4cardface1         28   2  30   2        0    0 H0
-r$p4cardface1nocard   29   1  29   1 ffffffff   -1 C
-r$p4dealer           255 265 255 265 ff00d8ff   10 C
-r$p4name              52 179 172 204 ff000000  -95 T1
-r$p4seated           225 203 225 219 ff1c1a14   -4 C
-r$p5active           458 124 459 135 ff9d9795   -2 C
-r$p5balance          495 147 613 170 ff000000  -95 T2
-r$p5bet              425 195 605 207 ffffffff    0 T3
-r$p5cardback         603 100 603 100 ffffffff   20 C
-r$p5cardface0         28   2  30   2        0    0 H0
-r$p5cardface0nocard   29   1  29   1 ffffffff   -1 C
-r$p5cardface1         28   2  30   2        0    0 H0
-r$p5cardface1nocard   29   1  29   1 ffffffff   -1 C
-r$p5dealer           399 197 399 197 ff00d8ff   10 C
-r$p5name             493 107 614 132 ff000000  -95 T1
-r$p5seated           459 132 459 149 ff211b18   -4 C
+6$GsGE6HJEGIs        vvv uzA vxA vsv        s    s e
+6$GsGE6HJEGIsYZGE6H  vyu uBs vyu uBs JJJvJFJF  Cts a
+6$GsGE6HJEGIt        wsw uzA wuB vsv        s    s e
+6$GsGE6HJEGItYZGE6H  wvw uBs wvw uBs JJJvJGJF  Cts a
+6$GsGE6HJEGIu        wzx uzA xss vsv        s    s e
+6$GsGE6HJEGIuYZGE6H  xsB uBs xsB uBs JJJvJGJF  Cts a
+6$GsGE6HJEGIv        xwy uzA xzt vsv        s    s e
+6$GsGE6HJEGIvYZGE6H  xzy uBs xzy uBs JJJvJGJF  Cts a
+6$GsGE6HJEGIw        ytz uzA ywu vsv        s    s e
+6$GsGE6HJEGIwYZGE6H  ywA uBs ywA uBs JJJvJFJF  Cts a
+6$Gs1Z0s             wvt uxs yts uyv JJJJJJJJ  txs lv
+6$MsF300ZY           yzy yzB zyt zsA        s    s V
+6$MsTEFIT            yBA yAx yBA yAx JJJJJJJJ    s ds
+6$Ms70E0I            zus zsv zus zsv JJFsyvss   xs a
+6$MtF300ZY           zBx yzz Azz ztt JJxIAutw    s V
+6$MtTEFIT            zAy yzu AAB yBv JJJJJJJJ  tss lt
+6$Mt70E0I            Awy ztA Awy ztA JJEBxsss   xs a
+6$MuF300ZY           Btw yzy BBu zsA        s    s V
+6$MuTEFIT            Bsu yzv BBt yBt JJJJJJJJ  tss lt
+6$Mu70E0I            Bvw ztA Bvw ztA JJtzttsJ   Cx a
+6$MvF300ZY           Buv yty BAt yuw        s    s V
+6$MvIHM0             yyw ywt ztB yxv        s    s V
+6$MvTEFIT            Bvu ytv BAA yuz JJJJJJJJ  tss lt
+6$Mv70E0I            tssv ytu tssv ytu JJGtBsss   xs a
+6$MwF300ZY           Aws yxu BvA yyy        s    s V
+6$MwTEFIT            Aww yxs Bvu yyz        s    s dv
+6$Mw70E0I            AAx yxv AAy yyy JJJJJJJJ    t a
+6$MyF300ZY            tt yyu  Aw yzx        s    s V
+6$MyTEFIT             tt yyv  uB yzx        s    s e
+6$My70E0I             tu yyB  tu yyB JJJJJJJJ    t a
+6$MzF300ZY           yyw yyw yzw yzu        s    s V
+6$MzTEFIT            yys yyt ztB yzy        s    s dt
+6$Mz70E0I            yzy yzx yzz yzx JJJJJJJJ    u a
+6$MAysF300ZY          yz xws  Ax xxt        s    s V
+6$MAys70E0I           wz xzt  wA xzt JJJJJJJJ  uus a
+6$MAF300ZY           Btu yzv BBy zst        s    s V
+6$MATEFIT            Axu yzx BAw yAA        s    s du
+6$MA70E0I            Bvw ztx Bvw ztx JJxIAutw   Cx a
+6$MBF300ZY           zBy yAw Azs zsy        s    s V
+6$MBTEFIT            zBx yAx Azt zsw JJJJJJJJ  tss lt
+6$MB70E0I            Awy ztA Awy ztA JJEBxsss   xs a
+6$M_F300ZY           ysw yyw ytw yzw        s    s V
+6$M_TEFIT            ysx yyy yxA yzv        s    s ds
+6$M_70E0I            ysA yyA ysA yyA JJtttttt   ts a
+6$1sEG0MPI           xBy tuw xBy tvw JJBFByBw   Cu a
+6$1sFETEYGI          yvu twx zxu tzx JJssssss Ctux lu
+6$1sFI0              xus tBw yAz usy JJJJJJJJ  txs lv
+6$1sGE6HFEGO         zwt  Ax zwt  Bv JJJHJGJG    x a
+6$1sGE6HJEGIs         uB   u  vs   u        s    s ds
+6$1sGE6HJEGIsYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1sGE6HJEGIt         uB   u  vs   u        s    s ds
+6$1sGE6HJEGItYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1sHIETI6           xxx tBt xxx tBt JJssHAJJ    s a
+6$1sYEWI             yvt tsz zxt tvu JJssssss Cvss lt
+6$1s7IE0IH           zsA twt zsA twt JJtItAtz   Ct a
+6$1tEG0MPI           Atx tBx Atx usz JJBzBuBs   Cu a
+6$1tFETEYGI          Axs uty Bzu uwA JJssssss Ctux lu
+6$1tFI0              yuu uvx zyv uwz JJJJJJJJ  txs lv
+6$1tGE6HFEGO         Bys txy Bys tyw JJJHJGJG    x a
+6$1tGE6HJEGIs         uB   u  vs   u        s    s ds
+6$1tGE6HJEGIsYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1tGE6HJEGIt         uB   u  vs   u        s    s ds
+6$1tGE6HJEGItYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1tHIETI6           zzA uyy zzA uyy JJssHAJJ    s a
+6$1tYEWI             Axs tzB Bzt usw JJssssss Cvss lt
+6$1t7IE0IH           Buy utw Buy utw JJtEtwtv   Ct a
+6$1uEG0MPI           AxA vxt AxA vxB JJAJFAAt   Cu a
+6$1uFETEYGI          ABw vyB tstz wst JJssssss Ctux lu
+6$1uFI0              yzv vAB Att wst JJJJJJJJ  txs lv
+6$1uGE6HFEGO         tssw vsA tssw vtz JJJGJGJG    x a
+6$1uGE6HJEGIs         uB   u  vs   u        s    s ds
+6$1uGE6HJEGIsYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1uGE6HJEGIt         uB   u  vs   u        s    s ds
+6$1uGE6HJEGItYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1uHIETI6           Asw vvu Asw vvu JJssHAJJ    s a
+6$1uYEWI             ABw vvu tstx vxz JJssssss Cvss lt
+6$1u7IE0IH           Bzs vyz Bzs vyz JJtAtvtu   Ct a
+6$1vEG0MPI           zys xsw zys xtt JJAGAGAG   Cu a
+6$1vFETEYGI          zBx xuu Bty xxw JJssssss Ctux lu
+6$1vFI0              xBw wxx zyA wyz JJJJJJJJ  txs lv
+6$1vGE6HFEGO         Bsx wyu Bsx wzs JJJHJGJG    x a
+6$1vGE6HJEGIs         uB   u  vs   u        s    s ds
+6$1vGE6HJEGIsYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1vGE6HJEGIt         uB   u  vs   u        s    s ds
+6$1vGE6HJEGItYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1vHIETI6           zsx wAt zsx wAt JJssHAJJ    s a
+6$1vYEWI             zBx wAw Btx xsB JJssssss Cvss lt
+6$1v7IE0IH           Azt xtB Azt xtB JJtxtttt   Ct a
+6$1wEG0MPI           wyx xAv wyx xBu JJBsAIAF   Cu a
+6$1wFETEYGI          wBx xAy ytv ysw JJssssss Ctux lu
+6$1wFI0              wwv wxv yty wyy JJJJJJJJ  txs lv
+6$1wGE6HFEGO         ysu xuw ysu xvu JJJHJGJG    x a
+6$1wGE6HJEGIs        wBv wzz xtA xsu        s    s e
+6$1wGE6HJEGIsYZGE6H  xwB wzB xwB wzB JJJxJFJG   Ct a
+6$1wGE6HJEGIt        xxA wzz xAv xsu        s    s e
+6$1wGE6HJEGItYZGE6H  ytu wzB ytu wzB JJJxJFJG   Ct a
+6$1wHIETI6           wAt xsz wAt xsz JJssHAJJ    s a
+6$1wYEWI             wBw xyv ytw xzB JJssssss Cvss lt
+6$1w7IE0IH           xzs xAv xzs xAv JJyzyyyy  wss a
+6$1xEG0MPI           uAx xvt uAx xwu JJAAAyAx   Cu a
+6$1xFETEYGI          tsz xuu uuz xxv JJssssss Ctux lu
+6$1xFI0              uxs wxw wuu wyy JJJJJJJJ  txs lv
+6$1xGE6HFEGO         utz wyu utz wzs JJJHJGJG    x a
+6$1xGE6HJEGIs         uB   u  vs   u        s    s ds
+6$1xGE6HJEGIsYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1xGE6HJEGIt         uB   u  vs   u        s    s ds
+6$1xGE6HJEGItYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1xHIETI6           vvz wAu vvz wAu JJssHAJJ    s a
+6$1xYEWI             tsz wAw uuA xsB JJssssss Cvss lt
+6$1x7IE0IH           tAv xtB tAv xtB JJtytutt   Ct a
+6$1yEG0MPI           tAs vwB tAs vys JJAIFAAt   Cu a
+6$1yFETEYGI           ts vzs tuz wst JJssssss Ctux lu
+6$1yFI0              uus vAB vzz wst JJJJJJJJ  txs lv
+6$1yGE6HFEGO         ttA vts ttA vtA JJJHJGJG    x a
+6$1yGE6HJEGIs         uB   u  vs   u        s    s ds
+6$1yGE6HJEGIsYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1yGE6HJEGIt         uB   u  vs   u        s    s ds
+6$1yGE6HJEGItYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1yHIETI6           uvA vvu uvA vvu JJssHAJJ    s a
+6$1yYEWI               A vvu tuy vxz JJssssss Cvss lt
+6$1y7IE0IH            Ay vyz  Ay vyz JJtEtxtw   Ct a
+6$1zEG0MPI           uux tBx uux usy JJBGBxBw   Cu a
+6$1zFETEYGI           xw utz tzw uwA JJssssss Ctux lu
+6$1zFI0              uzw uvx wxs uwz JJJJJJJJ  txs lv
+6$1zGE6HFEGO         tyw txz tyw tyx JJJHJGJG    x a
+6$1zGE6HJEGIs         uB   u  vs   u        s    s ds
+6$1zGE6HJEGIsYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1zGE6HJEGIt         uB   u  vs   u        s    s ds
+6$1zGE6HJEGItYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1zHIETI6           uyx uyy uyx uyy JJssHAJJ    s a
+6$1zYEWI              xv tzB tzy usw JJssssss Cvss lt
+6$1z7IE0IH           tvs utw tvs utw JJtHtztx   Ct a
+6$1AEG0MPI           wwx tuv wwx tvw JJBsAHAG   Cu a
+6$1AFETEYGI          uzu tww vBu tzt JJssssss Ctux lu
+6$1AFI0              vwt tBw wBx usy JJJJJJJJ  txs lv
+6$1AGE6HFEGO         vAu  Ax vAu  Bs JJJHJGJG    x a
+6$1AGE6HJEGIs         uB   u  vs   u        s    s ds
+6$1AGE6HJEGIsYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1AGE6HJEGIt         uB   u  vs   u        s    s ds
+6$1AGE6HJEGItYZGE6H   vs   t  uB   t JJJJJJJJ   Ct a
+6$1AHIETI6           wBs tBt wBs tBt JJssHAJJ    s a
+6$1AYEWI             uzt tsz vBu tvu JJssssss Cvss lt
+6$1A7IE0IH           vwA twt vwA twt JJustFtE   Ct a
+6$0EFTI1ZMY0s        uBz txz uBz txz JJvEuHuG   Cx a
+6$0EFTI1ZMY0t        zBz  wy zBz  wy JJuEtJtH   vs a
 
 //
 // fonts
 //
 
-t0$1 e0000 e0000 e0000 e0000 1e0000 3fffff ffffff ffffff ffffff
-t1$1 100 200 7ff
-t1$3 101 111 111 1ff ee
-t1$Z 103 10f 11d 171 1e1 181
-t1$j 1 1 1bff 1bff
-t1$j 1 1 3 27fe
-t1$J 1 1 3 7fc
-t1$j 1 13ff
-t1$j 1 3 27fe
-t1$Z 1 403 40d 419 471 4c1 581 601 401
-t1$1 180 180 3ff 3ff
-t1$Y 180 1f0 3f 3f 1f0 180
-t1$W 180 1f8 3f f f8 1c0 f8 f 3f 1f8 180
-t1$1 180 300 7ff 7ff
-t1$2 183 107 10d 119 1f1 e1
-t1$4 18 38 68 188 308 7ff 8
-t1$4 18 38 c8 188 608 7ff 8
-t1$4 1c 3c 7c cc 38c 7ff 7ff c
-t1$4 1c 3c 7c ec 1cc 3ff 3ff c
-t1$c 1c 3e 63 63 63 63
-t1$s 1c7 3e3 7e3 673 673 63f 73e 1c
-t1$i 1c7ff 1c7ff 1c7ff
-t1$8 1ce 3ff 333 333 3ff 1ce
-t1$q 1e0 210 408 408 408 210 7ff
-t1$g 1e0 219 409 409 409 212 7fc
-t1$9 1e0 3f3 633 633 627 3fe 1f8
-t1$9 1e0 631 411 411 626 1f8
-t1$5 1e1 1e1 121 13f 11e
-t1$c 1e 23 41 41 41
-t1$a 1e 33f 67f 667 667 666 66c 7ff 3ff 1ff
-t1$o 1e 3f 63 63 63 7e 3c
-t1$e 1e 3f 6b 6b 6b 7b 38
-t1$d 1e 7f 63 63 22 3ff 3ff
-t1$g 1f0 319 209 209 113 3fe
-t1$Q 1f0 71c 406 802 802 802 c06 60f 3f9 1
-t1$g 1f1 319 209 209 113 3fc
-t1$A 1 f 38 1c8 708 708 1e8 38 f 1
-t1$A 1 f 7f 1fc 7cc 60c 7cc 3fc 7f f 1
-t1$c 1 f 7f 3ff 1ffc fff8 fe38
-t1$c 1f 7f ff 1f0 1c0 3c0 380 380 380 380 380 3c0
-t1$U 1fc 1fe 3 1 1 3 1fe 1fc
-t1$0 1fc 203 401 401 602 1fc
-t1$0 1fc 3fe 707 603 707 3fe 1fc
-t1$R 1ff 110 110 118 12c e3 1
-t1$L 1ff 1 1 1
-t1$B 1ff 111 111 111 ee
-t1$M 1ff 1c0 70 1c 7 7 1c 70 1c0 1ff
-t1$l 1ffff 1ffff 1ffff
-t1$h 1ffff 1ffff 1ffff 180 300 700 780 7ff 3ff 1ff
-t1$k 1ffff 1ffff 1ffff 60 f8 1fc 3fe 79f 707 603 401
-t1$y 200 1c0 39 6 38 1c0 200
-t1$y 201 1c1 72 c 70 1c0 200
-t1$1 201 201 401 7ff 1 1 1
-t1$y 201 3c1 3f3 7f 3e 1f8 3c0 200
-t1$y 203 383 3e7 7e 3c 1f0 3c0 200
-t1$y 203 3c3 1f7 3e f8 3c0 200
-t1$3 203 421 421 421 652 39e
-t1$2 207 40d 409 411 621 3c1
-t1$i 27f
-t1$T 300 300 300 3ff 3ff 300 300 300
-t1$s 31 49 49 46
-t1$2 3 207 40d 419 421 3c1
-t1$J 3 3 3 7fe 7fc
-t1$s 33 7b 6b 6f 66
-t1$e 3 7 f 1d 19 19 19 1f f 7
-t1$c 3 7 f 1e 1c 1c 1c 1c 1e
-t1$i 37f 37f
-t1$S 383 641 421 421 413 60e
-t1$8 39e 673 421 421 673 3de
-t1$8 39e 673 421 461 473 39e
-t1$8 39e 7ff 663 663 663 7ff 39e
-t1$o 3c 42 81 81 81 42 3c
-t1$c 3c 43 81 81 81
-t1$d 3c 43 81 81 81 42 7ff
-t1$S 3c7 7e3 663 673 63f 71e
-t1$o 3c 7e c3 c3 c3 7e 3c
-t1$e 3c 7e d7 d3 d3 f7 70
-t1$c 3c 7e e7 c3 c3 c7
-t1$e 3e 53 91 91 93 70
-t1$d 3e 63 41 41 22 3ff
-t1$o 3e 63 41 41 63 3e
-t1$e 3e 6b 49 49 39
-t1$d 3e 7f c3 c3 42 7ff 7ff
-t1$5 3f3 3f3 333 333 33e 31e
-t1$l 3ff
-t1$p 3ff 108 204 204 204 308 f0
-t1$p 3ff 110 208 208 318 1f0
-t1$H 3ff 20 20 20 20 20 3ff
-t1$h 3ff 20 40 40 40 3f
-t1$P 3ff 210 210 210 320 1e0
-t1$l 3ff 3ff
-t1$p 3ff 3ff 108 30c 30c 3fc 1f0
-t1$p 3ff 3ff 110 318 318 3f8 1e0
-t1$k 3ff 3ff 1c 7f 67 41
-t1$h 3ff 3ff 20 60 7f 3f
-t1$b 3ff 3ff 22 63 63 7f 3e
-t1$H 3ff 3ff 30 30 30 30 30 3ff 3ff
-t1$H 3ff 3ff 30 30 30 30 3ff 3ff
-t1$D 3ff 3ff 303 303 303 386 1fe f8
-t1$K 3ff 3ff 30 f8 1de 387 303 201
-t1$K 3ff 3ff 30 fc 3cf 307 201
-t1$B 3ff 3ff 333 333 333 3ff 1ce
-t1$M 3ff 3ff 3c0 1fc 1f f fc 3c0 3ff 3ff
-t1$N 3ff 3ff 3c0 e0 78 1c e 3ff 3ff
-t1$k 3ff 3ff 8 3e 77 63 41
-t1$k 3ff 8 14 22 41
-t1$k 3ff 8 36 63 41
-t1$T 400 400 400 7ff 400 400 400
-t1$7 400 401 40e 470 7c0 600
-t1$7 400 403 41c 4e0 700 600
-t1$Y 400 700 180 60 1f 60 380 400
-t1$Y 400 780 7e0 ff ff 7e0 780 400
-t1$V 400 780 f0 1e 1 1e f0 380 400
-t1$y 401 381 72 c 70 380 400
-t1$X 401 603 38e d8 20 d8 38e 603 401
-t1$X 401 603 78f 3fe f8 f8 3fe 78f 607 401
-t1$f 40 1ff 240 240
-t1$t 40 1ff 41 41
-t1$1 40 c0 1ff 1ff
-t1$z 41 43 4d 59 61 41
-t1$x 41 63 1c 1c 33 41
-t1$x 41 77 3e 1c 3e 67 41
-t1$i 4ff
-t1$T 600 600 600 7ff 7ff 600 600 600
-t1$7 600 603 61f 67c 7e0 780 600
-t1$W 600 7c0 7c 7 f 78 780 780 f0 f 7 7c 3c0 600
-t1$V 600 7c0 7f8 ff f f fe 7f0 780 400
-t1$W 600 7e0 7fe 7f f 7f 7f0 700 7f0 1ff 1f 3f 7fe 7e0
-t1$t 60 1fe 1ff 63 63
-t1$f 60 1ff 3ff 360 360
-t1$Z 603 607 61f 63f 673 7e3 7c3 703 603
-t1$3 603 663 663 663 7fe 39e
-t1$a 6 49 49 49 3f
-t1$a 6 6f 6b 6a 7f 3f
-t1$a 6 6f 6b 6b 6a 7f 3f
-t1$i 6ff 6ff
-t1$t 700 700 1ffe 3fff 3fff 707 707
-t1$s 71 91 89 8e
-t1$2 7 30f 61b 633 633 7e3 3c3
-t1$s 73 f3 db db cf e
-t1$O 7c 1fe 387 303 303 303 387 1fe f8
-t1$6 7c 1fe 393 333 333 33e 1e
-t1$0 7c 1ff 101 101 1ff 7c
-t1$5 7c3 441 441 441 422 1c
-t1$5 7c3 441 441 463 43e
-t1$6 7c ff 1a1 121 13f 1e
-t1$c 7e0 1ff8 3ffc 7c3e 700e f00f e007 e007 e007 e007 e007 f00e
-t1$u 7e 3 1 1 2 7f
-t1$5 7e3 7e3 663 663 67e 63c
-t1$u 7e 7f 3 2 7f 7f
-t1$r 7f 20 40 40
-t1$n 7f 20 40 40 3f
-t1$m 7f 20 40 40 3f 20 40 40 3f
-t1$n 7f 20 40 40 40 3f
-t1$r 7f 7f 20 60
-t1$r 7f 7f 20 60 60
-t1$n 7f 7f 20 60 7f 3f
-t1$m 7f 7f 20 60 7f 3f 20 60 7f 3f
-t1$U 7fc 2 1 1 1 1 2 7fc
-t1$U 7fc 7fe 7 3 3 7 7fe 7fc
-t1$l 7ff
-t1$L 7ff 1 1 1 1
-t1$k 7ff 18 3c 66 c3 81
-t1$H 7ff 20 20 20 20 20 20 7ff
-t1$K 7ff 20 70 98 10c 206 403 1
-t1$p 7ff 210 408 408 408 610 1e0
-t1$D 7ff 401 401 401 401 401 202 304 f8
-t1$h 7ff 40 80 80 c0 7f
-t1$P 7ff 410 410 410 620 3c0
-t1$F 7ff 420 420 420 420
-t1$R 7ff 420 420 420 430 64c 387 1
-t1$E 7ff 421 421 421 421 401
-t1$B 7ff 421 421 421 653 39e
-t1$b 7ff 42 81 81 81 c2 3c
-t1$N 7ff 700 180 60 30 c 7 7ff
-t1$M 7ff 700 e0 38 6 7 38 e0 700 7ff
-t1$l 7ff 7ff
-t1$k 7ff 7ff 18 7e ef c3 81
-t1$L 7ff 7ff 3 3 3 3
-t1$h 7ff 7ff 40 c0 c0 ff 7f
-t1$b 7ff 7ff 42 c3 c3 ff 7c
-t1$D 7ff 7ff 603 603 603 707 30e 3fe f8
-t1$H 7ff 7ff 60 60 60 60 60 7ff 7ff
-t1$K 7ff 7ff 60 f8 1fc 79f 707 603 401
-t1$F 7ff 7ff 630 630 630 630
-t1$P 7ff 7ff 630 630 630 7e0 3c0
-t1$R 7ff 7ff 630 630 63c 7ee 3c7 3
-t1$E 7ff 7ff 663 663 663 663 663
-t1$B 7ff 7ff 663 663 663 667 7be 39c
-t1$M 7ff 7ff 780 7f0 fe 1f f 7e 3f0 780 7ff 7ff
-t1$k 7ff 7ff 7ff 1 3 7 f 1e 1c 18 10
-t1$h 7ff 7ff 7ff 6 c 1c 1e 1f f 7
-t1$t 80 3fe 81 81
-t1$f 80 3ff 480 480
-t1$v 80 70 e 1 e 70 80
-t1$z 81 83 8d 99 b1 c1 81
-t1$x 81 c3 3c 18 3c c3 81
-t1$x 81 e7 ff 7e 3e ff c7 81
-t1$3 83 111 111 111 ee
-t1$t c0 3fe 3ff c3 c3
-t1$f c0 3ff 7ff 6c0 6c0
-t1$w c0 78 f 7 38 c0 78 7 7 78 c0
-t1$v c0 f8 7f f f 7e f0 80
-t1$w c0 fc ff 7 3f f8 f8 7f 7 3f f8 c0
-t1$4 c 1c 34 c4 1ff 1ff 4
-t1$z c3 c7 cf df fb e3 c3
-t1$a e c9 91 91 92 7f
-t1$a e df db d3 d2 ff 7f
-t1$8 ee 1ff 131 131 1ff ce
-t1$q f0 108 204 204 204 108 3ff
-t1$g f0 10c 204 204 204 109 3fe
-t1$9 f1 1f9 109 10b 1fe 7c
-t1$9 f4 3fb 31b 317 3fe fc
-t1$G f8 106 202 401 401 421 421 63e
-t1$Q f8 1fc 306 202 202 306 1ff f9
-t1$c f8 1fc 3fe 78f 707 707 707 707 78e
-t1$G f8 1fe 386 703 603 633 633 63f 73e
-t1$e f8 1fe 3fe 76f 667 667 667 7e7 3ee 1e0
-t1$C f8 306 203 401 401 401 603
-t1$O f8 306 603 401 401 401 603 306 f8
-t1$g f8 3fd 30d 30d 10b 3ff 3fe
-t1$C f8 3fe 307 603 603 603 707
-t1$O f8 3fe 307 603 603 603 707 3fe f8
-t1$o f8 3fe 3fe 78f 707 707 707 78f 3fe 3fe f8
-t1$d f8 3fe 3ff 78f 707 707 706 38e 1ffff 1ffff 1ffff
-t1$0 fc 1fe 387 303 387 1fe fc
-t1$6 fc 322 441 441 463 3c
-t1$6 fc 322 441 441 463 3e
-t1$6 fc 3fe 723 663 663 67e 3c
-t1$u fe 3 1 1 2 ff
-t1$a fe38 fff8 1ffc 3ff 7f f 1
-t1$u fe ff 3 3 2 ff ff
-t1$r ff 40 80 80
-t1$n ff 40 80 80 c0 7f
-t1$m ff 40 80 80 c0 7f 40 80 80 c0 7f
-t1$n ff ff 40 c0 c0 ff 7f
-t1$m ff ff 40 c0 c0 ff 7f 40 c0 c0 ff 7f
-t1$r ff ff 60 c0 c0
-t1$f ffff ffff ffff e1c0 e1c0 e1c0 e1c0 e1c0
-t1$r ffff ffff ffff e1c0 e1c0 e1e0 e1f0 f3fc ff3e 7f1f 3e0f 3 1
-t1$b ffff ffff ffff e387 e387 e387 e787 ffcf 7dfe 38fe 78
-t2$7 1000 1000 1001 100f 1078 13c0 1e00 1800
-t2$7 1000 1000 1003 103f 10f8 13c0 1e00 1800
-t2$4 10 70 d0 310 610 1810 1fff 1fff 10 10
-t2$0 1 1 1 1 1
-t2$$ 120 3f8 ffe d2e 1923 1121 1121 1803
-t2$7 1800 1800 1803 183f 18ff 1bf8 1fc0 1f00 1800
-t2$4 18 38 68 c8 308 e08 1fff 1fff 8 8
-t2$$ 1b0 3f8 ffe ffe 1db7 19b3 19b3 19b3 1c07
-t2$8 1c 73e fa3 18c1 1041 18c1 fa3 73e 1c
-t2$6 1c 7f 5b db df e
-t2$8 1c f3e fa3 18c1 1041 10e1 1fa3 f3e 1c
-t2$$ 1e 77 55 55 61
-t2$. 1f 1f 1c
-t2$0 1 f 3c 1f0 710 1c10 1c10 710 1f0 3c f 1
-t2$5 1f83 1f81 1081 1081 10c3 107e 3c
-t2$6 1f8 7fe e43 1881 1081 1081 10c3 107e 3c
-t2$6 1f8 7fe e43 1881 1081 1081 10c3 187e 3c
-t2$6 1f8 7fe ffe e67 1cc3 18c3 18c7 18fe 187e 3c
-t2$5 1fc7 1fc3 1fc3 18c3 18e7 18ff 187e 3c
-t2$. 2 3
-t2$$ 28 7e ee ab ab c2
-t2$9 30 7b db db fe 7c
-t2$3 3 1041 1041 1041 1041 18a3 fbe 71c
-t2$3 3 1841 1041 1041 1041 18a3 fbe f1c
-t2$. 3 1e 10
-t2$. 3 2
-t2$0 33ff 33ff
-t2$2 3 47 cf f9 71
-t2$8 37 7f 49 7f 77
-t2$2 3 807 100d 1019 1031 1861 fc1 f81
-t2$4 38 78 f8 1d8 798 e18 1fff 1fff 1fff 18 18
-t2$$ 3c 7e cb cb c2
-t2$$ 3c 7e db d9 c3
-t2$$ 3c 7e db db c3
-t2$0 3c 7f c3 c3 7e 3c
-t2$$ 3e 77 55 55 61
-t2$0 3e 7f c1 c3 7e 3c
-t2$6 3e 7f d3 d3 de c
-t2$0 3f8 ffe c07 1001 1001 1001 1c06 ffe 3f8
-t2$0 3f8 ffe fff 1c07 1803 1c07 1fff ffe 3f8
-t2$0 3ff 3ff 100 200 200 300 3ff 1ff
-t2$0 3fff 3fff
-t2$1 41 41 ff ff 1
-t2$$ 41 43 7ff ffd 1841 1041 1001 1
-t2$4 4 1c 34 e4 ff 7f
-t2$4 4 1c 34 e6 ff 7f
-t2$4 4 1c 64 ff ff 4
-t2$1 43 43 ff ff 3
-t2$2 43 8f db fb 63
-t2$2 43 c7 cd f9 71
-t2$1 43 ff ff 3 3
-t2$1 600 400 c00 1fff 1fff
-t2$1 600 600 c00 1fff 1fff 1fff
-t2$1 61 41 7f 1 1
-t2$1 61 7f 7f 1 1
-t2$$ 63 67 7ff fff 1ffb 1c63 1863 1863 c03 3
-t2$8 6 7f db d9 7e 66
-t2$8 6 7f db db 7e 66
-t2$3 7 1c03 18c3 18c3 18c3 19e7 1fff f7e f3c
-t2$8 71c fbe 1fff 18e3 18c3 18e3 1fff fbe 71c
-t2$9 72 fb cb db 7e 38
-t2$9 780 fc1 1861 1021 1021 1023 1846 ffc 3f0
-t2$9 780 fc3 1861 1021 1021 1023 1846 ffc 3f0
-t2$9 780 fc3 1fe3 1863 1863 1cc7 1ffe ffc 3f0
-t2$5 79 49 49 4f 6
-t2$5 79 79 49 4f 6
-t2$9 7a f9 c9 db 7e 38
-t2$9 7a f9 cb df 7e
-t2$9 7a fb cb df 7e 38
-t2$2 7 c0f 1c1f 183b 1873 18e3 1fe3 fc3 783
-t2$0 7e 7f c1 c3 7e
-t2$0 7e 7f c3 c3 7e
-t2$0 7e 7f c3 c3 7e 3c
-t2$7 80 80 8f be f0 80
-t2$$ 8 7e 6e ab ab c2
-t2$$ 8 7e 6e cb cb c2
-t2$1 c01 c01 801 1fff 1fff 1 1 1
-t2$2 c07 80f 1019 1031 1031 18e1 fc1 781 1
-t2$7 c0 c3 cf fc e0
-t2$1 c3 ff ff 3 3
-t2$2 c7 8f db fb 63
-t2$5 f2 d3 9b 9e c
-t2$5 f9 d9 df ce
-t3$1 100 100 3ff 7ff
-t3$7 100 103 11c 160 180
-t3$7 100 107 13f 1f8 180
-t3$7 100 107 178 180
-t3$1 100 200 7ff
-t3$1 100 3ff 7ff
-t3$3 101 111 111 1ff ee
-t3$3 101 111 111 ee
-t3$2 103 105 119 e1
-t3$$ 11 ff 111 111 101
-t3$$ 11 ff 1fd 111 111 1
-t3$$ 1 23 3fd 421 421 401 1
-t3$. 1 6
-t3$1 180 300 7ff 7ff
-t3$2 183 107 10d 119 1f1 e1
-t3$4 18 38 68 188 308 7ff 8
-t3$4 18 38 c8 188 608 7ff 8
-t3$4 1c 3c 7c cc 38c 7ff 7ff c
-t3$9 1e0 3f3 633 633 627 3fe 1f8
-t3$9 1e0 631 411 411 626 1f8
-t3$5 1e1 121 121 11e
-t3$5 1e1 1e1 121 13f 11e
-t3$0 1fc 203 401 401 602 1fc
-t3$0 1fc 3fe 707 603 707 3fe 1fc
-t3$1 201 201 401 7ff 1 1 1
-t3$3 202 263 663 262 39e 108
-t3$3 203 421 421 421 652 39e
-t3$2 207 40d 409 411 621 3c1
-t3$5 22 7e3 663 662 63e 608
-t3$$ 28 7c aa 129 129 101
-t3$$ 28 7c fe 1ab 129 101
-t3$6 30 1fe 222 223 662 23e 8
-t3$2 3 207 40d 419 421 3c1
-t3$$ 33 3ff 7ff 633 633 603 3
-t3$8 39e 673 421 421 673 3de
-t3$8 39e 673 421 461 473 39e
-t3$8 39e 7ff 663 663 663 7ff 39e
-t3$. 3 c
-t3$o 3c 7e c3 c3 c3 7e 3c
-t3$. 3 f c
-t3$7 400 401 40e 470 7c0 600
-t3$7 400 403 41c 4e0 700 600
-t3$1 40 c0 1ff 1ff
-t3$$ 50 1fc 3fe 757 653 653 607
-t3$$ 50 fc 356 451 451 403
-t3$7 600 600 60f 630 6c0 700 400
-t3$7 600 603 61f 67c 7e0 780 600
-t3$3 603 663 663 663 7fe 39e
-t3$0 70 1fe 202 603 202 3fc 70
-t3$2 7 30f 61b 633 633 7e3 3c3
-t3$. 7 6
-t3$0 7c 1ff 101 101 1ff 7c
-t3$5 7c3 441 441 441 422 1c
-t3$5 7c3 441 441 463 43e
-t3$6 7c ff 1a1 121 13f 1e
-t3$0 7e 183 101 183 fc
-t3$5 7e3 7e3 663 663 67e 63c
-t3$6 7e a1 121 11e
-t3$6 7e b3 121 121 11e
-t3$P 7ff 7ff 630 630 630 7e0 3c0
-t3$1 80 80 1ff
-t3$1 81 81 1ff 1 1
-t3$2 83 10d 119 e1
-t3$t c0 3fe 3ff c3 c3
-t3$4 c 14 64 184 1ff 4
-t3$4 c 1c 34 c4 1ff 1ff 4
-t3$4 c 34 c4 1ff 4
-t3$: c3 c3
-t3$8 ee 111 111 111 ee
-t3$8 ee 111 111 ee
-t3$8 ee 1ff 131 131 1ff ce
-t3$9 f1 109 109 18a fc
-t3$9 f1 109 109 fe
-t3$9 f1 1f9 109 10b 1fe 7c
-t3$6 fc 322 441 441 463 3c
-t3$6 fc 322 441 441 463 3e
-t3$6 fc 3fe 723 663 663 67e 3c
-t3$0 fe 101 101 fe
+0s$t Issss Issss Issss Issss tIssss vJJJJJ JJJJJJ JJJJJJ JJJJJJ
+0t$t tss uss zJJ
+0t$v tst ttt ttt tJJ II
+0t$- tsv tsJ ttH tzt tIt tAt
+0t$N t t tFJJ tFJJ
+0t$N t t v uzJI
+0t$f t t v zJG
+0t$N t tvJJ
+0t$N t v uzJI
+0t$S t vv tI G vJ ut
+0t$I t v v z y y z z v
+0t$I t v z y y y z v t
+0t$O t v z z w
+0t$G t v z z z y y z
+0t$- t wsv wsH wtB wzt wGt xAt yst wst
+0t$t tAs tAs vJJ vJJ
+0t$r tAs tJs vJ vJ tJs tAs
+0t$o tAs tJA vJ J JA tGs JA J vJ tJA tAs
+0t$t tAs vss zJJ zJJ
+0t$u tAv tsz tsH ttB tJt It
+0t$w tA vA yA tAA vsA zJJ A
+0t$w tA vA GA tAA ysA zJJ A
+0t$w tG vG zG GG vAG zJJ zJJ G
+0t$w tG vG zG IG tGG vJJ vJJ G
+0t$G tG vI yv yv yv yv
+0t$E tG yvI yzJ Iyz Iyz Iwy IGI zJI zJI tJI
+0t$7 tGz vIv zIv yzv yzv yvJ zvI tG
+0t$M tGzJJ tGzJJ tGzJJ
+0t$A tGI vJJ vvv vvv vJJ tGI
+0t$2 tIs uts wsA wsA wsA uts zJJ
+0t$K tIs utB wsB wsB wsB utu zJG
+0t$B tIs vJv yvv yvv yuz vJI tJA
+0t$B tIs yvt wtt wtt yuy tJA
+0t$x tIt tIt tut tvJ ttI
+0t$G tI uv wt wt wt
+0t$E tI vvJ yzJ yyz yyz yyy yyG zJJ vJJ tJJ
+0t$Z tI vJ yv yv yv zI vG
+0t$I tI vJ yF yF yF zF vA
+0t$H tI zJ yv yv uu vJJ vJJ
+0t$R tJs tJJ tIs JA tI z tI Js tIs tJJ tJJ
+0t$K tJs vtB usB usB ttv vJI
+0t$i tJs ztG wsy Asu Asu Asu Gsy ysJ vJB t
+0t$K tJt vtB usB usB ttv vJG
+0t$G t J tJ vJ zA zs zs Is Is Is zs zs
+0t$_ t J vA tGA zsA zsA tIA vA J t
+0t$_ t J zJ tJG zGG ysG zGG vJG zJ J t
+0t$G t J zJ vJJ tJJG JJJA JIvA
+0t$G tJ zJ JJ tJs tGs vGs vAs vAs vAs vAs vAs vGs
+0t$I tJA vJG zJI yyy Iyz Gyz yyz zIy vIy tIs
+0t$I tJA vJI zzI yyy Gyz Gyz yyz zIy vIy ys
+0t$I tJA vJI zJI yyz Iyz Iyz Iyz zIy zIy tIs
+0t$a tJA zJI JJJ tJsJ tGsv vGsv vAst vAst vAst vAst vAst vGsv
+0t$m tJG tJI v t t v tJI tJG
+0t$s tJG usv wst wst ysu tJG
+0t$I tJG vJI vJJ zuz yuv yuv zyv zIv vIy Is
+0t$s tJG vJI zsz ysv zsz vJI tJG
+0t$I tJG vJI zJJ yuz yuv yuv zyv vIv tIu
+0t$I tJG vJI zJJ yuz yuv yuv zyv vIv tIu ys
+0t$j tJJ tts tts ttA tuG Iv t
+0t$X tJJ t t t
+0t$~ tJJ ttt ttt ttt II
+0t$R tJJ tGs zs tG z z tG zs tGs tJJ
+0t$R tJJ tIs Is vG z J vA tIs tJJ tJJ
+0t$T tJJJJ tJJJJ tJJJJ
+0t$L tJJJJ tJJJJ tJJJJ tAs vss zss zAs zJJ vJJ tJJ
+0t$O tJJJJ tJJJJ tJJJJ ys JA tJG vJI zBJ zsz ysv wst
+0t$p uss tGs vB y vA tGs uss
+0t$p ust tGt zu G zs tGs uss
+0t$t ust ust wst zJJ t t t
+0t$p ust vGt vJv zJ vI tJA vGs uss
+0t$p usv vAv vIz zI vG tJs vGs uss
+0t$p usv vGv tJz vI JA vGs uss
+0t$v usv wut wut wut yxu vBI
+0t$u usz wsH wsB wtt yut vGt
+0t$S ut vJ tI tI vz ut
+0t$E uz uJ uB uB vJ
+0t$M uzJ
+0t$l vss vss vss vJJ vJJ vss vss vss
+0t$7 vt wB wB wy
+0t$_ v tJ JJ vJA tJJA zItA zAtA zGtA zJBA JJA tJI vJ J t
+0t$_ v tJ JJ vJI tJJA zJtA zAtA zAtA zJBA tJJA vJI zJ tJ v
+0t$u v usz wsH wtB wut vGt
+0t$C v v v v v
+0t$f v v v zJI zJG
+0t$G v v z z y y y
+0t$7 vv zF yF yJ yy
+0t$I v z J tH tB tB tB tJ J z
+0t$G v z J tI tG tG tG tG tI
+0t$M vzJ vzJ
+0t$k vAv ywt wut wut wtv ysI
+0t$7 vAy zGz zIz IIz Izz IzI IzI yvG
+0t$A vBI yzv wut wut yzv vHI
+0t$A vBI yzv wut wyt wzv vBI
+0t$A vBI zJJ yyv yyv yyv zJJ vBI
+0t$a vGs tJJA vJJG zJJI zAtI JssI IssJ Issz Issz Issz Issy IssI
+0t$Z vG wu At At At wu vG
+0t$G vG wv At At At
+0t$H vG wv At At At wu zJJ
+0t$7 vGy zIz yIv Iyz Gzy yzI yvG
+0t$7 vGy zIz zIv IIz Gzy IzI yvI tA
+0t$k vGz zIv yyv yzv yvJ ztI
+0t$Z vG zI Gv Gv Gv zI vG
+0t$I vG zI Hz Hv Hv Jz zs
+0t$G vG zI Iz Gv Gv Gz
+0t$I vI xv Bt Bt Bv zs
+0t$H vI yv wt wt uu vJJ
+0t$Z vI yv wt wt yv vI
+0t$E vI yzI yyz Gyy Gwy Iww zJI zJI tJI
+0t$E vI yzI yyz Gyz Gwy Iww zJI zJI vJI
+0t$I vI yF wB wB vB
+0t$H vI zJ Gv Gv wu zJJ zJJ
+0t$I vI zJ JJ tHF tBB tBB tBB tJB JF zA
+0t$G vI zJ JJ tIv tGt tGt tGt tGt tIv
+0t$x vJv vJv vvv vvv vvI vtI
+0t$T vJJ
+0t$1 vJJ tsA usw usw usw vsA Js
+0t$1 vJJ tts usA usA vtA tJs
+0t$d vJJ us us us us us vJJ
+0t$L vJJ us ws ws ws vJ
+0t$h vJJ uts uts uts vus tIs
+0t$T vJJ vJJ
+0t$1 vJJ vJJ tsA vsG vsG vJG tJs
+0t$1 vJJ vJJ tts vtA vtA vJA tIs
+0t$O vJJ vJJ tG zJ yz wt
+0t$L vJJ vJJ us ys zJ vJ
+0t$F vJJ vJJ uu yv yv zJ vI
+0t$d vJJ vJJ vs vs vs vs vs vJJ vJJ
+0t$d vJJ vJJ vs vs vs vs vJJ vJJ
+0t$4 vJJ vJJ vsv vsv vsv vAy tJI JA
+0t$U vJJ vJJ vs JA tHI vAz vsv ust
+0t$U vJJ vJJ vs JG vGJ vsz ust
+0t$~ vJJ vJJ vvv vvv vvv vJJ tGI
+0t$R vJJ vJJ vGs tJG tJ J JG vGs vJJ vJJ
+0t$V vJJ vJJ vGs Is zA tG I vJJ vJJ
+0t$Y vJJ vJJ vJJ tss vss vss zss vJJ vJJ JJ
+0t$Y vJJ vJJ vJJ tss vss vss zss zJJ vJJ tJJ
+0t$O vJJ vJJ A vI zz yv wt
+0t$O vJJ A tw uu wt
+0t$O vJJ A vy yv wt
+0t$l wss wss wss zJJ wss wss wss
+0t$z wss wst wsI wzs zGs yss
+0t$z wss wsv wtG wIs zss yss
+0t$r wss zss tAs ys tJ ys vAs wss
+0t$r wss zAs zIs JJ JJ zIs zAs wss
+0t$n wss zAs Js tI t tI Js vAs wss
+0t$p wst vAt zu G zs vAs wss
+0t$q wst ysv vAI HA us HA vAI ysv wst
+0t$q wst ysv zAJ vJI JA JA vJI zAJ ysz wst
+0t$J ws tJJ uws uws
+0t$0 ws tJJ wt wt
+0t$t ws Gs tJJ tJJ
+0t$, wt wv wH xB yt wt
+0t$S wt yv tG tG vv wt
+0t$S wt zz vI tG vI yz wt
+0t$M wJJ
+0t$0 yss yss vJJG vJJI zJJJ IsJ ysz ysy
+0t$l yss yss yss zJJ zJJ yss yss yss
+0t$z yss ysv ytJ yzG zIs zAs yss
+0t$o yss zGs zG z J zA zAs zAs Js J z zG vGs yss
+0t$n yss zGs zJA JJ J J JI zJs zAs wss
+0t$o yss zIs zJI zJ J zJ zJs zss zJs tJJ tJ vJ zJI zIs
+0t$0 yss Iss vJJI vJJI vJJJ ysz ysy
+0t$0 yss Iss vJJI vJJI IsJ ysz ysy
+0t$0 ys tJI tJJ yv yv
+0t$J ys tJJ vJJ vys vys
+0t$- ysv ysz ytJ yvJ yzv zIv zGv zsv ysv
+0t$v ysv yyv yyv yyv zJI vBI
+0t$E y uz uB uB vJ J
+0t$M yvJJ zvJJ yvJJ
+0t$M yvJJ JvJJ yvJJ
+0t$M yvJJ JvJJ yvJJ ysss
+0t$E y wB wB wB vJ
+0t$E y yJ yF yE zJ vJ
+0t$E y yJ yF yF yE zJ vJ
+0t$M yJJ yJJ
+0t$0 zss zss tJJI vJJJ vJJJ zsz zsz
+0t$7 zt Bt AB AI
+0t$a z tJ vJ vG zs zs ys ys ys ys zs
+0t$u z vsJ ytF yvv yvv zIv vGv
+0t$7 zv Jv HF HF GJ I
+0t$g zG tJI vAz vsv vsv vsv vAz tJI JA
+0t$y zG tJI vBv vvv vvv vvI tI
+0t$s zG tJJ tst tst tJJ zG
+0t$x zGv wwt wwt wwt wuu tG
+0t$x zGv wwt wwt wyv wvI
+0t$y zG JJ tEt tut tvJ tI
+0t$G zIs tJJA vJJG zGvI zssI JssJ Issz Issz Issz Issz Issz JssI
+0t$3 zI v t t u zJ
+0t$x zIv zIv yyv yyv yzI yvG
+0t$3 zI zJ v u zJ zJ
+0t$a zJs tJJG vJJI vAtI zssJ zssz yssz yssz yssz yssz zssz
+0t$a zJs tJJG vJJI vGtI zssJ zssz yssz yssz yssz yssz zssz
+0t$6 zJ us ws ws
+0t$Y zJ us ws ws vJ
+0t$W zJ us ws ws vJ us ws ws vJ
+0t$Y zJ us ws ws ws vJ
+0t$6 zJ zJ us ys
+0t$6 zJ zJ us ys ys
+0t$Y zJ zJ us ys zJ vJ
+0t$W zJ zJ us ys zJ vJ us ys zJ vJ
+0t$m zJG u t t t t u zJG
+0t$m zJG zJI z v v z zJI zJG
+0t$T zJJ
+0t$X zJJ t t t t
+0t$O zJJ tA vG yy Gv At
+0t$d zJJ us us us us us us zJJ
+0t$U zJJ us zs BA tsG usy wsv t
+0t$1 zJJ uts wsA wsA wsA yts tIs
+0t$4 zJJ wst wst wst wst wst usu vsw JA
+0t$L zJJ ws As As Gs zJ
+0t$h zJJ wts wts wts yus vGs
+0t$b zJJ wus wus wus wus
+0t$j zJJ wus wus wus wvs ywG vAz t
+0t$5 zJJ wut wut wut wut wst
+0t$~ zJJ wut wut wut yxv vBI
+0t$F zJJ wu At At At Gu vG
+0t$V zJJ zss tAs ys vs G z zJJ
+0t$R zJJ zss Is vA y z vA Is zss zJJ
+0t$T zJJ zJJ
+0t$O zJJ zJJ tA zI IJ Gv At
+0t$X zJJ zJJ v v v v
+0t$L zJJ zJJ ws Gs Gs JJ zJ
+0t$F zJJ zJJ wu Gv Gv JJ zG
+0t$4 zJJ zJJ ysv ysv ysv zsz vsI vJI JA
+0t$d zJJ zJJ ys ys ys ys ys zJJ zJJ
+0t$U zJJ zJJ ys JA tJG zBJ zsz ysv wst
+0t$b zJJ zJJ yvs yvs yvs yvs
+0t$h zJJ zJJ yvs yvs yvs zIs vGs
+0t$j zJJ zJJ yvs yvs yvG zII vGz v
+0t$5 zJJ zJJ yyv yyv yyv yyv yyv
+0t$~ zJJ zJJ yyv yyv yyv yyz zFI vBG
+0t$R zJJ zJJ zAs zJs JI tJ J zI vJs zAs zJJ zJJ
+0t$O zJJ zJJ zJJ t v z J tI tG tA ts
+0t$L zJJ zJJ zJJ y G tG tI tJ J z
+0t$j zJJJ zJJJ zsIs zsGs zsIs zsIs ztJA vJFI vJBJ tIsz v
+0t$O zJJJ zJJJ zJJJ tA vI zJ JJ tIz tGt tAs tss
+0t$L zJJJ zJJJ zJJJ ys Gs tGs tIs tJJ JJ zJ
+0t$j zJJJ zJJJ zJJJ zsGs zsIs zsIs ztJA vJFI vJBJ tJsJ v t
+0t$j zJJJ zJJJ zJJJ zsIs zsIs zsIs zsJs zBJG vJFI vJBJ tIsz v
+0t$~ zJJJ zJJJ zJJJ ztGv ztGv ztGv ztGv zJGz vJzJ vIzI tGvG
+0t$~ zJJJ zJJJ zJJJ ztGv ztGv ztGv ztGv zJIz vJzJ vIzI vG
+0t$0 As vJI At At
+0t$J As vJJ wAs wAs
+0t$P As zs I t I zs As
+0t$, At Av AH BB Ft Gt At
+0t$S At Gv vG tA vG Gv At
+0t$S At Iz JJ zI vI JJ Gz At
+0t$v Av ttt ttt ttt II
+0t$0 Gs vJI vJJ Gv Gv
+0t$J Gs vJJ zJJ yGs yGs
+0t$Q Gs zA J z vA Gs zA z z zA Gs
+0t$P Gs JA zJ J J zI Js As
+0t$Q Gs JG JJ z vJ JA JA zJ z vJ JA Gs
+0t$w G tG vw Gw tJJ tJJ w
+0t$, Gv Gz GJ HJ JF Iv Gv
+0t$E I GB Bt Bt Bu zJ
+0t$E I HJ HF Hv Hu JJ zJ
+0t$A II tJJ tvt tvt tJJ GI
+0t$2 Js tsA usw usw usw tsA vJJ
+0t$K Js tsG usw usw usw tsB vJI
+0t$I Js vJG zJI yyI Iyz Gyz yyz zyy zIy tIs
+0t$I Js vJG zJI zyI Iyz Gyz Iyz zyy zIy vIs
+0t$I Js vJG zJI zyI Iyz Iyz Iyz zyz zIy vIy ws
+0t$B Jt tJB tsB tsF tJI zG
+0t$B Jw vJF vtF vtz vJI JG
+0t$c JA tsy usu wst wst wut wut yvI
+0t$i JA tJG vsy usu usu vsy tJJ JB
+0t$G JA tJG vJI zAJ zsz zsz zsz zsz zAI
+0t$c JA tJI vAy zsv ysv yvv yvv yvJ zvI
+0t$I JA tJI vJI zyJ yyz yyz yyz zIz vII tIs
+0t$a JA vsy usv wst wst wst ysv
+0t$g JA vsy ysv wst wst wst ysv vsy JA
+0t$K JA vJH vsH vsH tsF vJJ vJI
+0t$a JA vJI vsz ysv ysv ysv zsz
+0t$g JA vJI vsz ysv ysv ysv zsz vJI JA
+0t$Z JA vJI vJI zAJ zsz zsz zsz zAJ vJI vJI JA
+0t$H JA vJI vJJ zAJ zsz zsz zsy vAI tJJJJ tJJJJ tJJJJ
+0t$s JG tJI vAz vsv vAz tJI JG
+0t$y JG vuu wwt wwt wyv vG
+0t$y JG vuu wwt wwt wyv vI
+0t$G JG vJI vHJ zsz ysv ysv ysv ysv
+0t$G JG vJI vHJ zsz zsv ysv ysv ysv
+0t$G JG vJI vJJ zsz zsz ysv ysv ysv
+0t$y JG vJI zuv yyv yyv yzI vG
+0t$3 JI v t t u JJ
+0t$E JIvA JJJA tJJG vJJ zJ J t
+0t$3 JI JJ v v u JJ JJ
+0t$a JJs tJJA vJJG zAtI zssI IssI Issz Issz Issz Issy IssI
+0t$6 JJ ws As As
+0t$Y JJ ws As As Gs zJ
+0t$W JJ ws As As Gs zJ ws As As Gs zJ
+0t$Y JJ JJ ws Gs Gs JJ zJ
+0t$W JJ JJ ws Gs Gs JJ zJ ws Gs Gs JJ zJ
+0t$6 JJ JJ ys Gs Gs
+0t$O JJ JJ JJ
+0t$L JJ JJ JJ v v y y z z v
+0t$L JJ JJ JJ v y y z z z v
+0t$T JJJJ JJJJ zJJJ
+0t$T JJJJ JJJJ JJJJ
+0t$O JJJJ JJJJ JJJJ us zs tJA vJI zAJ ysz wsv
+0t$L JJJJ JJJJ JJJJ vss uss yss yss zAs zJJ vJJ
+0t$L JJJJ JJJJ JJJJ vss uss yss yss zGs zJJ vJJ
+0t$L JJJJ JJJJ JJJJ vAs vss yss yss zAs zJJ vJJ
+0t$O JJJJ JJJJ JJJJ ys zs tJA vJI zAJ zsz wsv
+0t$O JJJJ JJJJ JJJJ ys zs tJA vJI zBJ zsz wsv
+0t$J JJJJ JJJJ JJJJ ItGs ItGs ItGs ItGs ItGs
+0t$6 JJJJ JJJJ JJJJ ItGs ItGs ItIs ItJs JvJG JJvI zJtJ vIsJ v t
+0t$F JJJJ JJJJ JJJJ IvAz IvAz IvAz IzAz JJGJ zHJI vAJI zA
+0u$z tsss tsss tsst tssJ tszA tvGs tIss tAss
+0u$z tsss tsss tssv tsvJ tsJA tvGs tIss tAss
+0u$w ts zs Hs vts yts tAts tJJJ tJJJ ts ts
+0u$s t t t t t
+0u$$ tus vJA JJI HuI tBuv ttut ttut tAsv
+0u$$ tvs tJs zJG JJI tJJJ tHFz vBFv vBFv vBFv tAsz
+0u$z tAss tAss tAst tAtJ tAzJ tBJJ tJJs tJAs tIss tAss
+0u$z tAss tAss tAsv tAvJ tAJJ tFJA tJGs tJss tAss
+0u$z tAss vAss vAsv vAtJ vAzJ vBJJ vJJA vJGs vJss tGss
+0u$w tA vA yA GA vsA IsA tJJJ tJJJ A A
+0u$w tA zA JA tHA zBA tItA tJJJ tJJJ tA tA
+0u$w tA zA JA tHA zBA tItA tJJJ tJJJ tG tA
+0u$$ tFs tJs zJG JJI tJJJ tHFz vBFv vBFv vBFv tAsz
+0u$$ tFs vJA JJI tJJJ tJFJ vBFz vBFv vBFv vAsz tAsz
+0u$$ tFs vJA JJI JJI tHFz tBFv tBFv tBFv tGsz
+0u$v tGsz tAGv vAIv vAIv vHIz tJJJ tJJJ JvI A
+0u$u tGsJ tAtJ tAvJ tAzv tAIv tJIv tJGv JAv
+0u$x tGv tJGv tJGv tAGv tAGv tAJJ tAJI tAzG
+0u$A tG zvI JEv tAGt tswt tAGt JEv zvI tG
+0u$y tG zJ xF HF HJ I
+0u$A tG JvI tJJJ tJIz vAGv vAGv tHIz tJJJ JvI ytG
+0u$A tG JvI tJJJ tJJJ vBIv vAGv vJIz tJJJ tJzI yvG
+0u$A tG JvI JEv tAGt tswt tsIt tJEv JvI tG
+0u$$ tI zz xx xx yt
+0u$A tIJG vJJI zJJI zvGz ztGz zJGI vJJI vJJI tIzG
+0u$$ tJs zJG JJI tJFJ tHFz tBFv vBFv tBFv tAsv
+0u$$ tJs zJG JJI tJFJ tHFz tBFv vBFv tBFv tAsz
+0u$$ tJs zJG JJI tJFJ tHFz vBFv vBFv tBFv tAsz
+0u$$ tJs zJG JJI tJFJ tHFz vBFv vBFv vBFv tAsz
+0u$s tJs JJI tJJJ tJtJ tAsv vAsv tGsJ tJJJ JJI zJA
+0u$s t J vG tJs zts tGts tGts zts tJs vG J t
+0u$9 tJ vJ vG
+0u$x tJAv tJAt tsAt tsAt tsGv tszI vG
+0u$y tJA zJI Iwv tAAt tsAt tsAt tsGv tszI vG
+0u$y tJA zJI Iwv tAAt tsAt tsAt tsGv tAzI vG
+0u$y tJA zJI JJI Iyz tGGv tAGv tAGz tAJI tAzI vG
+0u$x tJGz tJGv tJGv tAGv tAIz tAJJ tAzI vG
+0u$x tJGz vJGv vJGv vAGv vAIz vAJJ vAJJ tAzI vA
+0u$$ uA zI II EF EF Gu
+0u$B vs zF HF HF JI zG
+0u$v v tswt tswt tswt tswt tAEv JFI ztG
+0u$v v tAwt tswt tswt tswt tAEv JFI JtG
+0u$u v tGsJ tAtJ tAvJ vAzz vAJz tJIz tJGz JAz
+0u$9 v tJ tJ tJ ts
+0u$s vvJJ vvJJ
+0u$u v wz GJ JB zt
+0u$$ vys vIs JJA vJJG vJJI zFyI zvyz zvyz zvyy zAsI
+0u$A vz zJ wB zJ zz
+0u$z vAss vAss vAsz vAvJ vAJJ vFJJ vJJA vJGs vJss vGss
+0u$u v Asz tssH tstB tsvt tAyt JGt JAt
+0u$v vAsI vBGI ztGy ztGz zvGJ zJJI vJJI vJJI tGzG
+0u$A vA tIJG vJJI zJJI zvGz ztGz zJGI vJJI vJJI tIzG
+0u$w vA zA JA tHA zBA ItA tJJJ tJJJ tJJJ tA tA
+0u$w vA zA JA vHA zBA tJtA tJJJ tJJJ tJJJ tA
+0u$w vA zA JA vHA zBA tJtG tJJJ tJJJ tJJJ tA
+0u$w vA zA JA vHA zBA tJBG vJJJ vJJJ tJJJ tA
+0u$w vG zG JG tJG zHG tJBG vJJJ vJJJ vJJJ tJJJ tG
+0u$$ vG zI GF GF Gu
+0u$$ vG zI HF HB Gv
+0u$$ vG zI HF HF Gv
+0u$s vG zJ Gv Gv zI vG
+0u$$ vI zz xx xx yt
+0u$s vI zJ Gt Gv zI vG
+0u$y vI zJ Hv Hv HI G
+0u$y vJs JJG tJJI vJJI vJAI zvAz zvGI zvJI ztJI vsJG
+0u$y vJs JJG tJJI vJJI vJAI zvAz zvGI zvJI ztJI vsJG us
+0u$x vJAI zJAI zJAz zFAz zvGI ztJI ztJI ztJG zA
+0u$s vJA JJI tJJJ tJJJ vAsz vAsv vIsJ tJJJ tJJI zJG
+0u$s vJA JJI Gsz tsst tsst tsst tGsy JJI vJA
+0u$s vJA JJI JJJ tGsz tAsv tGsz tJJJ JJI vJA
+0u$y vJG JJI tJJJ tGGv tAGv vBGz vAJJ tAJI zG
+0u$y vJG JJI tJJJ tGGv tBGv vBGz vAJJ tAJI zG
+0u$s vJJ vJJ tss uss uss vss vJJ tJJ
+0u$s vJJJ vJJJ
+0u$t wt wt JJ JJ t
+0u$$ wt wv zJJ JJH tAwt tswt tsst t
+0u$w w tG vw Iw JJ zJ
+0u$w w tG vw Iy JJ zJ
+0u$w w tG yw JJ JJ w
+0u$t wv wv JJ JJ v
+0u$u wv AJ HF JF yv
+0u$u wv Gz GH JB zt
+0u$t wv JJ JJ v v
+0u$t yss wss Gss tJJJ tJJJ
+0u$t yss yss Gss tJJJ tJJJ tJJJ
+0u$y ys vJG JJI tJJJ tGGz vBGv vBGz vAJJ tAJI zG
+0u$t yt wt zJ t t
+0u$t yt zJ zJ t t
+0u$$ yv yz zJJ JJJ tJJF tGyv tAyv tAyv Gsv v
+0u$A yvI tJJJ tJJJ vHIz vAGv vBIv tJJJ tJJJ JvI tA
+0u$A y zJ HF HB zI yy
+0u$A y zJ HF HF zI yy
+0u$v z tGsv tAGv tAGv tAGv tBIz tJJJ JzI JvG
+0u$u z tGsJ tGtJ vAvJ vAzJ vAJz vJIz tJGz tJAz ysv
+0u$u z tGtJ tGvJ vAvJ vAzJ vGJz vJIz tJIz tJGz zsz
+0u$A ztG JFI tJJJ tAIv tAGv tAIv tJJJ JFI ztG
+0u$B zu JF GF HF zI vA
+0u$B zAs JGt tAyt tsut tsut tsuv tAwy JJG vJs
+0u$B zAs JGv tAyt tsut tsut tsuv tAwy JJG vJs
+0u$B zAs JGv tJIv tAyv tAyv tGGz tJJI JJG vJs
+0u$B zAs JGz tJIv tJIv vAyv vAyz vJJJ tJJI JJG zJs
+0u$x zAI zJAI zJAy zJAz zvGJ zvJI ztJI ztJG zsJA
+0u$x zB wB wB wJ y
+0u$x zB zB wB wJ y
+0u$B zE JB GB HF zI vA
+0u$B zE JB GF HJ zI
+0u$B zE JF GF HJ zI vA
+0u$u z GsJ tGtJ tAvF tAzv tAIv tJIv JGv zAv
+0u$s zI zJ Gt Gv zI
+0u$s zI zJ Gv Gv zI
+0u$s zI zJ Gv Gv zI vG
+0u$s zJA tJJG vJJI zJJI zAsJ zssJ zJzI vJJI vJJG tJJA
+0u$s zJG tJJI tJJJ vGsz vAsv vGsz tJJJ tJJI JJG vJs
+0u$9 z J J A
+0u$z As As AJ FI Js As
+0u$$ A zI yI EF EF Gu
+0u$$ A zI yI GF GF Gu
+0u$t Gst Gst Ast tJJJ tJJJ t t t
+0u$u Gsz AsJ tstB tsvt tsvt tAIt JGt zAt t
+0u$z Gs Gv GJ JG Is
+0u$u GsJ tGtJ tAvJ vAzJ vAzz vHIz tJIz tJGz JAz
+0u$t Gv JJ JJ v v
+0u$x Gz vJGz vJGv vJGv vBGz vBJJ vAJJ vAJI tAzG
+0u$u Gz AJ HF JF yv
+0u$t Iss Gss tJJJ vJJJ vJJJ tJJJ
+0u$t Iss Iss tGss tJJJ vJJJ vJJJ
+0u$t Iss Iss tIss tJJJ vJJJ vJJJ
+0u$t Iss Iss tIss tJJJ vJJJ vJJJ vJJJ
+0u$t Iss Iss tIss vJJJ vJJJ vJJJ
+0u$v I vAsI ztGI ztGz ztGz zJGI zJJI vJJI tIzG vA
+0u$B Jss vJGI vJGI zJIz zsIz zsGI zJJI vJJG vJJG JJs
+0u$y Js zJG JJI tJJJ tGGz vBGv vBGz vBJJ vAJI zG
+0u$y Js zJG JJJ tJJJ tGGz vBGv vBGz vBJJ tAJI zG
+0u$y Js zJI JJJ tJJJ tGGz vBGv vBGz vBJJ vAJI zG
+0u$x Ju Hv BF BI G
+0u$x JB HB HJ GI
+0v$z tss tsv ttG tys tAs
+0v$z tss tsv ttJ tFA tGs tAs
+0v$z tss tsz tvJ tJA tAs
+0v$z tss tsz tzA tAs
+0v$t tss uss zJJ
+0v$v tst ttt ttt tJJ II
+0v$v tst ttt ttt II
+0v$u tsv tsx ttB It
+0v$v tsv ttt tvt tJF II
+0v$$ tt JJ ttt ttt tst
+0v$$ tt JJ tJH ttt ttt t
+0v$$ t uv vJH wut wut wst t
+0v$$ tv zJ tJJ ttt tst t
+0v$t tAs vss zJJ zJJ
+0v$u tAv tsz tsH ttB tJt It
+0v$w tA vA yA tAA vsA zJJ A
+0v$w tA vA GA tAA ysA zJJ A
+0v$u tAz tsJ ttF tFv tJv
+0v$$ tB vG vFA vHs vHs vys tus tus ys uIs ys ys vus vss vHs vHs vFA vG tB
+0v$A tBI vHJ uzv yut uzv vHI G
+0v$w tG vG zG GG vAG zJJ zJJ G
+0v$w tG vG GG tAG vJJ vJJ G
+0v$B tIs vJv yvv yvv yuz vJI tJA
+0v$B tIs yvt wtt wtt yuy tJA
+0v$x tIt tut tut ttI
+0v$x tIt tIt tut tvJ ttI
+0v$B tIv vJv uvv ytv vvz vJI Js
+0v$s tJG usv wst wst ysu tJG
+0v$s tJG vJI zsz ysv zsz vJI tJG
+0v$z uss uss usJ uvI uJs vAs uss
+0v$t ust ust wst zJJ t t t
+0v$v usv wut wut wut yxu vBI
+0v$u usz wsH wsB wtt yut vGt
+0v$$ uA zG EE tuB tuB tst
+0v$$ uA zG JI tEF tuB tst
+0v$$ uA JI tEF tuB tuB tst
+0v$u vsz usJ ytF yvv vJv vIv
+0v$u v usz wsH wtB wut vGt
+0v$v v uuv yuv yzv vHJ vHI
+0v$$ vv vJJ zJJ yvv yvv ysv v
+0v$x v vIv uyv uuv uvJ uvI
+0v$A vBI yzv wut wut yzv vHI
+0v$A vBI yzv wut wyt wzv vBI
+0v$A vBI zJJ yyv yyv yyv zJJ vBI
+0v$Z vG zI Gv Gv Gv zI vG
+0v$z wss wst wsI wzs zGs yss
+0v$z wss wsv wtG wIs zss yss
+0v$t ws Gs tJJ tJJ
+0v$$ xs tJG vJI zxz yxv yxv ysz
+0v$$ xs JG vxy wxt wxt wsv
+0v$$ xA JG vHI vxF yxF yxB usv
+0v$z yss ysv ytJ yzG zIs zAs yss
+0v$v ysv yyv yyv yyv zJI vBI
+0v$u z vsJ ytF yvv yvv zIv vGv
+0v$x zv tJt tFt tvv ttI
+0v$s zG tJJ tst tst tJJ zG
+0v$x zGv wwt wwt wwt wuu tG
+0v$x zGv wwt wwt wyv wvI
+0v$y zG JJ tEt tut tvJ tI
+0v$s zI tAv tst tAv JG
+0v$x zIv zIv yyv yyv yzI yvG
+0v$y zI Et tut ttI
+0v$y zI Fv tut tut ttI
+0v$y zI JJ tFt tvv tvJ tG
+0v$h zJJ zJJ yvs yvs yvs zIs vGs
+0v$t As tGI tJJ
+0v$t As As tJJ
+0v$t At At tJJ t t
+0v$u Av tsH ttB It
+0v$0 Gs vJI vJJ Gv Gv
+0v$w G tw yw tAw tJJ w
+0v$w G tG vw Gw tJJ tJJ w
+0v$w G vw Gw tJJ w
+0v$: Gv Gv
+0v$A II ttt ttt ttt II
+0v$A II ttt ttt II
+0v$A II tJJ tvt tvt tJJ GI
+0v$B Jt tsB tsB tAE JG
+0v$B Jt tsB tsB JI
+0v$B Jt tBB ttB tBv JI zA
+0v$B Jt tJB tsB tsF tJI zG
+0v$y JG vuu wwt wwt wyv vG
+0v$y JG vuu wwt wwt wyv vI
+0v$y JG vJI zuv yyv yyv yzI vG
+0v$s JI tst tst JI
+0v$s JI tAv tst tAv tJI zG
+0v$s JI tGz tst tAv tJI zG
 
 //
 // points
 //
 
-p1$   6    0
-p1$   9   15
-p1$  16    8
-p1$  28    3
-p1$  28    8
-p1$  28   12
-p1$  32    8
-p1$  39    6
-p1$  39   13
-p1$  45    4
-p1$  45   10
-p1$  52    6
-p1$  52   13
-p1$  55    3
-p1$  55    7
-p1$  55   11
-p2$   0    9
-p2$   1    2
-p2$   2   12
-p2$  81    9
-p2$  85    0
-p2$  90    8
-p2$  91   11
-p2$  96    1
-p2$  96   13
-p2$ 102    1
-p2$ 102   11
-p2$ 108    7
-p2$ 112    8
-p2$ 116    4
-p2$ 118   11
-p2$ 123    4
-p2$ 124   12
-p2$ 129    5
-p2$ 131   12
-p3$   3    5
-p3$   3   11
-p3$  14   14
-p3$  15    9
-p3$  20    7
-p3$  22    9
-p3$  22   14
-p3$  27    6
-p3$  29   11
-p3$  29   13
-p3$  42    2
-p3$  44    8
-p3$  49   14
-p3$  57    7
-p3$  58   10
-p3$  62   13
-p3$  66   11
-p3$  71    7
-p3$  72   15
-p3$  77   13
-p3$  78    4
-p3$  78    9
-p3$  83    9
-p3$  84   13
 
 //
 // hash
 //
 
-h0$sitin_lit          2762e659
-h0$sitin              574db938
-h0$prefoldspd         6f87910c
-h0$prefoldReg         e00a9816
-h0$fold_wh            e8f59493
-h1$prefold            2e7f5d06
-h1$prefold9           78890fe7
-h2$raise_AI           70268efc
-h3$sitin              34e9ebee
+Ls$JZTHDTEHF6ZOI7     sssIvBHx
+Ls$7M0MYDTM0          uzyuIyxB
+Ls$JZTHDYI0FI0        xyBuxBtA
+Ls$7M0MY              xzwHFBvA
+Ls$16IJZTH71H         yJAzBtsG
+Ls$JZTH               zuxytHuv
+Ls$16IJZTHjIK         IssEBAty
+Ls$JZTHDQL            IAJxBwBv
+Lt$16IJZTH            uIzJxHsy
+Lt$16IJZTHB           zAABsJIz
+Lu$6EM7ID_e           zsuyAIJG
+Lv$7M0MY              vwIBIFII
 
 //
 // images
@@ -765,6 +870,8 @@ e7eeecffe7eeecffd6b6a2ffb74810ffb74810ffb74810ffb74810ffb74810ffb74810ffb74810ff
 e6edecffe6edecffd29e81ffb74810ffb74810ffb74810ffb74810ffb74810ffb74810ffb74810ffb74810ffb74810ffb74810ffb74810ffb74810ffb74811ffb74811ffb74810ffeae8e4ffe6ececffe6edecffe6ececffe6ececffe6edecffe6ececffe6ececff
 e5ecebffe5ecebffe5e7e4ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e2ffe9e7e3ffe9e7e2ffe8ececffe5ebebffe5ecebffe5ebebffe5ebebffe5ecebffe5ebebffe5ebebff
 e5ebeaffe5eceaffe5eceaffe5eceaffe5eceaffe5eceaffe5eceaffe5eceaffe5eceaffe5eceaffe5eceaffe1ddd6ffe5eceaffe5eceaffe5eceaffe5eceaffe5ecebffe5ecebffe5ebeaffe5ebeaffe5eceaffe5ebeaffe5ebeaffe5eceaffe5ebeaffe5ebeaff
+i$fold             1   1  
+5e8214ff
 i$8d               26  26 
 f3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbff
 f3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbffeff1edffe5d4c6ffe2cbbbffe6d4c8ffece7e0fff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbff
@@ -973,6 +1080,8 @@ i$dealer           16  13
 14c5e5ff000000ff000000ff000000ff030708ff09333bff093139ff071e23ff010506ff000000ff000000ff000000ff000000ff0e2024ff2cc1ddff00d8ffff
 1e91a6ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff000000ff163339ff318393ff22d6f8ff00d8ffff00d8ffff
 2db2ccff318c9eff318c9eff318c9eff318c9eff318c9eff318c9eff3192a4ff329bb0ff31b1c9ff2cd4f3ff15dbffff01d8ffff00d8ffff00d8ffff00d8ffff
+i$fold_ladbrokes   1   1  
+4db59cff
 i$3c               26  26 
 f3fcfbfff3fbfbfff3fcfbfff3fcfbfff3fbfbfff3fcfbfff3fcfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbff
 f3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbffd2ecdbffbce3c5ffb2ddbbffbfe3c8ffe7f7f0fff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fcfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbfff3fbfbff
@@ -1328,6 +1437,8 @@ i$sitout           19  13
 110800ff120a01ff110900ffffffffff110800ff100800ff100700ffffffffff120900ff100800ffffffffff120901ff110900ffffffffff110800ff120900ff110700ff110801ff110900ff
 100700ff100800ff100800ffffffffffffffffffffffffffffffffff110800ff110900ff110801ffffffffff110900ff110800ffffffffffffffffffffffffff110800ff100800ff100800ff
 110801ff110701ff100800ff110900ff110800ff100800ff110900ff110800ff100800ff110900ff110900ff110900ff110900ff100800ff100700ff110800ff110800ff100800ff100800ff
+i$fold             2   1  
+5e8214ff5e8214ff
 i$6h               26  26 
 f3fcfbfff3fcfbfff3fbfbfff3fcfbfff3fcfbfff3fbfbfff3fcfbfff3fcfbffd6def5ffbbc2efffb6beeeffcad1f2ffeef7fafff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbff
 f3fcfbfff3fbfbfff3fcfbfff3fcfbfff3fbfbffdde5f6ff6e73e0ff1a1dcfff0002caff0002caff0002caff0002caff090bccff5b5edcffd5dcf5fff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbff
@@ -1918,6 +2029,8 @@ e7edecffe7edecffe5eceaff41a94bff008c0eff008c0eff008c0eff219b2cff63b76dff7ec286ff
 e6ececffe6ececffe6ececffdce7e1ff4aad54ff008c0eff008c0eff008c0eff008c0eff008c0eff008c0eff008c0eff018d0fff008d0fff0f931cffa1d3a7ffeaefefffe6ececffe6ececffe6ececffe6ececffe6ececffe6edecffe6ededffe7ededffe7ededff
 e5ebebffe5ebecffe5ebecffe5ebebffe5ebebffaed6b4ff53b15cff149521ff008c0eff008c0eff008c0eff028d10ff2da139ff7cc583ffdcece0ffe6ececffe5ebebffe5ebebffe5ebebffe5ebebffe5ecebffe5ebebffe5ececffe6ececffe6ececffe5ececff
 e5ebebffe5ecebffe5ebeaffe5ebeaffe5ebeaffe5ebeaffe5ebeaffe8edecffd8e9ddffcfe4d2ffd3e7d6ffe5efe9ffeaefefffe5ebeaffe5ebeaffe5ebeaffe5ebeaffe5ebeaffe5ebeaffe5eceaffe5ebeaffe5ecebffe6ecebffe6ecebffe5ecebffe5ebeaff
+i$fold_netbet      1   1  
+bb7f00ff
 i$4d               26  26 
 f3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbff
 f3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbffeff0ebffc97c53ffc7754affd8a88cfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbff
