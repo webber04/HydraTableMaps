@@ -9,7 +9,7 @@
 //
 
 ,$GTMIY07M,IWES    Ass  xBu
-,$GTMIY07M,IWMY    Ass  xBu
+,$GTMIY07M,IWMY    Ass  xyy
 ,$0E6KI07M,I       Ass  xBu
 
 //

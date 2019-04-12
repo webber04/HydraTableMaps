@@ -164,6 +164,7 @@
 0t$f t t v zJG
 0t$N t tvJJ
 0t$N t v uzJI
+0t$S t vv tI G vz ut
 0t$S t vv tI G vJ ut
 0t$I t v v z y y z z v
 0t$I t v z y y y z v t
@@ -217,6 +218,7 @@
 0t$X tJJ t t t
 0t$~ tJJ ttt ttt ttt II
 0t$R tJJ tGs zs tG z z tG zs tGs tJJ
+0t$? tJJ tGs Is tG z I vs tGs tJJ tJJ
 0t$R tJJ tIs Is vG z J vA tIs tJJ tJJ
 0t$T tJJJJ tJJJJ tJJJJ
 0t$L tJJJJ tJJJJ tJJJJ tAs vss zss zAs zJJ vJJ tJJ
@@ -322,6 +324,7 @@
 0t$J ys tJJ vJJ vys vys
 0t$- ysv ysz ytJ yvJ yzv zIv zGv zsv ysv
 0t$v ysv yyv yyv yyv zJI vBI
+0t$E y uz uB uB vJ
 0t$E y uz uB uB vJ J
 0t$M yvJJ zvJJ yvJJ
 0t$M yvJJ JvJJ yvJJ
@@ -697,6 +700,7 @@
 //
 
 Ls$JZTHDTEHF6ZOI7     sssIvBHx
+Ls$JZTHDIPI6I70       twvtIyzy
 Ls$7M0MYDTM0          uzyuIyxB
 Ls$JZTHDYI0FI0        xyBuxBtA
 Ls$7M0MY              xzwHFBvA
@@ -2189,6 +2193,8 @@ b26900ffffffffffffffffffffffffffffffffffffffffffb26900ffb26900ffb26900ffb26900ff
 b26700ffffffffffffffffffffffffffffffffffffffffffb26700ffb26700ffb26700ffb26700ffb26700ffb26700ffb26700ffb26700ffffffffffffffffffffffffffb26700ffb26700ffb26700ffb26700ffffffffffffffffffffffffffb26700ffb26700ffb26700ffb26700ffffffffffffffffffffffffffb26700ffb26700ffb26700ffb26700ffb26700ffb26700ffb26700ffb26700ffb26700ffb26700ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb26700ffb26700ffb26700ffffffffffffffffffffffffffffffffffffffffffffffffffb26700ffffffffffffffffffffffffffb26700ffb26700ffb26700ffb26700ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb26700ffb26700ffffffffffffffffffffffffffb26700ffb26700ffb26700ffffffffffffffffffffffffffffffffffb26700ffb26700ff
 b16600ffffffffffffffffffffffffffffffffffffffffffb16600ffb16600ffb16600ffb16600ffb16600ffb16600ffb16600ffb16600ffffffffffffffffffffffffffb16600ffb16600ffb16600ffb16600ffffffffffffffffffffffffffb16600ffb16600ffb16600ffb16600ffffffffffffffffffffffffffb16600ffb16600ffb16600ffb16600ffb16600ffb16600ffb16600ffb16600ffb16600ffb16600ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb16600ffb16600ffb16600ffb16600ffb16600ffb16600ffffffffffffffffffffffffffffffffffb16600ffb16600ffffffffffffffffffffffffffb16600ffb16600ffb16600ffb16600ffb16600ffffffffffffffffffffffffffffffffffffffffffb16600ffb16600ffb16600ffffffffffffffffffffffffffb16600ffb16600ffb16600ffb16600ffffffffffffffffffffffffffffffffffb16600ff
 b06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ffb06400ff
+i$fold_everest     1   1  
+335f08ff
 i$7c               26  26 
 f3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbff
 f3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbfff3fcfbff

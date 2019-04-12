@@ -81,7 +81,7 @@
 6$M_F300ZY           ysw yyw ytw yzw        s    s V
 6$M_TEFIT            ysx yyy yxA yzv        s    s ds
 6$M_70E0I            ysA yyA ysA yyA JJtttttt   ts a
-6$1sEG0MPI           xBy tuw xBy tvw JJBFByBw   Cu a
+6$1sEG0MPI           xBy tuw xBy tvw JJBABxBw   Cu a
 6$1sFETEYGI          yvu twx zxu tzx JJssssss Ctux lu
 6$1sFI0              xus tBw yAz usy JJJJJJJJ  txs lv
 6$1sGE6HFEGO         zwt  Ax zwt  Bv JJJHJGJG    x a
@@ -92,7 +92,7 @@
 6$1sHIETI6           xxx tBt xxx tBt JJssHAJJ    s a
 6$1sYEWI             yvt tsz zxt tvu JJssssss Cvss lt
 6$1s7IE0IH           zsA twt zsA twt JJtItAtz   Ct a
-6$1tEG0MPI           Atx tBx Atx usz JJBzBuBs   Cu a
+6$1tEG0MPI           Atx tBy Atx usA JJByBvBv   Cu a
 6$1tFETEYGI          Axs uty Bzu uwA JJssssss Ctux lu
 6$1tFI0              yuu uvx zyv uwz JJJJJJJJ  txs lv
 6$1tGE6HFEGO         Bys txy Bys tyw JJJHJGJG    x a
@@ -103,7 +103,7 @@
 6$1tHIETI6           zzA uyy zzA uyy JJssHAJJ    s a
 6$1tYEWI             Axs tzB Bzt usw JJssssss Cvss lt
 6$1t7IE0IH           Buy utw Buy utw JJtEtwtv   Ct a
-6$1uEG0MPI           AxA vxt AxA vxB JJAJFAAt   Cu a
+6$1uEG0MPI           AxB vxt AxB vxB JJBtEyAF   Cu a
 6$1uFETEYGI          ABw vyB tstz wst JJssssss Ctux lu
 6$1uFI0              yzv vAB Att wst JJJJJJJJ  txs lv
 6$1uGE6HFEGO         tssw vsA tssw vtz JJJGJGJG    x a
@@ -114,7 +114,7 @@
 6$1uHIETI6           Asw vvu Asw vvu JJssHAJJ    s a
 6$1uYEWI             ABw vvu tstx vxz JJssssss Cvss lt
 6$1u7IE0IH           Bzs vyz Bzs vyz JJtAtvtu   Ct a
-6$1vEG0MPI           zys xsw zys xtt JJAGAGAG   Cu a
+6$1vEG0MPI           zys xsw zys xtt JJBtBuBs   Cu a
 6$1vFETEYGI          zBx xuu Bty xxw JJssssss Ctux lu
 6$1vFI0              xBw wxx zyA wyz JJJJJJJJ  txs lv
 6$1vGE6HFEGO         Bsx wyu Bsx wzs JJJHJGJG    x a
@@ -136,7 +136,7 @@
 6$1wHIETI6           wAt xsz wAt xsz JJssHAJJ    s a
 6$1wYEWI             wBw xyv ytw xzB JJssssss Cvss lt
 6$1w7IE0IH           xzs xAv xzs xAv JJyzyyyy  wss a
-6$1xEG0MPI           uAx xvt uAx xwu JJAAAyAx   Cu a
+6$1xEG0MPI           uAx xvt uAx xwu JJAHAHAH   Cu a
 6$1xFETEYGI          tsz xuu uuz xxv JJssssss Ctux lu
 6$1xFI0              uxs wxw wuu wyy JJJJJJJJ  txs lv
 6$1xGE6HFEGO         utz wyu utz wzs JJJHJGJG    x a
@@ -147,7 +147,7 @@
 6$1xHIETI6           vvz wAu vvz wAu JJssHAJJ    s a
 6$1xYEWI             tsz wAw uuA xsB JJssssss Cvss lt
 6$1x7IE0IH           tAv xtB tAv xtB JJtytutt   Ct a
-6$1yEG0MPI           tAs vwB tAs vys JJAIFAAt   Cu a
+6$1yEG0MPI           tAs vwB tAs vys JJBtExAF   Cu a
 6$1yFETEYGI           ts vzs tuz wst JJssssss Ctux lu
 6$1yFI0              uus vAB vzz wst JJJJJJJJ  txs lv
 6$1yGE6HFEGO         ttA vts ttA vtA JJJHJGJG    x a
@@ -158,7 +158,7 @@
 6$1yHIETI6           uvA vvu uvA vvu JJssHAJJ    s a
 6$1yYEWI               A vvu tuy vxz JJssssss Cvss lt
 6$1y7IE0IH            Ay vyz  Ay vyz JJtEtxtw   Ct a
-6$1zEG0MPI           uux tBx uux usy JJBGBxBw   Cu a
+6$1zEG0MPI           uuy tBy uuy usz JJBzBwBw   Cu a
 6$1zFETEYGI           xw utz tzw uwA JJssssss Ctux lu
 6$1zFI0              uzw uvx wxs uwz JJJJJJJJ  txs lv
 6$1zGE6HFEGO         tyw txz tyw tyx JJJHJGJG    x a
@@ -169,7 +169,7 @@
 6$1zHIETI6           uyx uyy uyx uyy JJssHAJJ    s a
 6$1zYEWI              xv tzB tzy usw JJssssss Cvss lt
 6$1z7IE0IH           tvs utw tvs utw JJtHtztx   Ct a
-6$1AEG0MPI           wwx tuv wwx tvw JJBsAHAG   Cu a
+6$1AEG0MPI           wwx tuv wwx tvw JJBBByBx   Cu a
 6$1AFETEYGI          uzu tww vBu tzt JJssssss Ctux lu
 6$1AFI0              vwt tBw wBx usy JJJJJJJJ  txs lv
 6$1AGE6HFEGO         vAu  Ax vAu  Bs JJJHJGJG    x a

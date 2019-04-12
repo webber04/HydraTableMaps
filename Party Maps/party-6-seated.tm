@@ -69,10 +69,10 @@
 6$GsTMWM07t           wx   x tux  tx   GzGzGz    s lv
 6$Gs1Z0s             vxt tyw wBx tzB   JJJJJJ  uwx ls
 6$MsF300ZY           wuu xtt xuv xws        s    s V
-6$MsTEFIT            wuz xsB xtx xwu JJJJJJJJ  tzx lu
+6$MsTEFIT            wuz xsB xtx xwu JJJJJJJJ  uys lu
 6$Ms70E0I            wuw xty wuw xty   vEvEvE   ws a
 6$MtF300ZY           xxt xtu ywx xwt        s    s V
-6$MtTEFIT            xzv xsz yvs xuv JJJJJJJJ  tzx lu
+6$MtTEFIT            xzv xsz yvs xuv JJJJJJJJ  uys lu
 6$Mt70E0I            xxu xty xxu xty   vEvEvE   ws a
 6$MuF300ZY           yAv xts zzB xwv        s    s V
 6$MuTEFIT            yAx xsA zzB xuv JJJJJJJJ  uys lu
