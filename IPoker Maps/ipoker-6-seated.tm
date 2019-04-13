@@ -164,7 +164,6 @@
 0t$f t t v zJG
 0t$N t tvJJ
 0t$N t v uzJI
-0t$S t vv tI G vz ut
 0t$S t vv tI G vJ ut
 0t$I t v v z y y z z v
 0t$I t v z y y y z v t
@@ -218,7 +217,6 @@
 0t$X tJJ t t t
 0t$~ tJJ ttt ttt ttt II
 0t$R tJJ tGs zs tG z z tG zs tGs tJJ
-0t$? tJJ tGs Is tG z I vs tGs tJJ tJJ
 0t$R tJJ tIs Is vG z J vA tIs tJJ tJJ
 0t$T tJJJJ tJJJJ tJJJJ
 0t$L tJJJJ tJJJJ tJJJJ tAs vss zss zAs zJJ vJJ tJJ
@@ -324,7 +322,6 @@
 0t$J ys tJJ vJJ vys vys
 0t$- ysv ysz ytJ yvJ yzv zIv zGv zsv ysv
 0t$v ysv yyv yyv yyv zJI vBI
-0t$E y uz uB uB vJ
 0t$E y uz uB uB vJ J
 0t$M yvJJ zvJJ yvJJ
 0t$M yvJJ JvJJ yvJJ
@@ -513,6 +510,7 @@
 0u$s vvJJ vvJJ
 0u$u v wz GJ JB zt
 0u$$ vys vIs JJA vJJG vJJI zFyI zvyz zvyz zvyy zAsI
+0u$. v z z v
 0u$A vz zJ wB zJ zz
 0u$z vAss vAss vAsz vAvJ vAJJ vFJJ vJJA vJGs vJss vGss
 0u$u v Asz tssH tstB tsvt tAyt JGt JAt
@@ -639,8 +637,10 @@
 0v$$ uA zG JI tEF tuB tst
 0v$$ uA JI tEF tuB tuB tst
 0v$u vsz usJ ytF yvv vJv vIv
+0v$. v t
 0v$u v usz wsH wtB wut vGt
 0v$v v uuv yuv yzv vHJ vHI
+0v$. v v
 0v$$ vv vJJ zJJ yvv yvv ysv v
 0v$x v vIv uyv uuv uvJ uvI
 0v$A vBI yzv wut wut yzv vHI
