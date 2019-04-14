@@ -9,7 +9,7 @@
 //
 
 ,$GTMIY07M,IWES    tsus  zvs
-,$GTMIY07M,IWMY    tsus  zvs
+,$GTMIY07M,IWMY    tsss  yss
 ,$0E6KI07M,I       tsus  zvs
 
 //
