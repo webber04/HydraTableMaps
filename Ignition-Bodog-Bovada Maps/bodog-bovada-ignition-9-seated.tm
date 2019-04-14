@@ -23,10 +23,10 @@
 7$FI07M,IHITI0MZYWI0LZH     ~EGO71EGIts
 7$FI07M,IMY0I616I0E0MZYWI0LZH v
 7$FI07M,I7ITIG0MZYWI0LZH    kKT aTMGO
-7$YGLEM67                   y
+7$YGLEM67                   B
 7$YI0QZ6O                   MKYM0MZY
 7$1Z0WI0LZH                 u
-7$7M0IYEWI                  MKYM0MZYCyCWES
+7$7M0IYEWI                  MKYM0MZYCBCWES
 7$0s0p1I                    s
 7$0t0p1I                    J3,,p
 7$0M0TI0IS0                 dZTH'IW
