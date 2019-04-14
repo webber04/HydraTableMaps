@@ -126,7 +126,7 @@
 6$1vYEWI             zBx wAw Btx xsB JJssssss Cvss lt
 6$1v7IE0IH           Azt xtB Azt xtB JJtxtttt   Ct a
 6$1wEG0MPI           wyx xAv wyx xBu JJBsAIAF   Cu a
-6$1wFETEYGI          wBx xAy ytv ysx JJssssss  CBx lu
+6$1wFETEYGI          wBx xAy ytv ysw JJssssss  CBx lu
 6$1wFI0              wwv wxv yty wyy JJJJJJJJ  txs lv
 6$1wGE6HFEGO         ysu xuw ysu xvu JJJHJGJG    x a
 6$1wGE6HJEGIs        wBv wzz xtA xsu        s    s e

@@ -25,12 +25,12 @@
 7$FI07M,I7ITIG0MZYWI0LZH    kKT aTMGO
 7$YGLEM67                   y
 7$YI0QZ6O                   MKYM0MZY
-7$1Z0WI0LZH                 t
+7$1Z0WI0LZH                 u
 7$7M0IYEWI                  MKYM0MZYCyCWES
 7$0s0p1I                    s
 7$0t0p1I                    J3,,p
 7$0M0TI0IS0                 dZTH'IW
-7$00TMWM07                  ^* ^7/^F ^X
+7$00TMWM07                  ^7/^F ^X
 7$00TMWM07s                 ^7/^F^*C ^p
 7$00TMWM07t                 ^* ^7/^F ^E _Y0I ^X
 7$00TMWM07u                 ^7/^F ^E _Y0I^*C ^p
@@ -40,23 +40,22 @@
 // regions
 //
 
-6$GsGE6HJEGIsYZGE6H  uBt uBx uBt uBx JJGIGIGI   Cx a
-6$GsGE6HJEGIs6EYO    uxA uvx uAu uyy JJJxJxJx  Cxs lt
-6$GsGE6HJEGIs73M0    uAx uzu uBB uBB JJJsJsJs  Cxs lt
-6$GsGE6HJEGItYZGE6H  vwu uBu vwu uBu JJGJGJGJ   Cx a
-6$GsGE6HJEGIt6EYO    vus uvx vww uyy JJJxJxJx  Cxs lt
+6$GsGE6HJEGIsYZGE6H  uBA uvA uBA uvA JJJJJJJJ   Cx a
+6$GsGE6HJEGIs6EYO    uxA uvx uAB uyy JJJJJJJJ  Cxs lt
+6$GsGE6HJEGIs73M0    uAx uzu uBB uBB JJJJJJJJ  Cxs lt
+6$GsGE6HJEGItYZGE6H  vyu uvB vyu uvB JJJJJJJJ   Cx a
+6$GsGE6HJEGIt6EYO    vus uvx vxt uyy JJJJJJJJ  Cxs lt
 6$GsGE6HJEGIt73M0    vwz uzu vyt uBB JJIJIJIJ  Cxs lt
-6$GsGE6HJEGIuYZGE6H  vBu uBu vBu uBu JJGJGJGJ   Cx a
-6$GsGE6HJEGIu6EYO    vAt uvx wsx uyy JJJxJxJx  Cxs lt
+6$GsGE6HJEGIuYZGE6H  wuv uwu wuv uwu JJJJJJJJ   Cx a
+6$GsGE6HJEGIu6EYO    vAt uvx wtu uyy JJJJJJJJ  Cxs lt
 6$GsGE6HJEGIu73M0    wsA uzu wuu uBB JJJuJuJu  Cxs lt
-6$GsGE6HJEGIvYZGE6H  wwv uBs wwv uBs JJHsHsHs   Cx a
-6$GsGE6HJEGIv6EYO    wvy uws wxs uxw JJJxJxJx  Cxs lt
-6$GsGE6HJEGIv73M0    wvy uxx wxs uyB JJJsJsJs  Cxs lt
-6$GsGE6HJEGIwYZGE6H  wBv uBu wBv uBu JJGJGJGJ   Cx a
-6$GsGE6HJEGIw6EYO    wAz uws xst uxw JJJxJxJx  Cxs lt
-6$GsGE6HJEGIw73M0    wAz uxy xst uzs JJJxJxJx  Cxs lt
-6$GsLEYHY3WFI6        Av  xv twv  yt JJssssss Cuxs ls
-6$Gs1Z0s             vtu tBw wBx uts JJssssss Cuxs ls
+6$GsGE6HJEGIvYZGE6H  wAx uws wAx uws JJJJJJJJ   Cx a
+6$GsGE6HJEGIv6EYO    wwv uvx wzw uyy JJJJJJJJ  Cxs lt
+6$GsGE6HJEGIv73M0    wzs uzw wAw vst JJJJJJJJ  Cxs lt
+6$GsGE6HJEGIwYZGE6H  xwz uvB xwz uvB JJJJJJJJ   Cx a
+6$GsGE6HJEGIw6EYO    xsx uvx xvy uyy JJJxJxJx  Cxs lt
+6$GsGE6HJEGIw73M0    xvu uzw xwy vst JJJxJxJx  Cxs lt
+6$Gs1Z0s             vwu tBx wyv uts JJssssss Cuxs ls
 6$MsF300ZY           uyz wAB vux xtw        s    s V
 6$MsTEFIT            uAy wBz vvx xsA JJssssxu Cvss ls
 6$Ms70E0I            uzy xst uzy xst JJtBtBHs   xs a
@@ -65,114 +64,108 @@
 6$Mt70E0I            vBB xsw vBB xsw JJzGHBss   xs a
 6$MuF300ZY           xzx wAB yzv xtw        s    s V
 6$MuTEFIT            xAt wBz yvB xsA JJsssswE Cvss ls
-6$Mu70E0I            xyx xss xyx xss JJuEBuJJ   xs a
+6$Mu70E0I            yAv xst yAv xst JJsssswx   xs a
 6$MvF300ZY           ytz xzv yyB xAx        s    s V
 6$MvIHM0             ysB xws yAy xxs        s    s V
 6$MvTEFIT            yut xzw yxB xAv        s    s ds
 6$Mv70E0I            yzA xzy yAu xAs JJwswsAt    s a
-6$MwF300ZY           xxw xtw yxx xvy        s    s V
-6$MwTEFIT            xAx xtB yuu xuB JJssssss Cuxs ls
-6$Mw70E0I            xxv xvy xxv xvy JJtAtAtA   xs a
-6$MxF300ZY           yxv wyt yxB wyy        s    s V
-6$MxTEFIT            zvu wxB zyw wzs        s    s ds
-6$Mx70E0I            yxx wyx yxx wyx JJHtHtHt   Cx a
-6$MyF300ZY           yxv wyt yxB wyz        s    s V
-6$MyTEFIT            yyy wxB yBB wyB        s    s ds
-6$My70E0I            yxx wyx yxx wyx JJtAtAtA   Cx a
-6$MzF300ZY           yxu wuB yxB wvz        s    s V
-6$MzTEFIT            yyw wuA yBt wws        s    s ds
-6$Mz70E0I            yxx wvx yxx wvx JJtAtAtA   Cx a
-6$MAysF300ZY         xuA vBy ytz wsA        s    s V
-6$MAys70E0I          xuA vBz xuA vBz JJzwzwzw   us a
-6$MAF300ZY           wuv wBy wvt xsu        s    s V
-6$MATEFIT            wvy wBw wys xst        s    s ds
-6$MA70E0I            wux wBz wuB xst JJIwIwIw    x a
-6$1sEG0MPI           wuA tvz wuA tvz JJAAAyGA   Ct a
-6$1sFETEYGI          vzw tvw wxB twB JJssssss  tss ls
-6$1sFI0              vxz tyB wxy tAt JJssssss Cvux ls
-6$1sGE6HFEGO         vBw  zt vBw  zt JJsJsHzI   Cx a
-6$1sGE6HJEGIsYZGE6H  vBx  yy vBx  yy JJsJsHzH    x a
-6$1sGE6HJEGIs6EYO    wAs  yw wBw  zA JJJxJxJx  Cus lt
-6$1sGE6HJEGIs73M0    wAs  As wBw  Bw JJJxJxJx  Cus lt
-6$1sGE6HJEGItYZGE6H  wvB  yz wvB  yz JJsJsHzH    x a
-6$1sGE6HJEGIt6EYO    xuw  yw xvA  zA JJJxJxJx  Cus lt
-6$1sGE6HJEGIt73M0    xuw  As xvA  Bw JJJxJxJx  Cus lt
+6$MwF300ZY           wvu wBv wBt xts        s    s V
+6$MwTEFIT            wwz wBz wBv xsA JJssssxt Cvss ls
+6$Mw70E0I            wuB xsw wuB xsw JJzGHBss   xs a
+6$MxF300ZY             B xtt  ty xtA        s    s V
+6$MxTEFIT             uz xtu  xv xtA        s    s ds
+6$Mx70E0I             tx xtz  tx xtz JJJJJJJJ    x a
+6$MyF300ZY             B xtt  ty xtA        s    s V
+6$MyTEFIT            wzv wBz xsz xsy        s    s ds
+6$My70E0I             tx xtz  tx xtz JJssssxs    x a
+6$1sEG0MPI           wwz tvv wwz tvv JJssssBG   Cx a
+6$1sFETEYGI          vxA tvw wxB twB JJssssss  tss ls
+6$1sFI0              wyu tyw xyt tzy JJJJJJJJ    s ls
+6$1sGE6HFEGO         wuw tsv wuw tsv JJvyvyvy   us a
+6$1sGE6HJEGIsYZGE6H    s   s   s   s JJsJsHzH    x a
+6$1sGE6HJEGIs6EYO      s   s   s   s JJJxJxJx  Cus lt
+6$1sGE6HJEGIs73M0      s   s   s   s JJJxJxJx  Cus lt
+6$1sGE6HJEGItYZGE6H    s   s   s   s JJsJsHzH    x a
+6$1sGE6HJEGIt6EYO      s   s   s   s JJJxJxJx  Cus lt
+6$1sGE6HJEGIt73M0      s   s   s   s JJJxJxJx  Cus lt
 6$1sHIETI6           wAw tvu wAw tvu JJHxHxHx    x a
 6$1sYEWI             xtA  xu xuu  xy        s    s ds
-6$1s7IE0IH           wwv ttz wwv ttz JJtssIAF   Cx a
-6$1tEG0MPI           zuw uus zuw uus JJAxAvEJ   Ct a
-6$1tFETEYGI          yxz tAy zws ust JJssssss  tss ls
+6$1s7IE0IH           wwz tvv wwz tvv JJssssBG   Cx a
+6$1tEG0MPI           zvu tAv zvu tAv JJssssAs   Cx a
+6$1tFETEYGI          ywt tAy zws ust JJssssss  tss ls
 6$1tFI0              xux utz yuw uuB JJJJJJJJ    s ls
-6$1tGE6HFEGO         yAA txt yAA txt JJIvIvJt    s a
-6$1tGE6HJEGIsYZGE6H  yBv txv yBv txv JJsGsByu    x a
-6$1tGE6HJEGIs6EYO    yyt tvz yzx txt JJJxJxJx  Cus lt
-6$1tGE6HJEGIs73M0    yyt txv yzx tyz JJJxJxJx  Cus lt
-6$1tGE6HJEGItYZGE6H  zvy txt zvy txt JJsFsBxB    x a
-6$1tGE6HJEGIt6EYO    zsx tvz ztB txt JJJxJxJx  Cus lt
-6$1tGE6HJEGIt73M0    zsx txv ztB tyz JJJxJxJx  Cus lt
-6$1tHIETI6           yxB uyu yxB uyu JJHAHAHA    x a
+6$1tGE6HFEGO         zsz txv zsz txv JJvyvyvy    s a
+6$1tGE6HJEGIsYZGE6H    s   s   s   s JJsGsByu    x a
+6$1tGE6HJEGIs6EYO      s   s   s   s JJJxJxJx  Cus lt
+6$1tGE6HJEGIs73M0      s   s   s   s JJJxJxJx  Cus lt
+6$1tGE6HJEGItYZGE6H    s   s   s   s JJsFsBxB    x a
+6$1tGE6HJEGIt6EYO      s   s   s   s JJJxJxJx  Cus lt
+6$1tGE6HJEGIt73M0      s   s   s   s JJJxJxJx  Cus lt
+6$1tHIETI6           ysA tBz ysA tBz JJHBHBHB    x a
 6$1tYEWI             yBB tuw zsv tuA        s    s ds
-6$1t7IE0IH           zyx usu zyx usu JJsFsBxz   Cx a
-6$1uEG0MPI           zuw wst zuw wst JJAwAvEG   Ct a
-6$1uFETEYGI          yuB vyA zuA vAv JJssssss Cvux ls
-6$1uFI0              xvv vtw yvu vuy JJssssss Cvux ls
-6$1uGE6HFEGO         yAB vvv yAB vvv JJsGsFyA   Cx a
-6$1uGE6HJEGIsYZGE6H  yBt vvu yBt vvu JJsGsFyz    x a
-6$1uGE6HJEGIs6EYO    yzy uAz yBs vst JJJxJxJx  Cus lt
-6$1uGE6HJEGIs73M0    yzy vsv yBs vtz JJJxJxJx  Cus lt
-6$1uGE6HJEGItYZGE6H  zvy vvu zvy vvu JJsFsBxG    x a
-6$1uGE6HJEGIt6EYO    zus uAz zvw vst JJJxJxJx  Cus lt
-6$1uGE6HJEGIt73M0    zus vsv zvw vtz JJJxJxJx  Cus lt
-6$1uHIETI6           xAx vAw xAx vAw JJGJGJGJ    x a
+6$1t7IE0IH           zvu tAv zvu tAv JJssssAs   Cx a
+6$1uEG0MPI           zvt vxw zvt vxw JJssssAz   Cx a
+6$1uFETEYGI          yvw vxB zvB vzw JJssssss  tss ls
+6$1uFI0              xxv vus yxu vvu JJJJJJJJ    s ls
+6$1uGE6HFEGO         zsA vuv zsA vuv JJvyvyvy   us a
+6$1uGE6HJEGIsYZGE6H    s   s   s   s JJsGsFyz    x a
+6$1uGE6HJEGIs6EYO      s   s   s   s JJJxJxJx  Cus lt
+6$1uGE6HJEGIs73M0      s   s   s   s JJJxJxJx  Cus lt
+6$1uGE6HJEGItYZGE6H    s   s   s   s JJsFsBxG    x a
+6$1uGE6HJEGIt6EYO      s   s zvw   s JJJxJxJx  Cus lt
+6$1uGE6HJEGIt73M0      s   s   s   s JJJxJxJx  Cus lt
+6$1uHIETI6           yuu vyB yuu vyB JJHBHBHB    x a
 6$1uYEWI             ztw uzw ztA uzA        s    s ds
-6$1u7IE0IH           zyy vAs zyy vAs JJsFsBxE   Cx a
-6$1vEG0MPI           wuA wzz wuA wzz JJAyAxFG   Ct a
-6$1vFETEYGI          vzw wtv wxz wuA JJssssss  tss ls
-6$1vFI0              vxw vxy wxv vyA JJssssss Cvux ls
+6$1u7IE0IH           zvt vxw zvt vxw JJssssAz   Cx a
+6$1vEG0MPI           wuA wzz wuA wzz JJAyAxFG  wxs a
+6$1vFETEYGI          vxy wtv wxz wuA JJssssss  tss ls
+6$1vFI0              vxy vvB wxx vxt JJJJJJJJ    s ls
 6$1vGE6HFEGO          uu xsv  uu xsv JJvIBFxH    t a
-6$1vGE6HJEGIsYZGE6H  vBt wsv vBt wsv JJtusIBt    x a
-6$1vGE6HJEGIs6EYO    vyz vxA vAy vzB JJJxJxJx  Cxs lt
+6$1vGE6HJEGIsYZGE6H  vBx vys vBx vys JJJJJJJJ   Cx a
+6$1vGE6HJEGIs6EYO    vyz vxA vBx vzA JJJJJJJJ  Cxs lt
 6$1vGE6HJEGIs73M0    vAz vAw vBB wsu JJIAIAIA  Cxs lt
-6$1vGE6HJEGItYZGE6H  wwt wsv wwt wsv JJtusIBu    x a
-6$1vGE6HJEGIt6EYO    wsy vxA wux vzB JJJxJxJx  Cxs lt
+6$1vGE6HJEGItYZGE6H  wvv vyt wvv vyt JJJJJJJJ   Cx a
+6$1vGE6HJEGIt6EYO    wsy vxA wvw vzA JJJxJxJx  Cxs lt
 6$1vGE6HJEGIt73M0    wuy vAw wvA wsu JJIxIxIx  Cxs lt
-6$1vHIETI6           uyv vBA uyv vBA JJHwHwHw    x a
+6$1vHIETI6           wyv vyt wyv vyt JJHBHBHB    x a
 6$1vYEWI             wsu wtu wsy wty        s    s ds
-6$1v7IE0IH           wwv wxB wwv wxB JJtssIAA   Ct a
-6$1wEG0MPI           tuA wst tuA wst JJAxAvFs   Ct a
-6$1wFETEYGI           zx vyx tzx vAw JJssssss Cvux ls
-6$1wFI0              tAs vtw uzB vuy JJssssss Cvux ls
-6$1wGE6HFEGO          By vvw  By vvw JJsGsBys   Cx a
-6$1wGE6HJEGIsYZGE6H   By vvy  By vvy JJsGsBys    x a
-6$1wGE6HJEGIs6EYO    tzz wts tBt wuw JJJxJxJx  Cus lt
-6$1wGE6HJEGIs73M0    tzz wuy tBt wws JJJxJxJx  Cus lt
-6$1wGE6HJEGItYZGE6H  tvz vvx tvz vvx JJsHsFyF    x a
-6$1wGE6HJEGIt6EYO    uut wts uvx wuw JJJxJxJx  Cus lt
-6$1wGE6HJEGIt73M0    uut wuy uvx wws JJJxJxJx  Cus lt
-6$1wHIETI6           tys uBA tys uBA JJIFIFIF    x a
+6$1v7IE0IH           wwv wxB wwv wxB JJtssIAA  wxs a
+6$1wEG0MPI           tyA vxy tyA vxy JJssssBB   Cx a
+6$1wFETEYGI           zv vxy tzv vzx JJssssss  tss ls
+6$1wFI0              tyx vus uyw vvu JJJJJJJJ    s ls
+6$1wGE6HFEGO         twv vuw twv vuw JJvyvyvy   us a
+6$1wGE6HJEGIsYZGE6H    s   s   s   s JJsGsBys    x a
+6$1wGE6HJEGIs6EYO      s   s   s   s JJJxJxJx  Cus lt
+6$1wGE6HJEGIs73M0      s   s   s   s JJJxJxJx  Cus lt
+6$1wGE6HJEGItYZGE6H    s   s   s   s JJsHsFyF    x a
+6$1wGE6HJEGIt6EYO      s   s   s   s JJJxJxJx  Cus lt
+6$1wGE6HJEGIt73M0      s   s   s   s JJJxJxJx  Cus lt
+6$1wHIETI6           ust vyB ust vyB JJHBHBHB    x a
 6$1wYEWI             utx vBA utB wsu        s    s ds
-6$1w7IE0IH            yz vAv  yz vAv JJsFsBxA   Cx a
-6$1xEG0MPI           tuA uus tuA uus JJAxAwFv   Ct a
-6$1xFETEYGI           Bs tAw tzv usu JJssssss  tss ls
-6$1xFI0              tAz utx uAy uuz JJssssss Cvux ls
-6$1xGE6HFEGO          Bx txv  Bx txv JJsFsBxG   Cx a
-6$1xGE6HJEGIsYZGE6H   Bx txt  Bx txt JJsFsBxG    x a
-6$1xGE6HJEGIs6EYO    tzz wts tBt wuw JJJxJxJx  Cus lt
-6$1xGE6HJEGIs73M0    tzz wuy tBt wws JJJxJxJx  Cus lt
-6$1xGE6HJEGItYZGE6H  tvB txv tvB txv JJsGsFyy    x a
-6$1xGE6HJEGIt6EYO    uut wts uvx wuw JJJxJxJx  Cus lt
-6$1xGE6HJEGIt73M0    uut wuy uvx wws JJJxJxJx  Cus lt
-6$1xHIETI6           uvs tzA uvs tzA JJJBJBJB    x a
+6$1w7IE0IH           tyA vxy tyA vxy JJssssBB   Cx a
+6$1xEG0MPI           tyA tAx tyA tAx JJssssBt   Cx a
+6$1xFETEYGI           zw tAw tzv usu JJssssss  tss ls
+6$1xFI0              tAz utz uAy uuB JJJJJJJJ    s ls
+6$1xGE6HFEGO         tsA txu tsA txu JJvyvyvy   us a
+6$1xGE6HJEGIsYZGE6H    s   s   s   s JJsFsBxG    x a
+6$1xGE6HJEGIs6EYO      s   s   s   s JJJxJxJx  Cus lt
+6$1xGE6HJEGIs73M0      s   s   s   s JJJxJxJx  Cus lt
+6$1xGE6HJEGItYZGE6H    s   s   s   s JJsGsFyy    x a
+6$1xGE6HJEGIt6EYO      s   s   s   s JJJxJxJx  Cus lt
+6$1xGE6HJEGIt73M0      s   s   s   s JJJxJxJx  Cus lt
+6$1xHIETI6           ust tBz ust tBz JJHBHBHB    x a
 6$1xYEWI             utx vBA utB wsu        s    s ds
-6$1x7IE0IH            yz usv  yz usv JJsGsByt   Cx a
-6$0EFTI1ZMY0s        tuu vtx tuu vtx JJGGGGIB   us a
-6$0EFTI1ZMY0t         uz wzv  uz wzv JJsBsAxt   ws a
+6$1x7IE0IH           tyA tAx tyA tAx JJssssBt   Cx a
+6$0EFTI1ZMY0s        xys tuy xys tuy JJssssBt   us a
+6$0EFTI1ZMY0t         uz wzv  uz wzv JJsssszt   ws a
 
 //
 // fonts
 //
 
 0s$. t
+0s$z tss tss tsv tsG tzs tAs
+0s$z tss tst tsv ttJ tzA tIs tAs
 0s$z tss tsz tvA tGs tss
 0s$z tss tsz tvJ tJA tAs
 0s$t tss uss zJJ
@@ -180,6 +173,7 @@
 0s$v tst ttt ttt tJJ II
 0s$u tst usv usx usB utt tIt
 0s$u tst vsz zsz wsH wtH wvB yzt zIt vGt
+0s$v tstA zAtI zAtI JtBJ IvAz IvAz IvGz JJJJ zJJI zIJI tGvA
 0s$v tsu ust uut uut uut tHI
 0s$u tsv usz usH utB vJt tGt
 0s$u tsv vsz ysz wsH wtB yvt vIt vGt
@@ -193,6 +187,7 @@
 0s$_ t z vJ JG Iw JG vJ z
 0s$t tAs tss vJJ vJJ
 0s$t tAs tAs vJJ vJJ
+0s$z tAs tAt tAz tBI tJA tGs tss
 0s$t tAs vss vJJ
 0s$t tAs vAs vJJ vJJ
 0s$u tAt vsv usz usH utB tJt It
@@ -204,12 +199,14 @@
 0s$u tAz vsJ vtF vvv vJv tIv
 0s$u tAz vsJ vtF vvF vJv tIv
 0s$$ tAG zGy yIy JJJ yzy zvG A
+0s$y tA JI Hv tEt tut vI G
 0s$w tG vG yG tGG vJJ vJJ G
 0s$w tG vG IG vGG vJJ vJJ G
 0s$G tG vI yv wt wt wt
 0s$Z tG vI yv wt wt yv vI tG
 0s$B tGw vIy ytv wtt wtt wut vJI tJA
 0s$k tGy vIz vyv vvv vvv vFJ tBI
+0s$w tG yw Aw tJJ w
 0s$$ tGG uyu yuv uvu tBG
 0s$A tGI vJJ vvv vvv vJJ tGI
 0s$A tHI tvt uut uut uut vvv HI
@@ -275,6 +272,7 @@
 0s$v vAu ust uut uut uuv vHI tGI
 0s$$ vAG yGy wwu zJJ yuy uvG
 0s$$ vAG zGy yIy JJJ yzI zvG
+0s$s vA JJ tAt tst tAv JI
 0s$B vB wx wx wz vG
 0s$A vBI vHI wut wut wut wut vHI tAI
 0s$Z vG wu At At At wu vG
@@ -293,6 +291,7 @@
 0s$s vI wt wt vI
 0s$s vI wt wt wt vI
 0s$y vI wB wB y
+0s$Z vI yv wt wt yv vI
 0s$B vIy vJz yvv wtt wtt yvv zJJ vJI tJA
 0s$B vIy wtt wtt wtt wut vJI
 0s$a vI zJ wt wt wt uu
@@ -310,11 +309,14 @@
 0s$1 vJJ usA usA usA vtA tJs
 0s$h vJJ uts uts uts uts uts uts vus tIs
 0s$e vJJ vJJ
+0s$d vJJ vJJ vs vs vs vs vJJ vJJ
 0s$4 vJJ vJJ vsv vsv vsv tJI JG ts
 0s$j vJJ vJJ vtA vtA vtG vJJ tJv t
 0s$b vJJ vJJ vvs vvs vvs vvs
 0s$X vJJ vJJ v v v v
 0s$5 vJJ vJJ vvv vvv vvv vvv vsv
+0s$~ vJJ vJJ vvv vvv vvv vJJ tHI
+0s$U vJJ vJJ vA zA tHG vAJ vsv ust
 0s$l wss wss wss wss zJJ zJJ wss wss wss
 0s$z wss wss wsz wvJ wJA xGs zss wss
 0s$z wss wss wsJ wzs xAs yss
@@ -325,9 +327,13 @@
 0s$z ws wv wG zs ws
 0s$t ws As tJJ
 0s$t ws Gs tJJ tJJ
+0s$0 ws JJ wt
 0s$: wt
 0s$v wt wB wB vy
 0s$e wt zJ zJ wt
+0s$u wt Gv tsz tsH tFB Jt t
+0s$u wt Gv tAz tsH tFB It t
+0s$w w tG vw Iw tJJ tJJ w
 0s$w w tG yw tAw vJJ w
 0s$w w tG zw Iw tJJ tJJ w
 0s$A w tHI vJJ vvv vvv vJJ tHI
@@ -335,10 +341,15 @@
 0s$E wy wJ GJ BB BB Bt Hy JJ zJ
 0s$E wy AB AB Bt Bt Bu zJ
 0s$E wy AB Bt Bt Bu zJ
+0s$v wy Gz tBt ttt tFF II
 0s$E wy GJ AB Bt Bt Bu JJ zJ
 0s$9 w z
+0s$v w Ay tAz ttt ttt tFv JI w
+0s$A w IJ tBB ttt tFB IJ
+0s$A w IJ tFF ttt tFt IJ w
 0s$M wJJ
 0s$M wJJ wJJ
+0s$B ys JA tAB tsF tHI JG
 0s$w y tE uu zJ u
 0s$k yu Jt BB AJ wy
 0s$Z yv wt wt yv vI tG
@@ -363,10 +374,12 @@
 0s$7 zB xB wB wJ wy
 0s$s zG tJI vAz vsv vAz tJI JG
 0s$y zG tJI vJv vvv vvJ vvI G
+0s$s zG JI tAv tst tAv JI zG
 0s$s zI tJJ tst tJJ JG
 0s$y zI tJJ tut tvJ tI
 0s$Z zI At At At At zI
 0s$Z zI Gv At At Gv zI vG
+0s$y zI Jv tFt tFt tJ
 0s$s zI JJ At JJ zI
 0s$I zJ wB wB
 0s$M zJ zJ
@@ -404,6 +417,7 @@
 0s$0 As vJJ At At
 0s$t As As tss vJJ
 0s$t As As tAs vJJ
+0s$t As As tJJ
 0s$t As As tJJ tJJ
 0s$l As As JJ JJ As As
 0s$z As Av BJ JA Gs
@@ -411,11 +425,15 @@
 0s$: At
 0s$u At tsv tsx ttB It
 0s$u At tsv usv usx usB vvt tGt
+0s$u At tsz tsH ttt It t
 0s$: At At
 0s$v At Bt Bt yI
 0s$v At Bt Bt JJ yI
+0s$$ A tGG vIy yuv vvu vBI AA
 0s$$ A tGI vyu yuv vvu tBI
 0s$v Au tst ttt ttt II
+0s$v Ay tAz ttt ttt tFv JI
+0s$v Ay tAz ttt ttt tFv JI w
 0s$A AI vJJ vvv vvv vJz tHI G
 0s$t Gs As tJJ tJJ
 0s$w G tw uw ww Aw tsw vJJ w
@@ -475,8 +493,11 @@
 0s$~ JJ JJ Bt Bt JJ yI
 0s$V JJ JJ Js vA tI JJ JJ JJ
 0s$Y JJ JJ JJ As As As JJ JJ vJ
+0t$v tsszs JsszA tJsszG tJsszI vJsszI vItItJ vGtIsJ vGtIsJ vGvIsJ vGvItJ vJJJFJ tJJJJI tJJzJI JIzJG zGvJA
+0t$v tstA zAtI zAtI JtAJ IvAz IvAz IvGz JJJJ zJJI zIJG tGvA
 0t$z tAss vAsv vAsJ vAvJ vAzJ vBJJ vJJG vJJs vJGs vJAs vGss
 0t$N tA tI tI tJ z z z JJJJ JJJI JJJG zJJs
+0t$x tA JJBI JJBI JJBJ Ivsz Izsz IzAz IzJJ IvJI ItJG zs
 0t$z tGst tGsz tGtJ tGzJ tGJJ tJJJ tJJG tJJs tJGs tJss tGss
 0t$v tItJ vItJ vGsJ vHGz vBGz vHGz vJJJ vJJJ tJJJ tJJI yvG
 0t$x tI vJBJ vJAJ vJAJ vJAz vFAz vFGJ vFJJ vFJJ vBJI vAJG
@@ -484,6 +505,7 @@
 0t$B tJss vJAs zJGz JJIz IsIz IsIJ JsHI zJJI zJJG vJJs zss
 0t$L tJtJ vJHJ zJJJ zJJJ zJJJ zJJJ vJJJ vJJJ zJJJ zJJJ zJJJ zJJJ zJHJ vJtJ tJ
 0t$E tJ zJ vJJ tJJJ tJJA tJBA tJHA tJJA tJJJ vJJ zJ tJ v
+0t$y tJAs JJJs vJJJG zJJJG JJJJI tJFGvI tJvAsJ vIzAsJ vGzAsJ vGzAtJ vGzIzJ vGzJJI vJJG tJJG zJs
 0t$7 tJA vJH zJH JJJ tJJJ vJJJ vJJJ tJJJ JJJ zJH vJH tJH JA
 0t$2 tJJs vJJA zJJA zJJG zsvG ystG ystI zsvJ zAzJ zJJJ zJJJ vJJJ tJIz tss
 0t$G tJJ tJJ tJJ tJJJ vJJJ vJJJ vJJJ vJJJ tJJJ tJJ tJJ tJJ JJ J J
@@ -496,23 +518,40 @@
 0t$u v tIsJ vGsJ vGtJ vAvJ vGJJ vJJJ vJJJ tJJz JGz zAz
 0t$A vtI zJI JJJ JJJ JJz GJv GJv JJJ JJJ JJJ zFI
 0t$N v v tAsv tAsv tAsz tJJJ tJJJ tJJI tJJG
+0t$u vAssy JAstJ tJAsvJ tJAszJ vJAsJJ vIstJJ vGsvJJ vGszIJ vGsJGJ vGvJAJ vJJJsJ tJJIsJ tJJGsJ JJssJ zGssJ I
+0t$z vGssss vGssss vGssss vGsssz vGsstJ vGsszJ vGstJJ vGsJJI vGvJJA vGJJIs vJJJss vJJGss vJJsss vJGsss vIssss vAssss
 0t$N v Gsv Gsv Gsz JJJ JJJ JJJ JJI
+0t$s vGs vJJA zJJG zJJI Issy Issz Issz zJJI zJJI vJJG zIs
 0t$A vGtJA JIzJG tJJzJI tJJJJI vJJJvJ vGvIsJ vGvIsJ vGvIsJ vGvIsJ vJJJtJ tJJJJI tJJzJI JIzJG zGtJA
 0t$w vG zG tJG vHG zBG JJJ JJJ JJJ JJJ JJJ tA
 0t$B vIs zJv JJF JJF tIzF tGvJ tIvJ JJJ JJI zJG vJA
+0t$E v J zJ vJJ JJG zJJA JJvA JGvA JJFA zJJA JJI tJJ vJ J
 0t$y vJG JJI tJJJ tJJJ vJAJ vJAz vFJJ vFJJ vFJJ vBJI JG
 0t$G vJJ vJJ vJJ vJJJ zJJJ zJJJ zJJJ zJJJ vJJJ vJJ vJJ vJJ tJJ tJ tJ
+0t$O vJJJJJ vJJJJJ vJJJJJ vJJJJJ vJJJJJ vJAs zJss JJss vJJGs zJJIs JIJJA tJGzJG vJAtJI vJssJJ vGssvJ vAsstJ vssssz v
+0t$x ys vJAzA vJJGzG vJJGzI vJJGzI vJJAtJ vGvAsJ vGzAsJ vGzAsJ vGzGtJ vGvJJI vGvJJI vGtJJG vGtJJA zJs
+0t$N ys zA zG zI zI tJ J J J tJ vJJJJI vJJJJI vJJJJG vJJJJA vJJJIs
+0t$w zs tJs vJs JJs vJJs zIJs tJGJs vJsJs JIsJs tJJJJJ tJJJJJ tJJJJJ tJJJJJ tJJJJJ Js Js
 0t$A zvG tJJI tJJJ vJJJ vJIJ vBIz vBIz vJJJ vJJJ tJJI JzI
 0t$E z vJ tJJ zJJ vJJI vJJA vJFA vJJA vJJI tJJJ vJJ JJ tJ v
+0t$t zAsss zAsss Jssss Jssss Jssss tJJJJI tJJJJJ tJJJJJ vJJJJJ vJJJJJ
 0t$w zA JA tJA zJA JFA tJvA vJJJ vJJJ vJJJ vJJJ vA vA
 0t$B zGs tJJz vJJz vJJz vGJz vAzJ vGzJ vJJJ tJJI tJJG zJs
 0t$i zIs JJA tJJG vJJI vJJI vAtI vssI vAsJ vAtJ vJJJ vJJJ tJJJ JJF zJv
+0t$s zJss vJJJs JJJJG tJJJJG vJJJJI vJssvJ vGsssJ vGsssJ vGsssJ vGsstJ vJJJJI tJJJJI tJJJJG JJJJA vJJIs
+0t$y zJs tJJG vJJI zJAI zzsz Izsz IzAI IzJI vJG tJA
 0t$G zJHHJ zJtIv zIvJt tGzJA zJA JJA zJA zJA vJs Gs
+0t$H zJJJJ vJJJJ tJJJG JJJA zJJs vJIs tJGs JAs zss uss
+0t$7 zJJJJ zJJJJ vJJJJ tJJJB JJJG JJJA zJJA tJJA JJs vGs
 0t$l zJJ JJJ JJJ JJJ v v zJI JJJ JJJ Isz Gsv JJJ JJJ zJI vJG
+0t$A AvA vIJI zJJI JJJJ IvAz IvAz JvGz JJJJ zJJI vIzG ts
+0t$t Gss tGss tGss vAss vJJJ zJJJ zJJJ
 0t$z Gss Gst Gsz GtJ GvJ GJJ JJG JJs JGs JAs Iss
 0t$H Gs tIs vJs zJA JJG tJJI vJJJ tJJI JJG zJA vJs tIs Gs
 0t$v G tItJ vIsJ vGGJ vHGz vBGz vHGz vJJJ vJJJ tJJJ tJzI wvG
+0t$z Isss Isss Issv IstJ IszJ ItJI IzJA JJIs JJss JGss Jsss
 0t$H IJ JJ vJJ zJJ tJJJ vJJJ vJJJ tJJJ JJJ vJJ tJJ JJ IJ J J
+0t$2 Jsss JJJss vJJJAs zJJJGs JJJJIs JJBJJs tJAstJs tIsssJA tIsssJA tIssszA tIssszA tIsssJA tJsssJG JGsvJI JJJJJI zJJJJJ vJJJGJ tJJJAy zJGsw
 0t$7 Js tJA vJH zJH JJJ tJJJ vJJJ vJJJ tJJJ JJJ zJH vJH tJA JA
 0t$u Jsz tJsJ tIsJ tGtJ tGvJ tIJJ tJJJ tJJv JIv zGv v
 0t$x J tJGJ tJGz tJGz tJGv tHGv tHJJ tHJJ tHJJ tGJI tAzG
@@ -526,7 +565,9 @@
 0t$7 JJ tJJ vJJ JJJ tJJJ vJJJ zJJJ zJJJ vJJJ tJJJ zJJ vJJ tJJ JJ J
 0t$L JJJJ tJJJJ vJJJI vJJJG vJJJG vJJJs tJJIs tJJGs JJAs vGss
 0t$G JJJJJJJ JJJBIJJ JJItItJ JJGzJsz zJAJJAs vJtJJGs tJJIs tJJIs tJJIs tJJIs tJJGs tJJGs JJAs zJss Gss
+0t$L JJJJJJ JJJJJI tJJJJJI vJJJJJG vJJJJJA vJJJJJA vJJJJJs vJJJJIs vJJJJGs vJJJJAs tJJJJss tJJJIss JJJAss vJIsss tJAsss
 0t$O JJJ JJJ JJJ JJJ tJA vJA zJI JJJ JFJ JsJ Gsz Asv t
+0t$O JJJJ JJJJ JJJJ zJJI zGs JIs tJJs vIJG JGzI JstJ IssJ Gssv
 0t$H JJJJJJJ JJJJJJI zJJJJJG vJJJJJA tJJJJJs JJJJIs zJJJGs vJJJss tJJJss JJIss zJGss vJAss tJsss Isss wsss
 0t$7 JJJJJJJ JJJJJJJ JJJJJJJ zJJJJJJ vJJJJGJ vJJJJIv tJJJJIs JJJJIs zJJJIs vJJJIs tJJJIs JJJGs zJJAs tJJss zGss
 
@@ -547,6 +588,7 @@ Ls$6EM7I              vtwzuuxt
 Ls$E30Z1Z70utA        vtzHBHst
 Ls$E30Z1Z70uu         vAxxHvty
 Ls$16IJZTHDt          vGtEIEGt
+Ls$7M0MYDYIQWZHIT     wBHszEsw
 Ls$hTEpI6z            wHzwtGxE
 Ls$6EM7IDG6Z77        xzxuJEBI
 Ls$7M0Z30             xAItAwIv
@@ -562,6 +604,7 @@ Ls$16IJZTHuu          BxyFHztx
 Ls$hTEpI6w            BFtyItww
 Ls$7M0MYD3            BGttIuuv
 Ls$E30Z1Z70uuv        Evtyztzz
+Ls$7M0Z30DYIQWZHIT    FutFEHJB
 Ls$hTEpI6y            FytJEHAu
 Ls$7M0Z30Dt           FGsAzzsI
 Ls$hTEpI6s            IuIBvJJy
@@ -810,6 +853,14 @@ i$autopost218      28  13
 030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff020218ff020218ff020218ff020217ff020217ff020217ff020217ff020217ff020217ff
 030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff020218ff020218ff020218ff020218ff020217ff020217ff020217ff020217ff020217ff020217ff020217ff
 030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff020218ff020218ff020218ff020218ff020217ff020217ff020217ff020217ff020217ff020217ff020217ff
+i$sitout_newmodel  27  7  
+000054ffe3e3e3ffe3e3e3ffe3e3e3ff000055ff000055ffe3e3e3ff000056ffe3e3e3ff000056ff000057ff000057ff000058ff000057ff000058ff000057ff000058ff000057ff000058ff000058ff000058ff000058ff000058ff000058ff000059ffe3e3e3ff000059ff
+e3e3e3ff000054ff000054ff000055ffe3e3e3ff000055ffe3e3e3ffe3e3e3ffe3e3e3ffe3e3e3ff000056ff000057ff000057ffe3e3e3ffe3e3e3ffe3e3e3ff000058ff000058ff000058ffe3e3e3ff000058ff000058ffe3e3e3ff000058ffe3e3e3ffe3e3e3ffe3e3e3ff
+e3e3e3ff000054ff000054ff000054ff000055ff000054ffe3e3e3ff000055ffe3e3e3ff000055ff000056ff000056ffe3e3e3ff000057ff000058ff000057ffe3e3e3ff000057ff000058ffe3e3e3ff000058ff000058ffe3e3e3ff000058ff000058ffe3e3e3ff000058ff
+000054ffe3e3e3ffe3e3e3ffe3e3e3ff000054ff000055ffe3e3e3ff000055ffe3e3e3ff000056ff000056ff000056ffe3e3e3ff000057ff000057ff000057ffe3e3e3ff000058ff000057ffe3e3e3ff000058ff000058ffe3e3e3ff000058ff000058ffe3e3e3ff000058ff
+000054ff000054ff000054ff000054ffe3e3e3ff000054ffe3e3e3ff000054ffe3e3e3ff000055ff000056ff000056ffe3e3e3ff000056ff000057ff000057ffe3e3e3ff000057ff000058ffe3e3e3ff000058ff000057ffe3e3e3ff000058ff000058ffe3e3e3ff000058ff
+e3e3e3ff000054ff000054ff000054ffe3e3e3ff000054ffe3e3e3ff000055ffe3e3e3ff000055ff000055ff000056ffe3e3e3ff000056ff000056ff000057ffe3e3e3ff000057ff000057ffe3e3e3ff000058ff000058ffe3e3e3ff000058ff000058ffe3e3e3ff000058ff
+000054ffe3e3e3ffe3e3e3ffe3e3e3ff000054ff000054ffe3e3e3ff000054ffe3e3e3ffe3e3e3ff000055ff000055ff000056ffe3e3e3ffe3e3e3ffe3e3e3ff000057ff000057ff000058ffe3e3e3ffe3e3e3ffe3e3e3ffe3e3e3ff000057ff000058ffe3e3e3ffe3e3e3ff
 i$Player2          5   5  
 0c0b64ff0c0b63ff0c0a61ff0c0861ff0c0862ff
 0c0b64ff0c0b63ff0c0a61ff0c0861ff0c0862ff
@@ -822,6 +873,17 @@ i$Player1          5   5
 0b095eff0b095eff0b095dff0b095bff0b095bff
 0b095eff0b095eff0b095eff0b095cff0b095aff
 0b095dff0b095eff0b095eff0b095dff0b095bff
+i$sitin_newmodel   35  10 
+333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffffffffffffffffffffffffffffffffffff333333ff333333ffffffffffffffffffffffffffffffffffffffffffffffffff333333ff333333ff333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffffffffffffffffffff333333ff333333ff333333ff
+333333ff333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffffffffffffffffffff333333ff333333ff333333ffffffffffffffffffffffffffffffffffffffffff333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffff333333ff333333ffffffffffffffffff333333ff333333ff333333ffffffffff
+333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffffffffffffffffffffffffffff333333ff333333ff333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffffffffffffffffffff333333ff333333ff333333ffffffffff333333ff333333ffffffffffffffffff333333ff333333ffffffffffffffffff
+333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffff333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffffffffffffffffffffffffffff333333ff333333ffffffffff333333ff333333ffffffffff333333ff333333ffffffffffffffffffffffffff
+333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffffffffffffffffffff333333ff333333ffffffffff333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff333333ff333333ff333333ff333333ffffffffffffffffffffffffffffffffff
+333333ff333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffffffffffff333333ff333333ffffffffffffffffff333333ff333333ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff333333ff333333ff333333ff333333ff333333ffffffffffffffffffffffffff
+333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffffffffffff333333ff333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffff333333ff333333ffffffffffffffffffffffffffffffffffffffffffffffffffffffffff333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffff
+333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffffffffffff333333ff333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffff333333ff333333ffffffffffffffffffffffffff333333ff333333ff333333ffffffffff333333ff333333ffffffffffffffffff333333ff333333ffffffffffffffffff
+333333ff333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffff333333ff333333ffffffffffffffffffffffffffffffffff333333ff333333ffffffffff333333ff333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffff333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffff
+333333ff333333ff333333ff333333ff333333ff333333ffffffffffffffffff333333ff333333ffffffffffffffffffffffffffffffffffffffffff333333ff333333ffffffffffffffffffffffffff333333ff333333ff333333ff333333ffffffffffffffffffffffffff333333ff333333ffffffffffffffffffffffffff333333ff333333ff333333ff
 i$sitin22          33  12 
 020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff
 020215ff9d9d9dff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020215ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff020214ff9d9d9dff020214ff020214ff020214ff020214ff020214ff020214ff
