@@ -8,8 +8,8 @@
 // sizes
 //
 
-,$GTMIY07M,IWES    Asu  xxv
-,$GTMIY07M,IWMY    Asu  xxv
+,$GTMIY07M,IWES    tsss  tsss
+,$GTMIY07M,IWMY    uss  uss
 ,$0E6KI07M,I       Asu  xxv
 
 //
