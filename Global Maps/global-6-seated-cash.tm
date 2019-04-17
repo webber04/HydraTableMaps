@@ -8,7 +8,7 @@
 // sizes
 //
 
-,$GTMIY07M,IWES    tsss  tsss
+,$GTMIY07M,IWES    tsss  zss
 ,$GTMIY07M,IWMY    zBu  xzv
 ,$0E6KI07M,I       zBu  xzv
 
@@ -72,13 +72,15 @@
 6$Mu70E0I            yxu xtu yxu xtu JJttsJsJ   Cx a
 6$MvF300ZY           yyx xvv yBx xww        s    s V
 6$MvIHM0             yww wBv ztz xsz        s    s V
+6$MvLEYHTI           wzw wBz wzB xsB JJFwFwFx   xx a
 6$MvTEFIT            ztx xuw ztx xuw JJssssss    x ds
+6$Mv7TMHI6           wzw wBz ywu xsB        s    s V
 6$Mv70E0I            yzB wAz yzB wAz JJssBBvv    x a
 6$MxF300ZY           yxx xuz zty xwA        s    s V
 6$MxTEFIT            yAy xvy yAy xvA        s    s ds
 6$Mx70E0I             zv wzt  zv wzt JJtututu    x a
-6$MAysF300ZY         uAw uBt vzs vtw        s    s V
-6$MAys70E0I          vAy uBt vAy uBt JJFxBwvx   tx a
+6$MAysF300ZY         wtA uyu xsw uAz        s    s V
+6$MAys70E0I          vBz uzx vBz uzx JJuxuxGu   tx a
 6$MAytF300ZY         wty vzA wzx wss        s    s V
 6$MAyt70E0I          wus vzz wyA vBz JJJJJJJJ    x ds
 6$MAyuF300ZY         uAv uBz vys vts        s    s V
@@ -416,9 +418,7 @@
 0t$. v
 0t$. v v
 0t$y vI Jv tIt vut uvJ tI
-0t$$ vJJ vJJ vJJ vJJ vJJ tJJ JI vA tsu tst
 0t$w w tG uw Gw JJ
-0t$w w tG vw Gw tJJ tJJ w
 0t$A w IJ Bt Bt IJ
 0t$$ ysy vsy tJG vJG zJI zJJ zJJ JJJ zJJ zJJ zJI vJG tJG vsy ysy
 0t$t ys Gs JJ
