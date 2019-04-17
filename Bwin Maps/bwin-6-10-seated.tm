@@ -8,7 +8,7 @@
 // sizes
 //
 
-,$GTMIY07M,IWES    zBw  xvw
+,$GTMIY07M,IWES    tsss  zss
 ,$GTMIY07M,IWMY    zBw  xvw
 ,$0E6KI07M,I       zBw  xvw
 
