@@ -191,8 +191,8 @@
 6$0EFTI1ZMY0t        vzt usw vzt usw JJuEuBuB   BA a
 6$0EFTI1ZMY0u        uAt  xv uAt  xv JJuuutuu  tss a
 6$0EFTI1ZMY0v         yt usw  yt usw JJvtvsvt   Bs a
-6$0EFTI1ZMY0w        wsy uuw wsy uuw JJGtGJHA   zx a
-6$0EFTI1ZMY0x         uz uuw  uz uuw JJFIGIHy   zs a
+6$0EFTI1ZMY0w        uzy uxs uzy uxs JJvtvsvt   zx a
+6$0EFTI1ZMY0x        twz uxs twz uxs JJvtvsvt   zs a
 6$0EFTI1ZMY0y        vzu tsx vzu tsx JJuFuEuE   zs a
 6$0EFTI1ZMY0z         xy tsx  xy tsx JJuuutut   zs a
 6$3sFETEYGI          utx  yz uus  zA JJtJtwAB  tss lv
