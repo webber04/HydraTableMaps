@@ -8,7 +8,7 @@
 // sizes
 //
 
-,$GTMIY07M,IWES    Ass  xyy
+,$GTMIY07M,IWES    Ass  xBu
 ,$GTMIY07M,IWMY    Ass  xyy
 ,$0E6KI07M,I       Ass  xyy
 
