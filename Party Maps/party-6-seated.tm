@@ -175,6 +175,7 @@
 6$0EFTI1ZMY0t         zA uuv  zA uuv      tuG    x a
 6$0EFTI1ZMY0u        wsy  ys wsy  ys       xz   Cx a
 6$0EFTI1ZMY0v         tu  xx  tu  xx   xvvutz   Cx a
+6$0EFTI1ZMY0w         tu wut  tu wut    tsuuE    x a
 
 //
 // fonts
