@@ -131,10 +131,10 @@
 6$1vFI0              vvv vtu wyu vuv   HxHxHx  tss ls
 6$1vGE6HFEGO         wxB vxs wxB vxs   xtxtxt    x a
 6$1vGE6HJEGIsYZGE6H  wyv vuA wyv vuA   JJJJJJ   Cx a
-6$1vGE6HJEGIs6EYO    vys vuy vAt vwz   JJJJJJ Cuss lv
+6$1vGE6HJEGIs6EYO    vys vuz vAt vwA   JJJJJJ Cuss lv
 6$1vGE6HJEGIs73M0    vys vwB vAs vyx   JJJJJJ Cuss lv
 6$1vGE6HJEGItYZGE6H  wyv vuA wyv vuA   JJJJJJ   Cx a
-6$1vGE6HJEGIt6EYO    wty vuy wvz vwz   JJJJJJ Cuss lv
+6$1vGE6HJEGIt6EYO    wty vuz wvz vwA   JJJJJJ Cuss lv
 6$1vGE6HJEGIt73M0    wty vwB wvy vyx   JJJJJJ Cuss lv
 6$1vHIETI6           vvx vww vvx vww     uEIy   ts a
 6$1vYEWI             vzs vzs wzz vAz   JJJJJJ  tzx lt
