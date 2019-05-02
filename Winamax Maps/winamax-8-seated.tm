@@ -62,7 +62,7 @@
 6$Gs1Z0t             uuu tAu uBs tBy JJwsFuII  tvs lt
 6$MsF300ZY            zB uBt tyt vsB        s    s V
 6$MsTEFIT            tsy uBx tvx vsx        s    s ds
-6$Ms70E0I            txw uBw txw uBw JJtBtsAE   vs a
+6$Ms70E0I            txw uBw txw uBw JJtBtsAE   xs a
 6$MtF300ZY           tzw uBt uxy vsB        s    s V
 6$MtTEFIT            uss vst uvv vsz   txxzBu    s e
 6$Mt70E0I            uwz uBw uwz uBw JJtBtsAE   vs a
@@ -699,6 +699,7 @@ Ls$6EM7IDt            xttswAFz
 Ls$7M0MY              ysuAsHsG
 Ls$YT                 yEFAEBIs
 Ls$GETT               AvsxAtFw
+Ls$JZTHDYIQDQMY       FutExFAG
 Ls$JZTH               FxAuBItw
 Ls$GLIGO              GJBwwwuF
 Ls$JZTHuu             HsHAGHxG
@@ -798,6 +799,18 @@ i$check            26  8
 0c086fff181476fff8f8f8fff8f8f8fff8f8f8ff363387ff9391bdfff8f8f8ff201c7affeae9f0ffefeff3ff8988b8fff8f8f8fff8f8f8fff8f8f8ff56539affc5c4dafff8f8f8fff8f8f8ff8d8bbaff2f2b83fff8f8f8ff6f6da9ffadabccfff8f8f8ff0c086fff
 i$raise_111        1   1  
 110a78ff
+i$fold_new_win     30  11 
+180f60ff180f60ff180f60ff180f60ff180f60ff180f60ff2b226dff322a72ff322a72ff322a72ff221a67ff180f60ff352d74ff433c7eff180f60ff180f60ff2b226dff322a72ff180f60ff180f60ff180f60ff322a72ff322a72ff191061ff180f60ff180f60ff180f60ff180f60ff180f60ff180f60ff
+170e5dff170e5dff170e5dff170e5dff170e5dff170e5dff9995b8ffffffffffffffffffffffffff817ca7ffaeaac6ffffffffffffffffffe6e5eeff170e5dff9995b8ffffffffff413a7aff170e5dff3a3275ffffffffffffffffffffffffffc1bed4ff170e5dff170e5dff170e5dff170e5dff170e5dff
+150d5aff150d5aff150d5aff150d5aff150d5aff150d5aff9894b6ffffffffff9f9cbbff9f9cbbff76719effffffffffcccadbffa6a3c1ffffffffff696495ff9894b6ffffffffff403978ff150d5aff383273ffffffffff9f9cbbffd3d1e0ffffffffff6c6797ff150d5aff150d5aff150d5aff150d5aff
+140c58ff140c58ff140c58ff140c58ff140c58ff140c58ff9794b5ffffffffff3f3876ff140c58ff352e6fffffffffff8b87adff312a6dffffffffff8e8aafff9794b5ffffffffff3f3876ff140c58ff373171ffffffffff9b98b8ff3c3574ffffffffff9693b5ff140c58ff140c58ff140c58ff140c58ff
+120b55ff120b55ff120b55ff120b55ff120b55ff120b55ff9693b4ffffffffffffffffffffffffff352f6effffffffff8a87abff2f296affffffffff908dafff9693b4ffffffffff3d3774ff120b55ff36306fffffffffff9a97b7ff2d2769ffffffffffa29fbcff120b55ff120b55ff120b55ff120b55ff
+110a52ff110a52ff110a52ff110a52ff110a52ff110a52ff9693b3ffffffffffd5d3e0ffd5d3e0ff342e6bffffffffff8a86aaff2e2867ffffffffff8f8caeff9693b3ffffffffff3c3771ff110a52ff352f6cffffffffff9a97b5ff2d2666ffffffffffa19ebbff110a52ff110a52ff110a52ff110a52ff
+0f0a50ff0f0a50ff0f0a50ff0f0a50ff0f0a50ff0f0a50ff9593b2ffffffffff3b3770ff0f0a50ff312d69ffffffffff8986a9ff2d2866ffffffffff8c89abff9593b2ffffffffff3b3770ff0f0a50ff332f6affffffffff9997b5ff39356effffffffff9593b2ff0f0a50ff0f0a50ff0f0a50ff0f0a50ff
+0e094dff0e094dff0e094dff0e094dff0e094dff0e094dff9592b0ffffffffff3a366dff0e094dff0e094dffffffffffc8c7d6ff9f9db8ffffffffff65628eff9592b0ffffffffff9895b3ff9895b3ff8582a5ffffffffff9896b3ffd3d2dfffffffffff686590ff0e094dff0e094dff0e094dff0e094dff
+0c084aff0c084aff0c084aff0c084aff0c084aff0c084aff9492afffffffffff38356bff0c084aff0c084affacaac1ffffffffffffffffffeae9efff0c084aff9492afffffffffffffffffffffffffff8f8dacffffffffffffffffffffffffffc3c2d2ff0c084aff0c084aff0c084aff0c084aff0c084aff
+0b0748ff0b0748ff0b0748ff0b0748ff0b0748ff0b0748ff24215bff2c2961ff0b0748ff0b0748ff0b0748ff0b0748ff2f2b63ff3e3b6eff0b0748ff0b0748ff24215bff2c2961ff2c2961ff2c2961ff1b1754ff2c2961ff2c2961ff120e4dff0b0748ff0b0748ff0b0748ff0b0748ff0b0748ff0b0748ff
+090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff090645ff
 i$raise_1          17  6  
 0e0972ffa9a7cbfff8f8f8fff8f8f8ff726fabffcfcee1fff8f8f8ff0e0972fff8f8f8ff9594c0fff8f8f8fff8f8f8ff9896c1fff8f8f8fff8f8f8fff8f8f8ff0e0972ff
 0c086fffa8a7caffededf2ffe1e1ebffb4b3d1fff8f8f8fff8f8f8ff464390fff8f8f8ff9e9cc3fff8f8f8ff8482b5ff716faafff8f8f8ff8583b5ff2d2982ff0c086fff
