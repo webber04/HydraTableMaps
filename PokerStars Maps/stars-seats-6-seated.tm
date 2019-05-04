@@ -80,8 +80,8 @@
 6$MzF300ZY           xxx wxx yww wzB        s    s V
 6$MzTEFIT            yzz wAs zty wBv JIJHJHJI  tss ds
 6$Mz70E0I             tu wts  tu wts JJFIFIFI    s a
-6$1sEG0MPI           vAB  zw wtv  Aw JJzxBvzz   Bs ls
-6$1sFETEYGI          vux  zv wtA  Ay JJFxJAGs  uts lu
+6$1sEG0MPI           vAB  zw wtv  Aw JJzxBvzz  wxs a
+6$1sFETEYGI          vvu  zv wtA  Ay JJFxJAGs  uts lu
 6$1sFI0              vzy ttw www tuz JJGAIIJy  tAs lv
 6$1sGE6HFEGO         wws  uA wws  uA JJwHwJEz   ts a
 6$1sGE6HJEGIsYZGE6H  vBs  tv vBs  tv JJJJJJJJ   Cx a
@@ -468,6 +468,7 @@
 0u$z vsv vsz vtG vvs vGs vAs
 0u$u v usz J wtt uvt vIt tAt
 0u$. v v
+0u$. v z z
 0u$$ vAy zGu GJJ Gyy wvG wtG
 0u$w vA zA GA tBA ztG zJJ vJJ A
 0u$x vIt uyt uut uuv uvJ utI
