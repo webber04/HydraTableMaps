@@ -10,7 +10,7 @@
 
 ,$GTMIY07M,IWES    Ass  xBu
 ,$GTMIY07M,IWMY    Ass  xyy
-,$0E6KI07M,I       Ass  xBu
+,$0E6KI07M,I       Ass  xyy
 
 //
 // strings
@@ -39,6 +39,7 @@
 7$0t0p1I                    s.vx
 7$0u0p1I                    s.vx
 7$0M0TI0IS0                 kIE0I6
+7$0M0TI0IS0s                dEYH
 7$00TMWM07                  ^*IW: ^7/^F
 7$00TMWM07s                 ^*IPIT ^*: ^7/^F
 
