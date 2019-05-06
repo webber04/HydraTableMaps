@@ -204,6 +204,7 @@
 6$1AYEWI             tuu  xx tBz  yx JJIJIJIJ   uy lu
 6$1A7IE0IH           tzt  xv tzt  xv JJuwuvuw   Cu a
 6$0EFTI1ZMY0s        wus uux wus uux JJuxysux   zx a
+6$0EFTI1ZMY0t        wuv vBA wuv vBA       JJ    s a
 6$3sFETEYGI          uyB  yz uzw  zA JJtJtwAB  tss lv
 6$3s7IE0IH           uAw  xv uAw  xv JJyyyyyy    t a
 6$3tFETEYGI          vyy  Bt vzt tsu JJtJtwAB  tss lv
