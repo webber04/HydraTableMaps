@@ -16,7 +16,7 @@
 // strings
 //
 
-7$!0M0TI0IS0s               A RES
+7$!0M0TI0IS0s               ACRES
 7$!0M0TI0IS0t               pE0ELEp
 7$!0M0TI0IS0u               ACRES
 7$!0M0TI0IS0v               _FEHHZY
