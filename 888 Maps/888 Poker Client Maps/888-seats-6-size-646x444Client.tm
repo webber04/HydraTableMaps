@@ -164,7 +164,7 @@
 6$1xYEWI             tBt  ws uzy  wB JJJJJJJJ  uxs lt
 6$1x7IE0IH           tyt  ws tyt  ws JJzBzyzu   Ct a
 6$0EFTI1ZMY0s        vBs uBA vBs uBA JJssssss   Ct a
-6$0EFTI1ZMY0t         xw tzy  xw tzy JJssssss   Ct a
+6$0EFTI1ZMY0t         xw tzy  xw tzy JJtEzGsw   Ct a
 6$3sEG0MPI           vxv  vB vxv  vB JJsEsFuA   Ct a
 6$3tEG0MPI           yvw tBt yvw tBt JJtutsvF   Ct a
 6$3uEG0MPI           uBB uzt uBB uzt JJJJJJJJ  wss a
