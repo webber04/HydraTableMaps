@@ -187,14 +187,9 @@
 6$1zHIETI6           txu  Ax txu  Ax JJzEIvJH   ts a
 6$1zYEWI              wx  xx tuB  yy JJIJIJIJ   uy lu
 6$1z7IE0IH            BA  xv  BA  xv JJFGGGHx   Cu a
-6$0EFTI1ZMY0s        txt  xv txt  xv JJustJus   zx a
-6$0EFTI1ZMY0t        vzt usw vzt usw JJuEuBuB   BA a
-6$0EFTI1ZMY0u        uAt  xv uAt  xv JJuuutuu  tss a
-6$0EFTI1ZMY0v         yt usw  yt usw JJvtvsvt   Bs a
-6$0EFTI1ZMY0w        uzy uxs uzy uxs JJvtvsvt   zx a
-6$0EFTI1ZMY0x        twz uxs twz uxs JJvtvsvt   zs a
-6$0EFTI1ZMY0y        vzu tsx vzu tsx JJuFuEuE   zs a
-6$0EFTI1ZMY0z         xy tsx  xy tsx JJuuutut   zs a
+6$0EFTI1ZMY0s        utx uwA utx uwA JJuwuuuv   Ct a
+6$0EFTI1ZMY0t         wt txt  wt txt JJuwuuuv   Ct a
+6$0EFTI1ZMY0u        vAA txt vAA txt JJuwuuuv   Ct a
 6$3sFETEYGI          utx  yz uus  zA JJtJtwAB  tss lv
 6$3s7IE0IH           usy  xv usy  xv JJyyyyyy    t a
 6$3tFETEYGI          vwt  yz vwy  zA JJtJtwAB  tss lv
