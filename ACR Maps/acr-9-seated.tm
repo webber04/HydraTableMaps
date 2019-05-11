@@ -73,7 +73,7 @@
 6$MtTEFIT            zwy yvz Asu yxz   JJGxzw  txv lv
 6$Mt70E0I            zwB ywy zwB ywy JJvFvAAs   Ax a
 6$MuF300ZY           AzA yvs BBu yyz        s    s V
-6$MuTEFIT            Azz yvB Buy yxA   JJGxzw  txv lv
+6$MuTEFIT            Azz yvB BAs yxA   JJGxzw  txv lv
 6$Mu70E0I            BBs yuB BBs yuB JJvFvAAs   xs a
 6$MvF300ZY           AAw yvw BAv yxB IBFzFAFz    s V
 6$MvIHM0             Buv yzA BBv yBv        s    s V
