@@ -287,6 +287,7 @@
 0s$e uss ust vJJ vJJ vJJ ust uss
 0s$z uss usv usG uvs uGs vAs
 0s$M uss uJJ
+0s$r uss vss Gs vJ vJ Gs vAs uss
 0s$o uss vGs vG z z zA vAs vAs zA z z vG vGs uss
 0s$e ust ust vJJ ust ust
 0s$t ust ust yJJ JJJ JJJ t t
