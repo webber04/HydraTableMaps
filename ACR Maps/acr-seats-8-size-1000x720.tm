@@ -16,6 +16,7 @@
 // strings
 //
 
+7$!0M0TI0IS0                yCRES
 7$!0M0TI0IS0s               h36GLE7I
 7$!0M0TI0IS0t               pE0ELEp
 7$!0M0TI0IS0u               dI6G3TI7
@@ -203,6 +204,7 @@
 6$1zHIETI6           tBA uyy tBA uyy JJJJJJJJ    w a
 6$1zYEWI              wv tBw tyA utv   JJJJJJ  tzx ls
 6$1z7IE0IH           ttv tAB ttv tAB JJGBGBGB    x a
+6$0EFTI1ZMY0s        vwA tys vwA tys JJutusus   Ct a
 
 //
 // fonts
