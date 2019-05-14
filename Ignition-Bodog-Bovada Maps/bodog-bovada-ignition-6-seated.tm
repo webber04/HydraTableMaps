@@ -17,7 +17,6 @@
 //
 
 7$!0M0TI0IS0                -ZYI
-7$!0M0TI0IS0s               -ZYI
 7$FETEYGIY3WFI67ZYTp        l63I
 7$FI07M,IGZYJM6WE0MZYWI0LZH aTMGO ~I0
 7$FI07M,IHITI0MZYWI0LZH     ~EGO71EGIts
@@ -156,7 +155,7 @@
 6$1xHIETI6           ust tBz ust tBz JJHBHBHB    x a
 6$1xYEWI             utx vBA utB wsu        s    s ds
 6$1x7IE0IH           tyA tAx tyA tAx JJyGyFEH  uss a
-6$0EFTI1ZMY0s        tuu vtx tuu vtx JJssssBu   us a
+6$0EFTI1ZMY0s         zu vvs  zu vvs JJssssAy   us a
 6$0EFTI1ZMY0t         uz wzv  uz wzv JJsssszt   ws a
 6$0EFTI1ZMY0u        xyv tvA xyv tvA JJssssBw   ts a
 
