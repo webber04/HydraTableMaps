@@ -60,7 +60,7 @@
 6$MsTEFIT            uAy wBz vvx xsA JJssssxu Cvss ls
 6$Ms70E0I            uzy xst uzy xst JJtBtBHs   xs a
 6$MtF300ZY           vBx wBs wBs xtw        s    s V
-6$MtTEFIT            wtz wBz wAB xsz JJssssxv Cvss ls
+6$MtTEFIT            wsx wBz wAB xsz JJssssxv Cvss ls
 6$Mt70E0I            wsB xtt wsB xtt JJzGHBss   xs a
 6$MuF300ZY           xAz wAB yzv xtw        s    s V
 6$MuTEFIT            xwB wBz yzy xsA JJsssswE Cvss ls
