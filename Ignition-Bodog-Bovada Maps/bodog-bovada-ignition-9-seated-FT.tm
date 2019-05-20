@@ -17,7 +17,6 @@
 //
 
 7$!0M0TI0IS0                -ZYI
-7$!0M0TI0IS0s               -ZYI
 7$FETEYGIY3WFI67ZYTp        l63I
 7$FI07M,IGZYJM6WE0MZYWI0LZH aTMGO ~I0
 7$FI07M,IHITI0MZYWI0LZH     ~EGO71EGIts
@@ -195,9 +194,8 @@
 6$1AHIETI6           vzx tvB vzx tvB JJHBHBHB    s a
 6$1AYEWI             uAy  xu uBs  xy        s    s ds
 6$1A7IE0IH           vws tuz vws tuz JJssssBB   Cx a
-6$0EFTI1ZMY0s        xys tuy xys tuy JJssssBt   Cx a
-6$0EFTI1ZMY0t         us wzy  us wzy JJvytHuy   us a
-6$0EFTI1ZMY0u         tB  tv  tB  tv JJssExJJ    s a
+6$0EFTI1ZMY0s        xxx tux xxx tux JJwtuywt   Cx a
+6$0EFTI1ZMY0t         uy  xx  uy  xx JJvvtEtG   us a
 
 //
 // fonts
