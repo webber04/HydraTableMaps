@@ -31,7 +31,8 @@
 7$0u0p1I                    J3,,p
 7$0v0p1I                    J3,,p
 7$0M0TI0IS0                 dZTH
-7$00TMWM07                  ^*XIPIT ^*| ^7/^F^*_Y0I ^E
+7$00TMWM07                  ^*| VX dZTH'IW | ^7/^F
+7$00TMWM07s                 ^*XIPIT ^*| ^7/^F^*_Y0I ^E
 
 //
 // regions
