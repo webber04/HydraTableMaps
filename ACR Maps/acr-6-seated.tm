@@ -168,10 +168,6 @@
 6$1xHIETI6           tzB uxu tzB uxu JJJyJyJy   ts a
 6$1xYEWI              zy tAv ust usu JJJJJJJJ  tzx ls
 6$1x7IE0IH            vy tyA  vy tyA JJuvustJ   Cx a
-6$0EFTI1ZMY0s        wzt tsB wzt tsB JJGxGxGx   ts a
-6$0EFTI1ZMY0t        wzs uyu wzs uyu   xsEHvE   tx a
-6$0EFTI1ZMY0u        twA xtz twA xtz JJGxGxGx  Ctx a
-6$0EFTI1ZMY0v        utu xzv utu xzv JJxBxBxB   Cx a
 
 //
 // fonts
