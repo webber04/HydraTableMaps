@@ -205,6 +205,9 @@
 6$1AHIETI6           wxv tBv wxv tBv JJJJJJJJ   us a
 6$1AYEWI             uBB  BB wuy ttB JJJJJJJJ  tws ls
 6$1A7IE0IH           uyu  AA uyu  AA JJtFtBtA   Cu a
+6$0EFTI1ZMY0s         vy vtu  vy vtu JJvxvsuH   Cx a
+6$0EFTI1ZMY0t        wyy  Bw wyy  Bw JJtJtFtE    x a
+6$0EFTI1ZMY0u        vtv tzB vtv tzB JJwBBHvx   us a
 
 //
 // fonts
