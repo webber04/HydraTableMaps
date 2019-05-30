@@ -564,6 +564,7 @@
 0t$n wss zss zIs tJG vJ z vJ tJG zIs zss wss
 0t$p wss zsv zIv JJ JG zIs zAs wss
 0t$n wss zAs zJs JI J J JI zJs zAs wss
+0t$p wss zAt zJt zJ zI zJs zAs wss
 0t$p wss zAt zJv JJ JG zJs zAs wss
 0t$o wss zIs vJJ tJ vJ zJA zAs zJA vJ tJ vJJ zIs yss
 0t$q wst ysv zAJ vJI JA tJG vHI zsz wsv
@@ -630,6 +631,7 @@
 0t$_ z vJ tJA zHA ytA zHA tJA vJ z
 0t$_ z vJ tJG zIA zsA zIA tJG vJ z t
 0t$7 zy Jz HF HF HJ wI
+0t$. z z u
 0t$n zAs zJs JI J J JI zJs zAs wss
 0t$Z zG JI tAv tst tst tAv JI JI
 0t$s zG JI tAv tst tAv JI zG
