@@ -77,7 +77,7 @@
 6$Mt70E0I            xxu xty xxu xty   vEvEvE   xs a
 6$MuF300ZY           yAv xts zzB xwv        s    s V
 6$MuTEFIT            yAx xsA zzB xuv JJJJJJJJ  uys lu
-6$Mu70E0I            zAu xty zAu xty   vxvxvx   xs a
+6$Mu70E0I            zAu xty zAu xty   vxvxvx   zx a
 6$MvF300ZY           zwA wwx zzA wxA        s    s V
 6$MvIHM0             yzA wzz zzz wBy        s    s V
 6$MvTEFIT            zwB wwz zzx wxA JJJJJJJJ  uys e
