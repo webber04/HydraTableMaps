@@ -47,6 +47,7 @@
 // regions
 //
 
+6$GsFMKFI0           wws xsx wwz xut JJJJJJJJ  tws ls
 6$GsGE6HJEGIsYZGE6H  vxs uAB vxs uAB JJJJJJJJ   Ct a
 6$GsGE6HJEGIs6EYO    uBx uAz vtu vsy JJJJJJJJ Cuux lu
 6$GsGE6HJEGIs73M0    uBx vsA vtv vvt JJJJJJJJ Cuux lu
@@ -62,7 +63,7 @@
 6$GsGE6HJEGIwYZGE6H  yuA uAB yuA uAB JJJJJJJJ   Ct a
 6$GsGE6HJEGIw6EYO    xzv uAz xBs vsy JJJJJJJJ Cuux lu
 6$GsGE6HJEGIw73M0    xzv vsA xBt vvt JJJJJJJJ Cuux lu
-6$GsLEYHY3WFI6       tyA  tt uwu  tA   JJJJJJ  uBA ls
+6$GsLEYHY3WFI6       tyA  ts uwu  tz   JJJJJJ  vxs ls
 6$Gs1Z0s             wAs vzw xBt vAB JJJJJJJJ  tss ls
 6$MsF300ZY           wuy yyw xwv yBs        s    s V
 6$MsTEFIT            wvy yyB xvz yAz JJJJJJJJ  txv lu
@@ -208,6 +209,15 @@
 6$0EFTI1ZMY0s         vy vtu  vy vtu JJvxvsuH   Cx a
 6$0EFTI1ZMY0t        wyy  Bw wyy  Bw JJtJtFtE    x a
 6$0EFTI1ZMY0u        vtv tzB vtv tzB JJwBBHvx   us a
+6$3sFETEYGI          xsB tut yuw tvz JJxsAvAI   zx ls
+6$3tFETEYGI          zvt usx AwB uut JJxsAvAI   zx ls
+6$3uFETEYGI          zvu vwy Awy vyu JJxsAvAI   zx ls
+6$3vFETEYGI          ytt wBz zuA xtv JJxsAvAI   zx ls
+6$3wFETEYGI          wuB xuA xwy xwv JJxsAvAI   zx ls
+6$3xFETEYGI          tBz wBz vtw xtv JJxsAvAI   zx ls
+6$3yFETEYGI           zz vwy tBv vyu JJxsAvAI   zx ls
+6$3zFETEYGI           zy usx tBv uut JJxsAvAI   zx ls
+6$3AFETEYGI          uBB tut wty tvz JJxsAvAI   zx ls
 
 //
 // fonts
@@ -228,6 +238,7 @@
 0s$z tst tsv tsJ tvG tJs tGs
 0s$z tst tsz ttJ tzG tJs tGs tss
 0s$t tst twt vJJ t t
+0s$S tsu GG vs GG tsu ust
 0s$I ts zI Bv Bt Bt Jt vu
 0s$E tsI utt uut uut uuu tJJ
 0s$C t t t t
@@ -680,6 +691,7 @@
 0t$u tst vsv usz usH utB tJt
 0t$u tst vsv usz usH utB vJt tIt
 0t$v tsu ust uut uut uut tHI
+0t$v tsu usv uut uut uut vJI
 0t$v tsu vsv uut uut uut vJJ tHI
 0t$z tsv tsJ tvA tIs tAs
 0t$v tsv ust uut uut vvt tHI
@@ -760,7 +772,6 @@
 0t$v usw ysu ywv yyv yyv vJI
 0t$v usw ysu ywv yyv yyv vJI tBG
 0t$v usw ysy ywv yyv yyv zJI vFG
-0t$z usy utJ uzA vIs vAs uss
 0t$v usy ysv yyv yyv yyu vFG
 0t$v usy ysv yyv yyv zJI vFG
 0t$0 us JJ ut ut
@@ -771,7 +782,6 @@
 0t$v vsu ust uut uut uyv tHI
 0t$u vsv usz usH utB uvt tIt
 0t$u vsv usz usH utB vJt tIt
-0t$v vsv uut uut uut vJJ tHI
 0t$u vsv ysz ysJ ytF uvv tIt
 0t$u vsv ysz ysJ ytF vJv tIt
 0t$u vsv ysz ysJ ytF yvv vIv
@@ -857,7 +867,6 @@
 0t$$ zGG wGy zJJ wuy uvG
 0t$s zG JJ At At JJ zI
 0t$x zIv zyv yyv yyv yvI tG
-0t$s zJH Gsy Gsy Gsy Gsy zJG
 0t$s zJJ ysv ysv ysv zJJ vJI
 0t$$ zJJ zJJ zJJ zJJ zJA zJA zJA zJA zJA zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJI zJI zJG zJG zJA zJA zJA zJA zJA zJA zJA zJA
 0t$$ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ zJJ t

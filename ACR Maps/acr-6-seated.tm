@@ -62,7 +62,7 @@
 6$GsGE6HJEGIwYZGE6H  yuA uAB yuA uAB JJJJJJJJ   Ct a
 6$GsGE6HJEGIw6EYO    xzv uAz xBs vsy JJJJJJJJ Cuux lu
 6$GsGE6HJEGIw73M0    xzv vsA xBt vvt JJJJJJJJ Cuux lu
-6$GsLEYHY3WFI6       tyA  tt uwu  tA   JJJJJJ  uBA ls
+6$GsLEYHY3WFI6       tyA  tt uwu  tA   JJJJJJ  vxs ls
 6$Gs1Z0s             wAs vzw xBt vAB JJJJJJJJ  tss ls
 6$MsF300ZY           wuy yyw xwv yBs        s    s V
 6$MsTEFIT            wvy yyB xvz yAz JJJJJJJJ  txv lu
@@ -170,6 +170,12 @@
 6$0EFTI1ZMY0s         vy vtu  vy vtu JJvwuJuH    x a
 6$0EFTI1ZMY0t        wyy  Bw wyy  Bw JJtJtFtE   Cx a
 6$0EFTI1ZMY0u        vtv tzB vtv tzB JJwBBGvx   us a
+6$3sFETEYGI          wss tuv xtz tvB JJxsAvAI   zx ls
+6$3tFETEYGI          zvt usx Awx uut JJxsAvAI   zx ls
+6$3uFETEYGI          zvB wvx AwA wxu JJxsAvAI   zx ls
+6$3vFETEYGI          wvt xuA xwx xwx JJxsAvAI   zx ls
+6$3wFETEYGI           zA wvx tBv wxt JJxsAvAI   zx ls
+6$3xFETEYGI           zz usx tBv uut JJxsAvAI   zx ls
 
 //
 // fonts
@@ -216,9 +222,7 @@
 0s$w tA uA wA JJ A
 0s$w tA uA GA tGA tJJ A
 0s$w tA uA GA tGA tJJ A A
-0s$: tAv
 0s$v tAv tst ttt ttt tJJ II w
-0s$: tAv tAv
 0s$w tA vA yA GA JJ A
 0s$Z tA yy At At At At zI
 0s$w tA yA GA tJJ tJJ A A
@@ -452,7 +456,6 @@
 0s$B ys Jt tJB tsB tsF tJI JG
 0s$B ys JB tJB tsB tsF tJI JG vs
 0s$v ytsu yvAv yJAv zGAv vszI vG
-0s$: yv
 0s$0 y As vJI Av At At
 0s$E y AJ Bt Bt Bv zJ
 0s$A yI Bt Bt Bt yI
