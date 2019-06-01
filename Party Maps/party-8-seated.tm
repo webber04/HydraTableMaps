@@ -33,7 +33,7 @@
 7$FI07M,IMY0I616I0E0MZYWI0LZH v
 7$FI07M,I7ITIG0MZYWI0LZH    aTMGO 46EK
 7$GsTMWM07s                 ^X
-7$GsTMWM07u                 ^p:^7/^F
+7$GsTMWM07u                 ^7/^F
 7$YGLEM67                   A
 7$YI0QZ6O                   1E60p
 7$1Z0WI0LZH                 v
@@ -49,7 +49,7 @@
 // regions
 //
 
-6$GsFMKFI0           xus vyB xAw vAz   JJJJJJ  uss lt
+6$GsFMKFI0           vBs  tt vBw  uz   JJJJJJ  uss ls
 6$GsGE6HJEGIsYZGE6H  vsw tBs vsw tBs   JJJJJJ   Ct a
 6$GsGE6HJEGIs6EYO    uxA tAA uzB usB   JJJJJJ Cuss lv
 6$GsGE6HJEGIs73M0    uxz uts uzz uvs   JHJHJH Cuss lv
