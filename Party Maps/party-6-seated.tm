@@ -197,6 +197,7 @@
 0s$w tA vA IA tGA vsA zJJ zJJ A
 0s$$ tAG vGI uyv yuv vvy tBG
 0s$y tG zI Ht Bt BJ I
+0s$$ tGG vII zyv yuv vFI vBI AA
 0s$A tHI vJJ uut uut uut vJJ tHI
 0s$B tIu vJv utt utt uvv vJI tJG
 0s$y tJG vJI zIJ GAv AAt AGv AJJ zI
@@ -759,6 +760,7 @@
 0t$J Gs vJJ JJJ GGs GGs
 0t$- Gsz GsJ GvJ Gzv HIv JAv Jsv Gsv
 0t$w G tG zG tGG vAG zJJ zJJ G
+0t$$ Gvs tJvA vJtG vtAJ JtAJ vBHG tGJG GzA
 0t$u Gv tGz tsJ ttH tJB It t
 0t$, Gv Gz GJ HF Jv Iv
 0t$S Gv Iz vG vG Iz Gv
