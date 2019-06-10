@@ -67,7 +67,7 @@
 6$MsTEFIT            wBv xut xuv xvx JJJJJJJJ   ts lv
 6$Ms70E0I            wBw xuz wBw xuz JJJJJJJJ   vs a
 6$MtF300ZY           xxy xtv yvs xwt        s    s V
-6$MtTEFIT            xzy xty ytv xuB JJJJJJJJ    x lv
+6$MtTEFIT            xzy xtz ytv xvs JJJJJJJJ    x lv
 6$Mt70E0I            xyv xuu xyv xuu JJtwtutu   Cx a
 6$MuF300ZY           ywt xtt ztz xwt        s    s V
 6$MuTEFIT            yyu xut ztB xvv JJJJJJJJ    x lv
@@ -164,7 +164,7 @@
 6$1x7IE0IH           tBw vzx uuB vzz JJtwtvtt  Ctx a
 6$1yEG0MPI           txB uzw txB uzw JJtFxGyy   Cx a
 6$1yFETEYGI          tst uyt tAB uzx JJJJJJJJ    x lt
-6$1yFI0              tBu uxt uzt uyv JJJJJJJJ   xs lt
+6$1yFI0              tAB uxt uyA uyv JJJJJJJJ   xs lt
 6$1yGE6HFEGO         twv uut twv uut JJGsBHyy   tx a
 6$1yGE6HJEGIs        Cuwz  wB Cuwz  wB        s    s V
 6$1yGE6HJEGIsYZGE6H  tts utu tts utu JJJJJJJJ  Ctx a
@@ -445,17 +445,20 @@
 0t$v tsu vsv uut uut vJJ tHI
 0t$u tsv vsz utH uvB vJt tGt
 0t$$ ts JG tJI tJJ vJJ vJJ vJJ tJJ tJI JG ts
+0t$u t tAv vsz usH uvB vJt Gt
 0t$k t zB wB wJ y tt tt
 0t$v tAt ttt ttt tFF II
 0t$v t At Bt Bt II
 0t$u tAv tsz tsH tFB Jt
 0t$u tAv vsz usH utB vJt tGt
 0t$u t Av Ax AB Jt t
+0t$w tA vA yA tGA vsA vJJ A
 0t$s tA JI At At zJ tA
 0t$A tHI vJJ uut uut vJJ tHI
 0t$B tIs vFt utv utI vvA tJs
 0t$x tIt tut tut tvv ttI
 0t$B tIt vvt utt utv vuy tJG
+0t$B tIt vvt utz utG vJA Is
 0t$B tIu vJv utt utt vJI tJG
 0t$/ t I zs As
 0t$x t Jv vIt uut uuv uvI tG
@@ -469,8 +472,10 @@
 0t$v vst uut uut uut vHv tHI
 0t$u vsv usz usH utB vJt tIt
 0t$. v v
+0t$$ vA JI tJJ vJJ vJJ vJJ vJJ vJJ tJJ JI vA tsu tst
 0t$x vIt vIt uut uut uvv utI
 0t$y vI Jv tIt vut uvJ tI
+0t$v w tAy vsv uut uut vJJ tBG
 0t$w w tG uw Gw JJ
 0t$w w tG vw Gw tAw vJJ w w
 0t$A w IJ Bt Bt IJ
@@ -489,6 +494,7 @@
 0t$t Gs tAs vJJ vJJ
 0t$t Gs tAt vst vJJ t t
 0t$t Gs tAt vJJ vJJ t t
+0t$$ GsG ysG vJA zJA JJG JJI JJI JJJ JJI JJI JJG zJA vJA ysG GsG
 0t$w G vw Gw vJJ vJJ w
 0t$9 H I
 0t$$ It tFt tJJ ttt ttF tsI
