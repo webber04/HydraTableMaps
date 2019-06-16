@@ -156,7 +156,7 @@
 6$1xYEWI             utx vBA utB wsu        s    s ds
 6$1x7IE0IH           tAt tzA tAt tzA JJssssBs   Cx a
 6$0EFTI1ZMY0s        tyy vtv tyy vxz JJssssAJ   Ct a
-6$0EFTI1ZMY0t        wvB tsu wvB tvw JJssssEs   Ct a
+6$0EFTI1ZMY0t        wxB tsu wxB tsu JJssssBz   Cx a
 6$0EFTI1ZMY0u         tw  xv  tw  xv JJststxF   ts a
 
 //
@@ -499,6 +499,7 @@
 0s$x Iy JIz JGv GGt GGv GIz GzI tG
 0s$A II ttt ttt ttt II
 0s$A II tJJ ttt tJJ II
+0s$B Js tsB tsB tAE JG
 0s$B Js tJB vtB usB vsF tJI JG
 0s$B Js vJF vtF vtz vJI JG
 0s$B Jt tJB tsF tJI JG
