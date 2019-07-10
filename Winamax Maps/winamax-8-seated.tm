@@ -190,6 +190,8 @@
 6$0EFTI1ZMY0s        utx uwA utx uwA JJuwuuuv   Ct a
 6$0EFTI1ZMY0t         wt txt  wt txt JJuwuuuv   Ct a
 6$0EFTI1ZMY0u        vAA txt vAA txt JJuwuuuv   Ct a
+6$0EFTI1ZMY0v          s  uu   s  uu JIAEEyFA    s a
+6$0EFTI1ZMY0w         vv  zz  vv  zz JJGyHuHF   Ct a
 6$3sFETEYGI          utx  yz uus  zA JJtJtwAB  tss lv
 6$3s7IE0IH           usy  xv usy  xv JJyyyyyy    t a
 6$3tFETEYGI          vwt  yz vwy  zA JJtJtwAB  tss lv
