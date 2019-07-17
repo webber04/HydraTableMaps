@@ -1,0 +1,2 @@
+Check the manual first as the themes are changed so we can use single maps for 3 seperate rooms.
+Also be sure to download the new mouse.dll, so the bot can type the right bet amounts.
