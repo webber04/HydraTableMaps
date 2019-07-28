@@ -8,8 +8,8 @@
 // sizes
 //
 
-,$GTMIY07M,IWES    AsB  yts
-,$GTMIY07M,IWMY    AsB  yts
+,$GTMIY07M,IWES    tsss  tsss
+,$GTMIY07M,IWMY    wss  wss
 ,$0E6KI07M,I       AsB  yts
 
 //
@@ -157,7 +157,6 @@
 6$1x7IE0IH           tyA tAx tyA tAx JJyGyFEH  uss a
 6$0EFTI1ZMY0s        tuu vtw tuu vtw JJssssBu   us a
 6$0EFTI1ZMY0t         uz wzv  uz wzv JJsssszt   ws a
-6$0EFTI1ZMY0u        xyv tvA xyv tvA JJssssBw   ts a
 
 //
 // fonts
