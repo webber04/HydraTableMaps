@@ -450,6 +450,7 @@ t0$o 7e 81 81 81 81 7e
 t0$6 7e 91 a1 111 1e
 t0$6 7e a3 121 121 1e
 t0$o 7e c3 81 81 c3 7e 3c
+t0$6 7e d3 b1 1b3 1e
 t0$6 7e f3 1b1 1b1 1f
 t0$0 7e ff 81 ff 7e
 t0$i 7f
