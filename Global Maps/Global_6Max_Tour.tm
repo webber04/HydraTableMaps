@@ -84,6 +84,8 @@ r$i862button         283 297 360 310        0    0 N
 r$i862state          256 292 256 292 ffb59435   20 C
 r$i863button         249 345 384 370        0    0 N
 r$i863state          247 343 247 343 ffc0a938    0 C
+r$i865button         714 569 747 579        0    0 N
+r$i865state          719 572 719 572 ff121212    0 C
 r$i8button            50 497  55 501        0    0 N
 r$i8label             89 460  89 461   ffffff    0 H0
 r$i8state             74 459  74 459 ff122d27    5 C
@@ -126,11 +128,11 @@ r$p3bet              377 351 469 363 ffffffff   50 T1
 r$p3cardback         412 343 412 343 ff000000    5 C
 r$p3cardface0         60 384  60 384        0    0 N
 r$p3cardface0nocard  446 374 446 374 ffffffff  -15 C
-r$p3cardface0rank    384 372 398 384 ffffffff -160 T0
+r$p3cardface0rank    384 372 398 384 ffffffff -175 T0
 r$p3cardface0suit    384 386 399 398 ffffffff  -50 T0
 r$p3cardface1         43 318  43 318        0    0 N
 r$p3cardface1nocard  446 374 446 374 ffffffff  -15 C
-r$p3cardface1rank    405 372 419 384 ffffffff -160 T0
+r$p3cardface1rank    405 372 419 384 ffffffff -175 T0
 r$p3cardface1suit    405 386 420 398 ffffffff  -50 T0
 r$p3dealer           411 352 411 352 ffffffff  350 C
 r$p3name               0   0   0   0 ffbebebe    0 T0
@@ -247,6 +249,7 @@ t0$6 1fc 3fe 76e 643 667 77e 13c
 t0$6 1fc 3fe 76e 643 667 77e 33c
 t0$6 1fc 3fe 77e 643 667 77e 13c
 t0$6 1fc 3fe 7fe 643 663 77e 33c
+t0$6 1fc 7fe 6c3 cc3 cc3 ce7 c7e
 t0$0 1fe 303 201 201 303 1fe
 t0$6 1fe 3fe 363 663 377 33e 1c
 t0$7 200 200 203 20f 23c 3e0 380
@@ -294,7 +297,6 @@ t0$s 30 f8 1fc 3fc 7fb fff 7ff 3ff 1fc fc 78
 t0$a 3 1f 7f 3fc ffc f1c fdc 3fc fe 1f 7
 t0$A 3 1f fc 3fc 38c 3ec 1fc 3f f 1
 t0$A 3 1f fc 3fc 38c 3ec fc 3f 7 1
-t0$. 3 3
 t0$2 3 707 60f 61f 673 7e3 3c3
 t0$1 380 380 7fe fff 7ff
 t0$h 380 7e0 7f0 7f8 7fc 7fe 3ff 3ff 7fe 7f8 7f0 7e0 3c0
@@ -459,7 +461,6 @@ t0$Q f8 1fe 38e 303 203 60f 307 387 1ff fd
 t0$0 f8 1fe 38f 303 303 3ff 1fe
 t0$0 f8 3fe 306 603 603 3fe 1fc
 t0$q f8 3fe 7fe 607 e03 c07 e0f 607 78f 3ff 1f9
-t0$, f c
 t0$0 fc 102 201 201 102 1fe
 t0$0 fc 102 201 201 186 fc
 t0$0 fc 186 201 201 303 1fe
