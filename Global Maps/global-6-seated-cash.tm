@@ -84,6 +84,8 @@ r$i862button         283 297 360 310        0    0 N
 r$i862state          256 292 256 292 ffb59435   20 C
 r$i863button         249 345 384 370        0    0 N
 r$i863state          247 343 247 343 ffc0a938    0 C
+r$i864button         275 362 392 378        0    0 N
+r$i864state          396 361 396 361 ffb59435   25 C
 r$i8button            50 497  55 501        0    0 N
 r$i8label             89 460  89 461   ffffff    0 H0
 r$i8state             74 459  74 459 ff122d27    5 C
