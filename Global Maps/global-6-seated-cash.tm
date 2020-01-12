@@ -65,7 +65,7 @@ r$i0label            521 567 551 581 ffffffff   50 T3
 r$i0state            523 571 523 571 ffffffff   30 C
 r$i1button           595 563 669 591        0    0 N
 r$i1label            615 563 652 576 ffffffff   50 T3
-r$i1state            592 558 592 558 ff33b2f8   25 C
+r$i1state            592 558 592 558 ff33b2f8   50 C
 r$i2button           691 561 767 591        0    0 N
 r$i2label            701 569 758 581 ffffffff   50 T3
 r$i2state            770 558 770 558 ff1bb54d   25 C

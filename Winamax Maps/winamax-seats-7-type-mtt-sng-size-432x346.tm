@@ -178,9 +178,9 @@ r$tablepoint0        241 248 241 248 ffffffff   95 C
 r$tablepoint1        371 204 371 204 ff2a2929   98 C
 r$tablepoint2        213  59 213  59 ff4c4b4a  100 C
 r$tablepoint3         61 204  61 204 ff313031   90 C
-r$tablepoint4        406 224 406 224 ff080808   75 C
+r$tablepoint4        387 243 387 243 ffe6e6e6   75 C
 r$tablepoint5         27 224  27 224 ff2d2d2d   70 C
-r$tablepoint6        372 105 372 105 ff2b2a2a   70 C
+r$tablepoint6        372 118 372 118 ffffffff   70 C
 r$tablepoint7         56 160  56 160 ff222121  140 C
 r$u0balance          215  67 220  78 ff1f1489  100 T3
 r$u0seated           206  53 206  53 ff666666    1 C

@@ -87,6 +87,8 @@ r$i863button         249 345 384 370        0    0 N
 r$i863state          247 343 247 343 ffc0a938    0 C
 r$i864button         343 327 431 344        0    0 N
 r$i864state          449 326 449 326 ffb59435   10 C
+r$i865button         354 338 430 352        0    0 N
+r$i865state          443 335 443 335 ffb59435   50 C
 r$i8button            63 456  67 460        0    0 N
 r$i8label             81 457  81 458   ffffff    0 H0
 r$i8state             64 456  64 456 ff42cbae   -5 C
