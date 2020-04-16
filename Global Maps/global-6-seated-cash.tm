@@ -43,21 +43,21 @@ s$ttlimits0                 ^* ^* ^s/^b
 
 r$CHAR                14 148  28 166 ffffffff   -5 T2
 r$c0cardface0nocard  306 219 306 219 ffffffff   -5 C
-r$c0cardface0rank    265 217 280 230 ffffffff -160 T2
-r$c0cardface0suit    265 232 281 245 ffffffff  -50 T2
+r$c0cardface0rank    266 217 281 230 ffffffff -160 T2
+r$c0cardface0suit    266 232 282 245 ffffffff  -50 T2
 r$c0cardface1nocard  361 219 361 219 ffffffff   -5 C
-r$c0cardface1rank    320 217 335 230 ffffffff -160 T2
-r$c0cardface1suit    320 232 336 245 ffffffff  -50 T2
+r$c0cardface1rank    321 217 336 230 ffffffff -160 T2
+r$c0cardface1suit    321 232 337 245 ffffffff  -50 T2
 r$c0cardface2nocard  417 219 417 219 ffffffff   -5 C
 r$c0cardface2rank    376 217 391 230 ffffffff -160 T2
 r$c0cardface2suit    376 232 392 245 ffffffff  -50 T2
 r$c0cardface3nocard  472 219 472 219 ffffffff   -5 C
 r$c0cardface3rank    431 217 446 230 ffffffff -160 T2
-r$c0cardface3suit    431 232 446 245 ffffffff  -50 T2
+r$c0cardface3suit    432 232 447 245 ffffffff  -50 T2
 r$c0cardface4nocard  528 220 528 220 ffffffff   -5 C
 r$c0cardface4rank    486 217 501 230 ffffffff -160 T2
-r$c0cardface4suit    486 232 501 245 ffffffff  -50 T2
-r$c0limits           120 523 133 531 ffffffff   15 T1
+r$c0cardface4suit    487 232 502 245 ffffffff  -50 T2
+r$c0limits           125 525 138 533 ffffffff   15 T1
 r$c0pot0             260 301 343 312 ffffffff  205 T1
 r$c0pot1             494 190 571 202 ffffffff  205 N
 r$i0button           498 562 571 589        0    0 N
@@ -89,7 +89,7 @@ r$i864state          396 361 396 361 ffb59435   25 C
 r$i8button            50 497  55 501        0    0 N
 r$i8label             89 460  89 461   ffffff    0 H0
 r$i8state             74 459  74 459 ff122d27    5 C
-r$p0active           366  70 366  70 ff212220   -5 C
+r$p0active           366  71 366  71 ff212220   -5 C
 r$p0balance          359  94 440 107 ffffffff   60 T1
 r$p0bet              393 147 485 160 ffffffff  125 T1
 r$p0cardback         399  48 399  48 ffe3bd7d   25 C
@@ -99,8 +99,8 @@ r$p0cardface1          0   3   0   3        0    0 N
 r$p0cardface1nocard  384  45 384  45 ffffffff  -15 C
 r$p0dealer           373 153 373 153 ffffffff   15 C
 r$p0name               0   0   0   0 ffffffff    0 T0
-r$p0seated           366  70 366  70 ff212220   -5 C
-r$p1active           690 121 690 121 ff181d1c   -5 C
+r$p0seated           366  71 366  71 ff212220   -5 C
+r$p1active           690 122 690 122 ff181d1c   -5 C
 r$p1balance          656 144 740 161 ffffffff   60 T1
 r$p1bet              569 184 661 195 ffffffff  100 T1
 r$p1cardback         698 101 698 101 ffe1bb7b   15 C
@@ -110,8 +110,8 @@ r$p1cardface1        274  50 274  50        0    0 N
 r$p1cardface1nocard  658  91 658  91 ffffffff  -15 C
 r$p1dealer           600 202 600 202 ffffffff   15 C
 r$p1name               0   0   0   0 ffffffff    0 T0
-r$p1seated           690 121 690 121 ff181d1c   -5 C
-r$p2active           741 316 741 316 ff211f1e   -5 C
+r$p1seated           690 122 690 122 ff181d1c   -5 C
+r$p2active           741 317 741 317 ff211f1e   -5 C
 r$p2balance          654 340 741 355 ffffffff   60 T1
 r$p2bet              577 298 666 309 ffffffff  100 T1
 r$p2cardback         732 295 732 295 ffbf9c65   15 C
@@ -121,19 +121,19 @@ r$p2cardface1        275 229 275 229        0    0 N
 r$p2cardface1nocard  659 269 659 269 ffffffff  -15 C
 r$p2dealer           594 331 594 331 ffffffff   15 C
 r$p2name               0   0   0   0 ffffffff    0 T0
-r$p2seated           741 316 741 316 ff211f1e   -5 C
+r$p2seated           741 317 741 317 ff211f1e   -5 C
 r$p3active           431 429 431 429 ff15535f  450 C
 r$p3balance          392 438 477 452 ffffffff   60 T1
 r$p3bet              377 351 469 363 ffffffff   50 T1
 r$p3cardback         412 343 412 343 ff000000    5 C
 r$p3cardface0         60 384  60 384        0    0 N
 r$p3cardface0nocard  446 374 446 374 ffffffff  -15 C
-r$p3cardface0rank    384 372 398 384 ffffffff -160 T0
-r$p3cardface0suit    384 386 399 398 ffffffff  -50 T0
+r$p3cardface0rank    385 373 399 385 ffffffff -160 T0
+r$p3cardface0suit    385 387 400 399 ffffffff  -50 T0
 r$p3cardface1         43 318  43 318        0    0 N
 r$p3cardface1nocard  446 374 446 374 ffffffff  -15 C
-r$p3cardface1rank    405 372 419 384 ffffffff -160 T0
-r$p3cardface1suit    405 386 420 398 ffffffff  -50 T0
+r$p3cardface1rank    406 373 420 385 ffffffff -160 T0
+r$p3cardface1suit    406 387 421 399 ffffffff  -50 T0
 r$p3dealer           411 352 411 352 ffffffff  350 C
 r$p3name               0   0   0   0 ffbebebe    0 T0
 r$p3seated           232  37 232  37 ff0094f6  400 C
@@ -148,7 +148,7 @@ r$p4cardface1nocard  127 275 127 275 ffffffff  -15 C
 r$p4dealer           199 326 199 326 fffdfdfd   15 C
 r$p4name               0   0   0   0 ffffffff    0 T0
 r$p4seated            98 323  98 323 ff242523  -15 C
-r$p5active           145 121 145 121 ff191a18   -5 C
+r$p5active           145 122 145 122 ff191a18   -5 C
 r$p5balance           87 145 175 159 ffffffff   60 T1
 r$p5bet              174 183 255 195 ffffffff  125 T1
 r$p5cardback         129  99 129  99 ffc19e67   15 C
@@ -156,9 +156,9 @@ r$p5cardface0        -247  49 -247  49        0    0 N
 r$p5cardface0nocard  106  91 106  91 ffffffff  -15 C
 r$p5cardface1        -247  49 -247  49        0    0 N
 r$p5cardface1nocard  120  91 120  91 ffffffff  -15 C
-r$p5dealer           187 202 187 202 ffc7c7c7    5 C
+r$p5dealer           187 202 187 202 fffdfdfd   40 C
 r$p5name               0   0   0   0 ffa5a5a5    0 T0
-r$p5seated           145 121 145 121 ff191a18   -5 C
+r$p5seated           145 122 145 122 ff191a18   -5 C
 r$u0balance          359  94 440 107 ff767574   20 T1
 r$u0bet              393 147 485 159 ff678c78   45 T1
 r$u0name               0   0   0   0 ff717171    0 T0
@@ -492,6 +492,7 @@ t1$6 1fc 646 403 881 883 866 7c
 t1$6 1fc 7fe 6c3 cc3 cc3 ce7 c7e
 t1$0 1fe 303 201 201 303 1fe
 t1$0 1fe 3ff 201 201 3ff 1fe
+t1$L 1ff 10 20 20 30 1f
 t1$L 1ff 10 20 30 3f
 t1$$ 1ffc 1ffe 1fff 1ffe 1ffc ffc 7f8 7f0
 t1$7 200 200 203 20f 23c 3e0 380
@@ -567,6 +568,7 @@ t1$0 78 1fe 303 201 201 1ce fc
 t1$0 78 1fe 303 201 201 303 1fe 78
 t1$8 79e 4f2 861 861 ce1 7b6 31e
 t1$5 7c3 fc3 cc3 cc3 cc3 cfe 7c
+t1$N 7c c6 101 101 101 101 100
 t1$9 7e1 431 811 813 c22 7fc 3f0
 t1$9 7e3 f73 c33 c33 c36 7fe 3f8
 t1$L 7f 1 1 1
@@ -673,7 +675,9 @@ t2$t 40 fe 1ff 41 41
 t2$5 4 3e6 7e7 643 6c3 67f 67e 18
 t2$7 600 600 60f 63f 6f8 7c0 700 600
 t2$7 600 601 61f 67f 7e0 780 700
+t2$h 600 f80 1fe0 1ff0 1ff8 1ffc ffe 7ff 1ffe 1ffc 1ff0 1fe0 1fc0 f80
 t2$q 60 3fc 7fe 60e e06 c0b c0f 60e 70e 3ff 1fb
+t2$2 607 e1f 1c3f 187f 18f7 1fe7 fc7 306
 t2$3 60c e0e 1c06 18c7 19c6 ffe f7e 38
 t2$8 63c ffe 1fff 18c3 18c3 1fe7 ffe 73c
 t2$c 70 f0 f8 f8 ef9 1ff3 1fff 1fff 1f73 1ef3 f8 1f8 f8 f0
