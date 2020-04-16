@@ -74,8 +74,8 @@ r$i2label            675 508 675 508 fefdfdfd   40 H0
 r$i2state            733 560 733 560 ff1b1b1b   -5 C
 r$i3button           743 463 777 469        0    0 N
 r$i3edit             786 487 787 496        0    0 N
-r$i3label            745 459 773 469 ffffffff  180 T0
-r$i3state            694 481 694 481 ffe8e8e8  150 C
+r$i3label            675 508 675 508 ffffffff  180 H0
+r$i3state            733 560 733 560 ff1b1b1b   -5 C
 r$i4button            33 419  38 424        0    0 N
 r$i4label             36 422  50 422        0    0 H0
 r$i4state             35 421  35 421        0  999 C
