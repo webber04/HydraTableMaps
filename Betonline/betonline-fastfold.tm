@@ -33,7 +33,7 @@ s$betsizeselectionmethod    Dbl Click
 s$nchairs                   6
 s$network                   bol
 s$potmethod                 1
-s$sitename                  betonline6_2
+s$sitename                  betonline_fastfold
 s$t0type                    fuzzy
 s$t1type                    0.35
 s$t2type                    0.35

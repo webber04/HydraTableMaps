@@ -63,7 +63,7 @@ r$c0cardface4nocard  523 205 523 205 ffffffff   -5 C
 r$c0cardface4rank    490 197 504 216 ffffffff  -15 T0
 r$c0cardface4suit    490 218 504 232 ffffffff  -15 T0
 r$c0pot0             363 293 448 305 ffffffff  180 T1
-r$i0button           423 523 512 551        0    0 N
+r$i0button           513 519 523 524        0    0 N
 r$i0label            421 522 512 552 ff202094 -300 T0
 r$i0state            470 560 470 560 ff242424   -5 C
 r$i1button           553 521 646 550        0    0 N
@@ -72,7 +72,7 @@ r$i1state            601 560 601 560 ff202020   -5 C
 r$i2button           685 520 775 553        0    0 N
 r$i2label            675 508 675 508 fefdfdfd   40 H0
 r$i2state            733 560 733 560 ff1b1b1b   -5 C
-r$i3button           687 521 777 551        0    0 N
+r$i3button           743 463 777 469        0    0 N
 r$i3edit             786 487 787 496        0    0 N
 r$i3label            675 508 675 508 ffffffff  180 H0
 r$i3state            733 560 733 560 ff1b1b1b   -5 C
