@@ -9,7 +9,7 @@
 //
 
 z$clientsizemax    1000  700
-z$clientsizemin    690  478
+z$clientsizemin    650  440
 z$targetsize       690  478
 
 //
@@ -29,7 +29,7 @@ s$sitename                  pokerbaazi-9-seated
 s$t0type                    fuzzy
 s$t1type                    0.35
 s$t2type                    0.35
-s$t3type                    0
+s$t3type                    fuzzy
 s$titletext                 Table#
 s$ttlimits                  ^* Chips-^s/^b-Table#^y
 s$ttlimits0                 ^*-^s/^b
@@ -40,19 +40,19 @@ s$ttlimits0                 ^*-^s/^b
 
 r$c0cardface0nocard  265 188 265 188 ffffffff   -5 C
 r$c0cardface0rank    231 181 247 199 ffffffff -200 T0
-r$c0cardface0suit    231 201 238 215 ffffffff -200 T0
+r$c0cardface0suit    231 201 238 215 ffffffff -200 T3
 r$c0cardface1nocard  312 188 312 188 ffffffff   -5 C
 r$c0cardface1rank    279 181 295 199 ffffffff -200 T0
-r$c0cardface1suit    279 201 286 215 ffffffff -200 T0
+r$c0cardface1suit    279 201 286 215 ffffffff -200 T3
 r$c0cardface2nocard  360 188 360 188 ffffffff   -5 C
 r$c0cardface2rank    327 181 343 199 ffffffff -200 T0
-r$c0cardface2suit    327 201 334 215 ffffffff -200 T0
+r$c0cardface2suit    327 201 334 215 ffffffff -200 T3
 r$c0cardface3nocard  407 188 407 188 ffffffff   -5 C
 r$c0cardface3rank    374 181 390 199 ffffffff -200 T0
-r$c0cardface3suit    374 201 381 215 ffffffff -200 T0
+r$c0cardface3suit    374 201 381 215 ffffffff -200 T3
 r$c0cardface4nocard  455 188 455 188 ffffffff   -5 C
 r$c0cardface4rank    422 181 438 199 ffffffff -200 T0
-r$c0cardface4suit    422 201 429 215 ffffffff -200 T0
+r$c0cardface4suit    422 201 429 215 ffffffff -200 T3
 r$c0limits            23 383  34 390 ffffffff    0 T3
 r$c0pot0             288 131 396 140 ffffffff    5 T1
 r$i0button           442 429 510 457        0    0 N
@@ -71,6 +71,8 @@ r$i3state            657 374 657 374 ffffffff   20 C
 r$i4button           526 432 533 438        0    0 N
 r$i4label            534 437 583 451 ffffffff    0 T0
 r$i4state            592 428 592 428 ff78ca39   50 C
+r$i860button         310 270 371 288        0    0 N
+r$i860state          435 278 435 278 ffe9b008   25 C
 r$p0active             0   0   0   0 ffa5a5a8  450 C
 r$p0balance          409 124 482 135 ff4dd8d7  250 T2
 r$p0bet              345 156 430 167 ffffffff    5 T1
@@ -211,11 +213,13 @@ t0$F 1fff 1fff 1840 1840 1840 1840 1840 1840 1800
 t0$k 1fff 1fff 3c 7e e7 c3 81
 t0$h 1fff 1fff c0 80 c0 ff 7f
 t0$1 200 200 7ff 7ff
+t0$d 20 70 f8 1fc 3fe 7ff
 t0$a 2 37 29 29 3b 3f
 t0$1 3000 2000 6000 7fff ffff
 t0$3 300e 700e c183 c183 c183 c383 7ffe 3e7c
 t0$d 30 fc 1ce 306 302 303 306 186 3ffe 3ffe
 t0$2 3803 7807 c01f c03b c063 c1c3 7f83 3e03 3
+t0$h 380 7e0 7f0 7f8 7fc 3ff
 t0$C 38 fe 183 101 301 301 101 183 2
 t0$8 3c7c 7ffe 6383 c181 c181 e383 7efe 1c7c
 t0$9 3f80 7fc0 e0e3 c063 c062 60c6 7ffc 1ff0
@@ -303,7 +307,13 @@ t2$4 c 34 c4 1ff 4
 t2$e c 3f 29 29 29 3b 18
 t2$8 ee 111 111 111 111 ee
 t2$9 f0 198 109 10e 198 f0
+t3$h 1c0 3f0 3f8 3fc 3fe 3ff
 t3$N 1c 22 41 41 41 61 2
+t3$a 1 f 7e 3f0 1fb0 fc30 f030 7e30 ff0 fc 3f 7
+t3$q 1fe0 3ff8 601c c00c c004 c004 c00e 701f 3ffb 7c1
+t3$d 20 70 f8 1fc 3fe fff
+t3$c 60 1f0 1f8 1f8 1ff8 3ff8 3ff7
+t3$s 60 1f0 23f0 7f8 ff8 1ff1 3fff
 t3$L ff 10 10 1f
 
 //
