@@ -122,10 +122,10 @@ r$p3bet              427 307 526 319 ffffffff    0 T0
 r$p3cardback          22 503  22 503 ff2b2b2b    1 C
 r$p3cardface0nocard  472 327 472 327 ffffffff   -5 C
 r$p3cardface0rank    443 325 471 345 ffffffff  -50 T1
-r$p3cardface0suit    463 350 475 368 ffe8e8e8  -50 T1
+r$p3cardface0suit    463 349 475 367 ffe8e8e8  -50 T1
 r$p3cardface1nocard  510 327 510 327 ffffffff   -5 C
 r$p3cardface1rank    481 325 509 345 fff5f5f5  -50 T1
-r$p3cardface1suit    501 350 513 368 ffe5e5e5  -50 T1
+r$p3cardface1suit    501 349 513 367 ffe5e5e5  -50 T1
 r$p3dealer           537 329 537 329 ffd9d9d9    5 C
 r$p3name             402 412 406 416        0    0 H0
 r$p3seated           443 459 443 459 ff100e88  450 C
@@ -660,6 +660,7 @@ t1$q 3fe00 fff80 1fffc0 3fffe0 7ffff0 fc01f8 f800f8 f00078 f00078 f00078 f00078 
 t1$6 3fe0 fff8 3fffc 7fffe 7fe7f f9c0f 1f3c0f 1e3c0f 1e3c0f 1e3e1f 1e3ffe 1ffe ffc 7f8 40
 t1$c 3ff 3ff 3ff 3fff 7fff 7fff 7fff 7fff 3fff 3ff 3ff 3ff 1ff 1f 1f
 t1$h 3fff 3fff 7fff ffff ffff ffff fffe 7ff8 7ff0 3fe0 f00
+t1$c 3ffff 3fc73 1f8f8 f9fc 3fe 3fe 3fe 1fc 1f8 70
 t1$d 3fffff 1ffffe ffffc 3fff0 3ffe0 1ffe0 ffc0 7f80 3f00 1e00 c00
 t1$h 3fffff 3ffffe 3ffffe 3ffffc 3ffff8 3fffe0 1fffc0 fff80 7fe00 1f800
 t1$k 3fffff 3fffff 3fffff 3fffff 3fffff 3f80 7f00 ff00 3ffc0 7ffe0 feff8 1fc7fc 3f81fe 3f00ff 3c003f 38001f 300007 3
@@ -965,6 +966,26 @@ i$autopost223      28  13
 010101ff0b0b0bff060606ff040404ff000004ff020110ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff020218ff020218ff020218ff020217ff020217ff020217ff020217ff020217ff020217ff
 010101ff0a0a0aff060606ff040404ff000004ff020110ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff020218ff020218ff020218ff020218ff020217ff020217ff020217ff020217ff020217ff020217ff020217ff
 010101ff0a0a0aff060606ff040404ff000004ff020110ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff030218ff020218ff020218ff020218ff020218ff020217ff020217ff020217ff020217ff020217ff020217ff020217ff
+i$c                13  19 
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+5d5353ffa49e9dfff8f8f8ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+493b3aff4a3c3bff605352fff8f8f8ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+493b3aff493b3aff493b3affb7b1b1fffefefefffefefefffefefefffefefefffefefefffefefefffefefefffefefefffefefeff
+493b3aff493b3aff493b3aff493b3afffefefefffefefefffefefefffefefefffefefefffefefefffefefefffefefefffefefeff
+493b3aff493b3aff493b3aff493b3afff6f6f6fffdfdfdfffdfdfdfffdfdfdfffdfdfdfffdfdfdfffdfdfdfffdfdfdfffdfdfdff
+493b3aff493b3aff493b3aff5c5150fffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcff
+483b3aff483b3aff483b3affc1bdbdfffbfbfbfffbfbfbfffbfbfbfffbfbfbfffbfbfbfffbfbfbfffbfbfbfffbfbfbfffbfbfbff
+483a39ff483a39ffd7d4d4fffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafafffafafaff
+473a39ffd5d3d3fff8f8f8ffe8e7e7ff9a9494ff878080ff948d8dffdfddddfff8f8f8fff8f8f8fff8f8f8fff8f8f8fff8f8f8ff
+473938fff5f5f5ffe7e6e6ff413534ff443736ff473938ff473938ff473938ffb0acacfff5f5f5fff5f5f5fff5f5f5fff5f5f5ff
+908887fff0f0f0ff433838ff433736ff463838ff463838ff463838ff463838ff463838ffdedddcfff2f2f2fff2f2f2fff2f2f2ff
+453837ff5a4d4cff453837ff453837ff453837ff453837ff453837ff453837ff453837ffaea8a8ffefefefffefefefffefefefff
+443736ff443736ff443736ff443736ff443736ff443736ff443736ff443736ff443736ff9f9999ffebebebffebebebffebebebff
+675d5cff8f8989ff403433ff423635ff423635ff423635ff423635ff423635ff423635ffb2aeaeffe6e6e6ffe6e6e6ffe6e6e6ff
+544948ffe1e1e1ff5b5352ff3c3130ff413434ff413434ff413434ff413434ff413434ffdfdedeffe1e1e1ffe1e1e1ffe1e1e1ff
+3f3332ffd6d6d6ffdadadaff524949ff3b302fff3f3332ff3f3332ff514645ffcccbcaffdcdcdcffdcdcdcffdcdcdcffdcdcdcff
+3e3231ffafadacffd6d6d6ffd6d6d6ffcac9c9ff9f9c9bffbcbbbbffd5d5d5ffd6d6d6ffd6d6d6ffd6d6d6ffd6d6d6ffd6d6d6ff
+3c302fff4e4342ffcececeffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcfffcfcfcfff
 i$true_s           5   5  
 686868ff686868ff686868ff686868ff686868ff
 656465ff656465ff656465ff656465ff656465ff
