@@ -1,6 +1,6 @@
 .osdb2
 
-// OpenScrape 13.1.3
+// OpenScrape 13.0.2
 
 // 32 bits per pixel
 
@@ -16,6 +16,8 @@ z$targetsize       960  560
 // strings
 //
 
+s$!titletext                Jackpot
+s$!titletext0               TBL#
 s$allinconfirmationmethod   1
 s$betpotmethod              Raise
 s$betsizeconfirmationmethod Click Bet
@@ -32,17 +34,12 @@ s$t2type                    0
 s$t3type                    0
 s$titletext                 Hold'em
 s$ttlimits                  ^s/^b ^L
+s$ttlimits0                 ^s/^b ^a Ante ^L
 
 //
 // regions
 //
 
-r$betpot_1_1button   561 521 570 537        0    0 N
-r$betpot_1_1state    567 537 567 537 ff40408b    5 C
-r$betpot_1_2button   344 521 401 537        0    0 N
-r$betpot_1_2state    384 537 384 537 ff40408b    5 C
-r$betpot_3_4button   455 521 485 537        0    0 N
-r$betpot_3_4state    475 537 475 537 ff40408d    5 C
 r$c0cardface0nocard  379 209 379 209 ffffffff   -5 C
 r$c0cardface0rank    338 208 370 237 ffffffff   -5 T1
 r$c0cardface0suit    347 241 380 270 ffffffff   -5 T1
@@ -58,15 +55,15 @@ r$c0cardface3suit    526 241 559 270 ffffffff   -5 T1
 r$c0cardface4nocard  618 209 618 209 ffffffff   -5 C
 r$c0cardface4rank    576 208 608 237 ffffffff   -5 T1
 r$c0cardface4suit    586 241 619 270 ffffffff   -5 T1
-r$c0pot0             400 157 555 181 ffffffff    5 T0
+r$c0pot0             421 157 550 181 ffffffff    5 T0
 r$i0button           343 436 405 467        0    0 N
 r$i0label            367 447 404 458 ffffffff    5 T3
 r$i0state            377 467 377 467 ff000050   30 C
 r$i1button           499 436 549 467        0    0 N
-r$i1label            485 447 584 458 ffffffff    5 T3
+r$i1label            482 447 573 458 ffffffff    5 T3
 r$i1state            519 467 519 467 ff000053   30 C
 r$i2button           663 436 725 467        0    0 N
-r$i2label            646 447 745 458 ffffffff    5 T3
+r$i2label            639 447 745 458 ffffffff    5 T3
 r$i2state            696 467 696 467 ff00004c   30 C
 r$i3button           676 521 756 537        0    0 N
 r$i3edit             677 486 759 505        0    0 N
@@ -77,13 +74,15 @@ r$i4label            600 524 637 534 ffffffff    5 T3
 r$i4state            654 529 654 529 ff40408a    5 C
 r$i860button         939  15 945  24        0    0 N
 r$i860state          940  14 944  14 ffffffff    5 C
+r$i862button         502 439 597 464        0    0 N
+r$i862state          559 446 597 457 ff333333    5 T0
 r$i9button            36 462 107 468        0    0 N
 r$i9label             33 461  62 469 ffe3e3e3    5 T3
 r$i9state             19 463  22 466 ff000053    5 C
 r$p0active           511 139 512 145 ff8585d2  -10 C
 r$p0balance          451 109 530 123 ff000000  100 T2
 r$p0bet              555 138 624 150 ffffffff    5 T0
-r$p0cardback         452  74 452  74 ff2b2b2b    5 C
+r$p0cardback         452  74 452  74 ff2b2b2b   25 C
 r$p0cardface0          0   0   0   0        0    0 N
 r$p0cardface0nocard    0   0   0   0        0  442 C
 r$p0cardface1          0   0   0   0        0    0 N
@@ -94,7 +93,7 @@ r$p0seated           437 104 439 104 ff000096  -10 C
 r$p1active           784 190 785 196 ff7e7ec7  -10 C
 r$p1balance          725 160 804 174 ff000000  100 T2
 r$p1bet              629 189 698 201 ffffffff    5 T0
-r$p1cardback         726 125 726 125 ff2b2b2b    5 C
+r$p1cardback         726 125 726 125 ff2b2b2b   25 C
 r$p1cardface0          0   0   0   0        0    0 N
 r$p1cardface0nocard    0   0   0   0        0  442 C
 r$p1cardface1          0   0   0   0        0    0 N
@@ -105,7 +104,7 @@ r$p1seated           710 155 712 155 ff000095  -10 C
 r$p2active           784 356 785 362 ff7e7ec7  -10 C
 r$p2balance          725 326 804 340 ff000000  100 T2
 r$p2bet              651 288 720 300 ffffffff    5 T0
-r$p2cardback         726 291 726 291 ff2b2b2b    5 C
+r$p2cardback         726 291 726 291 ff2b2b2b   25 C
 r$p2cardface0          0   0   0   0        0    0 N
 r$p2cardface0nocard    0   0   0   0        0  442 C
 r$p2cardface1          0   0   0   0        0    0 N
@@ -129,7 +128,7 @@ r$p3seated           437 399 439 399 ff0000a7  -10 C
 r$p4active           237 356 238 362 ff7e7ecc  -10 C
 r$p4balance          177 326 256 340 ff000000  100 T2
 r$p4bet              260 288 329 300 ffffffff    5 T0
-r$p4cardback         178 291 178 291 ff2b2b2b    5 C
+r$p4cardback         178 291 178 291 ff2b2b2b   25 C
 r$p4cardface0          0   0   0   0        0    0 N
 r$p4cardface0nocard    0   0   0   0        0  442 C
 r$p4cardface1          0   0   0   0        0    0 N
@@ -140,7 +139,7 @@ r$p4seated           163 347 165 347 ff000091  -10 C
 r$p5active           237 190 238 196 ff7e7ecc  -10 C
 r$p5balance          177 160 256 174 ff000000  100 T2
 r$p5bet              282 189 351 201 ffffffff    5 T0
-r$p5cardback         178 125 178 125 ff2b2b2b    5 C
+r$p5cardback         178 125 178 125 ff2b2b2b   25 C
 r$p5cardface0          0   0   0   0        0    0 N
 r$p5cardface0nocard    0   0   0   0        0  442 C
 r$p5cardface1          0   0   0   0        0    0 N
@@ -148,7 +147,7 @@ r$p5cardface1nocard    0   0   0   0        0  442 C
 r$p5dealer           276 178 277 178 fff4f4f4   10 C
 r$p5name               0   0   0   0        0    0 N
 r$p5seated           163 155 165 155 ff000089  -10 C
-r$tablepoint0        373 101 373 101 ff000093   30 C
+r$tablepoint0         20  19  20  19 ff00a5ff   20 C
 
 //
 // fonts
@@ -168,10 +167,14 @@ t0$9 1f0 199 10b 11b 1fe 78
 t0$5 1f6 1f3 121 133 13f 11e
 t0$p 1ff 104 104 104 f8 20
 t0$a 27 49 49 49 3f
+t0$r 3 1f fc 3ec 30c 3ec fc 1f 3
 t0$. 3 3
 t0$$ 398001 7cc000 1cc6000 464000 77c000 338000
 t0$l 3ff
 t0$p 3ff 208 208 208 1f0 40
+t0$u 3ff 3ff 1c0 f0 3c e 3ff 3ff
+t0$T 3ff 3ff 30 30 30 30 3ff 3ff
+t0$e 3ff 3ff 303 303 303 387 1fe fc
 t0$2 40 1c3 187 10d 139 1f1 c1
 t0$t 40 1fe 41 41
 t0$: 41
