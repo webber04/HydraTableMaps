@@ -39,6 +39,7 @@ s$sitename                  betonline6_2
 s$t0type                    fuzzy
 s$t1type                    0.35
 s$t2type                    0.35
+s$t3type                    0
 s$titletext                 Seater
 s$titletext0                Hand
 s$ttlimits                  ^*em: ^s/^b
