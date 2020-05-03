@@ -31,6 +31,7 @@ s$betsizeconfirmationmethod Click Bet
 s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Dbl Click
+s$c0limits                  ^L
 s$nchairs                   6
 s$network                   bol
 s$potmethod                 1
@@ -62,6 +63,7 @@ r$c0cardface3suit    432 218 446 232 ffffffff  -15 T0
 r$c0cardface4nocard  523 205 523 205 ffffffff   -5 C
 r$c0cardface4rank    490 197 504 216 ffffffff  -15 T0
 r$c0cardface4suit    490 218 504 232 ffffffff  -15 T0
+r$c0limits           729   9 740  16 ffffffff  120 T3
 r$c0pot0             363 293 448 305 ffffffff  180 T1
 r$i0button           513 519 523 524        0    0 N
 r$i0label            421 522 512 552 ff202094 -300 T0
@@ -409,6 +411,8 @@ t2$1 80 80 100 7ff 7ff
 t2$8 c 3be 663 663 663 3be 10c
 t2$4 c 3c 4c 10c 7ff 7ff c
 t2$4 c 3c 4c 18c 7ff 7ff c
+t3$N 62 91 91 81 89 46
+t3$L ff
 
 //
 // points
