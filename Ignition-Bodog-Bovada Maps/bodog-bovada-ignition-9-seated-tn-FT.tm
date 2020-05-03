@@ -177,7 +177,8 @@ r$p8cardface1nocard    0   0   0   0        0  442 C
 r$p8dealer           443 121 444 121 fff3f3f3   10 C
 r$p8name               0   0   0   0        0    0 N
 r$p8seated           330  98 332  98 ff4d294c  -30 C
-r$tablepoint0         19  19  19  19 ff37ae4c   20 C
+r$tablepoint0        819  19 819  19 ffffffff    5 C
+r$tablepoint1        819  19 819  19 ffffffff    5 C
 
 //
 // fonts
