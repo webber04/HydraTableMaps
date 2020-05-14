@@ -60,7 +60,7 @@ r$c0cardface3suit    237 136 247 148 ffffffff  239 T3
 r$c0cardface4nocard  277 145 277 145 ff2f2e77    5 C
 r$c0cardface4rank    275 122 286 135 ffffffff  205 T3
 r$c0cardface4suit    275 136 285 148 ffffffff  200 T3
-r$c0pot0             202 183 274 193 ff41b4ef   91 T1
+r$c0pot0             202 183 274 193 ffdddddd   91 T1
 r$c0pot1             218 173 286 183 ff40b2ee  130 T1
 r$i0button            81 293 161 307        0    0 N
 r$i0label            106 295 135 305        0    0 H0

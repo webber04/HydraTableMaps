@@ -25,7 +25,7 @@ s$betsizedeletionmethod     Backspace
 s$betsizeinterpretationmethod 3
 s$betsizeselectionmethod    Click Drag
 s$buttonclickmethod         Single
-s$c0limits                  ^LINDS^s/^b
+s$c0limits                  ^LINDS^s/^bANTE^a
 s$nchairs                   9
 s$network                   global
 s$potmethod                 1
@@ -45,7 +45,7 @@ s$ttlimits0                 ^* ^* ^s/^b
 r$CHAR                14 148  28 166 ffffffff   -5 T2
 r$c0cardface0nocard  298 219 298 219 ffffffff   -5 C
 r$c0cardface0rank    259 200 274 213 ffffffff -160 T2
-r$c0cardface0suit    259 215 275 228 ffffffff  -50 T2
+r$c0cardface0suit    259 214 275 227 ffffffff  -50 T2
 r$c0cardface1nocard  347 219 347 219 ffffffff   -5 C
 r$c0cardface1rank    309 200 324 213 ffffffff -160 T2
 r$c0cardface1suit    309 214 325 227 ffffffff  -50 T2
@@ -58,7 +58,7 @@ r$c0cardface3suit    410 214 425 227 ffffffff  -50 T2
 r$c0cardface4nocard  497 220 497 220 ffffffff   -5 C
 r$c0cardface4rank    460 200 473 213 ffffffff -160 T2
 r$c0cardface4suit    460 214 475 227 ffffffff  -50 T2
-r$c0limits           250 177 351 185 ff437e5e   25 T1
+r$c0limits           250 177 382 186 ff437e5e   25 T1
 r$c0pot0             257 276 348 289 ffffffff   80 T1
 r$c0pot1             479 177 556 189 ffffffff  205 N
 r$i0button           468 513 541 540        0    0 N
@@ -75,7 +75,7 @@ r$i3edit             647 482 718 496        0    0 N
 r$i3label            656 520 713 532 ffffffff   50 T3
 r$i3state            721 513 721 513 ff1bb54d   50 C
 r$i5button           654 517 715 538        0    0 N
-r$i5label            689 526 689 528        0    0 H0
+r$i5label            650 516 713 538 ffffffff    0 T3
 r$i5state             64 456  64 456 ff42cbae    5 C
 r$i860button         418 262 504 287        0    0 N
 r$i860state          397 275 397 275 ff2525c2   15 C
@@ -142,12 +142,12 @@ r$p4bet              367 323 446 335 ffffffff   55 T1
 r$p4cardback         423 348 423 348 ff000000    5 C
 r$p4cardface0         15 374  29 374        0    0 N
 r$p4cardface0nocard  421 348 421 348 ffffffff  -15 C
-r$p4cardface0rank    369 342 383 353 ffffffff -160 T0
-r$p4cardface0suit    369 354 383 366 ffffffff  -75 T0
+r$p4cardface0rank    368 342 382 353 ffffffff -160 T0
+r$p4cardface0suit    368 354 382 366 ffffffff  -75 T0
 r$p4cardface1         43 318  43 318        0    0 N
 r$p4cardface1nocard  421 358 421 358 ffffffff  -15 C
-r$p4cardface1rank    388 342 403 353 ffffffff -160 T0
-r$p4cardface1suit    388 354 402 366 ffffffff  -75 T0
+r$p4cardface1rank    387 342 402 353 ffffffff -160 T0
+r$p4cardface1suit    387 354 401 366 ffffffff  -75 T0
 r$p4dealer           398 318 398 318 fff6f8f7  295 C
 r$p4name             367 385 454 398 ffffffff    0 T0
 r$p4seated           242  36 242  36 ff049ee9  450 C
@@ -552,6 +552,7 @@ t1$9 1e2 3f3 211 211 3fe 1fc
 t1$5 1e3 3e1 221 223 23e 21c
 t1$5 1e3 3f3 321 323 333 21e c
 t1$/ 1 e 70 80
+t1$A 1 e 74 74 e 1
 t1$5 1 f3 3e1 221 223 23e 1c
 t1$/ 1 f 38 1e0 100
 t1$A 1 f 78 3e8 208 3e8 7c f 1
@@ -640,6 +641,7 @@ t1$2 403 407 80f 81b c33 7c3 383
 t1$2 403 c07 80b 813 c63 7c3 303
 t1$2 403 c07 80f 81b c33 7c3 383
 t1$3 403 c41 841 841 ce3 7be 31c
+t1$T 40 40 7f 40 40
 t1$1 40 80 1ff
 t1$1 40 80 1ff 1ff
 t1$4 4 1c 24 c4 1ff 1ff 4
@@ -688,6 +690,7 @@ t1$L 7f 1 1 1
 t1$N 7f 30 1c 6 7f
 t1$D 7f 41 41 41 3e
 t1$D 7f 41 41 43 3e
+t1$E 7f 49 49
 t1$N 7f 49 49 49 77
 t1$N 7f 49 49 77
 t1$N 7f 60 18 c 3 7f
@@ -871,6 +874,8 @@ t3$t 40 fe 1ff 41 41
 t3$a 47 49 49 49 7e 3f
 t3$s 71 59 49 4f
 t3$C 7c c6 181 101 101 101 100
+t3$n 7f 3f 40 40 60 3f
+t3$S e1 131 111 119 10e
 t3$c f 18 10 10 10
 t3$e f 1a 12 12 e
 t3$k ff 3 6 d 10
