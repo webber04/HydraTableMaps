@@ -1,2 +1,0 @@
-The 3 .exe executables are to handle any popups. Are built with autoit, and you can edit them even with notepad++ if you dont have autoit installed.
-It can be annoying when you try to rebuy, cause the script will auto close the rebuy window, so to avoid that, deactivate them, do the rebuy/addon and then activate them again. 
