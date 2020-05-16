@@ -9,14 +9,14 @@
 //
 
 z$clientsizemax    1028  772
-z$clientsizemin    1020  764
+z$clientsizemin    500  400
 z$targetsize       1024  768
 
 //
 // strings
 //
 
-s$!titletext                MTT
+s$!titletext                Table #
 s$allinconfirmationmethod   1
 s$betpotmethod              Raise
 s$betsizeconfirmationmethod Click Bet
@@ -155,7 +155,7 @@ r$p5cardface1nocard    0   0   0   0        0  442 C
 r$p5dealer           190 263 191 265 fffabd9b    5 C
 r$p5name              37 201 144 217 fff4f8f2  175 T0
 r$p5seated            34 197  36 197 ff345679   -5 C
-r$tablepoint0        981 723 981 723 ff00e7ff    5 C
+r$tablepoint0         21  19  21  19 ff030910   20 C
 
 //
 // fonts
@@ -533,6 +533,7 @@ t3$$ 102 3c3 663 663 633 633 61e c
 t3$T 1800 1800 1800 1fff 1fff 1800 1800 1800
 t3$7 1800 1800 1803 181f 187c 19f0 1f80 1e00
 t3$7 1800 1800 1807 181e 1878 1bc0 1f00 1c00
+t3$3 1802 1802 18c3 18c3 18c6 1f7e f3c
 t3$$ 182 7c3 6c3 663 e77 633 63e 41e
 t3$4 18 38 f8 198 718 c18 1fff 1fff 18
 t3$4 1c 3c cc 18c 60c fff fff c

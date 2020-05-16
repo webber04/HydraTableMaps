@@ -1,6 +1,6 @@
 .osdb2
 
-// OpenScrape 13.1.3
+// OpenScrape 13.0.2
 
 // 32 bits per pixel
 
@@ -9,7 +9,7 @@
 //
 
 z$clientsizemax    1028  772
-z$clientsizemin    1020  764
+z$clientsizemin    500  400
 z$targetsize       1024  768
 
 //
@@ -30,7 +30,7 @@ s$t0type                    0.5
 s$t1type                    0.3
 s$t2type                    0.3
 s$t3type                    0.3
-s$titletext                 MTT
+s$titletext                 Table #
 s$ttlimits                  ^* ^LH ^* Blinds: ^s/^b(^a)
 s$ttlimits0                 ^* ^LH ^* Blinds: ^s/^b
 
@@ -38,14 +38,6 @@ s$ttlimits0                 ^* ^LH ^* Blinds: ^s/^b
 // regions
 //
 
-r$betpot_1_1button   492 707 541 723        0    0 N
-r$betpot_1_1state    539 706 539 706 ff808080    3 C
-r$betpot_1_2button   324 707 373 723        0    0 N
-r$betpot_1_2state    371 706 371 706 ff808080    3 C
-r$betpot_2_3button   380 707 429 723        0    0 N
-r$betpot_2_3state    427 706 427 706 ff808080    3 C
-r$betpot_3_4button   436 707 485 723        0    0 N
-r$betpot_3_4state    483 706 483 706 ff808080    3 C
 r$c0cardface0nocard  409 266 409 266 ffeff6f9   -5 C
 r$c0cardface0rank    355 265 378 290 fff2f8f9 -150 T2
 r$c0cardface0suit    355 292 374 310 ffecf4f8 -150 T2
@@ -182,7 +174,7 @@ r$p8cardface1nocard    0   0   0   0        0  442 C
 r$p8dealer           435 166 436 168 fffabd9b    5 C
 r$p8name             299 121 406 137 fff4f8f2  175 T0
 r$p8seated           294 117 296 117 ff6b92bd   -5 C
-r$tablepoint0        981 723 981 723 ff00e7ff    5 C
+r$tablepoint0         21  19  21  19 ff030910   20 C
 
 //
 // fonts
