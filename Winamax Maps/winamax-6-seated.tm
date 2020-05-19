@@ -323,6 +323,7 @@ t0$4 8 38 1cc 3ff c
 t0$4 8 38 80 3ff 8
 t0$4 8 38 88 3ff c
 t0$4 8 38 c8 3ff c
+t0$4 8 3c 18c 3ff c
 t0$4 8 3c 1cc 3ff c
 t0$$ 8 6c 8a 9 9 80
 t0$4 8 78 1cc 3ff c
