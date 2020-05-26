@@ -1,6 +1,6 @@
 .osdb2
 
-// OpenScrape 13.1.3
+// OpenScrape 13.0.2
 
 // 32 bits per pixel
 
@@ -136,7 +136,7 @@ r$p5dealer           192 138 192 138 ffebebf0   30 C
 r$p5name               0   0   0   0        0    0 N
 r$p5seated           212 105 214 108 ff909093   -5 C
 r$tablepoint0        156  14 157  15 ff568d3e    5 C
-r$tablepoint1        344 341 344 342 ff494949    5 C
+r$tablepoint1        344 342 344 342 ff4d4d4d    5 C
 
 //
 // fonts
