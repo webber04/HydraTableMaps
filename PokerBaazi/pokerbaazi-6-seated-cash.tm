@@ -143,11 +143,13 @@ r$tablepoint0        156  14 157  15 ff568d3e    5 C
 //
 
 t0$3 1018 f01e f01f 1c387 1c383 1c383 1e7c7 ffff fefe 10
+t0$d 10 38 3c 7e 1ff 3ff
 t0$8 10 7cfe ffff 1ffc7 1c383 1c383 1e7c7 1ffff fefe 38
 t0$s 18 3c 7e fe 1ff 3ff
 t0$8 18e 7ff 673 621 673 7ff 39e
 t0$7 1c000 1c000 1c003 1c00f 1c0ff 1c3fc 1dfe0 1ff80 1fc00 1c000
 t0$c 1c 3e 7e 1fe 3ff 3ff
+t0$s 1c 3e 7e fe 1ff 3ff
 t0$4 1c 7c ec 3cc 7ff 7ff c
 t0$9 1e00 7f80 ffc3 1e1e3 1c0e7 1c0e7 1e1de fffe 7ffc 700
 t0$s 1e0 3f0 7f8 ff8 1ff8 3ffb 7fff
@@ -163,21 +165,34 @@ t0$3 306 707 623 631 673 7ff 19e
 t0$d 30 78 fc 1fe 3ff
 t0$4 30 f0 3f0 ff0 3f30 7c30 1ffff 1ffff 1ffff 30 30
 t0$5 31c 1ff1f 1ff0f 1c703 1c703 1c707 1c7df 1c3fe 1c0fc
+t0$8 31c ffe ce3 c43 ce3 ffe 31c
 t0$A 3 1f fe 7f8 708 7e8 fc 1f 3
 t0$2 3803 f807 f80f 1e03f 1c07b 1c1f3 1c3e3 1ff83 ff03 1003
 t0$2 383 787 60f 61d 679 7e1 3c1
+t0$4 38 78 1f8 798 fff fff 18
+t0$9 3c0 fe3 c33 c37 e3e 7fc 3f0
 t0$Q 3fc 7fc c06 c06 c06 7ff 3ff
+t0$0 3fc ffe c07 c03 c03 ffe 3fc
+t0$0 3ff8 fffe 1ffff 1c007 1c003 1c007 1f01f fffe 7ffc
 t0$d 40 e0 1f0 3f8 7fc ffe 1fff
 t0$5 4 7e7 7e3 661 661 67f 63e
+t0$1 600 600 600 fff fff
 t0$7 600 601 607 63e 6f8 7c0 700
+t0$1 7000 6000 e000 e000 1ffff 1ffff
 t0$1 7000 7000 e000 e000 ffff 1ffff 1ffff
+t0$2 703 f0f c1f c3b cf3 fc3 783
+t0$3 70c f0e c43 c63 ce7 ffe 31c
 t0$A 7 3f 1ff ffc 7ff0 1fc30 1f830 1ff30 3ff0 7fe 7f f 1
 t0$6 7c 3ff 3e3 641 663 67f 3e
 t0$0 7e0 7ffe ffff 1e007 1c003 1c003 1e007 ffff 7ffe 1ff0
 t0$Q 7fc0 1fff0 1fff8 38038 3801c 3001c 3801c 3c03e 1ffff fff7 1f82
 t0$K 7ff 7ff 70 1f8 39c 70f 603 401
+t0$5 8 fce fc7 cc3 cc3 cff c7e
+t0$7 c00 c03 c0f c7e df0 fc0 e00
 t0$J c e 6 3 6 ffe ffc
+t0$6 f8 7fe 7c7 cc3 cc3 cfe 7c
 t0$h fc0 1fe0 1ff0 1ff8 1ffe 1fff
+t0$k fff fff e0 1f0 7bc e1e c07 803
 t1$. 1
 t1$7 100 103 10e 178 1c0
 t1$. 1 1
