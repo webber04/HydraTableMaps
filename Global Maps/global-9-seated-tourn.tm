@@ -861,6 +861,7 @@ t2$5 cc fce fc7 dc3 dc3 cef cfe c7c
 t2$j c f 7 3 3 7ff 7fe
 t2$7 e00 e02 e3f e7e ff0 f80 f00 c00
 t2$d e0 1e0 3f0 7f8 ffc
+t2$j e f 3 3 7ff ffe 7fc
 t3$C 1f 31 60 40 40 40 40
 t3$F 1ff 1ff 110 110 110 100
 t3$R 1ff 1ff 110 118 1be e3 1

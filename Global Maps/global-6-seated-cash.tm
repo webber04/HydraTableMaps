@@ -112,7 +112,7 @@ r$p1dealer           600 202 600 202 ffffffff   15 C
 r$p1name               0   0   0   0 ffffffff    0 T0
 r$p1seated           690 122 690 122 ff181d1c   -5 C
 r$p2active           741 317 741 317 ff211f1e   -5 C
-r$p2balance          654 340 741 355 ffffffff   60 T1
+r$p2balance          670 340 741 355 ffffffff   60 T1
 r$p2bet              577 298 666 309 ffffffff  100 T1
 r$p2cardback         732 295 732 295 ffbf9c65   15 C
 r$p2cardface0        275 229 275 229        0    0 N
@@ -165,7 +165,7 @@ r$u0name               0   0   0   0 ff717171    0 T0
 r$u1balance          655 144 740 161 ff767574   20 T1
 r$u1bet              582 184 661 196 ff678c78   45 T1
 r$u1name               0   0   0   0 ff717171    0 T0
-r$u2balance          654 340 741 355 ff767574   20 T1
+r$u2balance          670 340 741 355 ff767574   20 T1
 r$u2bet              575 298 667 310 ff678c78   45 T1
 r$u2name               0   0   0   0 ff717171    0 T0
 r$u3balance          392 439 477 453 ff6a6968   20 T1
@@ -318,6 +318,7 @@ t0$5 3e1 3e1 221 221 233 21e
 t0$9 3e1 731 411 411 413 36e 1fc
 t0$9 3e4 7e6 637 633 7fe 3fe f0
 t0$9 3e6 7f7 613 633 3fe 1fc
+t0$q 3f0 7fc ffe 1e0e 1c0e 1c0e 1c1e 1c1e f1e fff 7ff e0
 t0$a 3 f 7c 1ec 38c 3cc fc 1e 7 1
 t0$Q 3f8 7fc 60e c06 c0e c0e 60e 7fe 3ff e2
 t0$Q 3f8 7fc 70e e06 c0e c1e 60e 7fe 3ff f3
@@ -408,6 +409,7 @@ t0$s 8 3c 7c fc 1fd 3ff 1fd fc 7c 3c 18
 t0$6 8 7e d1 91 9f 4
 t0$8 8c 3ff 7ff 663 673 3ff 1de
 t0$7 c00 c01 c07 c3e cf0 fc0 e00
+t0$7 c00 c0f c7f df0 f80 e00 c00
 t0$h c0 1f0 1f8 1fc 1fe ff ff 1fe 1fc 1f8 1f0 40
 t0$h c0 1f0 1f8 1fc fe ff 1fc 1f8 1f0 e0
 t0$h c0 1f0 1f8 3fc 1fe 1ff 1ff 1fe 3fc 1f8 1f0 c0
@@ -420,10 +422,12 @@ t0$h c0 f0 1f8 1fc ff 7f ff 1fe 1f8 1f0 e0
 t0$4 c 1c 7c ec 1cc 3ff 3ff c
 t0$4 c 1c 7c ec 3cc 3ff 3ff c
 t0$4 c 3c 6c 1cc 70c fff fff c c
+t0$5 cc fce fc7 fc7 cc7 cfe cfe 38
 t0$j c e 6 7 7fe 7fe 7f8
 t0$j c e 6 7 e 7fe 7fc
 t0$j c e 7 3 7fe 7fe
 t0$j c e 7 6 7fe 7fc
+t0$3 e0e e0e 1cc7 1cc7 fee ffe 23c
 t0$$ e1 1b1 1ff 111 11b 10e
 t0$5 e6 7e7 763 643 677 63e 8
 t0$5 ec 7ee 7c6 6c3 6e6 67e 38
@@ -645,6 +649,7 @@ t2$0 1fc 7fe 70e 603 607 7fe 3fc
 t2$6 1fe 3ff 663 663 663 37f 13e
 t2$h 1ff 1ff 20 20 30 1f
 t2$k 1ff 6 c 1b 21
+t2$d 20 70 f0 1f8 3fc 7fe fff fff 3fe 1fc f8 f0 60
 t2$d 20 70 f8 1fc 3fe 7ff 7ff 3fe fc 78 70 20
 t2$5 26 3e7 3e3 361 363 33f 23e
 t2$1 300 300 fff fff

@@ -10,7 +10,7 @@
 
 z$clientsizemax    1000  700
 z$clientsizemin    600  400
-z$targetsize       702  477
+z$targetsize       697  477
 
 //
 // strings
@@ -55,19 +55,19 @@ r$c0cardface4nocard  470 166 470 166 ffffffff   -5 C
 r$c0cardface4rank    430 165 449 183 ffffffff  -10 T0
 r$c0cardface4suit    430 184 437 199 ffffffff  -10 T0
 r$c0pot0             300 113 399 123 ffffffff    5 T1
-r$i0button           449 428 522 465        0    0 N
-r$i0label            471 437 500 451 ffffffff    5 T2
+r$i0button           449 432 522 469        0    0 N
+r$i0label            471 440 500 454 ffffffff    5 T2
 r$i0state            520 465 520 465 ff07249b   50 C
-r$i1button           534 428 608 465        0    0 N
-r$i1label            547 428 594 447 ffffffff    5 T2
+r$i1button           534 431 608 468        0    0 N
+r$i1label            547 431 594 450 ffffffff    5 T2
 r$i1state            606 465 606 465 ff3d8d13   50 C
-r$i2button           620 428 694 465        0    0 N
-r$i2label            634 428 681 440 ffffffff    5 T2
+r$i2button           620 431 694 468        0    0 N
+r$i2label            634 431 681 443 ffffffff    5 T2
 r$i2state            692 465 692 465 ff0e8ed6   50 C
-r$i3button           658 370 687 383        0    0 N
-r$i3edit             632 397 694 416        0    0 N
-r$i3label            660 372 684 381 ffffffff    5 T2
-r$i3state            664 419 664 419 ff696969   50 C
+r$i3button           658 373 687 386        0    0 N
+r$i3edit             632 400 694 419        0    0 N
+r$i3label            660 374 684 383 ffffffff    5 T2
+r$i3state            664 421 664 421 ff696969   50 C
 r$p0active             0   0   0   0 ffa5a5a8  450 C
 r$p0balance          415 106 490 118 ff4dd8d7  250 T3
 r$p0bet              349 146 430 157 ffffffff   30 T1
@@ -185,6 +185,7 @@ t0$3 70c f0e c43 c63 ce7 ffe 31c
 t0$A 7 3f 1ff ffc 7ff0 1fc30 1f830 1ff30 3ff0 7fe 7f f 1
 t0$6 7c 3ff 3e3 641 663 67f 3e
 t0$0 7e0 7ffe ffff 1e007 1c003 1c003 1e007 ffff 7ffe 1ff0
+t0$q 7f8 ffc 180c 180c 180c ffe 7fb
 t0$Q 7fc0 1fff0 1fff8 38038 3801c 3001c 3801c 3c03e 1ffff fff7 1f82
 t0$K 7ff 7ff 70 1f8 39c 70f 603 401
 t0$5 8 fce fc7 cc3 cc3 cff c7e
