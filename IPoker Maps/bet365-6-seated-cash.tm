@@ -26,7 +26,7 @@ s$betsizeselectionmethod    Sgl Click
 s$nchairs                   6
 s$network                   ipoker
 s$potmethod                 2
-s$sitename                  williamhill-6-seated
+s$sitename                  bet365-6-seated
 s$t0type                    0.3
 s$t1type                    0.3
 s$t2type                    0.3
@@ -70,14 +70,14 @@ r$i3label            952 614 987 626 ffffffff   90 T3
 r$i3state            734 640 734 640 ffffffff    1 C
 r$i4button            32 660  87 675        0    0 N
 r$i4label             14 662  58 674 ffffffff  135 T3
-r$i4state              8 650   9 657 ff2e2e2d    5 C
+r$i4state              8 650   9 657 ff3b3b3b    5 C
 r$i5button           661 667 767 718        0    0 N
 r$i5label            720 671 761 685 ffffffff   30 T3
 r$i5state            662 716 662 716 ff2f2f2f  -25 C
 r$i862button          16 353  35 402        0    0 N
-r$i862state            8 650   9 657 ff887126   10 C
+r$i862state            8 650   9 657 ff44551f   10 C
 r$i863button          19 533 140 549        0    0 N
-r$i863state            8 650   9 657 ff3d3c3c   10 C
+r$i863state            8 650   9 657 ff323232   10 C
 r$i864button         897 669 1004 715        0    0 N
 r$i864state          924 685 980 704 ffffffff  120 T1
 r$p0active           511  71 511  76 ff8c8c8c  -20 C
