@@ -16,6 +16,7 @@ z$targetsize       1024  768
 // strings
 //
 
+s$!titletext                Table #
 s$allinconfirmationmethod   1
 s$betpotmethod              Raise
 s$betsizeconfirmationmethod Click Bet
@@ -25,19 +26,27 @@ s$betsizeselectionmethod    Sgl Click
 s$nchairs                   9
 s$network                   pacific
 s$potmethod                 2
-s$sitename                  888-9-seated-tn
+s$sitename                  888-9-seated-cash
 s$t0type                    0.5
 s$t1type                    0.3
 s$t2type                    0.3
 s$t3type                    0.3
-s$titletext                 Table #
-s$ttlimits                  ^* ^LH ^* Blinds: ^s/^b(^a)
-s$ttlimits0                 ^* ^LH ^* Blinds: ^s/^b
+s$titletext                 NLH
+s$ttlimits                  ^* ^LH ^s/^b
+s$ttlimits0                 ^* ^* ^LH ^s/^b
 
 //
 // regions
 //
 
+r$betpot_1_1button   492 707 541 723        0    0 N
+r$betpot_1_1state    539 706 539 706 ff808080    3 C
+r$betpot_1_2button   324 707 373 723        0    0 N
+r$betpot_1_2state    371 706 371 706 ff808080    3 C
+r$betpot_2_3button   380 707 429 723        0    0 N
+r$betpot_2_3state    427 706 427 706 ff808080    3 C
+r$betpot_3_4button   436 707 485 723        0    0 N
+r$betpot_3_4state    483 706 483 706 ff808080    3 C
 r$c0cardface0nocard  409 266 409 266 ffeff6f9   -5 C
 r$c0cardface0rank    355 265 378 290 fff2f8f9 -150 T2
 r$c0cardface0suit    355 292 374 310 ffecf4f8 -150 T2
@@ -53,7 +62,7 @@ r$c0cardface3suit    544 292 563 310 ffecf4f8 -150 T2
 r$c0cardface4nocard  661 266 661 266 ffeff6f9   -5 C
 r$c0cardface4rank    607 265 630 290 fff2f8f9 -150 T2
 r$c0cardface4suit    607 292 626 310 ffecf4f8 -150 T2
-r$c0pot0             412 234 610 252 ffffffff   80 T3
+r$c0pot0             430 234 592 252 ffffffff   80 T3
 r$i0button           363 655 444 698        0    0 N
 r$i0label            363 668 426 682 ffffd581  140 T1
 r$i0state            385 697 385 697 ff1f1f1f  -20 C
@@ -73,6 +82,11 @@ r$i4state            515 697 515 697 ff010496   55 C
 r$i5button           578 655 697 698        0    0 N
 r$i5label            579 658 696 673 ff8080f8  183 T1
 r$i5state            640 697 640 697 ff010496   55 C
+r$i6button           918  17 946  39        0    0 N
+r$i6label            958  25 959  33        0    0 H0
+r$i6state            923  27 926  28 ffe77501    5 C
+r$i860button         710 148 798 159        0    0 N
+r$i860state          552 150 556 154 ff979797    5 C
 r$p0active           700 146 700 153 fff8d58e   -5 C
 r$p0balance          617 142 724 158 ffffffff   80 T3
 r$p0bet              547 200 656 217 ffffffff   80 T3
@@ -174,8 +188,6 @@ r$p8cardface1nocard    0   0   0   0        0  442 C
 r$p8dealer           435 166 436 168 fffabd9b    5 C
 r$p8name             299 121 406 137 fff4f8f2  175 T0
 r$p8seated           294 117 296 117 ff6b92bd   -5 C
-r$tablepoint0         21  19  21  19 ff030910   20 C
-r$tablepoint1        352 135 356 135 ff4c4c4d   -5 C
 
 //
 // fonts
@@ -564,10 +576,8 @@ t3$$ 182 7c3 6c3 663 e77 633 63e 41e
 t3$4 18 38 f8 198 718 c18 1fff 1fff 18
 t3$4 1c 3c cc 18c 60c fff fff c
 t3$8 1c f3e 9e3 18c3 18c3 9a3 f3e 1c
-t3$, 1 e
 t3$c 1f8 3fc 606 e07 606 606
 t3$c 1f8 3fc 60e e07 606 606
-t3$, 1 f c
 t3$5 1fc2 1fc3 18c3 18c3 18c7 18fe 187c
 t3$l 1fff 1fff
 t3$1 200 400 c00 1fff 1fff
@@ -591,7 +601,6 @@ t3$$ 386 7c2 6c3 ee3 c73 432 63e 1c
 t3$4 38 78 1d8 318 e18 1fff 1fff 18 18
 t3$2 3 c07 180f 181b 1833 ce3 f83 3
 t3$9 3c0 fe1 c31 c31 c33 e67 7fe 1f8
-t3$, 3 e
 t3$c 3f0 7f8 61c 1c0f c0c c0c
 t3$c 3f8 7bc 60c 1c0f 404 40c
 t3$0 3f8 ffe c03 1803 1803 c07 ffe 1f8
@@ -629,7 +638,6 @@ t3$8 f3e 1fe6 18c3 18c3 19e3 f36 61c
 t3$8 f3e 1ffe 19e3 18c3 19e3 1ff6 f3e 8
 t3$c f8 3fc 30e 607 606 206 200
 t3$6 f8 7fe c46 8c3 18c3 18c3 18fe 3c
-t3$, f c
 t3$9 fc3 1c63 1863 1862 1846 fcc 7f8
 t3$6 fc 3fe 623 c41 cc1 863 87f 3c
 

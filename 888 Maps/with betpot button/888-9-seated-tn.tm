@@ -38,6 +38,14 @@ s$ttlimits0                 ^* ^LH ^* Blinds: ^s/^b
 // regions
 //
 
+r$betpot_1_1button   492 707 541 723        0    0 N
+r$betpot_1_1state    539 706 539 706 ff808080    3 C
+r$betpot_1_2button   324 707 373 723        0    0 N
+r$betpot_1_2state    371 706 371 706 ff808080    3 C
+r$betpot_2_3button   380 707 429 723        0    0 N
+r$betpot_2_3state    427 706 427 706 ff808080    3 C
+r$betpot_3_4button   436 707 485 723        0    0 N
+r$betpot_3_4state    483 706 483 706 ff808080    3 C
 r$c0cardface0nocard  409 266 409 266 ffeff6f9   -5 C
 r$c0cardface0rank    355 265 378 290 fff2f8f9 -150 T2
 r$c0cardface0suit    355 292 374 310 ffecf4f8 -150 T2

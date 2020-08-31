@@ -9,7 +9,7 @@
 //
 
 z$clientsizemax    1028  772
-z$clientsizemin    500  400
+z$clientsizemin    1020  764
 z$targetsize       1024  768
 
 //
@@ -26,7 +26,7 @@ s$betsizeselectionmethod    Sgl Click
 s$nchairs                   6
 s$network                   pacific
 s$potmethod                 2
-s$sitename                  888-6-seated
+s$sitename                  888-6-seated-cash
 s$t0type                    0.5
 s$t1type                    0.3
 s$t2type                    0.3
@@ -39,14 +39,6 @@ s$ttlimits0                 ^* ^* ^LH ^s/^b
 // regions
 //
 
-r$betpot_1_1button   492 707 541 723        0    0 N
-r$betpot_1_1state    539 706 539 706 ff808080    3 C
-r$betpot_1_2button   324 707 373 723        0    0 N
-r$betpot_1_2state    371 706 371 706 ff808080    3 C
-r$betpot_2_3button   380 707 429 723        0    0 N
-r$betpot_2_3state    427 706 427 706 ff808080    3 C
-r$betpot_3_4button   436 707 485 723        0    0 N
-r$betpot_3_4state    483 706 483 706 ff808080    3 C
 r$c0cardface0nocard  409 266 409 266 ffeff6f9   -5 C
 r$c0cardface0rank    355 265 378 290 fff2f8f9 -150 T2
 r$c0cardface0suit    355 292 374 310 ffecf4f8 -150 T2
@@ -155,7 +147,7 @@ r$p5cardface1nocard    0   0   0   0        0  442 C
 r$p5dealer           190 263 191 265 fffabd9b    5 C
 r$p5name              37 201 144 217 fff4f8f2  175 T0
 r$p5seated            34 197  36 197 ff345679   -5 C
-r$tablepoint0         21  19  21  19 ff030910   20 C
+r$tablepoint0        981 723 981 723 ff00e7ff    5 C
 
 //
 // fonts
@@ -451,6 +443,7 @@ t1$X 100 1c3 6c 38 3c c7 181
 t1$I 1c03 1fff 1fff 1fff 1fff 1c03
 t1$A 1 f 7c 184 1c4 3c 7
 t1$A 1 f 7f 3f8 fd8 c18 f18 ff8 1fe 1f 3
+t1$C 1f 7f e0 c0 80 80 80 c0
 t1$C 1f 7f ff e0 1c0 1c0 1c0 1c0 c0
 t1$M 1ff 1e0 f0 e 3 e 70 1e0 1ff
 t1$E 1ff 1ff 1ce 1ce 1ce 1ce 1cc
@@ -464,6 +457,7 @@ t1$O 3f8 606 c02 801 801 801 803 402 3fc e0
 t1$O 3f8 7fc ffe 1e0f 1c07 1c07 1c07 1e0f ffe ffc 3f8
 t1$O 3fc 7fe e07 c03 1c03 1c03 c03 e07 7fe 3fc
 t1$C 3fc 7fe fff e07 1c03 1c03 1c03 c07 c06
+t1$C 60 3fc 79e e06 c03 c03 c03 c03 c02
 t1$A 7 3f 1ff ff8 1f98 1f18 ff8 7fc ff f 1
 t1$A 7 7e 3f8 f18 818 f18 3f8 7e f
 t1$S 787 fc7 fe3 1ce3 1cf7 1c7f e3e c1c
@@ -488,10 +482,13 @@ t1$O f0 3fe 707 603 401 401 401 603 3fe 1fc
 t1$A f 7c 3d8 e18 818 f18 1f8 3e 6
 t1$D f80 1fff 1fff 1c07 1c07 1c07 e0e ffe 7fc 3f0
 t1$L ff0 1fff 1fff e07 7 7 7 7
+t1$K ff 6 4 1e 33 e0 80
 t1$D ff8 801 801 801 801 402 406 39c e0
 t1$L ffc 3 1 1 1 1
+t1$H ff c c c c 4 ff ff
 t1$L ffe 402 2 2 2 3
 t1$L ffe e02 2 2 2 3
+t1$R fff 1fff 1fff 1c60 c70 ffc fff fcf 383
 t1$E fff 1fff 1fff 1ce3 1ce3 1ce3 1ce3
 t1$E fff 1fff 1fff 1ce3 1ce3 1ce3 ce3
 t1$B fff 1fff 1fff ce3 ce7 fe7 fff fbe 21c
@@ -527,6 +524,7 @@ t2$A f 7f 3ff 3fff 1fffc ffff8 ffc78 fe078 ffcf8 ffff8 1fffc 3fff 3ff 7f f
 t2$h fc0 1fe0 1ff0 1ff8 1ff8 1ffc fff fff 1ffe 1ffc 1ff8 1ff0 1fe0 fc0 300
 t2$5 fc0e ffe1e ffe1f ffe0f f1c0f f3c0f f3e0f f1fff f1ffe f0ffe 7f8
 t2$J f f f f 1f fffff fffff ffffe ffff8
+t3$1 100 300 600 eff fff fe0
 t3$1 100 300 600 fff fff
 t3$t 100 3fe fff 303 303
 t3$$ 102 3c3 663 663 633 633 61e c
@@ -586,9 +584,11 @@ t3$$ 786 f86 cc6 1fff c66 c7e 83c
 t3$9 7c0 fe3 1863 1823 1822 c46 7fc 1e0
 t3$9 7c0 fe3 1863 1863 1866 1c46 ffc 7f0
 t3$0 7fc 1c0e 1803 1803 1802 e1e 7fc
+t3$0 7fc 1ffe 1806 1803 1806 1e0e ffc 1e0
 t3$0 7fc 1ffe 1807 1803 1803 1e1e ffc 1f0
 t3$3 803 803 1843 1843 18c3 da6 f3e 18
 t3$7 c00 c00 c01 c07 c3e cf0 fc0 e00
+t3$7 c00 c01 c07 c1e cf8 fe0 f00 c00
 t3$3 c03 c01 c61 c61 c61 fb3 79f c
 t3$2 c07 1c0f 181f 1833 18e3 1fc3 f83 2
 t3$4 c 1c 6c 8c 30c 60c fff c c
