@@ -178,7 +178,7 @@ r$p8dealer           443 121 444 121 fff3f3f3   10 C
 r$p8name               0   0   0   0        0    0 N
 r$p8seated           330  98 332  98 ff00008f  -10 C
 r$tablepoint0        819  19 819  19 ffffffff    5 C
-r$tablepoint1         21  58  21  58 ff01015e   10 C
+r$tablepoint1         21  58  21  58 ff01015e  100 C
 
 //
 // fonts
