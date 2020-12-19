@@ -20,9 +20,9 @@ s$!titletext                Jackpot
 s$allinconfirmationmethod   1
 s$betpotmethod              Raise
 s$betsizeconfirmationmethod Click Bet
-s$betsizedeletionmethod     Backspace
+s$betsizedeletionmethod     Nothing
 s$betsizeinterpretationmethod 3
-s$betsizeselectionmethod    Sgl Click
+s$betsizeselectionmethod    Click Drag
 s$nchairs                   9
 s$network                   bodog
 s$potmethod                 2
@@ -57,13 +57,13 @@ r$c0cardface4suit    586 241 619 270 ffffffff   -5 T1
 r$c0pot0             421 157 550 181 ffffffff    5 T0
 r$i0button           343 436 405 467        0    0 N
 r$i0label            367 447 404 458 ffffffff    5 T3
-r$i0state            377 467 377 467 ff000050   30 C
+r$i0state            377 467 377 467 ff000050   80 C
 r$i1button           507 438 549 465        0    0 N
 r$i1label            466 447 578 458 ffffffff    5 T3
-r$i1state            519 467 519 467 ff000053   30 C
+r$i1state            519 467 519 467 ff000053   80 C
 r$i2button           683 438 725 465        0    0 N
 r$i2label            629 447 745 458 ffffffff    5 T3
-r$i2state            696 467 696 467 ff00004c   30 C
+r$i2state            696 467 696 467 ff00004c   80 C
 r$i3button           676 521 756 537        0    0 N
 r$i3edit             677 486 759 505        0    0 N
 r$i3label            696 524 733 534 ffffffff    5 T3
@@ -178,7 +178,7 @@ r$p8dealer           443 121 444 121 fff3f3f3   10 C
 r$p8name               0   0   0   0        0    0 N
 r$p8seated           330  98 332  98 ff00008f  -10 C
 r$tablepoint0        819  19 819  19 ffffffff    5 C
-r$tablepoint1         21  58  21  58 ff01015e   10 C
+r$tablepoint1         21  58  21  58 ff01015e  100 C
 
 //
 // fonts
