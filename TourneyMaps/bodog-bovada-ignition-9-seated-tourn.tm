@@ -57,13 +57,13 @@ r$c0cardface4suit    586 241 619 270 ffffffff   -5 T1
 r$c0pot0             421 157 550 181 ffffffff    5 T0
 r$i0button           343 436 405 467        0    0 N
 r$i0label            367 447 404 458 ffffffff    5 T3
-r$i0state            377 467 377 467 ff000050   30 C
+r$i0state            377 467 377 467 ff000050   65 C
 r$i1button           507 438 549 465        0    0 N
 r$i1label            466 447 578 458 ffffffff    5 T3
-r$i1state            519 467 519 467 ff000053   30 C
+r$i1state            519 467 519 467 ff000053   65 C
 r$i2button           683 438 725 465        0    0 N
 r$i2label            629 447 745 458 ffffffff    5 T3
-r$i2state            696 467 696 467 ff00004c   30 C
+r$i2state            696 467 696 467 ff00004c   65 C
 r$i3button           676 521 756 537        0    0 N
 r$i3edit             677 486 759 505        0    0 N
 r$i3label            696 524 733 534 ffffffff    5 T3
@@ -178,7 +178,7 @@ r$p8dealer           443 121 444 121 fff3f3f3   10 C
 r$p8name               0   0   0   0        0    0 N
 r$p8seated           330  98 332  98 ff00008f  -10 C
 r$tablepoint0        819  19 819  19 ffffffff    5 C
-r$tablepoint1         21  58  21  58 ff01015e  100 C
+r$tablepoint1        862  13 862  13 ffffffff  100 C
 
 //
 // fonts
@@ -186,6 +186,7 @@ r$tablepoint1         21  58  21  58 ff01015e  100 C
 
 t0$. 1
 t0$T 100 100 100 1ff 100 100 100
+t0$7 100 100 103 10c 130 1c0
 t0$7 100 100 103 10c 170 180
 t0$7 100 101 103 11f 178 1e0 180
 t0$, 1 6
@@ -198,11 +199,14 @@ t0$9 1f0 199 10b 11b 1fe 78
 t0$5 1f6 1f3 121 133 13f 11e
 t0$p 1ff 104 104 104 f8 20
 t0$a 27 49 49 49 3f
+t0$a 2f 49 49 49 3f
 t0$r 3 1f fc 3ec 30c 3ec fc 1f 3
 t0$. 3 3
 t0$$ 398001 7cc000 1cc6000 464000 77c000 338000
+t0$o 3e 41 41 41 23 1c 40 1fe 41 41
 t0$l 3ff
 t0$p 3ff 208 208 208 1f0 40
+t0$p 3ff 208 208 208 3b8 e0
 t0$e 3ff 3ff 30 60 f0 1bc 30f 203
 t0$T 3ff 3ff 333 333 333 333 3ff 1de
 t0$2 40 1c3 187 10d 139 1f1 c1
@@ -211,17 +215,26 @@ t0$: 41
 t0$3 4 187 193 111 133 1ff ce
 t0$4 4 1c 24 c4 1ff 4
 t0$4 4 1c 74 c4 1ff 1ff 4
+t0$4 4 c 34 c4 1ff 4
+t0$5 72 191 121 111 11e
+t0$6 7e 91 a1 111 1e
 t0$6 7e a1 121 121 1e
 t0$6 7e f7 1a1 123 13f 1e
 t0$1 80 80 1ff
 t0$3 82 111 111 1b1 ee
+t0$1 c0 80 1ff
 t0$1 c0 80 1ff 1ff
 t0$2 c3 105 109 191 e1
+t0$2 c3 107 10d 91 e1
+t0$3 c3 111 111 99 ee
 t0$8 ee 111 111 1b1 ee
+t0$8 ef 191 111 91 ee
 t0$9 f0 109 109 192 fc
 t0$5 f2 1a1 121 121 11e
+t0$9 f8 109 109 8a 7c
 t0$u fc 1fe 387 303 303 387 1ce 84
 t0$0 fe 101 101 103 fe
+t0$0 fe 101 101 81 fe
 t0$0 fe 187 101 103 1ff fc
 t1$1 1c00 1c00 3800 3800 3fff 7fff 7fff
 t1$c 1c0 7e0 ff0 ff8 ff8 ff0 3c7f0 7e3e3 ff1cf fffff fffff ff1c7 7e3e3 3e7f0 ff0 ff8 ff0 7f0 7e0 1c0
