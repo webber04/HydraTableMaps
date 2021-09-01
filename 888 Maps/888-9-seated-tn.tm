@@ -1,6 +1,6 @@
 .osdb2
 
-// OpenScrape 13.1.3
+// OpenScrape 13.0.2
 
 // 32 bits per pixel
 
@@ -474,25 +474,43 @@ t1$A 1 f 7f 3f8 fd8 c18 f18 ff8 1fe 1f 3
 t1$C 1f 7f e0 c0 80 80 80 c0
 t1$C 1f 7f ff e0 1c0 1c0 1c0 1c0 c0
 t1$M 1ff 1e0 f0 e 3 e 70 1e0 1ff
+t1$E 1ff 1ff 188 188 188 188
 t1$E 1ff 1ff 1ce 1ce 1ce 1ce 1cc
 t1$K 1ff 1ff 1e 1e 3f ff 1e1 1c0 100
+t1$K 1ff 1ff 4 c 3e 63 1c0 100
+t1$H 1ff 1ff 8 8 8 8 8 1ff 1fe
 t1$H 1ff 1ff e e e e 1ff 1ff 1ff
 t1$A 1 f ff 7ff 1ff8 1ff8 1fb8 1ff8 7ff ff 1f 3
 t1$S 302 7c3 cc3 863 863 c3e 81c
 t1$- 3 3 3 3
+t1$S 383 7c1 661 461 433 61f 40e
 t1$C 3f 71 c0 80 80 80 80 80
 t1$O 3f8 606 c02 801 801 801 803 402 3fc e0
 t1$O 3f8 7fc ffe 1e0f 1c07 1c07 1c07 1e0f ffe ffc 3f8
 t1$O 3fc 7fe e07 c03 1c03 1c03 c03 e07 7fe 3fc
 t1$C 3fc 7fe fff e07 1c03 1c03 1c03 c07 c06
+t1$C 3f e1 c0 180 180 180 180 80
+t1$C 3f f3 c0 180 180 180 180 80
+t1$T 400 400 400 7ff 7fe 400 400 400
+t1$T 400 400 400 7ff 7ff 400 400 400
+t1$I 401 7ff 7ff 401 401
 t1$C 60 3fc 79e e06 c03 c03 c03 c03 c02
+t1$C 70 3fe 307 603 401 401 401 601
+t1$O 70 3fe 707 603 401 401 401 603 78e 1fc
+t1$A 7 3e 1e8 708 408 788 f8 1e 3
+t1$A 7 3e 1f8 788 408 708 1f8 3e 7
 t1$A 7 3f 1ff ff8 1f98 1f18 ff8 7fc ff f 1
 t1$A 7 7e 3f8 f18 818 f18 3f8 7e f
 t1$S 787 fc7 fe3 1ce3 1cf7 1c7f e3e c1c
+t1$L 7ff 201 1 1 1 1
 t1$F 7ff 430 410 410 410 410
+t1$L 7ff 701 1 1 1 1
 t1$L 7ff 7ff 1 1 1 1
 t1$D 7ff 7ff 401 401 603 603 38e 1fc
 t1$F 7ff 7ff 420 420 420 420
+t1$E 7ff 7ff 421 421 421 461
+t1$B 7ff 7ff 421 421 461 7f3 7de c
+t1$R 7ff 7ff 430 430 638 7ee 3c3 1
 t1$I 803 fff fff c03 801
 t1$T c00 1c00 1c00 1fff 1fff 1fff 1c00 c00 c00
 t1$T c00 c00 c00 fff ff8 c00 c00 c00
@@ -506,6 +524,7 @@ t1$L e00 1fff 1fff 1fff 7 7 7 7 3
 t1$C e0 3fc 606 c02 c03 803 803 c02
 t1$O e0 3fc 70e c02 c03 803 c03 c06 79e 3fc
 t1$O e0 7fc ffe f9f c07 1c03 1c03 c07 f0f ffe 7fc f0
+t1$O f0 3fc 606 c03 c03 c03 c03 e06 7fe 3fc
 t1$O f0 3fe 707 603 401 401 401 603 3fe 1fc
 t1$A f 7c 3d8 e18 818 f18 1f8 3e 6
 t1$D f80 1fff 1fff 1c07 1c07 1c07 e0e ffe 7fc 3f0
@@ -523,9 +542,12 @@ t1$B fff 1fff 1fff ce3 ce7 fe7 fff fbe 21c
 t1$H ff ff 4 4 4 4 4 ff fe
 t1$K ff ff 6 c 1e 71 c0 80
 t1$E ff ff 84 84 84 84
+t1$F fff ffe c20 c20 c20 c20
 t1$R fff ffe c60 c60 c78 fce 787 1
+t1$L fff fff 3 3 3 3
 t1$L fff fff 3 3 3 3 2
 t1$L fff fff 3 3 3 3 3
+t1$D fff fff c03 c03 c03 606 79e 3f8
 t1$D fff fff c03 c03 c03 c03 e06 7fc 1f0
 t1$B fff fff c43 c43 c42 fe6 7be 8
 t1$E fff fff c43 c43 c43 c43
