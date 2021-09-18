@@ -59,10 +59,10 @@ r$c0pot0             421 157 550 181 ffffffff    5 T0
 r$i0button           343 436 405 467        0    0 N
 r$i0label            367 447 404 458 ffffffff    5 T3
 r$i0state            377 467 377 467 ff000050   30 C
-r$i1button           499 436 549 467        0    0 N
-r$i1label            482 447 573 458 ffffffff    5 T3
+r$i1button           500 442 549 460        0    0 N
+r$i1label            482 447 578 458 ffffffff    5 T3
 r$i1state            519 467 519 467 ff000053   30 C
-r$i2button           663 436 725 467        0    0 N
+r$i2button           675 444 725 458        0    0 N
 r$i2label            639 447 745 458 ffffffff    5 T3
 r$i2state            696 467 696 467 ff00004c   30 C
 r$i3button           676 521 756 537        0    0 N
