@@ -55,7 +55,7 @@ r$c0cardface4nocard  661 266 661 266 ffeff6f9   -5 C
 r$c0cardface4rank    607 265 630 290 fff2f8f9 -150 T2
 r$c0cardface4suit    607 292 626 310 ffecf4f8 -150 T2
 r$c0pot0             430 234 592 252 ffffffff   80 T3
-r$i0button           361 657 442 693        0    0 N
+r$i0button           363 655 444 698        0    0 N
 r$i0label            363 668 426 682 ffffd581  140 T1
 r$i0state            385 697 385 697 ff1f1f1f  -20 C
 r$i1button           451 655 570 698        0    0 N
@@ -68,10 +68,10 @@ r$i3button           548 707 597 723        0    0 N
 r$i3edit             614 711 688 744        0    0 N
 r$i3label            559 709 587 720 ffcccccc   70 T1
 r$i3state            614 711 614 711 ffc0c0c0    5 C
-r$i4button           451 658 567 694        0    0 N
+r$i4button           451 655 570 698        0    0 N
 r$i4label            452 658 569 677 ff8080f8  183 T1
-r$i4state            515 697 515 697 ff010496   55 C
-r$i5button           581 658 694 694        0    0 N
+r$i4state            515 696 515 696 ff010496   55 C
+r$i5button           578 655 697 698        0    0 N
 r$i5label            579 658 696 673 ff8080f8  183 T1
 r$i5state            640 697 640 697 ff010496   55 C
 r$i6button           918  17 946  39        0    0 N
@@ -147,7 +147,7 @@ r$p5cardface1nocard    0   0   0   0        0  442 C
 r$p5dealer           190 263 191 265 fffabd9b    5 C
 r$p5name              37 201 144 217 fff4f8f2  175 T0
 r$p5seated            34 197  36 197 ff345679   -5 C
-r$tablepoint0        981 723 981 723 ff262626   98 C
+r$tablepoint0        981 723 981 723 ff00e7ff    5 C
 
 //
 // fonts

@@ -63,7 +63,7 @@ r$c0cardface4rank    541 255 561 281 ffffffff  -80 T1
 r$c0cardface4suit    542 282 560 300 ffffffff  -80 T1
 r$c0pot0             358 229 492 243 ff33c5f7  170 T2
 r$i0button           531 549 609 590        0    0 N
-r$i0label            555 560 585 575 ffffffff  100 T2
+r$i0label            565 548 575 548 ffffffff  100 H0
 r$i0state            523 552 523 554 ff333496   30 C
 r$i1button           640 549 718 590        0    0 N
 r$i1label            640 550 716 571 ffffffff  100 T2
@@ -500,9 +500,12 @@ t3$0 fc 3ff 303 201 387 1ff
 // hash
 //
 
+h0$fold_hash          06167b1d
 
 //
 // images
 //
 
+i$fold_hash        11  1  
+282e9aff283194ff283193ff283193ff283193ff283194ff293295ff293295ff2a3395ff282c9aff292c9bff
 
