@@ -70,7 +70,7 @@ r$i3label            559 709 587 720 ffcccccc   70 T1
 r$i3state            614 711 614 711 ffc0c0c0    5 C
 r$i4button           451 655 570 698        0    0 N
 r$i4label            452 658 569 677 ff8080f8  183 T1
-r$i4state            515 697 515 697 ff010496   55 C
+r$i4state            515 696 515 696 ff010496   55 C
 r$i5button           578 655 697 698        0    0 N
 r$i5label            579 658 696 673 ff8080f8  183 T1
 r$i5state            640 697 640 697 ff010496   55 C
