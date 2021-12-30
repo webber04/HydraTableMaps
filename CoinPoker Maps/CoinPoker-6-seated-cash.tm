@@ -16,6 +16,7 @@ z$targetsize       1020  730
 // strings
 //
 
+s$!titletext                Spin
 s$allinconfirmationmethod   1
 s$betpotmethod              Raise
 s$betsizeconfirmationmethod Click Bet
