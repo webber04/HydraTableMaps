@@ -501,11 +501,14 @@ t3$0 fc 3ff 303 201 387 1ff
 //
 
 h0$fold_hash          06167b1d
+h0$fold_chk           b50c2b86
 
 //
 // images
 //
 
+i$fold_chk         11  1  
+2e2e9cff2e3297ff2f3297ff2f3297ff2f3297ff2f3397ff303498ff303498ff303498ff2e309eff2e309fff
 i$fold_hash        11  1  
 282e9aff283194ff283193ff283193ff283193ff283194ff293295ff293295ff2a3395ff282c9aff292c9bff
 
