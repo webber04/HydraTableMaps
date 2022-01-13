@@ -26,7 +26,7 @@ s$c0limits                  ^L
 s$nchairs                   8
 s$network                   ggpoker
 s$potmethod                 2
-s$sitename                  ggpoker-9-seated-tn
+s$sitename                  ggpoker-8-seated-tn
 s$t0type                    .35
 s$t1type                    0.5
 s$t2type                    0.3
