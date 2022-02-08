@@ -75,6 +75,8 @@ r$i860button         939  15 945  24        0    0 N
 r$i860state          940  14 944  14 ffffffff    5 C
 r$i861button         511 444 591 460        0    0 N
 r$i861state          541 532 541 532 ff000047   10 C
+r$i862button         519 442 584 459        0    0 N
+r$i862state          576 435 576 435 ffffffff   10 C
 r$i9button            36 442 107 448        0    0 N
 r$i9label             33 441  62 449 ffe3e3e3    5 T3
 r$i9state             19 443  22 446 ff000053    5 C
