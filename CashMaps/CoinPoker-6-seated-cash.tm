@@ -1,6 +1,6 @@
 .osdb2
 
-// OpenScrape 13.1.3
+// OpenScrape 13.0.2
 
 // 32 bits per pixel
 
@@ -34,7 +34,7 @@ s$t0type                    fuzzy
 s$t1type                    fuzzy
 s$t2type                    fuzzy
 s$t3type                    fuzzy
-s$titletext                 Hold
+s$titletext                 Blinds
 s$ttlimits                  ^*- ^L ^*Blinds ? ^s/? ^b
 
 //
@@ -294,4 +294,5 @@ t3$n ff ff c0 80 80 c0 ff 3f
 //
 // images
 //
+
 

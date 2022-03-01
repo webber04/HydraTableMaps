@@ -17,6 +17,7 @@ z$targetsize       850  615
 //
 
 s$!titletext                Table
+s$!titletext0               Chrome
 s$allinconfirmationmethod   1
 s$betpotmethod              Raise
 s$betsizeconfirmationmethod Click Bet
