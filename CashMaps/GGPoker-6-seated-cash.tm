@@ -57,17 +57,17 @@ r$c0cardface4suit    540 282 562 302 ffffffff  -80 T1
 r$c0pot0             351 229 497 243 ff33c5f7  170 T2
 r$i0button           530 548 608 589        0    0 N
 r$i0label            544 550 553 550 ff33339b  100 H0
-r$i0state            582 552 582 554 ff333496   30 C
+r$i0state            582 552 582 554 ff333496   50 C
 r$i1button           639 548 717 589        0    0 N
 r$i1label            640 550 716 571 ffffffff  100 T2
-r$i1state            707 552 707 554 ff333495   30 C
+r$i1state            707 552 707 554 ff333495   50 C
 r$i2button           748 548 826 589        0    0 N
 r$i2label            748 550 824 565 ffffffff  100 T2
-r$i2state            820 552 820 554 ff333496   30 C
+r$i2state            820 552 820 554 ff333496   50 C
 r$i3button           746 550 826 588        0    0 N
 r$i3edit             707 514 746 531        0    0 N
 r$i3label            747 549 828 565 ffffffff  100 T2
-r$i3state            821 552 821 552 ff35379c   20 C
+r$i3state            821 552 821 552 ff35379c   50 C
 r$p0active           437 152 437 157 ff636263   -5 C
 r$p0balance          384 146 465 161 ff000000 -150 T0
 r$p0bet              376 204 475 216 ffffffff  260 T3
@@ -623,6 +623,7 @@ t3$6 fe 1ff 363 361 27f 3e
 //
 
 h0$fold_hash          06167b1d
+h0$fold_light         37652488
 h0$fold_2             ac6c712c
 h0$fold_chk           b50c2b86
 
@@ -632,6 +633,8 @@ h0$fold_chk           b50c2b86
 
 i$fold_2           10  1  
 313695ff313695ff313695ff323796ff323796ff323796ff32339aff33339bff33339bff33339bff
+i$fold_light       10  1  
+3839bbff3839bbff3939bcff3939bcff3939bcff3939bcff383cbcff383cbcff383cbcff383cbcff
 i$fold_chk         11  1  
 2e2e9cff2e3297ff2f3297ff2f3297ff2f3297ff2f3397ff303498ff303498ff303498ff2e309eff2e309fff
 i$fold_hash        11  1  
