@@ -625,6 +625,7 @@ t3$6 fe 1ff 363 361 27f 3e
 h0$fold_hash          06167b1d
 h0$fold_light         37652488
 h0$fold_2             ac6c712c
+h0$fold_dark          b4f2312f
 h0$fold_chk           b50c2b86
 
 //
@@ -639,4 +640,6 @@ i$fold_chk         11  1
 2e2e9cff2e3297ff2f3297ff2f3297ff2f3297ff2f3397ff303498ff303498ff303498ff2e309eff2e309fff
 i$fold_hash        11  1  
 282e9aff283194ff283193ff283193ff283193ff283194ff293295ff293295ff2a3395ff282c9aff292c9bff
+i$fold_dark        10  1  
+323797ff323797ff323797ff333797ff333797ff333797ff333597ff343597ff343597ff343597ff
 
