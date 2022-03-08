@@ -105,10 +105,10 @@ r$p3active           431 565 431 570 ff636263   -5 C
 r$p3balance          379 558 468 575 ff000000 -150 T0
 r$p3bet              376 412 475 424 ffffffff  260 T3
 r$p3cardback         449 479 449 480 ff40408c   30 C
-r$p3cardface0nocard  474 477 474 479 ff072005   30 C
+r$p3cardface0nocard  470 465 470 465 fff2f1f2   50 C
 r$p3cardface0rank    372 459 397 485 ffffffff  -80 T1
 r$p3cardface0suit    374 487 396 498 ffffffff  -80 T1
-r$p3cardface1nocard  474 477 474 479 ff072005   30 C
+r$p3cardface1nocard  470 465 470 465 fff2f1f2   50 C
 r$p3cardface1rank    418 456 443 482 ffffffff  -80 T1
 r$p3cardface1suit    417 484 439 495 ffffffff  -80 T1
 r$p3dealer           367 433 367 433 ff68b5f5    5 C
