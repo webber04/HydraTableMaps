@@ -172,6 +172,8 @@
 6$1zHIETI6           tBx uty tBx uty JJyyFAJs    x a
 6$1zYEWI               s   s   s   s        s    s V
 6$1z7IE0IH           tzs tzz tzB tzz JJvsvwvs    x a
+6$0EFTI1ZMY0s        zwu  ww zwu  ww JJBstzzu   Cx a
+6$0EFTI1ZMY0t        tvA uwu tvA uwu JJAwsFys   Cx a
 
 //
 // fonts
