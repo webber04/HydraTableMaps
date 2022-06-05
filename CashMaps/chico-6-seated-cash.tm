@@ -39,6 +39,14 @@
 // regions
 //
 
+6$FI01Z0DtDtF300ZY   yBt xxx zuB xzu        s    s V
+6$FI01Z0DtDt70E0I    zuw xxA zuw xxA JJuGuGuH    x a
+6$FI01Z0DtDuF300ZY   wtt xxy wwy xyB        s    s V
+6$FI01Z0DtDu70E0I    wvw xxB wvw xxB JJEFEBEy    x a
+6$FI01Z0DuDvF300ZY   wyy xxy wBB xzs        s    s V
+6$FI01Z0DuDv70E0I    wAA xxB wAA xxB JJEFEBEy    x a
+6$FI01Z0DvDwF300ZY   xut xxz xxx xyB        s    s V
+6$FI01Z0DvDw70E0I    xwv xyu xwv xyu JJEFEBEy    x a
 6$GsGE6HJEGIsYZGE6H  vsA uzz vsA uzz JJJyJBJE   Cx a
 6$GsGE6HJEGIs6EYO    uyu uzv uAt vss JJJJJJJJ  Cxs ls
 6$GsGE6HJEGIs73M0    uyu vsu uzy vty JJJJJJJJ  Cxs ls
@@ -65,7 +73,7 @@
 6$MuTEFIT            yBx ytA zys yvA JJJJJJJJ  txs lu
 6$Mu70E0I            zAy yxu zAy yxu JJtBtBtB   Cx a
 6$MvF300ZY           zwv xxw zAw xzv        s    s V
-6$MvIHM0             yAz xAz zAt xBA        s    s V
+6$MvIHM0             yAz xAz zxw xBA        s    s V
 6$MvTEFIT            zxt xxx zzz xzs JJJJJJJJ  tAs lu
 6$Mv70E0I            zys xyu zys xyu JJEFEBEy    x a
 6$MzF300ZY            uy xvt  vy xvB        s    s V
@@ -277,7 +285,9 @@
 0u$6 vJJ us ws ws ys vJ
 0u$b vJJ vJJ vvs vvs vvs vvs
 0u$j vJJ vJJ vvs vvs vvG vIJ tGv t
+0u$~ vJJ vJJ vvv vvv vvv vJJ tHI
 0u$x ws zII yGv yGv yGv yzI yvA
+0u$0 ws JI vJJ Gv Gv v
 0u$E wy AB At Bt Bu zJ
 0u$z yss yss ysv ysJ yvI yJA zIs zAs yss
 0u$z yss ysv ytJ yzs zAs zss yss
