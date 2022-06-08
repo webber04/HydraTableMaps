@@ -421,16 +421,21 @@ t1$d 300 780 fc0 1fe0 3ff0 7ff8 1fffe 3ffff 7ffff 3ffff fffe 7ffc 3ff0 1fe0 fc0 
 t1$c 3 3 7 1c7 7ff fff fff fff fff fff fff fff 7ff 7ff 9f 1f f f 7 3
 t1$7 380000 3c0000 3c0001 3c001f 3c01ff 3c0fff 3cfffe 3ffff0 3fff00 3ff800 3f8000
 t1$7 380000 3c0000 3c0003 3c001f 3c01ff 3c0fff 3cfffe 3ffff0 3fff00 3ff800 3f8000 380000
+t1$1 38000 7c000 ffffe fffff fffff 1e
 t1$h 3e00 7f00 ff80 ffe0 fff0 fff8 fffc 7ffe 3fff 7fff fffe 1fffc 1fff8 1fff0 1ffe0 ffc0 7f00
 t1$8 3f000 7fff8 ffffe fffff e1fff f0f0f fff0f fffcf 7ffff 3ffff 3fe 18
+t1$s 3f0 7f8 ff8 1ffc 3ffe 7fff ffff 1ffff 1ffff 1ffff ffff 7fff 1ffc ffc 7fc 3f8
 t1$8 3f0 f8ffc 3ffffe 7fffff ffff9f fc7c0f f07c0f f07c0f f07fff 7fffff 7ffffe 7ff7fc 1fc000
+t1$q 3fc00 7fff8 ffffe ffffe e07ff f001f fe03f fffff 7ffff 3ffff fff 1f 7
 t1$6 3fff0 1ffffc 3ffffe 3fffff 3fffff 38780f 38780f 3c7fff 3f7fff 3f3ffe 1f3ffc
 t1$6 3fff0 1ffffc 3ffffe 3fffff 3fffff 38780f 38780f 3c7fff 3f7fff 3f3ffe 1f3ffc 20ff0
+t1$0 3fffc 7fffe fffff f3fff e0007 fffff fffff 7ffff 7fc
 t1$K 3fffff 3fffff 3fffff 3fffff 7f00 1ffc0 ffff8 3fe7fe 3f81ff 3e007f 38000f 3
 t1$s 40 3f8 7f8 ffc 3ffc 7ffc 1ffff 1ffff 1fffe fffe fffe 7ffe 3ffe 1ff8 1ff8 ff0 7e0
 t1$3 600e0 3f01fc 7f01fe 7f01fe 78381e f07c0f f07c1f 7fffff 7ffffe 7ffffe 3feffc
 t1$3 600e0 3f01fc 7f01fe 7f01fe 78381e f07c0f f07c1f 7fffff 7ffffe 7ffffe 3feffc 703e0
 t1$5 607000 fffcf0 fffcfc fffcfe fffcff f1e01f f1e01f f1e01f f1ff9f f1ffff e1fffe 7ffc ff0
+t1$6 60 7ffc 3fffe ffffe fff0f fbc0f e3c1f e3fff fbffe fdffc 7c7c0 18000
 t1$K 6 3ffe 7ffffe ffffff fffffe ffff00 70ff80 3fff8 fffff 3fc7ff 7f807f 7e001f 780001 600000
 t1$K 700000 ffff00 fffffe ffffff 7fffff 1fffe fff02 3fff80 ffffe0 fe0ffc f803fe 1e000fe 3e e
 t1$9 70 ffc7c 3ffe7e 7fff7f ffff1f fe1f0f f00f0f f00e1f f87fff 7fffff 7ffffe 7ffff8 1ffc00
@@ -439,9 +444,11 @@ t1$6 7f0 ffffe 3fffff 7fffff ffffff ff780f f0f80f f0f81f f8ffff 7effff 7e7ffe 7e
 t1$9 7f830 1ffe7c 3fff7e 3fffff 3fff9f 78078f 78070f 3fffff 3fffff 3fffff 1ffffe 7fff8
 t1$q 7ffe0 3ffff8 7ffffc 7ffffe 7ffffe f0001e f000fe 783ffe 7ffffe 7fffff 3fffff
 t1$Q 7ffe0 3ffff8 7ffffc 7ffffe 7ffffe f0001e f000fe 7ffffe 7ffffe 7fffff 3fffff 1fffff 7
+t1$a 7ffff fffff fffff ff078 ffff0 7fff0 fff8 1ffe 1fe 3e 6
 t1$1 c0000 1c03fe 3fffff 7fffff ffffff ffffc0 fc0000
 t1$h c0 7f8 ffc fff fff fff fff fff fff 7ff 3ff 3ff 7ff 7ff fff fff fff fff 7fe 7fc 1f8
 t1$T e0000 1e0000 3fe000 fffffc ffffff ffffff ffff e 180000 7fff80 fffff8 fffffc 1fffffe 1e003fe 1f0001e 1ffff1e fffffe 7ffffe ffffc 1f0
+t1$7 e0000 f0003 f001f f01ff f0fff f7ffc fffc0 ffe00 ff000 f8000
 t1$1 f0000 ffffe 3fffff 3fffff 3fffff
 t1$5 f0 fcfc 7ffcfe fffcff fffc8f fff00f f9f00f 79f01f 79ffff 78ffff 78fffe 787ff8 601c00
 t1$A f 3ff ffff 3fffff 3ffff0 3ff0f0 3fc0f0 3ffff0 3ffffe 1fffff 7fff 1ff 7
